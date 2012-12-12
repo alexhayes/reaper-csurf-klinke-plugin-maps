@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (aka plant-on)">UAD Manley Massive Passive</MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="CH1Lo" long="CH 1 - Lo w" referTo="-1" offset="0">
+      <FADER short="Freq" long="Low Freq" paramId="4"/>
+      <FADER short="Gain" long="Low Gain" paramId="2"/>
+      <FADER short="BW" long="Low Bandwidth" paramId="3"/>
+      <FADER short="Freq" long="Low Mid Freq" paramId="9"/>
+      <FADER short="Gain" long="Low Mid Gain" paramId="7"/>
+      <FADER short="BW" long="Low Mid Bandwidth" paramId="8"/>
+      <FADER paramId="-1"/>
+      <FADER short="Gain" long="CH 1 Gain" paramId="22"/>
+      <VPOT short="Low" long="CH 1 Low Enable" paramId="0">
+        <STEP value="0" short="Cut" long="Cut"/>
+        <STEP value="0.5" short="Out" long="Out"/>
+        <STEP value="1" short="Boost" long="Boost"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Shape" long="CH 1 Lo Shape" paramId="1">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="1" short="Shelf" long="Shelf"/>
+      </VPOT>
+      <VPOT short="LowMid" long="CH 1 Lo Mid Enable" paramId="5">
+        <STEP value="0" short="Cut" long="Cut"/>
+        <STEP value="0.5" short="Out" long="Out"/>
+        <STEP value="1" short="Boost" long="Boost"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Shape" long="Low Mid Shape" paramId="6">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="1" short="Shelf" long="Shelf"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="In" long="CH 1  Enable" paramId="23">
+        <STEP value="0" short="In" long="In"/>
+        <STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="CH1Hi" long="CH 1 - High" referTo="-1" offset="0">
+      <FADER short="Freq" long="CH 1 Hi Mid Freq" paramId="14"/>
+      <FADER short="Gain" long="CH 1 Hi Mid Gain" paramId="12"/>
+      <FADER short="BW" long="CH 1 Hi Mid Bandwidth" paramId="13"/>
+      <FADER short="Freq" long="CH 1 High Freq" paramId="19"/>
+      <FADER short="Gain" long="CH 1 High Gain" paramId="17"/>
+      <FADER short="BW" long="CH 1 High Bandwidth" paramId="18"/>
+      <FADER paramId="-1"/>
+      <FADER short="Gain" long="CH 1 Gain" paramId="22"/>
+      <VPOT short="HiMid" long="CH 1 Hi Mid  Enable" paramId="10">
+        <STEP value="0" short="Cut" long="Cut"/>
+        <STEP value="0.5" short="Out" long="Out"/>
+        <STEP value="1" short="Boost" long="Boost"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Shape" long="CH 1 Hi Mid Shape" paramId="11">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="1" short="Shelf" long="Shelf"/>
+      </VPOT>
+      <VPOT short="High" long="CH 1 Hi Enable" paramId="15">
+        <STEP value="0" short="Cut" long="Cut"/>
+        <STEP value="0.5" short="Out" long="Out"/>
+        <STEP value="1" short="Boost" long="Boost"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Shape" long="CH 1 HiShape" paramId="16">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="1" short="Shelf" long="Shelf"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="In" long="CH 1  Enable" paramId="23">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="2" short="CH2Lo" long="CH 2 - Lo w" referTo="-1" offset="0">
+      <FADER short="Freq" long="CH 2 Lo Freq" paramId="28"/>
+      <FADER short="Gain" long="CH 2 Lo Gain" paramId="26"/>
+      <FADER short="BW" long="CH 2 Lo Bandwidth" paramId="27"/>
+      <FADER short="Freq" long="CH 2 Lo Mid Freq" paramId="33"/>
+      <FADER short="Gain" long="CH 2 Lo Mid Gain" paramId="31"/>
+      <FADER short="BW" long="CH 2 Lo Mid Bandwidth" paramId="32"/>
+      <FADER paramId="-1"/>
+      <FADER short="Gain" long="CH 2 Gain" paramId="46"/>
+      <VPOT short="Low" long="CH 2 Low Enable" paramId="24">
+        <STEP value="0" short="Cut" long="Cut"/>
+        <STEP value="0.5" short="Out" long="Out"/>
+        <STEP value="1" short="Boost" long="Boost"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Shape" long="CH 2 Lo Shape" paramId="25">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="1" short="Shelf" long="Shelf"/>
+      </VPOT>
+      <VPOT short="LowMid" long="CH 2 Lo Mid Enable" paramId="29">
+        <STEP value="0" short="Cut" long="Cut"/>
+        <STEP value="0.5" short="Out" long="Out"/>
+        <STEP value="1" short="Boost" long="Boost"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Shape" long="CH 2 Lo MidShape" paramId="30">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="1" short="Shelf" long="Shelf"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="In" long="CH 2  Enable" paramId="47">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="3" short="CH2HI" long="CH 2 - High" referTo="-1" offset="0">
+      <FADER short="Freq" long="CH 2 Hi Mid Freq" paramId="38"/>
+      <FADER short="Gain" long="CH 2 Hi Mid Gain" paramId="36"/>
+      <FADER short="BW" long="CH 2 Hi Mid Bandwidth" paramId="37"/>
+      <FADER short="Freq" long="CH 2 High Freq" paramId="43"/>
+      <FADER short="Gain" long="CH 2 High Gain" paramId="41"/>
+      <FADER short="BW" long="CH 2 High Bandwidth" paramId="42"/>
+      <FADER paramId="-1"/>
+      <FADER short="Gain" long="CH 2 Gain" paramId="46"/>
+      <VPOT short="HiMid" long="CH 2 Hi Mid  Enable" paramId="34">
+        <STEP value="0" short="Cut" long="Cut"/>
+        <STEP value="0.5" short="Out" long="Out"/>
+        <STEP value="1" short="Boost" long="Boost"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Shape" long="CH 2 Hi Mid Shape" paramId="35">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="1" short="Shelf" long="Shelf"/>
+      </VPOT>
+      <VPOT short="High" long="CH 2 Hi Enable" paramId="39">
+        <STEP value="0" short="Cut" long="Cut"/>
+        <STEP value="0.5" short="Out" long="Out"/>
+        <STEP value="1" short="Boost" long="Boost"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Shape" long="CH 2 HiShape" paramId="40">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="1" short="Shelf" long="Shelf"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="In" long="CH 2  Enable" paramId="47">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="4" short="Filter" long="Filter" referTo="-1" offset="0">
+      <FADER short="Gain" long="CH 1 Gain" paramId="22"/>
+      <FADER short="HiPass" long="CH 1 HiPass" paramId="21"/>
+      <FADER short="Ch1LoP" long="Ch1LoPass" paramId="20"/>
+      <FADER short="Gain" long="CH 2 Gain" paramId="46"/>
+      <FADER short="HiPass" long="CH 2 HiPass" paramId="45"/>
+      <FADER short="LoPass" long="CH 2 Lo Pass" paramId="44"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT short="CH 1 In" long="CH 1 In" paramId="23">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="CH 2  In" long="CH 2  In" paramId="-1">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Link" long="Control Link" paramId="48">
+        <STEP value="0" short="Unlink" long="Unlink"/>
+        <STEP value="1" short="Link" long="Link"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="49">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

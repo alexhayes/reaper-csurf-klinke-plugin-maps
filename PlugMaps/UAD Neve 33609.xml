@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (aka plant-on)">UAD Neve 33609</MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="CH1" long="Channel 1" referTo="-1" offset="0">
+      <FADER short="Thres" long="Limit Threshold" paramId="0"/>
+      <FADER short="Recvry" long="Limit Recovery" paramId="1"/>
+      <FADER short="Thres" long="Comp Threshold" paramId="4"/>
+      <FADER short="Recvry" long="Comp Recovery" paramId="5"/>
+      <FADER short="Gain" long="Comp Gain" paramId="6"/>
+      <FADER short="Ratio" long="Comp Ratio" paramId="7"/>
+      <FADER paramId="-1"/>
+      <FADER short="Output" long="Output" paramId="9"/>
+      <VPOT short="LmtIn" long="CH1 Limit In" paramId="3">
+        <STEP value="0" short="In" long="In"/>
+        <STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+      <VPOT short="Attack" long="CH1 Attack" paramId="2">
+        <STEP value="0" short="Slow" long="Slow"/>
+        <STEP value="1" short="Fast" long="Fast"/>
+      </VPOT>
+      <VPOT short="CompIn" long="Compressor In" paramId="8">
+        <STEP value="0" short="In" long="In"/>
+        <STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="CtrlLi" long="CtrlLink" paramId="20">
+        <STEP value="0" short="Link" long="Link"/>
+        <STEP value="1" short="Unlink" long="Unlink"/>
+      </VPOT>
+      <VPOT short="Stereo" long="StereoLink" paramId="21">
+        <STEP value="0" short="Stereo" long="Stereo"/>
+        <STEP value="1" short="Mono" long="Mono"/>
+      </VPOT>
+      <VPOT short="Headro" long="Headroom" paramId="22">
+        <STEP value="0" short="14db" long="14db"/>
+        <STEP value="0.5" short="18db" long="18db"/>
+        <STEP value="1" short="22db" long="22db"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="23">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="CH2" long="Channel 2" referTo="-1" offset="0">
+      <FADER short="Thres" long="Limit Threshold" paramId="10"/>
+      <FADER short="Recvry" long="Limit Recovery" paramId="11"/>
+      <FADER short="Thres" long="Comp Threshold" paramId="14"/>
+      <FADER short="Recvry" long="Comp Recovery" paramId="15"/>
+      <FADER short="Gain" long="Comp Gain" paramId="16"/>
+      <FADER short="Ratio" long="Comp Ratio" paramId="17"/>
+      <FADER paramId="-1"/>
+      <FADER short="Output" long="Output" paramId="19"/>	  
+      <VPOT short="LmtIn" long="CH2 Limit In" paramId="13">
+        <STEP value="0" short="In" long="In"/>
+        <STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+      <VPOT short="Attack" long="CH2 Attack" paramId="12">
+        <STEP value="0" short="Slow" long="Slow"/>
+        <STEP value="1" short="Fast" long="Fast"/>
+      </VPOT>
+      <VPOT short="CompIn" long="Compressor In" paramId="18">
+        <STEP value="0" short="In" long="In"/>
+        <STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="CtrlLi" long="CtrlLink" paramId="20">
+        <STEP value="0" short="Link" long="Link"/>
+        <STEP value="1" short="Unlink" long="Unlink"/>
+      </VPOT>
+      <VPOT short="Stereo" long="StereoLink" paramId="21">
+        <STEP value="0" short="Stereo" long="Stereo"/>
+        <STEP value="1" short="Mono" long="Mono"/>
+      </VPOT>
+      <VPOT short="Headro" long="Headroom" paramId="22">
+        <STEP value="0" short="14db" long="14db"/>
+        <STEP value="0.5" short="18db" long="18db"/>
+        <STEP value="1" short="22db" long="22db"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="23">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (aka plant-on)">UAD Harrison 32C EQ</MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="EQ" long="EQ" referTo="-1" offset="0">
+      <FADER short="Freq" long="Low Freq" paramId="4"/>
+      <FADER short="Gain" long="Low Gain" paramId="5"/>
+      <FADER short="Freq" long="Lo Mid Freq" paramId="7"/>
+      <FADER short="Gain" long="Low Mid Gain" paramId="8"/>
+      <FADER short="Freq" long="Hi Mid Freq" paramId="9"/>
+      <FADER short="Gain" long="High Mid Gain" paramId="10"/>
+      <FADER short="Freq" long="Hi Freq" paramId="11"/>
+      <FADER short="Gain" long="High Gain" paramId="12"/>
+      <VPOT short="LowPeak" long="Low Peak" paramId="6">
+		<STEP value="0" short="Shelf" long="Shelf"/>
+		<STEP value="1" short="Peak" long="Peak"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Phase" long="Phase" paramId="14">
+		<STEP value="0" short="0" long="0"/>
+		<STEP value="1" short="180" long="180"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="In" long="EQEnable" paramId="3">
+		<STEP value="0" short="In" long="In"/>
+		<STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Filter" long="Filter" referTo="-1" offset="0">
+      <FADER short="HiPass" long="High Pass" paramId="1"/>
+      <FADER short="LowPas" long="Low Pass" paramId="2"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Gain" long="Gain" paramId="13"/>
+      <VPOT short="In" long="Cut Enable" paramId="0">
+		<STEP value="0" short="In" long="In"/>
+		<STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Phase" long="Phase" paramId="14">
+		<STEP value="0" short="0" long="0"/>
+		<STEP value="1" short="180" long="180"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="In" long="EQEnable" paramId="3">
+		<STEP value="0" short="In" long="In"/>
+		<STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

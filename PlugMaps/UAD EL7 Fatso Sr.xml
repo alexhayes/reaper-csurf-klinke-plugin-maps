@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (aka plant-on)">UAD EL7 Fatso Sr</MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="CH1" long="CH1" referTo="-1" offset="0">
+      <FADER short="In" long="In" paramId="0"/>
+      <FADER short="Warmth" long="Warmth" paramId="2"/>
+      <FADER short="Thresh" long="Threshold" paramId="5"/>
+      <FADER short="Filter" long="Filter" paramId="6"/>
+      <FADER short="Attack" long="Attack" paramId="7"/>
+      <FADER short="Releas" long="Release" paramId="8"/>
+      <FADER short="Level" long="Tranny Level" paramId="9"/>
+      <FADER short="Out" long="Out" paramId="4"/>
+      <VPOT short="Comp" long="Comp" paramId="1">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="0.142857149" short="BUSS" long="BUSS"/>
+        <STEP value="0.285714298" short="G Purpose" long="G Purpose"/>
+        <STEP value="0.428571433" short="Tracking" long="Tracking"/>
+        <STEP value="0.571428597" short="SPANK" long="SPANK"/>
+        <STEP value="0.714285731" short="BUSS+SPK" long="BUSS+SPANK"/>
+        <STEP value="0.857142866" short="GP+SPK" long="G Purpose+SPANK"/>
+        <STEP value="1" short="Trkng+SPK" long="Tracking+SPANK"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="CmpLnk" long="Compressor Link" paramId="20">
+        <STEP value="0" short="UnLinked" long="UnLinked"/>
+        <STEP value="1" short="Linked" long="Linked"/>
+      </VPOT>
+      <VPOT short="CtrLnk" long="Control Link" paramId="21">
+        <STEP value="0" short="UnLinked" long="UnLinked"/>
+        <STEP value="1" short="Linked" long="Linked"/>
+      </VPOT>
+      <VPOT short="Tranny" long="Tranny/Bypass" paramId="3">
+        <STEP value="0" short="ENABLE" long="ENABLE"/>
+        <STEP value="0.5" short="TRANNY" long="TRANNY"/>
+        <STEP value="1" short="BYPASS" long="BYPASS"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="22">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="CH2" long="CH2" referTo="-1" offset="0">
+      <FADER short="In" long="In" paramId="10"/>
+      <FADER short="Warmth" long="Warmth" paramId="12"/>
+      <FADER short="Thresh" long="Threshold" paramId="15"/>
+      <FADER short="Filter" long="Filter" paramId="16"/>
+      <FADER short="Attack" long="Attack" paramId="17"/>
+      <FADER short="Releas" long="Release" paramId="18"/>
+      <FADER short="Level" long="Tranny Level" paramId="19"/>
+      <FADER short="Out" long="Out" paramId="14"/>
+      <VPOT short="Comp" long="Comp" paramId="11">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="0.142857149" short="BUSS" long="BUSS"/>
+        <STEP value="0.285714298" short="G Purpose" long="G Purpose"/>
+        <STEP value="0.428571433" short="Tracking" long="Tracking"/>
+        <STEP value="0.571428597" short="SPANK" long="SPANK"/>
+        <STEP value="0.714285731" short="BUSS+SPK" long="BUSS+SPANK"/>
+        <STEP value="0.857142866" short="GP+SPK" long="G Purpose+SPANK"/>
+        <STEP value="1" short="Trkng+SPK" long="Tracking+SPANK"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="CmpLnk" long="Compressor Link" paramId="20">
+        <STEP value="0" short="UnLinked" long="UnLinked"/>
+        <STEP value="1" short="Linked" long="Linked"/>
+      </VPOT>
+      <VPOT short="CtrLnk" long="Control Link" paramId="21">
+        <STEP value="0" short="UnLinked" long="UnLinked"/>
+        <STEP value="1" short="Linked" long="Linked"/>
+      </VPOT>
+      <VPOT short="Tranny" long="Tranny/Bypass" paramId="13">
+        <STEP value="0" short="ENABLE" long="ENABLE"/>
+        <STEP value="0.5" short="TRANNY" long="TRANNY"/>
+        <STEP value="1" short="BYPASS" long="BYPASS"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="22">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

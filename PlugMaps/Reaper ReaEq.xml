@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Klinke"></MAPINFO>
+  <BANK id="0" short="Band" long="Band sorted" referTo="-1" offset="0">
+    <PAGE id="0" short="Ba1&amp;2" long="Band 1&amp;2" referTo="-1" offset="0">
+      <FADER short="Freq" long="Frequency" paramId="0"/>
+      <FADER short="Gain" long="Gain" paramId="1"/>
+      <FADER short="  Q" long="Bandwith" paramId="2"/>
+      <FADER paramId="-1"/>
+      <FADER short="Freq" long="Frequency" paramId="3"/>
+      <FADER short="Gain" long="Gain" paramId="4"/>
+      <FADER short="  Q" long="Bandwidth" paramId="5"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="Ba3&amp;4" long="Band 3&amp;4" referTo="0" offset="6">
+      <FADER short="3-Freq" long="3-Freq (Band)" paramId="6"/>
+      <FADER short="3-Gain" long="3-Gain (Band)" paramId="7"/>
+      <FADER short="3-Q (B" long="3-Q (Band)" paramId="8"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="Ba5&amp;6" long="Band 5&amp;6" referTo="0" offset="12">
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="Ba7&amp;8" long="Band 7&amp;8" referTo="0" offset="18">
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+  <BANK id="1" short="Param" long="Parameter sorted" referTo="-1" offset="0">
+    <PAGE id="0" short="Freq" long="Frequency" referTo="-1" offset="0">
+      <FADER short="Band 1" long="Band 1" paramId="0"/>
+      <FADER short="Band 2" long="Band 2" paramId="3"/>
+      <FADER short="Band 3" long="Band 3" paramId="6"/>
+      <FADER short="Band 4" long="Band 4" paramId="9"/>
+      <FADER short="Band 5" long="Band 5" paramId="12"/>
+      <FADER short="Band 6" long="Band 6" paramId="15"/>
+      <FADER short="Band 7" long="Band 7" paramId="18"/>
+      <FADER short="Band 8" long="Band 8" paramId="21"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="Gain" long="Gain" referTo="0" offset="1">
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="  Q" long="Bandwidth" referTo="0" offset="2">
+      <FADER short="1-Q (L" long="1-Q (Low )" paramId="2"/>
+      <FADER short="2-Q (B" long="2-Q (Band)" paramId="5"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

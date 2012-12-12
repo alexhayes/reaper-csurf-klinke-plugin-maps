@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (aka plant-on)">UAD Studer A800</MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Levels" long="Levels" referTo="-1" offset="0">
+      <FADER short="Input " long="Input Level" paramId="0"/>
+      <FADER short="Output" long="Output Level" paramId="1"/>
+      <FADER short="Tape" long="Tape Type" paramId="4"/>
+      <FADER short="IPS" long="IPS" paramId="3"/>
+      <FADER short="Cal" long="Calibrate Level" paramId="5"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Path" long="Path Select" paramId="2"/>
+      <VPOT short="Path" long="Path Select" paramId="2">
+		<!-- Note there seems to be an issue with this, not sure why... -->
+		<STEP value="0" short="Thru" long="Thru"/>
+		<STEP value="0.33" short="Input" long="Input"/>
+		<STEP value="0.66" short="Sync" long="Sync"/>
+		<STEP value="1" short="Repro" long="Repro"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Noise" long="Noise" paramId="13">
+		<STEP value="0" short="Off" long="Off"/>
+		<STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="Calibr" long="Calibrate" referTo="-1" offset="0">
+      <FADER short="HF-EQ" long="HF Record EQ" paramId="7"/>
+      <FADER short="Bias" long="Bias" paramId="8"/>
+      <FADER short="SynHF" long="Sync HF EQ" paramId="9"/>
+      <FADER short="SynLF" long="Sync LF EQ" paramId="10"/>
+      <FADER short="RepHF" long="Repro HF EQ" paramId="11"/>
+      <FADER short="RepLF" long="Repro LF EQ" paramId="12"/>
+      <FADER short="Hum" long="Hum Noise" paramId="14"/>
+      <FADER short="Hiss" long="Hiss Noise" paramId="15"/>
+      <VPOT short="Clbr8" long="Auto Calibrate" paramId="16">
+		<STEP value="0" short="Off" long="Off"/>
+		<STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="EQType" long="Emphasis EQ" paramId="6">
+		<STEP value="0" short="NAB" long="NAB"/>
+		<STEP value="1" short="CCIR" long="CCIR"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="EQType" long="Emphasis EQ" paramId="6">
+		<STEP value="0" short="NAB" long="NAB"/>
+		<STEP value="1" short="CCIR" long="CCIR"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Noise" long="Noise" paramId="13">
+		<STEP value="0" short="Off" long="Off"/>
+		<STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

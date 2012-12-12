@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (aka plant-on)">UAD Ampex ATR-105</MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Left" long="Left" referTo="-1" offset="0">
+      <FADER short="RecLvl" long="L Rec Level" paramId="0"/>
+      <FADER short="Path" long="Path Select" paramId="4"/>
+      <FADER short="IPS" long="IPS" paramId="5"/>
+      <FADER short="Tape" long="Tape Type" paramId="6"/>
+      <FADER short="Cal" long="Cal Level" paramId="7"/>
+      <FADER short="Head" long="Head Width" paramId="8"/>
+      <FADER paramId="-1"/>
+      <FADER short="Repro" long="L Repro Level" paramId="2"/>
+      <VPOT short="Meter" long="Meter" paramId="37">
+        <STEP value="0" short="In" long="Input"/>
+        <STEP value="1" short="Out" long="Output"/>
+      </VPOT>
+      <VPOT short="VU/Pk" long="VU/Peak Meter" paramId="38">
+        <STEP value="0" short="VU" long="VU"/>
+        <STEP value="1" short="Pk" long="Peak"/>
+      </VPOT>
+      <VPOT short="Noise" long="Noise" paramId="20">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Transf" long="Transformer" paramId="28">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="WowFlt" long="Wow &amp; Flutter" paramId="23">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Xtalk" long="Crosstalk" paramId="26">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Power" long="Power" paramId="39">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Right" long="Right" referTo="-1" offset="0">
+      <FADER short="Rec" long="R Rec Level" paramId="1"/>
+      <FADER short="Path" long="Path Select" paramId="4"/>
+      <FADER short="IPS" long="IPS" paramId="5"/>
+      <FADER short="Tape" long="Tape Type" paramId="6"/>
+      <FADER short="Cal" long="Cal Level" paramId="7"/>
+      <FADER short="Head" long="Head Width" paramId="8"/>
+      <FADER paramId="-1"/>
+      <FADER short="Repro" long="R Repro Level" paramId="3"/>
+      <VPOT short="Meter" long="Meter" paramId="37">
+        <STEP value="0" short="In" long="Input"/>
+        <STEP value="1" short="Out" long="Output"/>
+      </VPOT>
+      <VPOT short="VU/Pk" long="VU/Peak Meter" paramId="38">
+        <STEP value="0" short="VU" long="VU"/>
+        <STEP value="1" short="Pk" long="Peak"/>
+      </VPOT>
+      <VPOT short="Noise" long="Noise" paramId="20">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Transf" long="Transformer" paramId="28">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="WowFlt" long="Wow &amp; Flutter" paramId="23">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Link" long="Link" paramId="36">
+        <STEP value="0" short="UnLinked" long="UnLinked"/>
+        <STEP value="1" short="Linked" long="Linked"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Power" long="Power" paramId="39">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="2" short="Delay" long="Delay" referTo="-1" offset="0">
+      <FADER short="&lt; Time" long="Delay Time L" paramId="33"/>
+      <FADER short="Time &gt;" long="Dly Time R" paramId="34"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Rec" long="L Rec Level" paramId="0"/>
+      <FADER short="DryWet" long="Dry/Wet" paramId="35"/>
+      <FADER short="Repro" long="L Repro Level" paramId="2"/>
+      <VPOT short="Delay" long="Tape Delay" paramId="32">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Power" long="Power" paramId="39">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="3" short="Tones" long="Tones" referTo="-1" offset="0">
+      <FADER short="Manual" long="Manual Cal" paramId="30"/>
+      <FADER short="Tones" long="Tones" paramId="31"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="L Rec " long="L Rec Level" paramId="0"/>
+      <FADER short="R Rec " long="R Rec Level" paramId="1"/>
+      <FADER short="L Repr" long="L Repro Level" paramId="2"/>
+      <FADER short="R Repr" long="R Repro Level" paramId="3"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Meter" long="Meter" paramId="37">
+        <STEP value="0" short="In" long="Input"/>
+        <STEP value="1" short="Out" long="Output"/>
+      </VPOT>
+      <VPOT short="VU/Pk" long="VU/Peak Meter" paramId="38">
+        <STEP value="0" short="VU" long="VU"/>
+        <STEP value="1" short="Pk" long="Peak"/>
+      </VPOT>
+      <VPOT short="Link" long="Link" paramId="36">
+        <STEP value="0" short="UnLinked" long="UnLinked"/>
+        <STEP value="1" short="Linked" long="Linked"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="39">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="4" short="EQ L" long="EQ Left" referTo="-1" offset="0">
+      <FADER short="Shelf" long="L Shelf EQ" paramId="12"/>
+      <FADER short="HF EQ" long="L HF EQ" paramId="10"/>
+      <FADER short="RproHF" long="L Repro HF EQ" paramId="16"/>
+      <FADER short="RproLF" long="L Repro LF EQ" paramId="18"/>
+      <FADER short="Bias" long="Bias" paramId="14"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT short="Auto" long="Auto Cal" paramId="29">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Emphas" long="Emphasis EQ" paramId="9">
+        <STEP value="0" short="NAB" long="NAB"/>
+        <STEP value="1" short="CCIR" long="CCIR"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Link" long="Link" paramId="36">
+        <STEP value="0" short="UnLinked" long="UnLinked"/>
+        <STEP value="1" short="Linked" long="Linked"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="39">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="5" short="EQ R" long="EQ Right" referTo="-1" offset="0">
+      <FADER short="Shelf" long="R Shelf EQ" paramId="13"/>
+      <FADER short="HF EQ" long="R HF EQ" paramId="11"/>
+      <FADER short="RproHF" long="R Repro HF EQ" paramId="17"/>
+      <FADER short="RproLF" long="R Repro LF EQ" paramId="19"/>
+      <FADER short="Bias" long="Bias" paramId="15"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT short="Auto" long="Auto Cal" paramId="29">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Emphas" long="Emphasis EQ" paramId="9">
+        <STEP value="0" short="NAB" long="NAB"/>
+        <STEP value="1" short="CCIR" long="CCIR"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Link" long="Link" paramId="36">
+        <STEP value="0" short="UnLinked" long="UnLinked"/>
+        <STEP value="1" short="Linked" long="Linked"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="39">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="6" short="Noise" long="Noise" referTo="-1" offset="0">
+      <FADER short="Hum" long="Hum Level" paramId="21"/>
+      <FADER short="Hiss" long="Hiss Level" paramId="22"/>
+      <FADER short="Wow" long="Wow Level" paramId="24"/>
+      <FADER short="Flutr" long="Flutter Level" paramId="25"/>
+      <FADER short="Level" long="Crosstalk Level" paramId="27"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT short="Noise" long="Noise" paramId="20">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="WowFlt" long="Wow &amp; Flutter" paramId="23">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Xtalk" long="Crosstalk" paramId="26">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="VU/Pk" long="VU/Peak Meter" paramId="38">
+        <STEP value="0" short="In" long="Input"/>
+        <STEP value="1" short="Out" long="Output"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="39">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

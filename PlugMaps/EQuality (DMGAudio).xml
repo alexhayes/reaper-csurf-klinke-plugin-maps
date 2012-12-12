@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (aka plant-on)">DMGAudio EQuality</MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Band1" long="Band1" referTo="-1" offset="0">
+      <FADER short="Freq" long="Frequency" paramId="17"/> <!-- +6 -->
+      <FADER short="Gain" long="Gain" paramId="16"/>      <!-- +6 -->
+      <FADER short="Q" long="Q" paramId="18"/>            <!-- +6 -->
+      <FADER short="Shift" long="Shift" paramId="20"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Gain" long="Gain" paramId="1"/>
+      <VPOT short="In" long="In" paramId="15">           <!-- +6 -->
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Type" long="Type" paramId="19">       <!-- +6 -->
+        <STEP value="0.0" short="Shelf" long="Shelf"/>
+        <STEP value="1.0" short="Bell" long="Bell"/>
+      </VPOT>
+	  <VPOT paramId="-1"/>
+      <VPOT short="Solo" long="Solo" paramId="52">
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Auto" long="AutoListen" paramId="7">
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Stereo" long="StereoMode" paramId="6">
+	  	<STEP value="0.0" short="Stereo" long="Stereo"/>
+		<STEP value="0.20000000298023224" short="Mid" long="Mid"/>
+		<STEP value="0.4000000059604645" short="Side" long="Side"/>
+		<STEP value="0.6000000238418579" short="Left" long="Left"/>
+		<STEP value="0.800000011920929" short="Right" long="Right"/>
+	  </VPOT>
+      <VPOT short="Mode" long="Mode" paramId="2">
+	  	<STEP value="0.0" short="Digital" long="Digital (Fast)"/>
+		<STEP value="0.20000000298023224" short="Digital+" long="Digital + (Fixed)"/>
+		<STEP value="0.4000000059604645" short="Min" long="Min Phase"/>
+		<STEP value="0.6000000238418579" short="Analog" long="Analog Phase"/>
+		<STEP value="0.800000011920929" short="Linear" long="Linear Phase"/>
+	  </VPOT>
+      <VPOT short="In" long="In" paramId="0">
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Band2" long="Band 2" referTo="-1" offset="0">
+      <FADER short="Freq" long="Frequency" paramId="23"/> <!-- +5 -->
+      <FADER short="Gain" long="Gain" paramId="22"/>      <!-- +5 -->
+      <FADER short="Q" long="Q" paramId="24"/>            <!-- +5 -->
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Gain" long="Gain" paramId="1"/>
+      <VPOT short="In" long="In" paramId="21">           <!-- +5 -->
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Type" long="Type" paramId="25">       <!-- +5 -->
+        <STEP value="0.0" short="Bell" long="Bell"/>
+        <STEP value="1.0" short="Notch" long="Notch"/>
+      </VPOT>
+	  <VPOT paramId="-1"/>
+      <VPOT short="Solo" long="Solo" paramId="52">
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Auto" long="AutoListen" paramId="7">
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Stereo" long="StereoMode" paramId="6">
+	  	<STEP value="0.0" short="Stereo" long="Stereo"/>
+		<STEP value="0.20000000298023224" short="Mid" long="Mid"/>
+		<STEP value="0.4000000059604645" short="Side" long="Side"/>
+		<STEP value="0.6000000238418579" short="Left" long="Left"/>
+		<STEP value="0.800000011920929" short="Right" long="Right"/>
+	  </VPOT>
+      <VPOT short="Mode" long="Mode" paramId="2">
+	  	<STEP value="0.0" short="Digital" long="Digital (Fast)"/>
+		<STEP value="0.20000000298023224" short="Digital+" long="Digital + (Fixed)"/>
+		<STEP value="0.4000000059604645" short="Min" long="Min Phase"/>
+		<STEP value="0.6000000238418579" short="Analog" long="Analog Phase"/>
+		<STEP value="0.800000011920929" short="Linear" long="Linear Phase"/>
+	  </VPOT>
+      <VPOT short="In" long="In" paramId="0">
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="2" short="Band 3" long="Band 3" referTo="-1" offset="0">
+      <FADER short="Freq" long="Frequency" paramId="28"/> <!-- +5 -->
+      <FADER short="Gain" long="Gain" paramId="27"/>      <!-- +5 -->
+      <FADER short="Q" long="Q" paramId="29"/>            <!-- +5 -->
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Gain" long="Gain" paramId="1"/>
+      <VPOT short="In" long="In" paramId="26">           <!-- +5 -->
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Type" long="Type" paramId="30">       <!-- +5 -->
+        <STEP value="0.0" short="Bell" long="Bell"/>
+        <STEP value="1.0" short="Notch" long="Notch"/>
+      </VPOT>
+	  <VPOT paramId="-1"/>
+      <VPOT short="Solo" long="Solo" paramId="52">
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Auto" long="AutoListen" paramId="7">
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Stereo" long="StereoMode" paramId="6">
+	  	<STEP value="0.0" short="Stereo" long="Stereo"/>
+		<STEP value="0.20000000298023224" short="Mid" long="Mid"/>
+		<STEP value="0.4000000059604645" short="Side" long="Side"/>
+		<STEP value="0.6000000238418579" short="Left" long="Left"/>
+		<STEP value="0.800000011920929" short="Right" long="Right"/>
+	  </VPOT>
+      <VPOT short="Mode" long="Mode" paramId="2">
+	  	<STEP value="0.0" short="Digital" long="Digital (Fast)"/>
+		<STEP value="0.20000000298023224" short="Digital+" long="Digital + (Fixed)"/>
+		<STEP value="0.4000000059604645" short="Min" long="Min Phase"/>
+		<STEP value="0.6000000238418579" short="Analog" long="Analog Phase"/>
+		<STEP value="0.800000011920929" short="Linear" long="Linear Phase"/>
+	  </VPOT>  
+      <VPOT short="In" long="In" paramId="0">
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="3" short="Band 4" long="Band 4" referTo="-1" offset="0">
+      <FADER short="Freq" long="Frequency" paramId="33"/> <!-- +5 -->
+      <FADER short="Gain" long="Gain" paramId="32"/>      <!-- +5 -->
+      <FADER short="Q" long="Q" paramId="34"/>            <!-- +5 -->
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Gain" long="Gain" paramId="1"/>
+      <VPOT short="In" long="In" paramId="31">           <!-- +5 -->
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Type" long="Type" paramId="35">       <!-- +5 -->
+        <STEP value="0.0" short="Bell" long="Bell"/>
+        <STEP value="1.0" short="Notch" long="Notch"/>
+      </VPOT>
+	  <VPOT paramId="-1"/>
+      <VPOT short="Solo" long="Solo" paramId="52">
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Auto" long="AutoListen" paramId="7">
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Stereo" long="StereoMode" paramId="6">
+	  	<STEP value="0.0" short="Stereo" long="Stereo"/>
+		<STEP value="0.20000000298023224" short="Mid" long="Mid"/>
+		<STEP value="0.4000000059604645" short="Side" long="Side"/>
+		<STEP value="0.6000000238418579" short="Left" long="Left"/>
+		<STEP value="0.800000011920929" short="Right" long="Right"/>
+	  </VPOT>
+      <VPOT short="Mode" long="Mode" paramId="2">
+	  	<STEP value="0.0" short="Digital" long="Digital (Fast)"/>
+		<STEP value="0.20000000298023224" short="Digital+" long="Digital + (Fixed)"/>
+		<STEP value="0.4000000059604645" short="Min" long="Min Phase"/>
+		<STEP value="0.6000000238418579" short="Analog" long="Analog Phase"/>
+		<STEP value="0.800000011920929" short="Linear" long="Linear Phase"/>
+	  </VPOT>
+      <VPOT short="In" long="In" paramId="0">
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="4" short="Band 5" long="Band 5" referTo="-1" offset="0">
+      <FADER short="Freq" long="Frequency" paramId="38"/> <!-- +5 -->
+      <FADER short="Gain" long="Gain" paramId="37"/>      <!-- +5 -->
+      <FADER short="Q" long="Q" paramId="39"/>            <!-- +5 -->
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Gain" long="Gain" paramId="1"/>
+      <VPOT short="In" long="In" paramId="36">           <!-- +5 -->
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Type" long="Type" paramId="40">       <!-- +5 -->
+        <STEP value="0.0" short="Bell" long="Bell"/>
+        <STEP value="1.0" short="Notch" long="Notch"/>
+      </VPOT>
+	  <VPOT paramId="-1"/>
+      <VPOT short="Solo" long="Solo" paramId="52">
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Auto" long="AutoListen" paramId="7">
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Stereo" long="StereoMode" paramId="6">
+	  	<STEP value="0.0" short="Stereo" long="Stereo"/>
+		<STEP value="0.20000000298023224" short="Mid" long="Mid"/>
+		<STEP value="0.4000000059604645" short="Side" long="Side"/>
+		<STEP value="0.6000000238418579" short="Left" long="Left"/>
+		<STEP value="0.800000011920929" short="Right" long="Right"/>
+	  </VPOT>
+      <VPOT short="Mode" long="Mode" paramId="2">
+	  	<STEP value="0.0" short="Digital" long="Digital (Fast)"/>
+		<STEP value="0.20000000298023224" short="Digital+" long="Digital + (Fixed)"/>
+		<STEP value="0.4000000059604645" short="Min" long="Min Phase"/>
+		<STEP value="0.6000000238418579" short="Analog" long="Analog Phase"/>
+		<STEP value="0.800000011920929" short="Linear" long="Linear Phase"/>
+	  </VPOT>
+      <VPOT short="In" long="In" paramId="0">
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="5" short="Band 6" long="Band 6" referTo="-1" offset="0">
+      <FADER short="Freq" long="Frequency" paramId="43"/> <!-- +5 -->
+      <FADER short="Gain" long="Gain" paramId="42"/>      <!-- +5 -->
+      <FADER short="Q" long="Q" paramId="44"/>            <!-- +5 -->
+      <FADER short="Shift" long="Shift" paramId="46"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Gain" long="Gain" paramId="1"/>
+      <VPOT short="In" long="In" paramId="41">           <!-- +5 -->
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Type" long="Type" paramId="45">       <!-- +5 -->
+        <STEP value="0.0" short="Shelf" long="Shelf"/>
+        <STEP value="1.0" short="Bell" long="Bell"/>
+      </VPOT>
+	  <VPOT paramId="-1"/>
+      <VPOT short="Solo" long="Solo" paramId="52">
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Auto" long="AutoListen" paramId="7">
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Stereo" long="StereoMode" paramId="6">
+	  	<STEP value="0.0" short="Stereo" long="Stereo"/>
+		<STEP value="0.20000000298023224" short="Mid" long="Mid"/>
+		<STEP value="0.4000000059604645" short="Side" long="Side"/>
+		<STEP value="0.6000000238418579" short="Left" long="Left"/>
+		<STEP value="0.800000011920929" short="Right" long="Right"/>
+	  </VPOT>
+      <VPOT short="Mode" long="Mode" paramId="2">
+	  	<STEP value="0.0" short="Digital" long="Digital (Fast)"/>
+		<STEP value="0.20000000298023224" short="Digital+" long="Digital + (Fixed)"/>
+		<STEP value="0.4000000059604645" short="Min" long="Min Phase"/>
+		<STEP value="0.6000000238418579" short="Analog" long="Analog Phase"/>
+		<STEP value="0.800000011920929" short="Linear" long="Linear Phase"/>
+	  </VPOT>
+      <VPOT short="In" long="In" paramId="0">
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="6" short="Fltr" long="Filters" referTo="-1" offset="0">
+      <FADER short="Freq" long="HPF2 Frequency" paramId="9"/>
+      <FADER short="Order" long="HPF2 Order" paramId="10"/>
+      <FADER short="Freq" long="HPF Frequency" paramId="12"/>
+      <FADER short="Order" long="HPF Order" paramId="14"/>
+      <FADER short="Res" long="HPF Resonance" paramId="13"/>
+      <FADER short="Freq" long="LPF Frequency" paramId="48"/>
+      <FADER short="Order" long="LPF Order" paramId="50"/>
+      <FADER short="Res" long="LPF Resonance" paramId="49"/>
+      <VPOT short="HPF2" long="HPF2 In" paramId="8">
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="HPF" long="HPF In" paramId="11">
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="LPF" long="LPF In" paramId="47">
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="In" long="In" paramId="0">
+        <STEP value="0.0" short="Off" long="Off"/>
+        <STEP value="1.0" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (aka plant-on)">UAD Teletronix LA-3A</MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="Gain" long="Gain" paramId="1"/>
+      <FADER short="Peak R" long="Peak Reduction" paramId="0"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT short="Type" long="Type" paramId="2">
+        <STEP value="0" short="Comp" long="Compress"/>
+        <STEP value="1" short="Limit" long="Limit"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Meter " long="Meter Select" paramId="3">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="0.5" short="GR" long="Gain Reduction"/>
+        <STEP value="1" short="Out" long="Output"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

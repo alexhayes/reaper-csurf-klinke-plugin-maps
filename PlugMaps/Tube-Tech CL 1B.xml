@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (aka plant-on)">Softube Tube-Tech CL1B</MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="Gain" long="Gain" paramId="0"/>
+      <FADER short="Ratio" long="Ratio" paramId="1"/>
+      <FADER short="Thresh" long="Threshold" paramId="2"/>
+      <FADER short="Attack" long="Attack" paramId="4"/>
+      <FADER short="Releas" long="Release" paramId="5"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Select" long="SelectAR" paramId="6">
+        <STEP value="0" short="Fix" long="Fixed"/>
+        <STEP value="0.5" short="F/M" long="Fixed/Min"/>
+        <STEP value="1" short="Man" long="Manual"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="SideC" long="Sidechain" paramId="7">
+        <STEP value="1" short="Int" long="Internal"/>
+        <STEP value="0" short="Ext" long="External"/>
+      </VPOT>
+      <VPOT short="Meter" long="Meter" paramId="3">
+        <STEP value="0" short="In" long="Input"/>
+        <STEP value="0.5" short="Comp" long="Compression"/>
+        <STEP value="1" short="Out" long="Output"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (aka plant-on)">OhmForce QuadFrohmage</MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Band 1" long="Band 1" referTo="-1" offset="0">
+		<FADER short="Freq" long="Filter Freq" paramId="245"/>
+		<FADER short="Reso" long="Filter Resonance" paramId="275"/>
+		<FADER short="Fat" long="Filter Fatness" paramId="260"/>
+		<FADER short="Gain" long="Gain" paramId="443"/>
+		<FADER short="Type" long="Type" paramId="428"/>
+		<FADER short="Fat" long="Dist Fatness" paramId="458"/>
+		<FADER short="Pan" long="Pan" paramId="22"/>
+		<FADER short="Level" long="Level" paramId="7"/>
+		<VPOT short="Delay" long="Delay" paramId="167">				<!-- 15 -->
+			<STEP value="0.0" short="0" long="0"/>
+			<STEP value="0.007633587811142206" short="1/256" long="1/256"/>
+			<STEP value="0.015267175622284412" short="1/256" long="1/256"/>
+			<STEP value="0.022900763899087906" short="1/192" long="1/192"/>
+			<STEP value="0.02790302410721779" short="1/128" long="1/128"/>
+			<STEP value="0.030534351244568825" short="1/128" long="1/128"/>
+			<STEP value="0.038167938590049744" short="1/96" long="1/96"/>
+			<STEP value="0.04580152779817581" short="3/256" long="3/256"/>
+			<STEP value="0.05343511700630188" short="1/64" long="1/64"/>
+			<STEP value="0.06106870248913765" short="5/256" long="5/256"/>
+			<STEP value="0.06870229542255402" short="1/48" long="1/48"/>
+			<STEP value="0.07633587718009949" short="3/128" long="3/128"/>
+			<STEP value="0.08396946638822556" short="5/192" long="5/192"/>
+			<STEP value="0.09160305559635162" short="1/32" long="1/32"/>
+			<STEP value="0.09923664480447769" short="1/32" long="1/32"/>
+			<STEP value="0.10687023401260376" short="7/192" long="7/192"/>
+			<STEP value="0.11450382322072983" short="5/128" long="5/128"/>
+			<STEP value="0.1221374049782753" short="1/24" long="1/24"/>
+			<STEP value="0.12977099418640137" short="3/64" long="3/64"/>
+			<STEP value="0.13740459084510803" short="1/20" long="1/20"/>
+			<STEP value="0.1450381726026535" short="5/96" long="5/96"/>
+			<STEP value="0.15267175436019897" short="7/128" long="7/128"/>
+			<STEP value="0.16030535101890564" short="1/16" long="1/16"/>
+			<STEP value="0.1679389327764511" short="1/16" long="1/16"/>
+			<STEP value="0.17557252943515778" short="1/14" long="1/14"/>
+			<STEP value="0.18320611119270325" short="7/96" long="7/96"/>
+			<STEP value="0.19083969295024872" short="5/64" long="5/64"/>
+			<STEP value="0.19847328960895538" short="1/12" long="1/12"/>
+			<STEP value="0.21374046802520752" short="3/32" long="3/32"/>
+			<STEP value="0.221374049782753" short="3/32" long="3/32"/>
+			<STEP value="0.22900764644145966" short="1/10" long="1/10"/>
+			<STEP value="0.23664122819900513" short="5/48" long="5/48"/>
+			<STEP value="0.2442748099565506" short="1/9" long="1/9"/>
+			<STEP value="0.25190839171409607" short="1/9" long="1/9"/>
+			<STEP value="0.2671755850315094" short="1/8" long="1/8"/>
+			<STEP value="0.27480918169021606" short="1/7" long="1/7"/>
+			<STEP value="0.290076345205307" short="3/20" long="3/20"/>
+			<STEP value="0.29770994186401367" short="5/32" long="5/32"/>
+			<STEP value="0.30534350872039795" short="1/6" long="1/6"/>
+			<STEP value="0.3206107020378113" short="3/16" long="3/16"/>
+			<STEP value="0.3435114622116089" short="1/5" long="1/5"/>
+			<STEP value="0.35114505887031555" short="5/24" long="5/24"/>
+			<STEP value="0.35877862572669983" short="7/32" long="7/32"/>
+			<STEP value="0.3664122223854065" short="2/9" long="2/9"/>
+			<STEP value="0.37404581904411316" short="1/4" long="1/4"/>
+			<STEP value="0.40458017587661743" short="2/7" long="2/7"/>
+			<STEP value="0.4122137427330017" short="7/24" long="7/24"/>
+			<STEP value="0.4198473393917084" short="3/10" long="3/10"/>
+			<STEP value="0.42748093605041504" short="5/16" long="5/16"/>
+			<STEP value="0.4351145029067993" short="1/3" long="1/3"/>
+			<STEP value="0.45038169622421265" short="7/20" long="7/20"/>
+			<STEP value="0.4580152928829193" short="5/14" long="5/14"/>
+			<STEP value="0.4656488597393036" short="3/8" long="3/8"/>
+			<STEP value="0.47328245639801025" short="2/5" long="2/5"/>
+			<STEP value="0.4885496199131012" short="5/12" long="5/12"/>
+			<STEP value="0.49618321657180786" short="7/16" long="7/16"/>
+			<STEP value="0.5038167834281921" short="4/9" long="4/9"/>
+			<STEP value="0.5190839767456055" short="1/2" long="1/2"/>
+			<STEP value="0.5419847369194031" short="5/9" long="5/9"/>
+			<STEP value="0.5572519302368164" short="7/12" long="7/12"/>
+			<STEP value="0.5648854970932007" short="3/5" long="3/5"/>
+			<STEP value="0.5725191235542297" short="5/8" long="5/8"/>
+			<STEP value="0.580152690410614" short="9/14" long="9/14"/>
+			<STEP value="0.5877862572669983" short="2/3" long="2/3"/>
+			<STEP value="0.5954198837280273" short="7/10" long="7/10"/>
+			<STEP value="0.6030534505844116" short="5/7" long="5/7"/>
+			<STEP value="0.6106870174407959" short="3/4" long="3/4"/>
+			<STEP value="0.618320643901825" short="7/9" long="7/9"/>
+			<STEP value="0.6259542107582092" short="4/5" long="4/5"/>
+			<STEP value="0.6335877776145935" short="5/6" long="5/6"/>
+			<STEP value="0.6412214040756226" short="6/7" long="6/7"/>
+			<STEP value="0.6488549709320068" short="7/8" long="7/8"/>
+			<STEP value="0.6564885973930359" short="11/12" long="11/12"/>
+			<STEP value="0.6641221642494202" short="13/14" long="13/14"/>
+			<STEP value="0.6717557311058044" short="1" long="1"/>
+			<STEP value="0.6793893575668335" short="1" long="1"/>
+			<STEP value="0.694656491279602" short="1 1/9" long="1 1/9"/>
+			<STEP value="0.7099236845970154" short="1 1/7" long="1 1/7"/>
+			<STEP value="0.7175572514533997" short="1 1/5" long="1 1/5"/>
+			<STEP value="0.7251908779144287" short="1 2/9" long="1 2/9"/>
+			<STEP value="0.732824444770813" short="1 2/7" long="1 2/7"/>
+			<STEP value="0.7404580116271973" short="1 1/3" long="1 1/3"/>
+			<STEP value="0.7480916380882263" short="1 3/8" long="1 3/8"/>
+			<STEP value="0.7557252049446106" short="1 2/5" long="1 2/5"/>
+			<STEP value="0.7633587718009949" short="1 4/9" long="1 4/9"/>
+			<STEP value="0.7709923982620239" short="1 1/2" long="1 1/2"/>
+			<STEP value="0.7786259651184082" short="1 5/9" long="1 5/9"/>
+			<STEP value="0.7862595915794373" short="1 3/5" long="1 3/5"/>
+			<STEP value="0.7938931584358215" short="1 2/3" long="1 2/3"/>
+			<STEP value="0.8015267252922058" short="1 5/7" long="1 5/7"/>
+			<STEP value="0.8091603517532349" short="1 7/9" long="1 7/9"/>
+			<STEP value="0.8167939186096191" short="1 5/6" long="1 5/6"/>
+			<STEP value="0.8244274854660034" short="1 8/9" long="1 8/9"/>
+			<STEP value="0.8320611119270325" short="2" long="2"/>
+			<STEP value="0.847328245639801" short="2 1/9" long="2 1/9"/>
+			<STEP value="0.8549618721008301" short="2 1/6" long="2 1/6"/>
+			<STEP value="0.8625954389572144" short="2 2/9" long="2 2/9"/>
+			<STEP value="0.8702290058135986" short="2 2/7" long="2 2/7"/>
+			<STEP value="0.8778626322746277" short="2 3/8" long="2 3/8"/>
+			<STEP value="0.885496199131012" short="2 4/9" long="2 4/9"/>
+			<STEP value="0.893129825592041" short="2 5/9" long="2 5/9"/>
+			<STEP value="0.9007633924484253" short="2 5/8" long="2 5/8"/>
+			<STEP value="0.9083969593048096" short="2 5/7" long="2 5/7"/>
+			<STEP value="0.9160305857658386" short="2 4/5" long="2 4/5"/>
+			<STEP value="0.9236641526222229" short="2 8/9" long="2 8/9"/>
+			<STEP value="0.9312977194786072" short="3" long="3"/>
+			<STEP value="0.9389313459396362" short="3 1/9" long="3 1/9"/>
+			<STEP value="0.9465649127960205" short="3 1/5" long="3 1/5"/>
+			<STEP value="0.9541984796524048" short="3 2/7" long="3 2/7"/>
+			<STEP value="0.9618321061134338" short="3 2/5" long="3 2/5"/>
+			<STEP value="0.9694656729698181" short="3 1/2" long="3 1/2"/>
+			<STEP value="0.9770992398262024" short="3 5/8" long="3 5/8"/>
+			<STEP value="0.9847328662872314" short="3 3/4" long="3 3/4"/>
+			<STEP value="0.9923664331436157" short="3 7/8" long="3 7/8"/>
+			<STEP value="1.0" short="4" long="4"/>
+		</VPOT>		
+		<VPOT short="Type" long="Filter Type" paramId="244">
+			<STEP value="0.0" short="LP SVF 12dB" long="LP SVF 12dB"/>
+			<STEP value="0.0333000011742115" short="LP SVF 24dB" long="LP SVF 24dB"/>
+			<STEP value="0.066600002348423" short="LP SVF 36dB" long="LP SVF 36dB"/>
+			<STEP value="0.09989999979734421" short="LP STD 6dB" long="LP STD 6dB"/>
+			<STEP value="0.133200004696846" short="LP STD 12dB" long="LP STD 12dB"/>
+			<STEP value="0.1665000021457672" short="LP STD 24dB" long="LP STD 24dB"/>
+			<STEP value="0.19979999959468842" short="LP STD 36dB" long="LP STD 36dB"/>
+			<STEP value="0.20689654350280762" short="LP STD 36dB" long="LP STD 36dB"/>
+			<STEP value="0.23309999704360962" short="HP SVF 12dB" long="HP SVF 12dB"/>
+			<STEP value="0.266400009393692" short="HP SVF 24dB" long="HP SVF 24dB"/>
+			<STEP value="0.299699991941452" short="HP SVF 36dB" long="HP SVF 36dB"/>
+			<STEP value="0.3330000042915344" short="HP STD 6dB" long="HP STD 6dB"/>
+			<STEP value="0.36629998683929443" short="HP STD 12dB" long="HP STD 12dB"/>
+			<STEP value="0.39959999918937683" short="HP STD 24dB" long="HP STD 24dB"/>
+			<STEP value="0.43290001153945923" short="HP STD 36dB" long="HP STD 36dB"/>
+			<STEP value="0.46619999408721924" short="BP SVF 6dB" long="BP SVF 6dB"/>
+			<STEP value="0.532800018787384" short="BP SVF 12dB" long="BP SVF 12dB"/>
+			<STEP value="0.566100001335144" short="BP SVF 18dB" long="BP SVF 18dB"/>
+			<STEP value="0.599399983882904" short="BP STD 6dB" long="BP STD 6dB"/>
+			<STEP value="0.6327000260353088" short="BP STD 12dB" long="BP STD 12dB"/>
+			<STEP value="0.6660000085830688" short="BP STD 18dB" long="BP STD 18dB"/>
+			<STEP value="0.6992999911308289" short="Peak SVF 2-p" long="Peak SVF 2-p"/>
+			<STEP value="0.7325999736785889" short="Peak SVF 4-p" long="Peak SVF 4-p"/>
+			<STEP value="0.7659000158309937" short="Peak STD 2-p" long="Peak STD 2-p"/>
+			<STEP value="0.7991999983787537" short="Peak STD 4-p" long="Peak STD 4-p"/>
+			<STEP value="0.8324999809265137" short="Notch SVF" long="Notch SVF"/>
+			<STEP value="0.8658000230789185" short="Notch STD" long="Notch STD"/>
+			<STEP value="0.8991000056266785" short="LP Moog" long="LP Moog"/>
+			<STEP value="0.9323999881744385" short="Comb +" long="Comb +"/>
+			<STEP value="0.9656999707221985" short="Comb -" long="Comb -"/>
+			<STEP value="0.9990000128746033" short="Ring Mod" long="Ring Mod"/>
+		</VPOT>
+		<VPOT short="1-2" long="Band 1-2" paramId="3">
+			<STEP value="0.0" short="//" long="//"/>
+			<STEP value="1.0" short="Serial" long="Serial"/>
+		</VPOT>
+		<VPOT short="12-34" long="Band 12-34" paramId="2">
+			<STEP value="0.0" short="//" long="//"/>
+			<STEP value="1.0" short="Serial" long="Serial"/>
+		</VPOT>
+		<VPOT short="3-4" long="Band 3-4" paramId="4">
+			<STEP value="0.0" short="//" long="//"/>
+			<STEP value="1.0" short="Serial" long="Serial"/>
+		</VPOT>
+		<VPOT short="DlyLnk" long="Delay Link" paramId="166">
+			<STEP value="0.0" short="Off" long="Off"/>
+			<STEP value="1.0" short="On" long="On"/>
+		</VPOT>
+		<VPOT short="FrqLnk" long="Freq Link" paramId="227">
+			<STEP value="0.0" short="Off" long="Off"/>
+			<STEP value="1.0" short="On" long="On"/>
+		</VPOT>
+		<VPOT short="Power" long="Power" paramId="6">
+		  <STEP value="0" short="Off" long="Off"/>
+		  <STEP value="1" short="On" long="On"/>
+		</VPOT>
+    </PAGE>
+    <PAGE id="1" short="Band 2" long="Band 2" referTo="-1" offset="0">
+		<FADER short="Freq" long="Filter Freq" paramId="291"/>		<!-- 46 -->
+		<FADER short="Reso" long="Filter Resonance" paramId="321"/> <!-- 46 -->
+		<FADER short="Fat" long="Filter Fatness" paramId="306"/>    <!-- 46 -->
+		<FADER short="Gain" long="Gain" paramId="488"/>				 <!-- 45 -->
+		<FADER short="Shape" long="Shape" paramId="473"/>		     <!-- 45 -->
+		<FADER short="Fat" long="Distortion Fatnes" paramId="503"/> <!-- 45 -->
+		<FADER short="Pan" long="Pan" paramId="53"/>				    <!-- 31 -->
+		<FADER short="Level" long="Level" paramId="38"/>				<!-- 31 -->
+		<VPOT short="Delay" long="Delay" paramId="182">				<!-- 15 -->
+			<STEP value="0.0" short="0" long="0"/>
+			<STEP value="0.007633587811142206" short="1/256" long="1/256"/>
+			<STEP value="0.015267175622284412" short="1/256" long="1/256"/>
+			<STEP value="0.022900763899087906" short="1/192" long="1/192"/>
+			<STEP value="0.02790302410721779" short="1/128" long="1/128"/>
+			<STEP value="0.030534351244568825" short="1/128" long="1/128"/>
+			<STEP value="0.038167938590049744" short="1/96" long="1/96"/>
+			<STEP value="0.04580152779817581" short="3/256" long="3/256"/>
+			<STEP value="0.05343511700630188" short="1/64" long="1/64"/>
+			<STEP value="0.06106870248913765" short="5/256" long="5/256"/>
+			<STEP value="0.06870229542255402" short="1/48" long="1/48"/>
+			<STEP value="0.07633587718009949" short="3/128" long="3/128"/>
+			<STEP value="0.08396946638822556" short="5/192" long="5/192"/>
+			<STEP value="0.09160305559635162" short="1/32" long="1/32"/>
+			<STEP value="0.09923664480447769" short="1/32" long="1/32"/>
+			<STEP value="0.10687023401260376" short="7/192" long="7/192"/>
+			<STEP value="0.11450382322072983" short="5/128" long="5/128"/>
+			<STEP value="0.1221374049782753" short="1/24" long="1/24"/>
+			<STEP value="0.12977099418640137" short="3/64" long="3/64"/>
+			<STEP value="0.13740459084510803" short="1/20" long="1/20"/>
+			<STEP value="0.1450381726026535" short="5/96" long="5/96"/>
+			<STEP value="0.15267175436019897" short="7/128" long="7/128"/>
+			<STEP value="0.16030535101890564" short="1/16" long="1/16"/>
+			<STEP value="0.1679389327764511" short="1/16" long="1/16"/>
+			<STEP value="0.17557252943515778" short="1/14" long="1/14"/>
+			<STEP value="0.18320611119270325" short="7/96" long="7/96"/>
+			<STEP value="0.19083969295024872" short="5/64" long="5/64"/>
+			<STEP value="0.19847328960895538" short="1/12" long="1/12"/>
+			<STEP value="0.21374046802520752" short="3/32" long="3/32"/>
+			<STEP value="0.221374049782753" short="3/32" long="3/32"/>
+			<STEP value="0.22900764644145966" short="1/10" long="1/10"/>
+			<STEP value="0.23664122819900513" short="5/48" long="5/48"/>
+			<STEP value="0.2442748099565506" short="1/9" long="1/9"/>
+			<STEP value="0.25190839171409607" short="1/9" long="1/9"/>
+			<STEP value="0.2671755850315094" short="1/8" long="1/8"/>
+			<STEP value="0.27480918169021606" short="1/7" long="1/7"/>
+			<STEP value="0.290076345205307" short="3/20" long="3/20"/>
+			<STEP value="0.29770994186401367" short="5/32" long="5/32"/>
+			<STEP value="0.30534350872039795" short="1/6" long="1/6"/>
+			<STEP value="0.3206107020378113" short="3/16" long="3/16"/>
+			<STEP value="0.3435114622116089" short="1/5" long="1/5"/>
+			<STEP value="0.35114505887031555" short="5/24" long="5/24"/>
+			<STEP value="0.35877862572669983" short="7/32" long="7/32"/>
+			<STEP value="0.3664122223854065" short="2/9" long="2/9"/>
+			<STEP value="0.37404581904411316" short="1/4" long="1/4"/>
+			<STEP value="0.40458017587661743" short="2/7" long="2/7"/>
+			<STEP value="0.4122137427330017" short="7/24" long="7/24"/>
+			<STEP value="0.4198473393917084" short="3/10" long="3/10"/>
+			<STEP value="0.42748093605041504" short="5/16" long="5/16"/>
+			<STEP value="0.4351145029067993" short="1/3" long="1/3"/>
+			<STEP value="0.45038169622421265" short="7/20" long="7/20"/>
+			<STEP value="0.4580152928829193" short="5/14" long="5/14"/>
+			<STEP value="0.4656488597393036" short="3/8" long="3/8"/>
+			<STEP value="0.47328245639801025" short="2/5" long="2/5"/>
+			<STEP value="0.4885496199131012" short="5/12" long="5/12"/>
+			<STEP value="0.49618321657180786" short="7/16" long="7/16"/>
+			<STEP value="0.5038167834281921" short="4/9" long="4/9"/>
+			<STEP value="0.5190839767456055" short="1/2" long="1/2"/>
+			<STEP value="0.5419847369194031" short="5/9" long="5/9"/>
+			<STEP value="0.5572519302368164" short="7/12" long="7/12"/>
+			<STEP value="0.5648854970932007" short="3/5" long="3/5"/>
+			<STEP value="0.5725191235542297" short="5/8" long="5/8"/>
+			<STEP value="0.580152690410614" short="9/14" long="9/14"/>
+			<STEP value="0.5877862572669983" short="2/3" long="2/3"/>
+			<STEP value="0.5954198837280273" short="7/10" long="7/10"/>
+			<STEP value="0.6030534505844116" short="5/7" long="5/7"/>
+			<STEP value="0.6106870174407959" short="3/4" long="3/4"/>
+			<STEP value="0.618320643901825" short="7/9" long="7/9"/>
+			<STEP value="0.6259542107582092" short="4/5" long="4/5"/>
+			<STEP value="0.6335877776145935" short="5/6" long="5/6"/>
+			<STEP value="0.6412214040756226" short="6/7" long="6/7"/>
+			<STEP value="0.6488549709320068" short="7/8" long="7/8"/>
+			<STEP value="0.6564885973930359" short="11/12" long="11/12"/>
+			<STEP value="0.6641221642494202" short="13/14" long="13/14"/>
+			<STEP value="0.6717557311058044" short="1" long="1"/>
+			<STEP value="0.6793893575668335" short="1" long="1"/>
+			<STEP value="0.694656491279602" short="1 1/9" long="1 1/9"/>
+			<STEP value="0.7099236845970154" short="1 1/7" long="1 1/7"/>
+			<STEP value="0.7175572514533997" short="1 1/5" long="1 1/5"/>
+			<STEP value="0.7251908779144287" short="1 2/9" long="1 2/9"/>
+			<STEP value="0.732824444770813" short="1 2/7" long="1 2/7"/>
+			<STEP value="0.7404580116271973" short="1 1/3" long="1 1/3"/>
+			<STEP value="0.7480916380882263" short="1 3/8" long="1 3/8"/>
+			<STEP value="0.7557252049446106" short="1 2/5" long="1 2/5"/>
+			<STEP value="0.7633587718009949" short="1 4/9" long="1 4/9"/>
+			<STEP value="0.7709923982620239" short="1 1/2" long="1 1/2"/>
+			<STEP value="0.7786259651184082" short="1 5/9" long="1 5/9"/>
+			<STEP value="0.7862595915794373" short="1 3/5" long="1 3/5"/>
+			<STEP value="0.7938931584358215" short="1 2/3" long="1 2/3"/>
+			<STEP value="0.8015267252922058" short="1 5/7" long="1 5/7"/>
+			<STEP value="0.8091603517532349" short="1 7/9" long="1 7/9"/>
+			<STEP value="0.8167939186096191" short="1 5/6" long="1 5/6"/>
+			<STEP value="0.8244274854660034" short="1 8/9" long="1 8/9"/>
+			<STEP value="0.8320611119270325" short="2" long="2"/>
+			<STEP value="0.847328245639801" short="2 1/9" long="2 1/9"/>
+			<STEP value="0.8549618721008301" short="2 1/6" long="2 1/6"/>
+			<STEP value="0.8625954389572144" short="2 2/9" long="2 2/9"/>
+			<STEP value="0.8702290058135986" short="2 2/7" long="2 2/7"/>
+			<STEP value="0.8778626322746277" short="2 3/8" long="2 3/8"/>
+			<STEP value="0.885496199131012" short="2 4/9" long="2 4/9"/>
+			<STEP value="0.893129825592041" short="2 5/9" long="2 5/9"/>
+			<STEP value="0.9007633924484253" short="2 5/8" long="2 5/8"/>
+			<STEP value="0.9083969593048096" short="2 5/7" long="2 5/7"/>
+			<STEP value="0.9160305857658386" short="2 4/5" long="2 4/5"/>
+			<STEP value="0.9236641526222229" short="2 8/9" long="2 8/9"/>
+			<STEP value="0.9312977194786072" short="3" long="3"/>
+			<STEP value="0.9389313459396362" short="3 1/9" long="3 1/9"/>
+			<STEP value="0.9465649127960205" short="3 1/5" long="3 1/5"/>
+			<STEP value="0.9541984796524048" short="3 2/7" long="3 2/7"/>
+			<STEP value="0.9618321061134338" short="3 2/5" long="3 2/5"/>
+			<STEP value="0.9694656729698181" short="3 1/2" long="3 1/2"/>
+			<STEP value="0.9770992398262024" short="3 5/8" long="3 5/8"/>
+			<STEP value="0.9847328662872314" short="3 3/4" long="3 3/4"/>
+			<STEP value="0.9923664331436157" short="3 7/8" long="3 7/8"/>
+			<STEP value="1.0" short="4" long="4"/>
+		</VPOT>
+		<VPOT short="Type" long="Type" paramId="290">				   <!-- 46 -->
+			<STEP value="0.0" short="LP SVF 12dB" long="LP SVF 12dB"/>
+			<STEP value="0.0333000011742115" short="LP SVF 24dB" long="LP SVF 24dB"/>
+			<STEP value="0.066600002348423" short="LP SVF 36dB" long="LP SVF 36dB"/>
+			<STEP value="0.09989999979734421" short="LP STD 6dB" long="LP STD 6dB"/>
+			<STEP value="0.133200004696846" short="LP STD 12dB" long="LP STD 12dB"/>
+			<STEP value="0.1665000021457672" short="LP STD 24dB" long="LP STD 24dB"/>
+			<STEP value="0.19979999959468842" short="LP STD 36dB" long="LP STD 36dB"/>
+			<STEP value="0.20689654350280762" short="LP STD 36dB" long="LP STD 36dB"/>
+			<STEP value="0.23309999704360962" short="HP SVF 12dB" long="HP SVF 12dB"/>
+			<STEP value="0.266400009393692" short="HP SVF 24dB" long="HP SVF 24dB"/>
+			<STEP value="0.299699991941452" short="HP SVF 36dB" long="HP SVF 36dB"/>
+			<STEP value="0.3330000042915344" short="HP STD 6dB" long="HP STD 6dB"/>
+			<STEP value="0.36629998683929443" short="HP STD 12dB" long="HP STD 12dB"/>
+			<STEP value="0.39959999918937683" short="HP STD 24dB" long="HP STD 24dB"/>
+			<STEP value="0.43290001153945923" short="HP STD 36dB" long="HP STD 36dB"/>
+			<STEP value="0.46619999408721924" short="BP SVF 6dB" long="BP SVF 6dB"/>
+			<STEP value="0.532800018787384" short="BP SVF 12dB" long="BP SVF 12dB"/>
+			<STEP value="0.566100001335144" short="BP SVF 18dB" long="BP SVF 18dB"/>
+			<STEP value="0.599399983882904" short="BP STD 6dB" long="BP STD 6dB"/>
+			<STEP value="0.6327000260353088" short="BP STD 12dB" long="BP STD 12dB"/>
+			<STEP value="0.6660000085830688" short="BP STD 18dB" long="BP STD 18dB"/>
+			<STEP value="0.6992999911308289" short="Peak SVF 2-p" long="Peak SVF 2-p"/>
+			<STEP value="0.7325999736785889" short="Peak SVF 4-p" long="Peak SVF 4-p"/>
+			<STEP value="0.7659000158309937" short="Peak STD 2-p" long="Peak STD 2-p"/>
+			<STEP value="0.7991999983787537" short="Peak STD 4-p" long="Peak STD 4-p"/>
+			<STEP value="0.8324999809265137" short="Notch SVF" long="Notch SVF"/>
+			<STEP value="0.8658000230789185" short="Notch STD" long="Notch STD"/>
+			<STEP value="0.8991000056266785" short="LP Moog" long="LP Moog"/>
+			<STEP value="0.9323999881744385" short="Comb +" long="Comb +"/>
+			<STEP value="0.9656999707221985" short="Comb -" long="Comb -"/>
+			<STEP value="0.9990000128746033" short="Ring Mod" long="Ring Mod"/>
+		</VPOT>
+		<VPOT short="1-2" long="Band 1-2" paramId="3">
+			<STEP value="0.0" short="//" long="//"/>
+			<STEP value="1.0" short="Serial" long="Serial"/>
+		</VPOT>
+		<VPOT short="12-34" long="Band 12-34" paramId="2">
+			<STEP value="0.0" short="//" long="//"/>
+			<STEP value="1.0" short="Serial" long="Serial"/>
+		</VPOT>
+		<VPOT short="3-4" long="Band 3-4" paramId="4">
+			<STEP value="0.0" short="//" long="//"/>
+			<STEP value="1.0" short="Serial" long="Serial"/>
+		</VPOT>
+		<VPOT short="DlyLnk" long="Delay Link" paramId="166">
+			<STEP value="0.0" short="Off" long="Off"/>
+			<STEP value="1.0" short="On" long="On"/>
+		</VPOT>
+		<VPOT short="FrqLnk" long="Freq Link" paramId="227">
+			<STEP value="0.0" short="Off" long="Off"/>
+			<STEP value="1.0" short="On" long="On"/>
+		</VPOT>
+		<VPOT short="Power" long="Power" paramId="37">				  <!-- 31 -->
+		  <STEP value="0" short="Off" long="Off"/>
+		  <STEP value="1" short="On" long="On"/>
+		</VPOT>
+    </PAGE>
+    <PAGE id="2" short="Band 3" long="Band 3" referTo="-1" offset="0">
+		<FADER short="Freq" long="Filter Freq" paramId="337"/>		 <!-- 46 -->
+		<FADER short="Reso" long="Filter Resonance" paramId="367"/>  <!-- 46 -->
+		<FADER short="Fat" long="Filter Fatness" paramId="352"/>     <!-- 46 -->
+		<FADER short="Gain" long="Gain" paramId="533"/>				 <!-- 45 -->
+		<FADER short="Shape" long="Shape" paramId="518"/>		     <!-- 45 -->
+		<FADER short="Fat" long="Distortion Fatnes" paramId="548"/>  <!-- 45 -->
+		<FADER short="Pan" long="Pan" paramId="84"/>				 <!-- 31 -->
+		<FADER short="Level" long="Level" paramId="69"/>			 <!-- 31 -->
+		<VPOT short="Delay" long="Delay" paramId="197">				 <!-- 15 -->
+			<STEP value="0.0" short="0" long="0"/>
+			<STEP value="0.007633587811142206" short="1/256" long="1/256"/>
+			<STEP value="0.015267175622284412" short="1/256" long="1/256"/>
+			<STEP value="0.022900763899087906" short="1/192" long="1/192"/>
+			<STEP value="0.02790302410721779" short="1/128" long="1/128"/>
+			<STEP value="0.030534351244568825" short="1/128" long="1/128"/>
+			<STEP value="0.038167938590049744" short="1/96" long="1/96"/>
+			<STEP value="0.04580152779817581" short="3/256" long="3/256"/>
+			<STEP value="0.05343511700630188" short="1/64" long="1/64"/>
+			<STEP value="0.06106870248913765" short="5/256" long="5/256"/>
+			<STEP value="0.06870229542255402" short="1/48" long="1/48"/>
+			<STEP value="0.07633587718009949" short="3/128" long="3/128"/>
+			<STEP value="0.08396946638822556" short="5/192" long="5/192"/>
+			<STEP value="0.09160305559635162" short="1/32" long="1/32"/>
+			<STEP value="0.09923664480447769" short="1/32" long="1/32"/>
+			<STEP value="0.10687023401260376" short="7/192" long="7/192"/>
+			<STEP value="0.11450382322072983" short="5/128" long="5/128"/>
+			<STEP value="0.1221374049782753" short="1/24" long="1/24"/>
+			<STEP value="0.12977099418640137" short="3/64" long="3/64"/>
+			<STEP value="0.13740459084510803" short="1/20" long="1/20"/>
+			<STEP value="0.1450381726026535" short="5/96" long="5/96"/>
+			<STEP value="0.15267175436019897" short="7/128" long="7/128"/>
+			<STEP value="0.16030535101890564" short="1/16" long="1/16"/>
+			<STEP value="0.1679389327764511" short="1/16" long="1/16"/>
+			<STEP value="0.17557252943515778" short="1/14" long="1/14"/>
+			<STEP value="0.18320611119270325" short="7/96" long="7/96"/>
+			<STEP value="0.19083969295024872" short="5/64" long="5/64"/>
+			<STEP value="0.19847328960895538" short="1/12" long="1/12"/>
+			<STEP value="0.21374046802520752" short="3/32" long="3/32"/>
+			<STEP value="0.221374049782753" short="3/32" long="3/32"/>
+			<STEP value="0.22900764644145966" short="1/10" long="1/10"/>
+			<STEP value="0.23664122819900513" short="5/48" long="5/48"/>
+			<STEP value="0.2442748099565506" short="1/9" long="1/9"/>
+			<STEP value="0.25190839171409607" short="1/9" long="1/9"/>
+			<STEP value="0.2671755850315094" short="1/8" long="1/8"/>
+			<STEP value="0.27480918169021606" short="1/7" long="1/7"/>
+			<STEP value="0.290076345205307" short="3/20" long="3/20"/>
+			<STEP value="0.29770994186401367" short="5/32" long="5/32"/>
+			<STEP value="0.30534350872039795" short="1/6" long="1/6"/>
+			<STEP value="0.3206107020378113" short="3/16" long="3/16"/>
+			<STEP value="0.3435114622116089" short="1/5" long="1/5"/>
+			<STEP value="0.35114505887031555" short="5/24" long="5/24"/>
+			<STEP value="0.35877862572669983" short="7/32" long="7/32"/>
+			<STEP value="0.3664122223854065" short="2/9" long="2/9"/>
+			<STEP value="0.37404581904411316" short="1/4" long="1/4"/>
+			<STEP value="0.40458017587661743" short="2/7" long="2/7"/>
+			<STEP value="0.4122137427330017" short="7/24" long="7/24"/>
+			<STEP value="0.4198473393917084" short="3/10" long="3/10"/>
+			<STEP value="0.42748093605041504" short="5/16" long="5/16"/>
+			<STEP value="0.4351145029067993" short="1/3" long="1/3"/>
+			<STEP value="0.45038169622421265" short="7/20" long="7/20"/>
+			<STEP value="0.4580152928829193" short="5/14" long="5/14"/>
+			<STEP value="0.4656488597393036" short="3/8" long="3/8"/>
+			<STEP value="0.47328245639801025" short="2/5" long="2/5"/>
+			<STEP value="0.4885496199131012" short="5/12" long="5/12"/>
+			<STEP value="0.49618321657180786" short="7/16" long="7/16"/>
+			<STEP value="0.5038167834281921" short="4/9" long="4/9"/>
+			<STEP value="0.5190839767456055" short="1/2" long="1/2"/>
+			<STEP value="0.5419847369194031" short="5/9" long="5/9"/>
+			<STEP value="0.5572519302368164" short="7/12" long="7/12"/>
+			<STEP value="0.5648854970932007" short="3/5" long="3/5"/>
+			<STEP value="0.5725191235542297" short="5/8" long="5/8"/>
+			<STEP value="0.580152690410614" short="9/14" long="9/14"/>
+			<STEP value="0.5877862572669983" short="2/3" long="2/3"/>
+			<STEP value="0.5954198837280273" short="7/10" long="7/10"/>
+			<STEP value="0.6030534505844116" short="5/7" long="5/7"/>
+			<STEP value="0.6106870174407959" short="3/4" long="3/4"/>
+			<STEP value="0.618320643901825" short="7/9" long="7/9"/>
+			<STEP value="0.6259542107582092" short="4/5" long="4/5"/>
+			<STEP value="0.6335877776145935" short="5/6" long="5/6"/>
+			<STEP value="0.6412214040756226" short="6/7" long="6/7"/>
+			<STEP value="0.6488549709320068" short="7/8" long="7/8"/>
+			<STEP value="0.6564885973930359" short="11/12" long="11/12"/>
+			<STEP value="0.6641221642494202" short="13/14" long="13/14"/>
+			<STEP value="0.6717557311058044" short="1" long="1"/>
+			<STEP value="0.6793893575668335" short="1" long="1"/>
+			<STEP value="0.694656491279602" short="1 1/9" long="1 1/9"/>
+			<STEP value="0.7099236845970154" short="1 1/7" long="1 1/7"/>
+			<STEP value="0.7175572514533997" short="1 1/5" long="1 1/5"/>
+			<STEP value="0.7251908779144287" short="1 2/9" long="1 2/9"/>
+			<STEP value="0.732824444770813" short="1 2/7" long="1 2/7"/>
+			<STEP value="0.7404580116271973" short="1 1/3" long="1 1/3"/>
+			<STEP value="0.7480916380882263" short="1 3/8" long="1 3/8"/>
+			<STEP value="0.7557252049446106" short="1 2/5" long="1 2/5"/>
+			<STEP value="0.7633587718009949" short="1 4/9" long="1 4/9"/>
+			<STEP value="0.7709923982620239" short="1 1/2" long="1 1/2"/>
+			<STEP value="0.7786259651184082" short="1 5/9" long="1 5/9"/>
+			<STEP value="0.7862595915794373" short="1 3/5" long="1 3/5"/>
+			<STEP value="0.7938931584358215" short="1 2/3" long="1 2/3"/>
+			<STEP value="0.8015267252922058" short="1 5/7" long="1 5/7"/>
+			<STEP value="0.8091603517532349" short="1 7/9" long="1 7/9"/>
+			<STEP value="0.8167939186096191" short="1 5/6" long="1 5/6"/>
+			<STEP value="0.8244274854660034" short="1 8/9" long="1 8/9"/>
+			<STEP value="0.8320611119270325" short="2" long="2"/>
+			<STEP value="0.847328245639801" short="2 1/9" long="2 1/9"/>
+			<STEP value="0.8549618721008301" short="2 1/6" long="2 1/6"/>
+			<STEP value="0.8625954389572144" short="2 2/9" long="2 2/9"/>
+			<STEP value="0.8702290058135986" short="2 2/7" long="2 2/7"/>
+			<STEP value="0.8778626322746277" short="2 3/8" long="2 3/8"/>
+			<STEP value="0.885496199131012" short="2 4/9" long="2 4/9"/>
+			<STEP value="0.893129825592041" short="2 5/9" long="2 5/9"/>
+			<STEP value="0.9007633924484253" short="2 5/8" long="2 5/8"/>
+			<STEP value="0.9083969593048096" short="2 5/7" long="2 5/7"/>
+			<STEP value="0.9160305857658386" short="2 4/5" long="2 4/5"/>
+			<STEP value="0.9236641526222229" short="2 8/9" long="2 8/9"/>
+			<STEP value="0.9312977194786072" short="3" long="3"/>
+			<STEP value="0.9389313459396362" short="3 1/9" long="3 1/9"/>
+			<STEP value="0.9465649127960205" short="3 1/5" long="3 1/5"/>
+			<STEP value="0.9541984796524048" short="3 2/7" long="3 2/7"/>
+			<STEP value="0.9618321061134338" short="3 2/5" long="3 2/5"/>
+			<STEP value="0.9694656729698181" short="3 1/2" long="3 1/2"/>
+			<STEP value="0.9770992398262024" short="3 5/8" long="3 5/8"/>
+			<STEP value="0.9847328662872314" short="3 3/4" long="3 3/4"/>
+			<STEP value="0.9923664331436157" short="3 7/8" long="3 7/8"/>
+			<STEP value="1.0" short="4" long="4"/>
+		</VPOT>
+		<VPOT short="Type" long="Type" paramId="336">				   <!-- 46 -->
+			<STEP value="0.0" short="LP SVF 12dB" long="LP SVF 12dB"/>
+			<STEP value="0.0333000011742115" short="LP SVF 24dB" long="LP SVF 24dB"/>
+			<STEP value="0.066600002348423" short="LP SVF 36dB" long="LP SVF 36dB"/>
+			<STEP value="0.09989999979734421" short="LP STD 6dB" long="LP STD 6dB"/>
+			<STEP value="0.133200004696846" short="LP STD 12dB" long="LP STD 12dB"/>
+			<STEP value="0.1665000021457672" short="LP STD 24dB" long="LP STD 24dB"/>
+			<STEP value="0.19979999959468842" short="LP STD 36dB" long="LP STD 36dB"/>
+			<STEP value="0.20689654350280762" short="LP STD 36dB" long="LP STD 36dB"/>
+			<STEP value="0.23309999704360962" short="HP SVF 12dB" long="HP SVF 12dB"/>
+			<STEP value="0.266400009393692" short="HP SVF 24dB" long="HP SVF 24dB"/>
+			<STEP value="0.299699991941452" short="HP SVF 36dB" long="HP SVF 36dB"/>
+			<STEP value="0.3330000042915344" short="HP STD 6dB" long="HP STD 6dB"/>
+			<STEP value="0.36629998683929443" short="HP STD 12dB" long="HP STD 12dB"/>
+			<STEP value="0.39959999918937683" short="HP STD 24dB" long="HP STD 24dB"/>
+			<STEP value="0.43290001153945923" short="HP STD 36dB" long="HP STD 36dB"/>
+			<STEP value="0.46619999408721924" short="BP SVF 6dB" long="BP SVF 6dB"/>
+			<STEP value="0.532800018787384" short="BP SVF 12dB" long="BP SVF 12dB"/>
+			<STEP value="0.566100001335144" short="BP SVF 18dB" long="BP SVF 18dB"/>
+			<STEP value="0.599399983882904" short="BP STD 6dB" long="BP STD 6dB"/>
+			<STEP value="0.6327000260353088" short="BP STD 12dB" long="BP STD 12dB"/>
+			<STEP value="0.6660000085830688" short="BP STD 18dB" long="BP STD 18dB"/>
+			<STEP value="0.6992999911308289" short="Peak SVF 2-p" long="Peak SVF 2-p"/>
+			<STEP value="0.7325999736785889" short="Peak SVF 4-p" long="Peak SVF 4-p"/>
+			<STEP value="0.7659000158309937" short="Peak STD 2-p" long="Peak STD 2-p"/>
+			<STEP value="0.7991999983787537" short="Peak STD 4-p" long="Peak STD 4-p"/>
+			<STEP value="0.8324999809265137" short="Notch SVF" long="Notch SVF"/>
+			<STEP value="0.8658000230789185" short="Notch STD" long="Notch STD"/>
+			<STEP value="0.8991000056266785" short="LP Moog" long="LP Moog"/>
+			<STEP value="0.9323999881744385" short="Comb +" long="Comb +"/>
+			<STEP value="0.9656999707221985" short="Comb -" long="Comb -"/>
+			<STEP value="0.9990000128746033" short="Ring Mod" long="Ring Mod"/>
+		</VPOT>
+		<VPOT short="1-2" long="Band 1-2" paramId="3">
+			<STEP value="0.0" short="//" long="//"/>
+			<STEP value="1.0" short="Serial" long="Serial"/>
+		</VPOT>
+		<VPOT short="12-34" long="Band 12-34" paramId="2">
+			<STEP value="0.0" short="//" long="//"/>
+			<STEP value="1.0" short="Serial" long="Serial"/>
+		</VPOT>
+		<VPOT short="3-4" long="Band 3-4" paramId="4">
+			<STEP value="0.0" short="//" long="//"/>
+			<STEP value="1.0" short="Serial" long="Serial"/>
+		</VPOT>
+		<VPOT short="DlyLnk" long="Delay Link" paramId="166">
+			<STEP value="0.0" short="Off" long="Off"/>
+			<STEP value="1.0" short="On" long="On"/>
+		</VPOT>
+		<VPOT short="FrqLnk" long="Freq Link" paramId="227">
+			<STEP value="0.0" short="Off" long="Off"/>
+			<STEP value="1.0" short="On" long="On"/>
+		</VPOT>
+		<VPOT short="Power" long="Power" paramId="68">				  <!-- 31 -->
+		  <STEP value="0" short="Off" long="Off"/>
+		  <STEP value="1" short="On" long="On"/>
+		</VPOT>
+    </PAGE>
+    <PAGE id="3" short="Band 4" long="Band 4" referTo="-1" offset="0">
+		<FADER short="Freq" long="Filter Freq" paramId="383"/>		<!-- 46 -->
+		<FADER short="Reso" long="Filter Resonance" paramId="413"/> <!-- 46 -->
+		<FADER short="Fat" long="Filter Fatness" paramId="398"/>    <!-- 46 -->
+		<FADER short="Gain" long="Gain" paramId="578"/>				 <!-- 45 -->
+		<FADER short="Shape" long="Shape" paramId="563"/>		     <!-- 45 -->
+		<FADER short="Fat" long="Distortion Fatnes" paramId="593"/> <!-- 45 -->
+		<FADER short="Pan" long="Pan" paramId="115"/>				    <!-- 31 -->
+		<FADER short="Level" long="Level" paramId="100"/>				<!-- 31 -->
+		<VPOT short="Delay" long="Delay" paramId="212">				<!-- 15 -->
+			<STEP value="0.0" short="0" long="0"/>
+			<STEP value="0.007633587811142206" short="1/256" long="1/256"/>
+			<STEP value="0.015267175622284412" short="1/256" long="1/256"/>
+			<STEP value="0.022900763899087906" short="1/192" long="1/192"/>
+			<STEP value="0.02790302410721779" short="1/128" long="1/128"/>
+			<STEP value="0.030534351244568825" short="1/128" long="1/128"/>
+			<STEP value="0.038167938590049744" short="1/96" long="1/96"/>
+			<STEP value="0.04580152779817581" short="3/256" long="3/256"/>
+			<STEP value="0.05343511700630188" short="1/64" long="1/64"/>
+			<STEP value="0.06106870248913765" short="5/256" long="5/256"/>
+			<STEP value="0.06870229542255402" short="1/48" long="1/48"/>
+			<STEP value="0.07633587718009949" short="3/128" long="3/128"/>
+			<STEP value="0.08396946638822556" short="5/192" long="5/192"/>
+			<STEP value="0.09160305559635162" short="1/32" long="1/32"/>
+			<STEP value="0.09923664480447769" short="1/32" long="1/32"/>
+			<STEP value="0.10687023401260376" short="7/192" long="7/192"/>
+			<STEP value="0.11450382322072983" short="5/128" long="5/128"/>
+			<STEP value="0.1221374049782753" short="1/24" long="1/24"/>
+			<STEP value="0.12977099418640137" short="3/64" long="3/64"/>
+			<STEP value="0.13740459084510803" short="1/20" long="1/20"/>
+			<STEP value="0.1450381726026535" short="5/96" long="5/96"/>
+			<STEP value="0.15267175436019897" short="7/128" long="7/128"/>
+			<STEP value="0.16030535101890564" short="1/16" long="1/16"/>
+			<STEP value="0.1679389327764511" short="1/16" long="1/16"/>
+			<STEP value="0.17557252943515778" short="1/14" long="1/14"/>
+			<STEP value="0.18320611119270325" short="7/96" long="7/96"/>
+			<STEP value="0.19083969295024872" short="5/64" long="5/64"/>
+			<STEP value="0.19847328960895538" short="1/12" long="1/12"/>
+			<STEP value="0.21374046802520752" short="3/32" long="3/32"/>
+			<STEP value="0.221374049782753" short="3/32" long="3/32"/>
+			<STEP value="0.22900764644145966" short="1/10" long="1/10"/>
+			<STEP value="0.23664122819900513" short="5/48" long="5/48"/>
+			<STEP value="0.2442748099565506" short="1/9" long="1/9"/>
+			<STEP value="0.25190839171409607" short="1/9" long="1/9"/>
+			<STEP value="0.2671755850315094" short="1/8" long="1/8"/>
+			<STEP value="0.27480918169021606" short="1/7" long="1/7"/>
+			<STEP value="0.290076345205307" short="3/20" long="3/20"/>
+			<STEP value="0.29770994186401367" short="5/32" long="5/32"/>
+			<STEP value="0.30534350872039795" short="1/6" long="1/6"/>
+			<STEP value="0.3206107020378113" short="3/16" long="3/16"/>
+			<STEP value="0.3435114622116089" short="1/5" long="1/5"/>
+			<STEP value="0.35114505887031555" short="5/24" long="5/24"/>
+			<STEP value="0.35877862572669983" short="7/32" long="7/32"/>
+			<STEP value="0.3664122223854065" short="2/9" long="2/9"/>
+			<STEP value="0.37404581904411316" short="1/4" long="1/4"/>
+			<STEP value="0.40458017587661743" short="2/7" long="2/7"/>
+			<STEP value="0.4122137427330017" short="7/24" long="7/24"/>
+			<STEP value="0.4198473393917084" short="3/10" long="3/10"/>
+			<STEP value="0.42748093605041504" short="5/16" long="5/16"/>
+			<STEP value="0.4351145029067993" short="1/3" long="1/3"/>
+			<STEP value="0.45038169622421265" short="7/20" long="7/20"/>
+			<STEP value="0.4580152928829193" short="5/14" long="5/14"/>
+			<STEP value="0.4656488597393036" short="3/8" long="3/8"/>
+			<STEP value="0.47328245639801025" short="2/5" long="2/5"/>
+			<STEP value="0.4885496199131012" short="5/12" long="5/12"/>
+			<STEP value="0.49618321657180786" short="7/16" long="7/16"/>
+			<STEP value="0.5038167834281921" short="4/9" long="4/9"/>
+			<STEP value="0.5190839767456055" short="1/2" long="1/2"/>
+			<STEP value="0.5419847369194031" short="5/9" long="5/9"/>
+			<STEP value="0.5572519302368164" short="7/12" long="7/12"/>
+			<STEP value="0.5648854970932007" short="3/5" long="3/5"/>
+			<STEP value="0.5725191235542297" short="5/8" long="5/8"/>
+			<STEP value="0.580152690410614" short="9/14" long="9/14"/>
+			<STEP value="0.5877862572669983" short="2/3" long="2/3"/>
+			<STEP value="0.5954198837280273" short="7/10" long="7/10"/>
+			<STEP value="0.6030534505844116" short="5/7" long="5/7"/>
+			<STEP value="0.6106870174407959" short="3/4" long="3/4"/>
+			<STEP value="0.618320643901825" short="7/9" long="7/9"/>
+			<STEP value="0.6259542107582092" short="4/5" long="4/5"/>
+			<STEP value="0.6335877776145935" short="5/6" long="5/6"/>
+			<STEP value="0.6412214040756226" short="6/7" long="6/7"/>
+			<STEP value="0.6488549709320068" short="7/8" long="7/8"/>
+			<STEP value="0.6564885973930359" short="11/12" long="11/12"/>
+			<STEP value="0.6641221642494202" short="13/14" long="13/14"/>
+			<STEP value="0.6717557311058044" short="1" long="1"/>
+			<STEP value="0.6793893575668335" short="1" long="1"/>
+			<STEP value="0.694656491279602" short="1 1/9" long="1 1/9"/>
+			<STEP value="0.7099236845970154" short="1 1/7" long="1 1/7"/>
+			<STEP value="0.7175572514533997" short="1 1/5" long="1 1/5"/>
+			<STEP value="0.7251908779144287" short="1 2/9" long="1 2/9"/>
+			<STEP value="0.732824444770813" short="1 2/7" long="1 2/7"/>
+			<STEP value="0.7404580116271973" short="1 1/3" long="1 1/3"/>
+			<STEP value="0.7480916380882263" short="1 3/8" long="1 3/8"/>
+			<STEP value="0.7557252049446106" short="1 2/5" long="1 2/5"/>
+			<STEP value="0.7633587718009949" short="1 4/9" long="1 4/9"/>
+			<STEP value="0.7709923982620239" short="1 1/2" long="1 1/2"/>
+			<STEP value="0.7786259651184082" short="1 5/9" long="1 5/9"/>
+			<STEP value="0.7862595915794373" short="1 3/5" long="1 3/5"/>
+			<STEP value="0.7938931584358215" short="1 2/3" long="1 2/3"/>
+			<STEP value="0.8015267252922058" short="1 5/7" long="1 5/7"/>
+			<STEP value="0.8091603517532349" short="1 7/9" long="1 7/9"/>
+			<STEP value="0.8167939186096191" short="1 5/6" long="1 5/6"/>
+			<STEP value="0.8244274854660034" short="1 8/9" long="1 8/9"/>
+			<STEP value="0.8320611119270325" short="2" long="2"/>
+			<STEP value="0.847328245639801" short="2 1/9" long="2 1/9"/>
+			<STEP value="0.8549618721008301" short="2 1/6" long="2 1/6"/>
+			<STEP value="0.8625954389572144" short="2 2/9" long="2 2/9"/>
+			<STEP value="0.8702290058135986" short="2 2/7" long="2 2/7"/>
+			<STEP value="0.8778626322746277" short="2 3/8" long="2 3/8"/>
+			<STEP value="0.885496199131012" short="2 4/9" long="2 4/9"/>
+			<STEP value="0.893129825592041" short="2 5/9" long="2 5/9"/>
+			<STEP value="0.9007633924484253" short="2 5/8" long="2 5/8"/>
+			<STEP value="0.9083969593048096" short="2 5/7" long="2 5/7"/>
+			<STEP value="0.9160305857658386" short="2 4/5" long="2 4/5"/>
+			<STEP value="0.9236641526222229" short="2 8/9" long="2 8/9"/>
+			<STEP value="0.9312977194786072" short="3" long="3"/>
+			<STEP value="0.9389313459396362" short="3 1/9" long="3 1/9"/>
+			<STEP value="0.9465649127960205" short="3 1/5" long="3 1/5"/>
+			<STEP value="0.9541984796524048" short="3 2/7" long="3 2/7"/>
+			<STEP value="0.9618321061134338" short="3 2/5" long="3 2/5"/>
+			<STEP value="0.9694656729698181" short="3 1/2" long="3 1/2"/>
+			<STEP value="0.9770992398262024" short="3 5/8" long="3 5/8"/>
+			<STEP value="0.9847328662872314" short="3 3/4" long="3 3/4"/>
+			<STEP value="0.9923664331436157" short="3 7/8" long="3 7/8"/>
+			<STEP value="1.0" short="4" long="4"/>
+		  </VPOT>
+			<VPOT short="Type" long="Type" paramId="382">				   <!-- 46 -->
+			<STEP value="0.0" short="LP SVF 12dB" long="LP SVF 12dB"/>
+			<STEP value="0.0333000011742115" short="LP SVF 24dB" long="LP SVF 24dB"/>
+			<STEP value="0.066600002348423" short="LP SVF 36dB" long="LP SVF 36dB"/>
+			<STEP value="0.09989999979734421" short="LP STD 6dB" long="LP STD 6dB"/>
+			<STEP value="0.133200004696846" short="LP STD 12dB" long="LP STD 12dB"/>
+			<STEP value="0.1665000021457672" short="LP STD 24dB" long="LP STD 24dB"/>
+			<STEP value="0.19979999959468842" short="LP STD 36dB" long="LP STD 36dB"/>
+			<STEP value="0.20689654350280762" short="LP STD 36dB" long="LP STD 36dB"/>
+			<STEP value="0.23309999704360962" short="HP SVF 12dB" long="HP SVF 12dB"/>
+			<STEP value="0.266400009393692" short="HP SVF 24dB" long="HP SVF 24dB"/>
+			<STEP value="0.299699991941452" short="HP SVF 36dB" long="HP SVF 36dB"/>
+			<STEP value="0.3330000042915344" short="HP STD 6dB" long="HP STD 6dB"/>
+			<STEP value="0.36629998683929443" short="HP STD 12dB" long="HP STD 12dB"/>
+			<STEP value="0.39959999918937683" short="HP STD 24dB" long="HP STD 24dB"/>
+			<STEP value="0.43290001153945923" short="HP STD 36dB" long="HP STD 36dB"/>
+			<STEP value="0.46619999408721924" short="BP SVF 6dB" long="BP SVF 6dB"/>
+			<STEP value="0.532800018787384" short="BP SVF 12dB" long="BP SVF 12dB"/>
+			<STEP value="0.566100001335144" short="BP SVF 18dB" long="BP SVF 18dB"/>
+			<STEP value="0.599399983882904" short="BP STD 6dB" long="BP STD 6dB"/>
+			<STEP value="0.6327000260353088" short="BP STD 12dB" long="BP STD 12dB"/>
+			<STEP value="0.6660000085830688" short="BP STD 18dB" long="BP STD 18dB"/>
+			<STEP value="0.6992999911308289" short="Peak SVF 2-p" long="Peak SVF 2-p"/>
+			<STEP value="0.7325999736785889" short="Peak SVF 4-p" long="Peak SVF 4-p"/>
+			<STEP value="0.7659000158309937" short="Peak STD 2-p" long="Peak STD 2-p"/>
+			<STEP value="0.7991999983787537" short="Peak STD 4-p" long="Peak STD 4-p"/>
+			<STEP value="0.8324999809265137" short="Notch SVF" long="Notch SVF"/>
+			<STEP value="0.8658000230789185" short="Notch STD" long="Notch STD"/>
+			<STEP value="0.8991000056266785" short="LP Moog" long="LP Moog"/>
+			<STEP value="0.9323999881744385" short="Comb +" long="Comb +"/>
+			<STEP value="0.9656999707221985" short="Comb -" long="Comb -"/>
+			<STEP value="0.9990000128746033" short="Ring Mod" long="Ring Mod"/>
+		</VPOT>
+		<VPOT short="1-2" long="Band 1-2" paramId="3">
+			<STEP value="0.0" short="//" long="//"/>
+			<STEP value="1.0" short="Serial" long="Serial"/>
+		</VPOT>
+		<VPOT short="12-34" long="Band 12-34" paramId="2">
+			<STEP value="0.0" short="//" long="//"/>
+			<STEP value="1.0" short="Serial" long="Serial"/>
+		</VPOT>
+		<VPOT short="3-4" long="Band 3-4" paramId="4">
+			<STEP value="0.0" short="//" long="//"/>
+			<STEP value="1.0" short="Serial" long="Serial"/>
+		</VPOT>
+		<VPOT short="DlyLnk" long="Delay Link" paramId="166">
+			<STEP value="0.0" short="Off" long="Off"/>
+			<STEP value="1.0" short="On" long="On"/>
+		</VPOT>
+		<VPOT short="FrqLnk" long="Freq Link" paramId="227">
+			<STEP value="0.0" short="Off" long="Off"/>
+			<STEP value="1.0" short="On" long="On"/>
+		</VPOT>
+		<VPOT short="Power" long="Power" paramId="99">				  <!-- 31 -->
+		  <STEP value="0" short="Off" long="Off"/>
+		  <STEP value="1" short="On" long="On"/>
+		</VPOT>
+    </PAGE>
+    <PAGE id="4" short="Misc" long="Misc" referTo="-1" offset="0">
+		<FADER short="Ratio" long="Freq Link Ratio" paramId="229"/>
+		<FADER paramId="-1"/>
+		<FADER paramId="-1"/>
+		<FADER paramId="-1"/>
+		<FADER paramId="-1"/>
+		<FADER paramId="-1"/>
+		<FADER paramId="-1"/>
+		<FADER short="Vol" long="Master Vol" paramId="1"/>
+		<VPOT short="Mode" long="Freq Link Mode" paramId="228">
+			<STEP value="0.0" short="Harmonic" long="Harmonic"/>
+			<STEP value="1.0" short="Linear" long="Linear"/>
+		</VPOT>
+		<VPOT paramId="-1"/>
+		<VPOT paramId="-1"/>
+		<VPOT paramId="-1"/>
+		<VPOT paramId="-1"/>
+		<VPOT paramId="-1"/>
+		<VPOT paramId="-1"/>
+		<VPOT short="Process Mode" long="Process Mode" paramId="5">
+			<STEP value="0.0" short="Mono" long="Mono"/>
+			<STEP value="0.5" short="Stereo" long="Stereo"/>
+			<STEP value="1.0" short="Dual Mono" long="Dual Mono"/>
+		</VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

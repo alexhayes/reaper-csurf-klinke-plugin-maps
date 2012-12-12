@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (aka plant-on)">UAD Cambridge EQ</MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="LF" long="LF" referTo="-1" offset="0">
+      <FADER short="Freq" long="LF Freq" paramId="4"/>
+      <FADER short="Gain" long="LF Gain" paramId="3"/>
+      <FADER short="Q" long="LF Q" paramId="5"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Master" long="Master Level" paramId="39"/>
+      <VPOT short="In" long="LF Enable" paramId="8">
+		<STEP value="0" short="In" long="In"/>
+		<STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+      <VPOT short="Shelf" long="LF Shelf Enable" paramId="6">
+		<STEP value="0" short="In" long="In"/>
+		<STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+      <VPOT short="Type" long="LF Shelf Type" paramId="7">
+		<STEP value="0" short="A" long="A"/>
+		<STEP value="0.5" short="B" long="B"/>
+		<STEP value="1" short="C" long="C"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="A/B" long="A/B Select" paramId="37">
+		<STEP value="1" short="A" long="A"/>
+		<STEP value="0" short="B" long="B"/>
+      </VPOT>
+      <VPOT short="Type" long="Type" paramId="36">
+		<STEP value="0" short="I" long="I"/>
+		<STEP value="0.5" short="II" long="II"/>
+		<STEP value="1" short="III" long="III"/>
+      </VPOT>
+      <VPOT short="On" long="Master Enable" paramId="38">
+		<STEP value="0" short="In" long="In"/>
+		<STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="LMF" long="LMF" referTo="-1" offset="0">
+      <FADER short="Freq" long="LMF Freq" paramId="10"/>
+      <FADER short="Gain" long="LMF Gain" paramId="9"/>
+      <FADER short="Q" long="LMF Q" paramId="11"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Master" long="Master Level" paramId="39"/>
+      <VPOT short="In" long="LMF Enable" paramId="14">
+		<STEP value="0" short="In" long="In"/>
+		<STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+      <VPOT short="Shelf" long="LMF Shelf Enable" paramId="12">
+		<STEP value="0" short="In" long="In"/>
+		<STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+      <VPOT short="Type" long="LMF ShelfType" paramId="13">
+		<STEP value="0" short="A" long="A"/>
+		<STEP value="0.5" short="B" long="B"/>
+		<STEP value="1" short="C" long="C"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="A/B" long="A/B Select" paramId="37">
+		<STEP value="0" short="A" long="A"/>
+		<STEP value="1" short="B" long="B"/>
+      </VPOT>
+      <VPOT short="Type" long="Type" paramId="36">
+		<STEP value="0" short="I" long="I"/>
+		<STEP value="0.5" short="II" long="II"/>
+		<STEP value="1" short="III" long="III"/>
+      </VPOT>
+      <VPOT short="On" long="Master Enable" paramId="38">
+		<STEP value="0" short="In" long="In"/>
+		<STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="2" short="MF" long="MF" referTo="-1" offset="0">
+      <FADER short="Freq" long="MF Freq" paramId="16"/>
+      <FADER short="Gain" long="MF Gain" paramId="15"/>
+      <FADER short="Q" long="MF Q" paramId="17"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Master" long="Master Level" paramId="39"/>
+      <VPOT short="In" long="MF Enable" paramId="20">
+		<STEP value="0" short="In" long="In"/>
+		<STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+      <VPOT short="Shelf" long="LMF Shelf Enable" paramId="12">
+		<STEP value="0" short="In" long="In"/>
+		<STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+      <VPOT short="Type" long="MF ShelfType" paramId="19">
+		<STEP value="0" short="A" long="A"/>
+		<STEP value="0.5" short="B" long="B"/>
+		<STEP value="1" short="C" long="C"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="A/B" long="A/B Select" paramId="37">
+		<STEP value="0" short="A" long="A"/>
+		<STEP value="1" short="B" long="B"/>
+      </VPOT>
+      <VPOT short="Type" long="Type" paramId="36">
+		<STEP value="0" short="I" long="I"/>
+		<STEP value="0.5" short="II" long="II"/>
+		<STEP value="1" short="III" long="III"/>
+      </VPOT>
+      <VPOT short="On" long="Master Enable" paramId="38">
+		<STEP value="0" short="In" long="In"/>
+		<STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="3" short="HMF" long="HMF" referTo="-1" offset="0">
+      <FADER short="Freq" long="HMF Freq" paramId="22"/>
+      <FADER short="Gain" long="HMF Gain" paramId="21"/>
+      <FADER short="Q" long="HMF Q" paramId="23"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Master" long="Master Level" paramId="39"/>
+      <VPOT short="In" long="HMF Enable" paramId="26">
+		<STEP value="0" short="In" long="In"/>
+		<STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+      <VPOT short="Shelf" long="HMF Shelf Enable" paramId="24">
+		<STEP value="0" short="In" long="In"/>
+		<STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+      <VPOT short="Type" long="HMF ShelfType" paramId="25">
+		<STEP value="0" short="A" long="A"/>
+		<STEP value="0.5" short="B" long="B"/>
+		<STEP value="1" short="C" long="C"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="A/B" long="A/B Select" paramId="37">
+		<STEP value="0" short="A" long="A"/>
+		<STEP value="1" short="B" long="B"/>
+      </VPOT>
+      <VPOT short="Type" long="Type" paramId="36">
+		<STEP value="0" short="I" long="I"/>
+		<STEP value="0.5" short="II" long="II"/>
+		<STEP value="1" short="III" long="III"/>
+      </VPOT>
+      <VPOT short="On" long="Master Enable" paramId="38">
+		<STEP value="0" short="In" long="In"/>
+		<STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="4" short="HF" long="HF" referTo="-1" offset="0">
+      <FADER short="Freq" long="HF Freq" paramId="28"/>
+      <FADER short="Gain" long="HF Gain" paramId="27"/>
+      <FADER short="Q" long="Q" paramId="29"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Master" long="Master Level" paramId="39"/>
+      <VPOT short="In" long="HF Enable" paramId="32"/>
+      <VPOT short="Shelf" long="HF Shelf Enable" paramId="30">
+		<STEP value="0" short="In" long="In"/>
+		<STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+      <VPOT short="Type" long="HF ShelfType" paramId="31">
+		<STEP value="0" short="A" long="A"/>
+		<STEP value="0.5" short="B" long="B"/>
+		<STEP value="1" short="C" long="C"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="A/B" long="A/B Select" paramId="37">
+		<STEP value="0" short="A" long="A"/>
+		<STEP value="1" short="B" long="B"/>
+      </VPOT>
+      <VPOT short="Type" long="Type" paramId="36">
+		<STEP value="0" short="I" long="I"/>
+		<STEP value="0.5" short="II" long="II"/>
+		<STEP value="1" short="III" long="III"/>
+      </VPOT>
+      <VPOT short="On" long="Master Enable" paramId="38">
+		<STEP value="0" short="In" long="In"/>
+		<STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="5" short="Filter" long="Filters" referTo="-1" offset="0">
+      <FADER short="Freq" long="LC Freq" paramId="1"/>
+      <FADER short="Type" long="LC Type" paramId="0"/>
+      <FADER short="Freq" long="HC Freq" paramId="34"/>
+      <FADER short="Type" long="HC Type" paramId="33"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Master" long="Master Level" paramId="39"/>
+      <VPOT short="LC In" long="LC Enable" paramId="2">
+		<STEP value="0" short="In" long="In"/>
+		<STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="HC In" long="HC Enable" paramId="35">
+		<STEP value="0" short="In" long="In"/>
+		<STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="A/B" long="A/B Select" paramId="37">
+		<STEP value="0" short="A" long="A"/>
+		<STEP value="1" short="B" long="B"/>
+      </VPOT>
+      <VPOT short="Type" long="Type" paramId="36">
+		<STEP value="0" short="I" long="Type I"/>
+		<STEP value="0.5" short="II" long="Type II"/>
+		<STEP value="1" short="III" long="Type III"/>
+      </VPOT>
+      <VPOT short="On" long="Master Enable" paramId="38">
+		<STEP value="0" short="In" long="In"/>
+		<STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

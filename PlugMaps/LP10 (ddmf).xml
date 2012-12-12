@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="LP101G" long="LP101Gain1" paramId="0"/>
+      <FADER short="LP101G" long="LP101Gain2" paramId="1"/>
+      <FADER short="LP101G" long="LP101Gain3" paramId="2"/>
+      <FADER short="LP101G" long="LP101Gain4" paramId="3"/>
+      <FADER short="LP101G" long="LP101Gain5" paramId="4"/>
+      <FADER short="LP101G" long="LP101Gain6" paramId="5"/>
+      <FADER short="LP101G" long="LP101Gain7" paramId="6"/>
+      <FADER short="LP101G" long="LP101Gain8" paramId="7"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER short="LP101G" long="LP101Gain9" paramId="8"/>
+      <FADER short="LP101G" long="LP101Gain10" paramId="9"/>
+      <FADER short="LP101w" long="LP101width1" paramId="10"/>
+      <FADER short="LP101w" long="LP101width2" paramId="11"/>
+      <FADER short="LP101w" long="LP101width3" paramId="12"/>
+      <FADER short="LP101w" long="LP101width4" paramId="13"/>
+      <FADER short="LP101w" long="LP101width5" paramId="14"/>
+      <FADER short="LP101w" long="LP101width6" paramId="15"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="Page 3" long="Page 3" referTo="-1" offset="0">
+      <FADER short="LP101w" long="LP101width7" paramId="16"/>
+      <FADER short="LP101w" long="LP101width8" paramId="17"/>
+      <FADER short="LP101w" long="LP101width9" paramId="18"/>
+      <FADER short="LP101w" long="LP101width10" paramId="19"/>
+      <FADER short="LP101c" long="LP101center1" paramId="20"/>
+      <FADER short="LP101c" long="LP101center2" paramId="21"/>
+      <FADER short="LP101c" long="LP101center3" paramId="22"/>
+      <FADER short="LP101c" long="LP101center4" paramId="23"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="Page 4" long="Page 4" referTo="-1" offset="0">
+      <FADER short="LP101c" long="LP101center5" paramId="24"/>
+      <FADER short="LP101c" long="LP101center6" paramId="25"/>
+      <FADER short="LP101c" long="LP101center7" paramId="26"/>
+      <FADER short="LP101c" long="LP101center8" paramId="27"/>
+      <FADER short="LP101c" long="LP101center9" paramId="28"/>
+      <FADER short="LP101c" long="LP101center10" paramId="29"/>
+      <FADER short="LP101c" long="LP101color1" paramId="30"/>
+      <FADER short="LP101c" long="LP101color2" paramId="31"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="Page 5" long="Page 5" referTo="-1" offset="0">
+      <FADER short="LP101c" long="LP101color3" paramId="32"/>
+      <FADER short="LP101c" long="LP101color4" paramId="33"/>
+      <FADER short="LP101c" long="LP101color5" paramId="34"/>
+      <FADER short="LP101c" long="LP101color6" paramId="35"/>
+      <FADER short="LP101c" long="LP101color7" paramId="36"/>
+      <FADER short="LP101c" long="LP101color8" paramId="37"/>
+      <FADER short="LP101c" long="LP101color9" paramId="38"/>
+      <FADER short="LP101c" long="LP101color10" paramId="39"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="5" short="Page 6" long="Page 6" referTo="-1" offset="0">
+      <FADER short="LP101" long="LP101" paramId="40"/>
+      <FADER short="LP101o" long="LP101outgain" paramId="41"/>
+      <FADER short="LP101" long="LP101" paramId="42"/>
+      <FADER short="LP101" long="LP101" paramId="43"/>
+      <FADER short="LP101" long="LP101" paramId="44"/>
+      <FADER short="LP101" long="LP101" paramId="45"/>
+      <FADER short="LP101" long="LP101" paramId="46"/>
+      <FADER short="LP101" long="LP101" paramId="47"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="6" short="Page 7" long="Page 7" referTo="-1" offset="0">
+      <FADER short="LP101" long="LP101" paramId="48"/>
+      <FADER short="LP101" long="LP101" paramId="49"/>
+      <FADER short="LP101" long="LP101" paramId="50"/>
+      <FADER short="LP101" long="LP101" paramId="51"/>
+      <FADER short="LP101" long="LP101" paramId="52"/>
+      <FADER short="LP101" long="LP101" paramId="53"/>
+      <FADER short="LP101" long="LP101" paramId="54"/>
+      <FADER short="LP101" long="LP101" paramId="55"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="7" short="Page 8" long="Page 8" referTo="-1" offset="0">
+      <FADER short="LP101" long="LP101" paramId="56"/>
+      <FADER short="LP101" long="LP101" paramId="57"/>
+      <FADER short="LP101" long="LP101" paramId="58"/>
+      <FADER short="LP101" long="LP101" paramId="59"/>
+      <FADER short="LP101" long="LP101" paramId="60"/>
+      <FADER short="LP101" long="LP101" paramId="61"/>
+      <FADER short="LP101" long="LP101" paramId="62"/>
+      <FADER short="LP101" long="LP101" paramId="63"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+  <BANK id="1" short="Bank 2" long="Bank 2" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="LP101" long="LP101" paramId="64"/>
+      <FADER short="LP101" long="LP101" paramId="65"/>
+      <FADER short="LP101" long="LP101" paramId="66"/>
+      <FADER short="LP101" long="LP101" paramId="67"/>
+      <FADER short="LP101" long="LP101" paramId="68"/>
+      <FADER short="LP101" long="LP101" paramId="69"/>
+      <FADER short="LP101" long="LP101" paramId="70"/>
+      <FADER short="LP101" long="LP101" paramId="71"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER short="LP101" long="LP101" paramId="72"/>
+      <FADER short="LP101" long="LP101" paramId="73"/>
+      <FADER short="LP101" long="LP101" paramId="74"/>
+      <FADER short="LP101" long="LP101" paramId="75"/>
+      <FADER short="LP101" long="LP101" paramId="76"/>
+      <FADER short="LP101" long="LP101" paramId="77"/>
+      <FADER short="LP101" long="LP101" paramId="78"/>
+      <FADER short="LP101" long="LP101" paramId="79"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="Page 3" long="Page 3" referTo="-1" offset="0">
+      <FADER short="LP101s" long="LP101stereowidt" paramId="80"/>
+      <FADER short="LP101" long="LP101" paramId="81"/>
+      <FADER short="LP101" long="LP101" paramId="82"/>
+      <FADER short="LP101" long="LP101" paramId="83"/>
+      <FADER short="LP102G" long="LP102Gain1" paramId="84"/>
+      <FADER short="LP102G" long="LP102Gain2" paramId="85"/>
+      <FADER short="LP102G" long="LP102Gain3" paramId="86"/>
+      <FADER short="LP102G" long="LP102Gain4" paramId="87"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="Page 4" long="Page 4" referTo="-1" offset="0">
+      <FADER short="LP102G" long="LP102Gain5" paramId="88"/>
+      <FADER short="LP102G" long="LP102Gain6" paramId="89"/>
+      <FADER short="LP102G" long="LP102Gain7" paramId="90"/>
+      <FADER short="LP102G" long="LP102Gain8" paramId="91"/>
+      <FADER short="LP102G" long="LP102Gain9" paramId="92"/>
+      <FADER short="LP102G" long="LP102Gain10" paramId="93"/>
+      <FADER short="LP102w" long="LP102width1" paramId="94"/>
+      <FADER short="LP102w" long="LP102width2" paramId="95"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="Page 5" long="Page 5" referTo="-1" offset="0">
+      <FADER short="LP102w" long="LP102width3" paramId="96"/>
+      <FADER short="LP102w" long="LP102width4" paramId="97"/>
+      <FADER short="LP102w" long="LP102width5" paramId="98"/>
+      <FADER short="LP102w" long="LP102width6" paramId="99"/>
+      <FADER short="LP102w" long="LP102width7" paramId="100"/>
+      <FADER short="LP102w" long="LP102width8" paramId="101"/>
+      <FADER short="LP102w" long="LP102width9" paramId="102"/>
+      <FADER short="LP102w" long="LP102width10" paramId="103"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="5" short="Page 6" long="Page 6" referTo="-1" offset="0">
+      <FADER short="LP102c" long="LP102center1" paramId="104"/>
+      <FADER short="LP102c" long="LP102center2" paramId="105"/>
+      <FADER short="LP102c" long="LP102center3" paramId="106"/>
+      <FADER short="LP102c" long="LP102center4" paramId="107"/>
+      <FADER short="LP102c" long="LP102center5" paramId="108"/>
+      <FADER short="LP102c" long="LP102center6" paramId="109"/>
+      <FADER short="LP102c" long="LP102center7" paramId="110"/>
+      <FADER short="LP102c" long="LP102center8" paramId="111"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="6" short="Page 7" long="Page 7" referTo="-1" offset="0">
+      <FADER short="LP102c" long="LP102center9" paramId="112"/>
+      <FADER short="LP102c" long="LP102center10" paramId="113"/>
+      <FADER short="LP102c" long="LP102color1" paramId="114"/>
+      <FADER short="LP102c" long="LP102color2" paramId="115"/>
+      <FADER short="LP102c" long="LP102color3" paramId="116"/>
+      <FADER short="LP102c" long="LP102color4" paramId="117"/>
+      <FADER short="LP102c" long="LP102color5" paramId="118"/>
+      <FADER short="LP102c" long="LP102color6" paramId="119"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="7" short="Page 8" long="Page 8" referTo="-1" offset="0">
+      <FADER short="LP102c" long="LP102color7" paramId="120"/>
+      <FADER short="LP102c" long="LP102color8" paramId="121"/>
+      <FADER short="LP102c" long="LP102color9" paramId="122"/>
+      <FADER short="LP102c" long="LP102color10" paramId="123"/>
+      <FADER short="LP102" long="LP102" paramId="124"/>
+      <FADER short="LP102o" long="LP102outgain" paramId="125"/>
+      <FADER short="LP102" long="LP102" paramId="126"/>
+      <FADER short="LP102" long="LP102" paramId="127"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+  <BANK id="2" short="Bank 3" long="Bank 3" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="LP102" long="LP102" paramId="128"/>
+      <FADER short="LP102" long="LP102" paramId="129"/>
+      <FADER short="LP102" long="LP102" paramId="130"/>
+      <FADER short="LP102" long="LP102" paramId="131"/>
+      <FADER short="LP102" long="LP102" paramId="132"/>
+      <FADER short="LP102" long="LP102" paramId="133"/>
+      <FADER short="LP102" long="LP102" paramId="134"/>
+      <FADER short="LP102" long="LP102" paramId="135"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER short="LP102" long="LP102" paramId="136"/>
+      <FADER short="LP102" long="LP102" paramId="137"/>
+      <FADER short="LP102" long="LP102" paramId="138"/>
+      <FADER short="LP102" long="LP102" paramId="139"/>
+      <FADER short="LP102" long="LP102" paramId="140"/>
+      <FADER short="LP102" long="LP102" paramId="141"/>
+      <FADER short="LP102" long="LP102" paramId="142"/>
+      <FADER short="LP102" long="LP102" paramId="143"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="Page 3" long="Page 3" referTo="-1" offset="0">
+      <FADER short="LP102" long="LP102" paramId="144"/>
+      <FADER short="LP102" long="LP102" paramId="145"/>
+      <FADER short="LP102" long="LP102" paramId="146"/>
+      <FADER short="LP102" long="LP102" paramId="147"/>
+      <FADER short="LP102" long="LP102" paramId="148"/>
+      <FADER short="LP102" long="LP102" paramId="149"/>
+      <FADER short="LP102" long="LP102" paramId="150"/>
+      <FADER short="LP102" long="LP102" paramId="151"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="Page 4" long="Page 4" referTo="-1" offset="0">
+      <FADER short="LP102" long="LP102" paramId="152"/>
+      <FADER short="LP102" long="LP102" paramId="153"/>
+      <FADER short="LP102" long="LP102" paramId="154"/>
+      <FADER short="LP102" long="LP102" paramId="155"/>
+      <FADER short="LP102" long="LP102" paramId="156"/>
+      <FADER short="LP102" long="LP102" paramId="157"/>
+      <FADER short="LP102" long="LP102" paramId="158"/>
+      <FADER short="LP102" long="LP102" paramId="159"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="Page 5" long="Page 5" referTo="-1" offset="0">
+      <FADER short="LP102" long="LP102" paramId="160"/>
+      <FADER short="LP102" long="LP102" paramId="161"/>
+      <FADER short="LP102" long="LP102" paramId="162"/>
+      <FADER short="LP102" long="LP102" paramId="163"/>
+      <FADER short="LP102s" long="LP102stereowidt" paramId="164"/>
+      <FADER short="LP102" long="LP102" paramId="165"/>
+      <FADER short="LP102" long="LP102" paramId="166"/>
+      <FADER short="LP102" long="LP102" paramId="167"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="5" short="Page 6" long="Page 6" referTo="-1" offset="0">
+      <FADER short="MS" long="MS" paramId="168"/>
+      <FADER short="locked" long="locked" paramId="169"/>
+      <FADER short="twocha" long="twochannel" paramId="170"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (aka plant-on)">Softube FET Compressor</MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Comp" long="Compressor" referTo="-1" offset="0">
+      <FADER short="Input" long="Input" paramId="0"/>
+      <FADER short="Ratio" long="Ratio" paramId="1"/>
+      <FADER short="Attack" long="Attack" paramId="2"/>
+      <FADER short="Releas" long="Release" paramId="3"/>
+      <FADER short="Low" long="Low Cut" paramId="6"/>
+      <FADER short="High" long="High Cut" paramId="7"/>
+      <FADER short="Inject" long="Parallel Inject" paramId="5"/>
+      <FADER short="Output" long="Output" paramId="4"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="Utility" long="Utility" referTo="-1" offset="0">
+      <FADER short="Side" long="Side Chain" paramId="9"/>
+      <FADER short="Lookah" long="Lookahead" paramId="8"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

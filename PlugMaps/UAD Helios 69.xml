@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (aka plant-on)">UAD Helios 69</MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="EQ" long="EQ" referTo="-1" offset="0">
+      <FADER short="LoFreq" long="LoFreq" paramId="0"/>
+      <FADER short="LoGain" long="Bass Gain" paramId="1"/>
+      <FADER short="MidFre" long="MidFreq" paramId="2"/>
+      <FADER short="MidGai" long="MidGain" paramId="3"/>
+      <FADER short="HiGain" long="HiGain" paramId="5"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Level" long="Level" paramId="8"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="TR/PK" long="TR/PK" paramId="4">
+        <STEP value="0" short="Trough" long="Trough"/>
+        <STEP value="1" short="Peak" long="Peak"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Phase" long="Phase" paramId="7">
+        <STEP value="0" short="0" long="0"/>
+        <STEP value="1" short="180" long="180"/>
+      </VPOT>
+      <VPOT short="In" long="In" paramId="6">
+        <STEP value="0" short="In" long="In"/>
+        <STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (aka plant-on)">UAD Pultec & UAD Pultec-Pro</MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="EQP-1A" long="EQP-1A" referTo="-1" offset="0">
+      <FADER short="Freq" long="Low Freq" paramId="2"/>
+      <FADER short="Boost" long="Low Boost" paramId="0"/>
+      <FADER short="Cut" long="Low Cut" paramId="1"/>
+      <FADER short="HiBW" long="Hi BandWidth" paramId="3"/>
+      <FADER short="Freq" long="Hi Freq" paramId="5"/>
+      <FADER short="Boost" long="Hi Boost" paramId="4"/>
+      <FADER short="Freq" long="Hi Atten Freq" paramId="7"/>
+      <FADER short="Atten" long="Hi Atten" paramId="6"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="On" long="EQP Enable" paramId="8">
+        <STEP value="1" short="On" long="On"/>
+        <STEP value="0" short="Off" long="Off"/>
+      </VPOT>
+      <VPOT short="In" long="EQP In/Out" paramId="9">
+        <STEP value="1" short="In" long="In"/>
+        <STEP value="0" short="Out" long="Out"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="MEQ5" long="MEQ5" referTo="-1" offset="0">
+      <FADER short="LMFreq" long="Low-Mid Peak Freq" paramId="10"/>
+      <FADER short="Peak" long="Low-Mid Peak" paramId="11"/>
+      <FADER short="MDFreq" long="Low-Mid Dip Freq" paramId="12"/>
+      <FADER short="Dip" long="Mid Dip" paramId="13"/>
+      <FADER short="HMFreq" long="Hi-Mid Freq" paramId="14"/>
+      <FADER short="Peak" long="Hi-Mid Peak" paramId="15"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="MEQ En" long="MEQ Enable" paramId="16">
+        <STEP value="1" short="On" long="On"/>
+        <STEP value="0" short="Off" long="Off"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

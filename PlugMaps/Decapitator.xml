@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (aka plant-on)">SoundToys Decapitator</MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="Drive" long="Drive" paramId="2"/>
+      <FADER short="LowCut" long="Low Cut" paramId="4"/>
+      <FADER short="Tone" long="Tone" paramId="5"/>
+      <FADER short="HiCut" long="High Cut" paramId="6"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Mix" long="Mix" paramId="7"/>
+      <FADER short="Output" long="Output" paramId="11"/>
+      <VPOT short="Punish" long="Punish" paramId="3">
+        <STEP value="0" short="" long=""/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Thump" long="Low Thump" paramId="9">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Steep" long="Steep" paramId="10">
+        <STEP value="0" short="Gentle" long="Gentle"/>
+        <STEP value="1" short="Steep" long="Steep"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Style" long="Style" paramId="1">
+        <STEP value="0" short="Ampex" long="Ampex 350 Tape"/>
+        <STEP value="0.25" short="EMI" long="Chandler/EMI TG"/>
+        <STEP value="0.5" short="Neve" long="Neve 1057"/>
+        <STEP value="0.75" short="Triode" long="Thermionic Triode"/>
+        <STEP value="1" short="Pentode" long="Thermionic Pentode"/>
+      </VPOT>
+      <VPOT short="Auto" long="Auto Gain" paramId="8">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

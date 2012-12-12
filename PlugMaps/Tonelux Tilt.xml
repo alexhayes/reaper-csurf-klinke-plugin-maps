@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (aka plant-on)">Softtube Tonelux Tilt</MAPINFO>
+  <BANK id="0" short="EQ" long="EQ" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="Tilt" long="Tilt" paramId="0"/>
+      <FADER paramId="-1"/>
+      <FADER short="HP" long="HP" paramId="1"/>
+      <FADER short="LP" long="LP" paramId="2"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Gain" long="Gain" paramId="3"/>
+      <VPOT short="EQIn" long="Tilt EQ In" paramId="4">
+		<STEP value="0" short="Out" long="Out"/>
+		<STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Shape" long="Shape" paramId="5">
+		<STEP value="0" short="Loud" long="Loud"/>
+		<STEP value="1" short="Tilt" long="Tilt"/>
+      </VPOT>
+      <VPOT short="Slope" long="Slope" paramId="6">
+		<STEP value="0" short="6dB" long="6dB/oct"/>
+		<STEP value="1" short="12dB" long="12dB/oct"/>
+      </VPOT>
+      <VPOT short="Filter" long="Filter Enable" paramId="8">
+		<STEP value="0" short="Out" long="Out"/>
+		<STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Phase" long="Polarity" paramId="7">
+		<STEP value="0" short="0" long="0"/>
+		<STEP value="1" short="180" long="180"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (aka plant-on)">The Glue (Cymtomic)</MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Comp" long="Comp" referTo="-1" offset="0">
+      <FADER short="Thresh" long="Threshold" paramId="1"/>
+      <FADER short="Range" long="Range" paramId="3"/>
+      <FADER short="Ratio" long="Ratio" paramId="6"/>
+      <FADER short="Attack" long="Attack" paramId="4"/>
+      <FADER short="Releas" long="Release" paramId="5"/>
+      <FADER short="HPFreq" long="SidechainHp" paramId="10"/>
+      <FADER short="Mix" long="Mix" paramId="8"/>
+      <FADER short="Makeup" long="Makeup" paramId="2"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Side" long="Ext Sidechain In" paramId="11">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Clip" long="Peak Clip" paramId="9">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="0">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

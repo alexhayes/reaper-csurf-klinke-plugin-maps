@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (aka plant-on)">UAD Shadow Hills Mastering Compressor</MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Ch 1" long="Channel 1" referTo="-1" offset="0">
+      <FADER short="Thresh" long="Optical Threshold" paramId="2"/>
+      <FADER short="Gain" long="Optical Gain" paramId="3"/>
+      <FADER short="Thresh" long="Discrete Threshold" paramId="5"/>
+      <FADER short="Ratio" long="Discrete Ratio" paramId="6"/>
+      <FADER short="Attack" long="Discrete Attack" paramId="7"/>
+      <FADER short="Recvry" long="Discrete Recovery" paramId="8"/>
+      <FADER short="Gain" long="Discrete Gain" paramId="9"/>
+      <FADER short="Trans" long="Transformer" paramId="11"/>
+      <VPOT short="Opticl" long="Optical Bypass" paramId="1">
+		<STEP value="0" short="Out" long="Out"/>
+		<STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Discre" long="Discrete In" paramId="4">
+		<STEP value="0" short="Out" long="Out"/>
+		<STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Mode" long="Mode" paramId="25">
+		<STEP value="0" short="Mono" long="Dual Mono"/>
+		<STEP value="1" short="Stereo" long="Stereo"/>
+      </VPOT>
+      <VPOT short="SC Flt" long="SC Flt" paramId="10">
+		<STEP value="0" short="Out" long="Out"/>
+		<STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Meter " long="Meter" paramId="12">
+		<STEP value="0" short="Optical" long="Optical"/>
+		<STEP value="0.5" short="Discrete" long="Discrete"/>
+		<STEP value="1" short="Output" long="Output"/>
+      </VPOT>
+      <VPOT short="Bypass" long="Bypass" paramId="0">
+		<STEP value="0" short="Out" long="Out"/>
+		<STEP value="1" short="In" long="In"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Ch 2" long="Channel 2" referTo="-1" offset="0">
+      <FADER short="Thresh" long="Optical Threshold" paramId="14"/>
+      <FADER short="Gain" long="Optical Gain" paramId="15"/>
+      <FADER short="Thresh" long="Discrete Threshold" paramId="17"/>
+      <FADER short="Ratio" long="Discrete Ratio" paramId="18"/>
+      <FADER short="Attack" long="Discrete Attack" paramId="19"/>
+      <FADER short="Recvry" long="Discrete Recovery" paramId="20"/>
+      <FADER short="Gain" long="Discrete Gain" paramId="21"/>
+      <FADER short="Trans" long="Transformer" paramId="23"/>
+      <VPOT short="Opticl" long="Optical Bypass" paramId="13">
+		<STEP value="0" short="Out" long="Out"/>
+		<STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Discre" long="Discrete Bypass" paramId="16">
+		<STEP value="0" short="Out" long="Out"/>
+		<STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Mode" long="Mode" paramId="25">
+		<STEP value="0" short="Mono" long="Dual Mono"/>
+		<STEP value="1" short="Stereo" long="Stereo"/>
+      </VPOT>
+      <VPOT short="SC Flt" long="SC Flt" paramId="22">
+		<STEP value="0" short="Out" long="Out"/>
+		<STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Meter " long="Meter" paramId="24">
+		<STEP value="0" short="Optical" long="Optical"/>
+		<STEP value="0.5" short="Discrete" long="Discrete"/>
+		<STEP value="1" short="Output" long="Output"/>
+      </VPOT>
+      <VPOT short="Bypass" long="Bypass" paramId="0">
+		<STEP value="0" short="Out" long="Out"/>
+		<STEP value="1" short="In" long="In"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

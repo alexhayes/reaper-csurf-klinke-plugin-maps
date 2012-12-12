@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Gen" long="General" referTo="-1" offset="0">
+      <FADER short="Mode" long="Mode" paramId="4"/>
+      <FADER short="Rate" long="Repeat Rate" paramId="9"/>
+      <FADER short="Intens" long="Intensity" paramId="10"/>
+      <FADER short="EcoVol" long="Echo Volume" paramId="11"/>
+      <FADER short="Bass" long="Bass" paramId="5"/>
+      <FADER short="Treble" long="Treble" paramId="6"/>
+      <FADER short="RvbVol" long="Reverb Volume" paramId="7"/>
+      <FADER short="Out" long="Out" paramId="15"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Sync" long="Sync" paramId="8">
+		<STEP value="0" short="Off" long="Off"/>
+		<STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Age" long="Tape Age" paramId="12">
+		<STEP value="0" short="New" long="New"/>
+		<STEP value="0.5" short="Used" long="Used"/>
+		<STEP value="1" short="Old" long="Old"/>
+      </VPOT>
+      <VPOT short="Splice" long="Splice" paramId="13">
+		<STEP value="0" short="Off" long="Off"/>
+		<STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Wet" long="Wet Solo" paramId="14">
+		<STEP value="0" short="Off" long="Off"/>
+		<STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="16">
+		<STEP value="0" short="Off" long="Off"/>
+		<STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Pan" long="Pan" referTo="-1" offset="0">
+      <FADER short="EcoPan" long="Echo Pan" paramId="0"/>
+      <FADER short="RvbPan" long="Reverb Pan" paramId="1"/>
+      <FADER short="Input" long="Input Volume" paramId="2"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Out" long="Out" paramId="15"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Send" long="Echo Send" paramId="3">
+		<STEP value="0" short="Echo" long="Echo"/>
+		<STEP value="1" short="Normal" long="Normal"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Power" long="Power" paramId="16">
+		<STEP value="0" short="Off" long="Off"/>
+		<STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

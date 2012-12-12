@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (aka plant-on)">UAD Teletronix LA-2A</MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="LA2A" long="Teletronix LA2A" referTo="-1" offset="0">
+      <FADER short="Gain" long="Gain" paramId="1"/>
+      <FADER short="Peak" long="Peak Reduction" paramId="0"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT short="Type" long="Type" paramId="2">
+        <STEP value="0" short="Comp" long="Compress"/>
+        <STEP value="1" short="Limit" long="Limit"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Meter " long="Meter Select" paramId="3">
+        <STEP value="0" short="+10" long="Output +10"/>
+        <STEP value="0.5" short="GR" long="Gain Reduction"/>
+        <STEP value="1" short="+4" long="Output +4"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="4">
+        <STEP value="0" short="On" long="On"/>
+        <STEP value="1" short="Off" long="Off"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (aka plant-on)">UAD Neve 1073 EQ</MAPINFO>
+  <BANK id="0" short="EQ" long="EQ" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="InputG" long="InputGain" paramId="0"/>
+      <FADER short="HiGain" long="HiGain" paramId="1"/>
+      <FADER short="MidFre" long="MidFreq" paramId="2"/>
+      <FADER short="MidGai" long="MidGain" paramId="3"/>
+      <FADER short="LoFreq" long="LoFreq" paramId="4"/>
+      <FADER short="LoGain" long="LoGain" paramId="5"/>
+      <FADER short="LoCut" long="LoCut" paramId="6"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Phase" long="Phase" paramId="7">
+		<STEP value="0" short="0" long="0"/>
+		<STEP value="1" short="180" long="180"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="8">
+		<STEP value="1" short="In" long="In"/>
+		<STEP value="0" short="Out" long="Out"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>
