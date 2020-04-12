@@ -1,10 +1,10 @@
 # REAPER CSURF Klinke Plugin Maps
 
-This is a collection of plugin xml map files to use with klinke's MCU control surface extension.
+This is a collection of plugin XML map files to use with klinke's MCU control surface extension.
 
-I have mapped most of the UAD plugins and some Softube, Soundtoys and others.
+I have mapped most of the UAD plugins and some Plugin Alliance, Softube, Soundtoys and others.
 
-I use a BCF2000 thus I haven't tested on a Mackie MCU however I imagine that the mapping works the same.
+These should work on both a Mackie MCU and a BCF2000.
 
 # Conventions
 
@@ -29,13 +29,15 @@ On plugins that have input/output levels I've generally mapped these as follows:
 - Input: mapped to the first fader
 - Output: mapped to the last fader
 
+Sometimes I deviate from this for plugins like channel strips where quite often I'll place the input/output on faders 7 & 8 for certain pages (such as, compression and gate pages).
+
 ## EQ Frequency/Gain/Q
 
 I've tried to adhere to the same layout for EQ plugins so that:
 
 - Frequency: is the left most fader
 - Gain: is the fader to the right of Frequency
-- Q: is to the fader to the right of Gain
+- Q: is to the fader to the right of Gain OR is operated by a VPOT above Gain.
 
 I've deviated from this convention for plugins where it was more logical to follow the layout of the plugin, such as UAD's Neve 1073.
 
