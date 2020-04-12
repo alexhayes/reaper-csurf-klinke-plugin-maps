@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (aka plant-on)">Ohmicide (Ohm Force)</MAPINFO>
+  <BANK id="0" short="Ohmici" long="Ohmicide" referTo="-1" offset="0">
+    <PAGE id="0" short="Band 1" long="Band 1" referTo="-1" offset="0">
+      <FADER short="Shape" long="B1 Shape" paramId="32"/>
+      <FADER short="Body" long="B1 Body" paramId="33"/>
+      <FADER short="Gain" long="B1 Disto Gain" paramId="34"/>
+      <FADER short="Alt" long="B1 Disto Alt" paramId="37"/>
+      <FADER short="Bias" long="B1 Disto Bias" paramId="36"/>
+      <FADER short="Mix" long="B1 Dry/Wet mix" paramId="44"/>
+      <FADER short="Pan" long="Pan" paramId="42"/>
+      <FADER short="Volume" long="B1 Volume" paramId="43"/>
+      <VPOT short="Type" long="B1 Disto Type" paramId="35">
+        <STEP value="0" short="None" long="None"/>
+        <STEP value="0.00666666683" short="Porridge" long="Porridge"/>
+        <STEP value="0.0133333337" short="Soft Clip" long="Soft Clip"/>
+        <STEP value="0.0199999996" short="Harder" long="Harder"/>
+        <STEP value="0.0266666673" short="Stronger" long="Stronger"/>
+        <STEP value="0.0333333351" short="Crest" long="Crest"/>
+        <STEP value="0.0399999991" short="Hollowed" long="Hollowed"/>
+        <STEP value="0.0466666669" short="Lopsided" long="Lopsided"/>
+        <STEP value="0.0533333346" short="Attractor" long="Attractor"/>
+        <STEP value="0.0600000024" short="SmartE" long="SmartE"/>
+        <STEP value="0.0666666701" short="Sastrugi" long="Sastrugi"/>
+        <STEP value="0.0733333379" short="Puncher" long="Puncher"/>
+        <STEP value="0.0799999982" short="NoizE" long="NoizE"/>
+        <STEP value="0.086666666" short="Antipole" long="Antipole"/>
+        <STEP value="0.0933333337" short="Rotten Luck" long="Rotten Luck"/>
+        <STEP value="0.100000001" short="Vacuum" long="Vacuum"/>
+        <STEP value="0.106666669" short="Cubic" long="Cubic"/>
+        <STEP value="0.113333337" short="Rectifier" long="Rectifier"/>
+        <STEP value="0.120000005" short="Squared" long="Squared"/>
+        <STEP value="0.126666665" short="Slew 1" long="Slew 1"/>
+        <STEP value="0.13333334" short="Slew 2" long="Slew 2"/>
+        <STEP value="0.140000001" short="Random Walk" long="Random Walk"/>
+        <STEP value="0.146666676" short="Angry Mouse" long="Angry Mouse"/>
+        <STEP value="0.153333336" short="Decimator" long="Decimator"/>
+        <STEP value="0.159999996" short="Bitcrush" long="Bitcrush"/>
+        <STEP value="0.166666672" short="Jellyfish" long="Jellyfish"/>
+        <STEP value="0.173333332" short="Fractal" long="Fractal"/>
+        <STEP value="0.180000007" short="Accumulator" long="Accumulator"/>
+        <STEP value="0.186666667" short="Freezer" long="Freezer"/>
+        <STEP value="0.193333343" short="Clicks" long="Clicks"/>
+        <STEP value="0.200000003" short="Chastity Belt" long="Chastity Belt"/>
+        <STEP value="0.206666678" short="Suspender Belt" long="Suspender Belt"/>
+        <STEP value="0.213333338" short="Hole" long="Hole"/>
+        <STEP value="0.219999999" short="Hip" long="Hip"/>
+        <STEP value="0.226666674" short="Hop" long="Hop"/>
+        <STEP value="0.233333334" short="Bounce" long="Bounce"/>
+        <STEP value="0.24000001" short="Zippy" long="Zippy"/>
+        <STEP value="0.24666667" short="Valve" long="Valve"/>
+        <STEP value="0.340000004" short="3x Porridge" long="3x Porridge"/>
+        <STEP value="0.346666664" short="3x Soft Clip" long="3x Soft Clip"/>
+        <STEP value="0.353333354" short="3x Harder" long="3x Harder"/>
+        <STEP value="0.360000014" short="3x Stronger" long="3x Stronger"/>
+        <STEP value="0.366666675" short="3x Crest" long="3x Crest"/>
+        <STEP value="0.373333335" short="3x Hollowed" long="3x Hollowed"/>
+        <STEP value="0.379999995" short="3x Lopsided" long="3x Lopsided"/>
+        <STEP value="0.386666685" short="3x Attractor" long="3x Attractor"/>
+        <STEP value="0.393333346" short="3x SmartE" long="3x SmartE"/>
+        <STEP value="0.400000006" short="3x Sastrugi" long="3x Sastrugi"/>
+        <STEP value="0.406666666" short="3x Puncher" long="3x Puncher"/>
+        <STEP value="0.413333356" short="3x NoizE" long="3x NoizE"/>
+        <STEP value="0.420000017" short="3x Antipole" long="3x Antipole"/>
+        <STEP value="0.426666677" short="3x Rotten Luck" long="3x Rotten Luck"/>
+        <STEP value="0.433333337" short="3x Vacuum" long="3x Vacuum"/>
+        <STEP value="0.439999998" short="3x Cubic" long="3x Cubic"/>
+        <STEP value="0.446666688" short="3x Rectifier" long="3x Rectifier"/>
+        <STEP value="0.453333348" short="3x Squared" long="3x Squared"/>
+        <STEP value="0.460000008" short="3x Slew 1" long="3x Slew 1"/>
+        <STEP value="0.466666669" short="3x Slew 2" long="3x Slew 2"/>
+        <STEP value="0.473333359" short="3x Random Walk" long="3x Random Walk"/>
+        <STEP value="0.480000019" short="3x Angry Mouse" long="3x Angry Mouse"/>
+        <STEP value="0.486666679" short="3x Decimator" long="3x Decimator"/>
+        <STEP value="0.49333334" short="3x Bitcrush" long="3x Bitcrush"/>
+        <STEP value="0.5" short="3x Jellyfish" long="3x Jellyfish"/>
+        <STEP value="0.50666666" short="3x Fractal" long="3x Fractal"/>
+        <STEP value="0.513333321" short="3x Accumulator" long="3x Accumulator"/>
+        <STEP value="0.520000041" short="3x Freezer" long="3x Freezer"/>
+        <STEP value="0.526666701" short="3x Clicks" long="3x Clicks"/>
+        <STEP value="0.533333361" short="3x Chastity Belt" long="3x Chastity Belt"/>
+        <STEP value="0.540000021" short="3x Suspender Belt" long="3x Suspender Belt"/>
+        <STEP value="0.546666682" short="3x Hole" long="3x Hole"/>
+        <STEP value="0.553333342" short="3x Hip" long="3x Hip"/>
+        <STEP value="0.560000002" short="3x Hop" long="3x Hop"/>
+        <STEP value="0.566666663" short="3x Bounce" long="3x Bounce"/>
+        <STEP value="0.573333323" short="3x Zippy" long="3x Zippy"/>
+        <STEP value="0.580000043" short="3x Valve" long="3x Valve"/>
+        <STEP value="0.673333347" short="Odd Porridge" long="Odd Porridge"/>
+        <STEP value="0.680000007" short="Odd Soft Clip" long="Odd Soft Clip"/>
+        <STEP value="0.686666667" short="Odd Harder" long="Odd Harder"/>
+        <STEP value="0.693333328" short="Odd Stronger" long="Odd Stronger"/>
+        <STEP value="0.699999988" short="Odd Crest" long="Odd Crest"/>
+        <STEP value="0.706666708" short="Odd Hollowed" long="Odd Hollowed"/>
+        <STEP value="0.713333368" short="Odd Lopsided" long="Odd Lopsided"/>
+        <STEP value="0.720000029" short="Odd Attractor" long="Odd Attractor"/>
+        <STEP value="0.726666689" short="Odd SmartE" long="Odd SmartE"/>
+        <STEP value="0.733333349" short="Odd Sastrugi" long="Odd Sastrugi"/>
+        <STEP value="0.74000001" short="Odd Puncher" long="Odd Puncher"/>
+        <STEP value="0.74666667" short="Odd NoizE" long="Odd NoizE"/>
+        <STEP value="0.75333333" short="Odd Antipole" long="Odd Antipole"/>
+        <STEP value="0.75999999" short="Odd Rotten Luck" long="Odd Rotten Luck"/>
+        <STEP value="0.76666671" short="Odd Vacuum" long="Odd Vacuum"/>
+        <STEP value="0.773333371" short="Odd Cubic" long="Odd Cubic"/>
+        <STEP value="0.780000031" short="Odd Rectifier" long="Odd Rectifier"/>
+        <STEP value="0.786666691" short="Odd Squared" long="Odd Squared"/>
+        <STEP value="0.793333352" short="Odd Slew 1" long="Odd Slew 1"/>
+        <STEP value="0.800000012" short="Odd Slew 2" long="Odd Slew 2"/>
+        <STEP value="0.806666672" short="Odd Random Walk" long="Odd Random Walk"/>
+        <STEP value="0.813333333" short="Odd Angry Mouse" long="Odd Angry Mouse"/>
+        <STEP value="0.819999993" short="Odd Decimator" long="Odd Decimator"/>
+        <STEP value="0.826666713" short="Odd Bitcrush" long="Odd Bitcrush"/>
+        <STEP value="0.833333373" short="Odd Jellyfish" long="Odd Jellyfish"/>
+        <STEP value="0.840000033" short="Odd Fractal" long="Odd Fractal"/>
+        <STEP value="0.846666694" short="Odd Accumulator" long="Odd Accumulator"/>
+        <STEP value="0.853333354" short="Odd Freezer" long="Odd Freezer"/>
+        <STEP value="0.860000014" short="Odd Clicks" long="Odd Clicks"/>
+        <STEP value="0.866666675" short="Odd Chastity Belt" long="Odd Chastity Belt"/>
+        <STEP value="0.873333335" short="Odd Suspender Belt" long="Odd Suspender Belt"/>
+        <STEP value="0.879999995" short="Odd Hole" long="Odd Hole"/>
+        <STEP value="0.886666715" short="Odd Hip" long="Odd Hip"/>
+        <STEP value="0.893333375" short="Odd Hop" long="Odd Hop"/>
+        <STEP value="0.900000036" short="Odd Bounce" long="Odd Bounce"/>
+        <STEP value="0.906666696" short="Odd Zippy" long="Odd Zippy"/>
+        <STEP value="0.913333356" short="Odd Valve" long="Odd Valve"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Mute" long="B1 Mute" paramId="47">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Solo" long="B1 Solo" paramId="46">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="M/S" long="B1 Mid Side mode" paramId="45">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Power" long="Power/Bypass" paramId="1">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Band 1" long="Band 1" referTo="-1" offset="0">
+      <FADER short="Thresh" long="B1 Gate Threshold" paramId="38"/>
+      <FADER short="Attack" long="B1 Gate Atk Time" paramId="39"/>
+      <FADER short="Releas" long="B1 Gate Rls Time" paramId="40"/>
+      <FADER short="G8 Amt" long="B1 Gate Amount" paramId="41"/>
+      <FADER short="Fdbk" long="B1 Fdbk Amnt" paramId="16"/>
+      <FADER short="Freq" long="B1 Fdbk Freq" paramId="17"/>
+      <FADER short="Spread" long="B1 Fdbk Spread" paramId="18"/>
+      <FADER short="Xover" long="B1 Upper Freq" paramId="13"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Mute" long="B1 Mute" paramId="47">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Solo" long="B1 Solo" paramId="46">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="M/S" long="B1 Mid Side mode" paramId="45">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Power" long="Power/Bypass" paramId="1">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="2" short="Band 2" long="Band 2" referTo="-1" offset="0">
+      <FADER short="Shape" long="B2 Shape" paramId="49"/>
+      <FADER short="Body" long="B2 Body" paramId="50"/>
+      <FADER short="Gain" long="B2 Disto Gain" paramId="51"/>
+      <FADER short="Alt" long="B2 Disto Alt" paramId="54"/>
+      <FADER short="Bias" long="B2 Disto Bias" paramId="53"/>
+      <FADER short="Mix" long="B2 Dry/Wet mix" paramId="61"/>
+      <FADER short="Pan" long="Pan" paramId="59"/>
+      <FADER short="Volume" long="B2 Volume" paramId="60"/>
+      <VPOT short="Type" long="B2 Disto Type" paramId="52">
+        <STEP value="0" short="None" long="None"/>
+        <STEP value="0.00666666683" short="Porrid" long="Porridge"/>
+        <STEP value="0.0133333337" short="Soft C" long="Soft Clip"/>
+        <STEP value="0.0199999996" short="Harder" long="Harder"/>
+        <STEP value="0.0266666673" short="Strong" long="Stronger"/>
+        <STEP value="0.0333333351" short="Crest" long="Crest"/>
+        <STEP value="0.0399999991" short="Hollow" long="Hollowed"/>
+        <STEP value="0.0466666669" short="Lopsid" long="Lopsided"/>
+        <STEP value="0.0533333346" short="Attrac" long="Attractor"/>
+        <STEP value="0.0600000024" short="SmartE" long="SmartE"/>
+        <STEP value="0.0666666701" short="Sastru" long="Sastrugi"/>
+        <STEP value="0.0733333379" short="Punche" long="Puncher"/>
+        <STEP value="0.0799999982" short="NoizE" long="NoizE"/>
+        <STEP value="0.086666666" short="Antipo" long="Antipole"/>
+        <STEP value="0.0933333337" short="Rotten" long="Rotten Luck"/>
+        <STEP value="0.100000001" short="Vacuum" long="Vacuum"/>
+        <STEP value="0.106666669" short="Cubic" long="Cubic"/>
+        <STEP value="0.113333337" short="Rectif" long="Rectifier"/>
+        <STEP value="0.120000005" short="Square" long="Squared"/>
+        <STEP value="0.126666665" short="Slew 1" long="Slew 1"/>
+        <STEP value="0.13333334" short="Slew 2" long="Slew 2"/>
+        <STEP value="0.140000001" short="Random" long="Random Walk"/>
+        <STEP value="0.146666676" short="Angry " long="Angry Mouse"/>
+        <STEP value="0.153333336" short="Decima" long="Decimator"/>
+        <STEP value="0.159999996" short="Bitcru" long="Bitcrush"/>
+        <STEP value="0.166666672" short="Jellyf" long="Jellyfish"/>
+        <STEP value="0.173333332" short="Fracta" long="Fractal"/>
+        <STEP value="0.180000007" short="Accumu" long="Accumulator"/>
+        <STEP value="0.186666667" short="Freeze" long="Freezer"/>
+        <STEP value="0.193333343" short="Clicks" long="Clicks"/>
+        <STEP value="0.200000003" short="Chasti" long="Chastity Belt"/>
+        <STEP value="0.206666678" short="Suspen" long="Suspender Belt"/>
+        <STEP value="0.213333338" short="Hole" long="Hole"/>
+        <STEP value="0.219999999" short="Hip" long="Hip"/>
+        <STEP value="0.226666674" short="Hop" long="Hop"/>
+        <STEP value="0.233333334" short="Bounce" long="Bounce"/>
+        <STEP value="0.24000001" short="Zippy" long="Zippy"/>
+        <STEP value="0.24666667" short="Valve" long="Valve"/>
+        <STEP value="0.340000004" short="3x Por" long="3x Porridge"/>
+        <STEP value="0.346666664" short="3x Sof" long="3x Soft Clip"/>
+        <STEP value="0.353333354" short="3x Har" long="3x Harder"/>
+        <STEP value="0.360000014" short="3x Str" long="3x Stronger"/>
+        <STEP value="0.366666675" short="3x Cre" long="3x Crest"/>
+        <STEP value="0.373333335" short="3x Hol" long="3x Hollowed"/>
+        <STEP value="0.379999995" short="3x Lop" long="3x Lopsided"/>
+        <STEP value="0.386666685" short="3x Att" long="3x Attractor"/>
+        <STEP value="0.393333346" short="3x Sma" long="3x SmartE"/>
+        <STEP value="0.400000006" short="3x Sas" long="3x Sastrugi"/>
+        <STEP value="0.406666666" short="3x Pun" long="3x Puncher"/>
+        <STEP value="0.413333356" short="3x Noi" long="3x NoizE"/>
+        <STEP value="0.420000017" short="3x Ant" long="3x Antipole"/>
+        <STEP value="0.426666677" short="3x Rot" long="3x Rotten Luck"/>
+        <STEP value="0.433333337" short="3x Vac" long="3x Vacuum"/>
+        <STEP value="0.439999998" short="3x Cub" long="3x Cubic"/>
+        <STEP value="0.446666688" short="3x Rec" long="3x Rectifier"/>
+        <STEP value="0.453333348" short="3x Squ" long="3x Squared"/>
+        <STEP value="0.460000008" short="3x Sle" long="3x Slew 1"/>
+        <STEP value="0.466666669" short="3x Sle" long="3x Slew 2"/>
+        <STEP value="0.473333359" short="3x Ran" long="3x Random Walk"/>
+        <STEP value="0.480000019" short="3x Ang" long="3x Angry Mouse"/>
+        <STEP value="0.486666679" short="3x Dec" long="3x Decimator"/>
+        <STEP value="0.49333334" short="3x Bit" long="3x Bitcrush"/>
+        <STEP value="0.5" short="3x Jel" long="3x Jellyfish"/>
+        <STEP value="0.50666666" short="3x Fra" long="3x Fractal"/>
+        <STEP value="0.513333321" short="3x Acc" long="3x Accumulator"/>
+        <STEP value="0.520000041" short="3x Fre" long="3x Freezer"/>
+        <STEP value="0.526666701" short="3x Cli" long="3x Clicks"/>
+        <STEP value="0.533333361" short="3x Cha" long="3x Chastity Belt"/>
+        <STEP value="0.540000021" short="3x Sus" long="3x Suspender Belt"/>
+        <STEP value="0.546666682" short="3x Hol" long="3x Hole"/>
+        <STEP value="0.553333342" short="3x Hip" long="3x Hip"/>
+        <STEP value="0.560000002" short="3x Hop" long="3x Hop"/>
+        <STEP value="0.566666663" short="3x Bou" long="3x Bounce"/>
+        <STEP value="0.573333323" short="3x Zip" long="3x Zippy"/>
+        <STEP value="0.580000043" short="3x Val" long="3x Valve"/>
+        <STEP value="0.673333347" short="Odd Po" long="Odd Porridge"/>
+        <STEP value="0.680000007" short="Odd So" long="Odd Soft Clip"/>
+        <STEP value="0.686666667" short="Odd Ha" long="Odd Harder"/>
+        <STEP value="0.693333328" short="Odd St" long="Odd Stronger"/>
+        <STEP value="0.699999988" short="Odd Cr" long="Odd Crest"/>
+        <STEP value="0.706666708" short="Odd Ho" long="Odd Hollowed"/>
+        <STEP value="0.713333368" short="Odd Lo" long="Odd Lopsided"/>
+        <STEP value="0.720000029" short="Odd At" long="Odd Attractor"/>
+        <STEP value="0.726666689" short="Odd Sm" long="Odd SmartE"/>
+        <STEP value="0.733333349" short="Odd Sa" long="Odd Sastrugi"/>
+        <STEP value="0.74000001" short="Odd Pu" long="Odd Puncher"/>
+        <STEP value="0.74666667" short="Odd No" long="Odd NoizE"/>
+        <STEP value="0.75333333" short="Odd An" long="Odd Antipole"/>
+        <STEP value="0.75999999" short="Odd Ro" long="Odd Rotten Luck"/>
+        <STEP value="0.76666671" short="Odd Va" long="Odd Vacuum"/>
+        <STEP value="0.773333371" short="Odd Cu" long="Odd Cubic"/>
+        <STEP value="0.780000031" short="Odd Re" long="Odd Rectifier"/>
+        <STEP value="0.786666691" short="Odd Sq" long="Odd Squared"/>
+        <STEP value="0.793333352" short="Odd Sl" long="Odd Slew 1"/>
+        <STEP value="0.800000012" short="Odd Sl" long="Odd Slew 2"/>
+        <STEP value="0.806666672" short="Odd Ra" long="Odd Random Walk"/>
+        <STEP value="0.813333333" short="Odd An" long="Odd Angry Mouse"/>
+        <STEP value="0.819999993" short="Odd De" long="Odd Decimator"/>
+        <STEP value="0.826666713" short="Odd Bi" long="Odd Bitcrush"/>
+        <STEP value="0.833333373" short="Odd Je" long="Odd Jellyfish"/>
+        <STEP value="0.840000033" short="Odd Fr" long="Odd Fractal"/>
+        <STEP value="0.846666694" short="Odd Ac" long="Odd Accumulator"/>
+        <STEP value="0.853333354" short="Odd Fr" long="Odd Freezer"/>
+        <STEP value="0.860000014" short="Odd Cl" long="Odd Clicks"/>
+        <STEP value="0.866666675" short="Odd Ch" long="Odd Chastity Belt"/>
+        <STEP value="0.873333335" short="Odd Su" long="Odd Suspender Bel"/>
+        <STEP value="0.879999995" short="Odd Ho" long="Odd Hole"/>
+        <STEP value="0.886666715" short="Odd Hi" long="Odd Hip"/>
+        <STEP value="0.893333375" short="Odd Ho" long="Odd Hop"/>
+        <STEP value="0.900000036" short="Odd Bo" long="Odd Bounce"/>
+        <STEP value="0.906666696" short="Odd Zi" long="Odd Zippy"/>
+        <STEP value="0.913333356" short="Odd Va" long="Odd Valve"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Mute" long="B2 Mute" paramId="64">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Solo" long="B2 Solo" paramId="63">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="M/S" long="B2 Mid Side mode" paramId="62">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Power" long="Power/Bypass" paramId="1">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="3" short="Band 2" long="Band 2" referTo="-1" offset="0">
+      <FADER short="Thresh" long="B2 Gate Threshold" paramId="55"/>
+      <FADER short="Attack" long="B2 Gate Atk Time" paramId="56"/>
+      <FADER short="Releas" long="B2 Gate Rls Time" paramId="57"/>
+      <FADER short="G8 Amt" long="B2 Gate Amount" paramId="58"/>
+      <FADER short="Feedbk" long="B2 Fdbk Amnt" paramId="20"/>
+      <FADER short="Freq" long="B2 Fdbk Freq" paramId="21"/>
+      <FADER short="Spread" long="B2 Fdbk Spread" paramId="22"/>
+      <FADER short="Xover" long="B2 Upper Freq" paramId="14"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Mute" long="B2 Mute" paramId="64">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Solo" long="B2 Solo" paramId="63">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="M/S" long="B2 Mid Side mode" paramId="62">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Power" long="Power/Bypass" paramId="1">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="4" short="Band 3" long="Band 3" referTo="-1" offset="0">
+      <FADER short="Shape" long="B3 Shape" paramId="66"/>
+      <FADER short="Body" long="B3 Body" paramId="67"/>
+      <FADER short="Gain" long="B3 Disto Gain" paramId="68"/>
+      <FADER short="Alt" long="B3 Disto Alterati" paramId="71"/>
+      <FADER short="Bias" long="B3 Disto Bias" paramId="70"/>
+      <FADER short="Mix" long="B3 Dry/Wet mix" paramId="78"/>
+      <FADER short="Pan" long="Pan" paramId="76"/>
+      <FADER short="Volume" long="B3 Volume" paramId="77"/>
+      <VPOT short="Type" long="B3 Disto Type" paramId="69">
+        <STEP value="0" short="None" long="None"/>
+        <STEP value="0.00666666683" short="Porrid" long="Porridge"/>
+        <STEP value="0.0133333337" short="Soft C" long="Soft Clip"/>
+        <STEP value="0.0199999996" short="Harder" long="Harder"/>
+        <STEP value="0.0266666673" short="Strong" long="Stronger"/>
+        <STEP value="0.0333333351" short="Crest" long="Crest"/>
+        <STEP value="0.0399999991" short="Hollow" long="Hollowed"/>
+        <STEP value="0.0466666669" short="Lopsid" long="Lopsided"/>
+        <STEP value="0.0533333346" short="Attrac" long="Attractor"/>
+        <STEP value="0.0600000024" short="SmartE" long="SmartE"/>
+        <STEP value="0.0666666701" short="Sastru" long="Sastrugi"/>
+        <STEP value="0.0733333379" short="Punche" long="Puncher"/>
+        <STEP value="0.0799999982" short="NoizE" long="NoizE"/>
+        <STEP value="0.086666666" short="Antipo" long="Antipole"/>
+        <STEP value="0.0933333337" short="Rotten" long="Rotten Luck"/>
+        <STEP value="0.100000001" short="Vacuum" long="Vacuum"/>
+        <STEP value="0.106666669" short="Cubic" long="Cubic"/>
+        <STEP value="0.113333337" short="Rectif" long="Rectifier"/>
+        <STEP value="0.120000005" short="Square" long="Squared"/>
+        <STEP value="0.126666665" short="Slew 1" long="Slew 1"/>
+        <STEP value="0.13333334" short="Slew 2" long="Slew 2"/>
+        <STEP value="0.140000001" short="Random" long="Random Walk"/>
+        <STEP value="0.146666676" short="Angry " long="Angry Mouse"/>
+        <STEP value="0.153333336" short="Decima" long="Decimator"/>
+        <STEP value="0.159999996" short="Bitcru" long="Bitcrush"/>
+        <STEP value="0.166666672" short="Jellyf" long="Jellyfish"/>
+        <STEP value="0.173333332" short="Fracta" long="Fractal"/>
+        <STEP value="0.180000007" short="Accumu" long="Accumulator"/>
+        <STEP value="0.186666667" short="Freeze" long="Freezer"/>
+        <STEP value="0.193333343" short="Clicks" long="Clicks"/>
+        <STEP value="0.200000003" short="Chasti" long="Chastity Belt"/>
+        <STEP value="0.206666678" short="Suspen" long="Suspender Belt"/>
+        <STEP value="0.213333338" short="Hole" long="Hole"/>
+        <STEP value="0.219999999" short="Hip" long="Hip"/>
+        <STEP value="0.226666674" short="Hop" long="Hop"/>
+        <STEP value="0.233333334" short="Bounce" long="Bounce"/>
+        <STEP value="0.24000001" short="Zippy" long="Zippy"/>
+        <STEP value="0.24666667" short="Valve" long="Valve"/>
+        <STEP value="0.340000004" short="3x Por" long="3x Porridge"/>
+        <STEP value="0.346666664" short="3x Sof" long="3x Soft Clip"/>
+        <STEP value="0.353333354" short="3x Har" long="3x Harder"/>
+        <STEP value="0.360000014" short="3x Str" long="3x Stronger"/>
+        <STEP value="0.366666675" short="3x Cre" long="3x Crest"/>
+        <STEP value="0.373333335" short="3x Hol" long="3x Hollowed"/>
+        <STEP value="0.379999995" short="3x Lop" long="3x Lopsided"/>
+        <STEP value="0.386666685" short="3x Att" long="3x Attractor"/>
+        <STEP value="0.393333346" short="3x Sma" long="3x SmartE"/>
+        <STEP value="0.400000006" short="3x Sas" long="3x Sastrugi"/>
+        <STEP value="0.406666666" short="3x Pun" long="3x Puncher"/>
+        <STEP value="0.413333356" short="3x Noi" long="3x NoizE"/>
+        <STEP value="0.420000017" short="3x Ant" long="3x Antipole"/>
+        <STEP value="0.426666677" short="3x Rot" long="3x Rotten Luck"/>
+        <STEP value="0.433333337" short="3x Vac" long="3x Vacuum"/>
+        <STEP value="0.439999998" short="3x Cub" long="3x Cubic"/>
+        <STEP value="0.446666688" short="3x Rec" long="3x Rectifier"/>
+        <STEP value="0.453333348" short="3x Squ" long="3x Squared"/>
+        <STEP value="0.460000008" short="3x Sle" long="3x Slew 1"/>
+        <STEP value="0.466666669" short="3x Sle" long="3x Slew 2"/>
+        <STEP value="0.473333359" short="3x Ran" long="3x Random Walk"/>
+        <STEP value="0.480000019" short="3x Ang" long="3x Angry Mouse"/>
+        <STEP value="0.486666679" short="3x Dec" long="3x Decimator"/>
+        <STEP value="0.49333334" short="3x Bit" long="3x Bitcrush"/>
+        <STEP value="0.5" short="3x Jel" long="3x Jellyfish"/>
+        <STEP value="0.50666666" short="3x Fra" long="3x Fractal"/>
+        <STEP value="0.513333321" short="3x Acc" long="3x Accumulator"/>
+        <STEP value="0.520000041" short="3x Fre" long="3x Freezer"/>
+        <STEP value="0.526666701" short="3x Cli" long="3x Clicks"/>
+        <STEP value="0.533333361" short="3x Cha" long="3x Chastity Belt"/>
+        <STEP value="0.540000021" short="3x Sus" long="3x Suspender Belt"/>
+        <STEP value="0.546666682" short="3x Hol" long="3x Hole"/>
+        <STEP value="0.553333342" short="3x Hip" long="3x Hip"/>
+        <STEP value="0.560000002" short="3x Hop" long="3x Hop"/>
+        <STEP value="0.566666663" short="3x Bou" long="3x Bounce"/>
+        <STEP value="0.573333323" short="3x Zip" long="3x Zippy"/>
+        <STEP value="0.580000043" short="3x Val" long="3x Valve"/>
+        <STEP value="0.673333347" short="Odd Po" long="Odd Porridge"/>
+        <STEP value="0.680000007" short="Odd So" long="Odd Soft Clip"/>
+        <STEP value="0.686666667" short="Odd Ha" long="Odd Harder"/>
+        <STEP value="0.693333328" short="Odd St" long="Odd Stronger"/>
+        <STEP value="0.699999988" short="Odd Cr" long="Odd Crest"/>
+        <STEP value="0.706666708" short="Odd Ho" long="Odd Hollowed"/>
+        <STEP value="0.713333368" short="Odd Lo" long="Odd Lopsided"/>
+        <STEP value="0.720000029" short="Odd At" long="Odd Attractor"/>
+        <STEP value="0.726666689" short="Odd Sm" long="Odd SmartE"/>
+        <STEP value="0.733333349" short="Odd Sa" long="Odd Sastrugi"/>
+        <STEP value="0.74000001" short="Odd Pu" long="Odd Puncher"/>
+        <STEP value="0.74666667" short="Odd No" long="Odd NoizE"/>
+        <STEP value="0.75333333" short="Odd An" long="Odd Antipole"/>
+        <STEP value="0.75999999" short="Odd Ro" long="Odd Rotten Luck"/>
+        <STEP value="0.76666671" short="Odd Va" long="Odd Vacuum"/>
+        <STEP value="0.773333371" short="Odd Cu" long="Odd Cubic"/>
+        <STEP value="0.780000031" short="Odd Re" long="Odd Rectifier"/>
+        <STEP value="0.786666691" short="Odd Sq" long="Odd Squared"/>
+        <STEP value="0.793333352" short="Odd Sl" long="Odd Slew 1"/>
+        <STEP value="0.800000012" short="Odd Sl" long="Odd Slew 2"/>
+        <STEP value="0.806666672" short="Odd Ra" long="Odd Random Walk"/>
+        <STEP value="0.813333333" short="Odd An" long="Odd Angry Mouse"/>
+        <STEP value="0.819999993" short="Odd De" long="Odd Decimator"/>
+        <STEP value="0.826666713" short="Odd Bi" long="Odd Bitcrush"/>
+        <STEP value="0.833333373" short="Odd Je" long="Odd Jellyfish"/>
+        <STEP value="0.840000033" short="Odd Fr" long="Odd Fractal"/>
+        <STEP value="0.846666694" short="Odd Ac" long="Odd Accumulator"/>
+        <STEP value="0.853333354" short="Odd Fr" long="Odd Freezer"/>
+        <STEP value="0.860000014" short="Odd Cl" long="Odd Clicks"/>
+        <STEP value="0.866666675" short="Odd Ch" long="Odd Chastity Belt"/>
+        <STEP value="0.873333335" short="Odd Su" long="Odd Suspender Bel"/>
+        <STEP value="0.879999995" short="Odd Ho" long="Odd Hole"/>
+        <STEP value="0.886666715" short="Odd Hi" long="Odd Hip"/>
+        <STEP value="0.893333375" short="Odd Ho" long="Odd Hop"/>
+        <STEP value="0.900000036" short="Odd Bo" long="Odd Bounce"/>
+        <STEP value="0.906666696" short="Odd Zi" long="Odd Zippy"/>
+        <STEP value="0.913333356" short="Odd Va" long="Odd Valve"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Mute" long="B3 Mute" paramId="81">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Solo" long="B3 Solo" paramId="80">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="M/S" long="B3 Mid Side mode" paramId="79">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Power" long="Power/Bypass" paramId="1">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="5" short="Band 3" long="Band 3" referTo="-1" offset="0">
+      <FADER short="Thresh" long="B3 Gate Threshold" paramId="72"/>
+      <FADER short="Attack" long="B3 Gate Atk Time" paramId="73"/>
+      <FADER short="Releas" long="B3 Gate Rls Time" paramId="74"/>
+      <FADER short="G8 Amt" long="B3 Gate Amount" paramId="75"/>
+      <FADER short="Feedbk" long="B3 Fdbk Amnt" paramId="24"/>
+      <FADER short="B3 Fdb" long="B3 Fdbk Freq" paramId="25"/>
+      <FADER short="Spread" long="B3 Fdbk Spread" paramId="26"/>
+      <FADER short="Xover" long="B3 Upper Freq" paramId="15"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Mute" long="B3 Mute" paramId="81">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Solo" long="B3 Solo" paramId="80">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="M/S" long="B3 Mid Side mode" paramId="79">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Power" long="Power/Bypass" paramId="1">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="6" short="Band 4" long="Band 4" referTo="-1" offset="0">
+      <FADER short="Shape" long="B4 Shape" paramId="83"/>
+      <FADER short="Body" long="B4 Body" paramId="84"/>
+      <FADER short="Gain" long="B4 Disto Gain" paramId="85"/>
+      <FADER short="Alt" long="B4 Disto Alterati" paramId="88"/>
+      <FADER short="Bias" long="B4 Disto Bias" paramId="87"/>
+      <FADER short="Mix" long="B4 Dry/Wet mix" paramId="95"/>
+      <FADER short="Pan" long="Pan" paramId="93"/>
+      <FADER short="Volume" long="B4 Volume" paramId="94"/>
+      <VPOT short="Type" long="B4 Disto Type" paramId="86">
+        <STEP value="0" short="None" long="None"/>
+        <STEP value="0.00666666683" short="Porrid" long="Porridge"/>
+        <STEP value="0.0133333337" short="Soft C" long="Soft Clip"/>
+        <STEP value="0.0199999996" short="Harder" long="Harder"/>
+        <STEP value="0.0266666673" short="Strong" long="Stronger"/>
+        <STEP value="0.0333333351" short="Crest" long="Crest"/>
+        <STEP value="0.0399999991" short="Hollow" long="Hollowed"/>
+        <STEP value="0.0466666669" short="Lopsid" long="Lopsided"/>
+        <STEP value="0.0533333346" short="Attrac" long="Attractor"/>
+        <STEP value="0.0600000024" short="SmartE" long="SmartE"/>
+        <STEP value="0.0666666701" short="Sastru" long="Sastrugi"/>
+        <STEP value="0.0733333379" short="Punche" long="Puncher"/>
+        <STEP value="0.0799999982" short="NoizE" long="NoizE"/>
+        <STEP value="0.086666666" short="Antipo" long="Antipole"/>
+        <STEP value="0.0933333337" short="Rotten" long="Rotten Luck"/>
+        <STEP value="0.100000001" short="Vacuum" long="Vacuum"/>
+        <STEP value="0.106666669" short="Cubic" long="Cubic"/>
+        <STEP value="0.113333337" short="Rectif" long="Rectifier"/>
+        <STEP value="0.120000005" short="Square" long="Squared"/>
+        <STEP value="0.126666665" short="Slew 1" long="Slew 1"/>
+        <STEP value="0.13333334" short="Slew 2" long="Slew 2"/>
+        <STEP value="0.140000001" short="Random" long="Random Walk"/>
+        <STEP value="0.146666676" short="Angry " long="Angry Mouse"/>
+        <STEP value="0.153333336" short="Decima" long="Decimator"/>
+        <STEP value="0.159999996" short="Bitcru" long="Bitcrush"/>
+        <STEP value="0.166666672" short="Jellyf" long="Jellyfish"/>
+        <STEP value="0.173333332" short="Fracta" long="Fractal"/>
+        <STEP value="0.180000007" short="Accumu" long="Accumulator"/>
+        <STEP value="0.186666667" short="Freeze" long="Freezer"/>
+        <STEP value="0.193333343" short="Clicks" long="Clicks"/>
+        <STEP value="0.200000003" short="Chasti" long="Chastity Belt"/>
+        <STEP value="0.206666678" short="Suspen" long="Suspender Belt"/>
+        <STEP value="0.213333338" short="Hole" long="Hole"/>
+        <STEP value="0.219999999" short="Hip" long="Hip"/>
+        <STEP value="0.226666674" short="Hop" long="Hop"/>
+        <STEP value="0.233333334" short="Bounce" long="Bounce"/>
+        <STEP value="0.24000001" short="Zippy" long="Zippy"/>
+        <STEP value="0.24666667" short="Valve" long="Valve"/>
+        <STEP value="0.340000004" short="3x Por" long="3x Porridge"/>
+        <STEP value="0.346666664" short="3x Sof" long="3x Soft Clip"/>
+        <STEP value="0.353333354" short="3x Har" long="3x Harder"/>
+        <STEP value="0.360000014" short="3x Str" long="3x Stronger"/>
+        <STEP value="0.366666675" short="3x Cre" long="3x Crest"/>
+        <STEP value="0.373333335" short="3x Hol" long="3x Hollowed"/>
+        <STEP value="0.379999995" short="3x Lop" long="3x Lopsided"/>
+        <STEP value="0.386666685" short="3x Att" long="3x Attractor"/>
+        <STEP value="0.393333346" short="3x Sma" long="3x SmartE"/>
+        <STEP value="0.400000006" short="3x Sas" long="3x Sastrugi"/>
+        <STEP value="0.406666666" short="3x Pun" long="3x Puncher"/>
+        <STEP value="0.413333356" short="3x Noi" long="3x NoizE"/>
+        <STEP value="0.420000017" short="3x Ant" long="3x Antipole"/>
+        <STEP value="0.426666677" short="3x Rot" long="3x Rotten Luck"/>
+        <STEP value="0.433333337" short="3x Vac" long="3x Vacuum"/>
+        <STEP value="0.439999998" short="3x Cub" long="3x Cubic"/>
+        <STEP value="0.446666688" short="3x Rec" long="3x Rectifier"/>
+        <STEP value="0.453333348" short="3x Squ" long="3x Squared"/>
+        <STEP value="0.460000008" short="3x Sle" long="3x Slew 1"/>
+        <STEP value="0.466666669" short="3x Sle" long="3x Slew 2"/>
+        <STEP value="0.473333359" short="3x Ran" long="3x Random Walk"/>
+        <STEP value="0.480000019" short="3x Ang" long="3x Angry Mouse"/>
+        <STEP value="0.486666679" short="3x Dec" long="3x Decimator"/>
+        <STEP value="0.49333334" short="3x Bit" long="3x Bitcrush"/>
+        <STEP value="0.5" short="3x Jel" long="3x Jellyfish"/>
+        <STEP value="0.50666666" short="3x Fra" long="3x Fractal"/>
+        <STEP value="0.513333321" short="3x Acc" long="3x Accumulator"/>
+        <STEP value="0.520000041" short="3x Fre" long="3x Freezer"/>
+        <STEP value="0.526666701" short="3x Cli" long="3x Clicks"/>
+        <STEP value="0.533333361" short="3x Cha" long="3x Chastity Belt"/>
+        <STEP value="0.540000021" short="3x Sus" long="3x Suspender Belt"/>
+        <STEP value="0.546666682" short="3x Hol" long="3x Hole"/>
+        <STEP value="0.553333342" short="3x Hip" long="3x Hip"/>
+        <STEP value="0.560000002" short="3x Hop" long="3x Hop"/>
+        <STEP value="0.566666663" short="3x Bou" long="3x Bounce"/>
+        <STEP value="0.573333323" short="3x Zip" long="3x Zippy"/>
+        <STEP value="0.580000043" short="3x Val" long="3x Valve"/>
+        <STEP value="0.673333347" short="Odd Po" long="Odd Porridge"/>
+        <STEP value="0.680000007" short="Odd So" long="Odd Soft Clip"/>
+        <STEP value="0.686666667" short="Odd Ha" long="Odd Harder"/>
+        <STEP value="0.693333328" short="Odd St" long="Odd Stronger"/>
+        <STEP value="0.699999988" short="Odd Cr" long="Odd Crest"/>
+        <STEP value="0.706666708" short="Odd Ho" long="Odd Hollowed"/>
+        <STEP value="0.713333368" short="Odd Lo" long="Odd Lopsided"/>
+        <STEP value="0.720000029" short="Odd At" long="Odd Attractor"/>
+        <STEP value="0.726666689" short="Odd Sm" long="Odd SmartE"/>
+        <STEP value="0.733333349" short="Odd Sa" long="Odd Sastrugi"/>
+        <STEP value="0.74000001" short="Odd Pu" long="Odd Puncher"/>
+        <STEP value="0.74666667" short="Odd No" long="Odd NoizE"/>
+        <STEP value="0.75333333" short="Odd An" long="Odd Antipole"/>
+        <STEP value="0.75999999" short="Odd Ro" long="Odd Rotten Luck"/>
+        <STEP value="0.76666671" short="Odd Va" long="Odd Vacuum"/>
+        <STEP value="0.773333371" short="Odd Cu" long="Odd Cubic"/>
+        <STEP value="0.780000031" short="Odd Re" long="Odd Rectifier"/>
+        <STEP value="0.786666691" short="Odd Sq" long="Odd Squared"/>
+        <STEP value="0.793333352" short="Odd Sl" long="Odd Slew 1"/>
+        <STEP value="0.800000012" short="Odd Sl" long="Odd Slew 2"/>
+        <STEP value="0.806666672" short="Odd Ra" long="Odd Random Walk"/>
+        <STEP value="0.813333333" short="Odd An" long="Odd Angry Mouse"/>
+        <STEP value="0.819999993" short="Odd De" long="Odd Decimator"/>
+        <STEP value="0.826666713" short="Odd Bi" long="Odd Bitcrush"/>
+        <STEP value="0.833333373" short="Odd Je" long="Odd Jellyfish"/>
+        <STEP value="0.840000033" short="Odd Fr" long="Odd Fractal"/>
+        <STEP value="0.846666694" short="Odd Ac" long="Odd Accumulator"/>
+        <STEP value="0.853333354" short="Odd Fr" long="Odd Freezer"/>
+        <STEP value="0.860000014" short="Odd Cl" long="Odd Clicks"/>
+        <STEP value="0.866666675" short="Odd Ch" long="Odd Chastity Belt"/>
+        <STEP value="0.873333335" short="Odd Su" long="Odd Suspender Bel"/>
+        <STEP value="0.879999995" short="Odd Ho" long="Odd Hole"/>
+        <STEP value="0.886666715" short="Odd Hi" long="Odd Hip"/>
+        <STEP value="0.893333375" short="Odd Ho" long="Odd Hop"/>
+        <STEP value="0.900000036" short="Odd Bo" long="Odd Bounce"/>
+        <STEP value="0.906666696" short="Odd Zi" long="Odd Zippy"/>
+        <STEP value="0.913333356" short="Odd Va" long="Odd Valve"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Mute" long="B4 Mute" paramId="98">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Solo" long="B4 Solo" paramId="97">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="M/S" long="B4 Mid Side mode" paramId="96">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Power" long="Power/Bypass" paramId="1">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="7" short="Band 4" long="Band 4" referTo="-1" offset="0">
+      <FADER short="Thresh" long="B4 Gate Threshold" paramId="89"/>
+      <FADER short="Attack" long="B4 Gate Atk Time" paramId="90"/>
+      <FADER short="Releas" long="B4 Gate Rls Time" paramId="91"/>
+      <FADER short="G8 Amt" long="B4 Gate Amount" paramId="92"/>
+      <FADER short="Feedbk" long="B4 Fdbk Amnt" paramId="28"/>
+      <FADER short="Freq" long="B4 Fdbk Freq" paramId="29"/>
+      <FADER short="Spread" long="B4 Fdbk Spread" paramId="30"/>
+      <FADER short="Master" long="Master Vol" paramId="3"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Mute" long="B4 Mute" paramId="98">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Solo" long="B4 Solo" paramId="97">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="M/S" long="B4 Mid Side mode" paramId="96">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Power" long="Power/Bypass" paramId="1">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

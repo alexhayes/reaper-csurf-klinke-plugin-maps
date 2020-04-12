@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="Freq" long="Fundamental" paramId="1"/>
+      <FADER short="BndWdh" long="Bandwidth" paramId="2"/>
+      <FADER short="Range" long="Range" paramId="5"/>
+      <FADER short="Reduc" long="Reduction" paramId="7"/>
+      <FADER short="Thresh" long="Threshold" paramId="3"/>
+      <FADER short="Releas" long="Release" paramId="6"/>
+      <FADER short="Knee" long="Knee Type" paramId="10"/>
+      <FADER paramId="-1"/>
+      <VPOT short="Solo" long="Audition" paramId="8">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Ext" long="External (3+4)" paramId="9">
+        <STEP value="0" short="Int" long="Internal"/>
+        <STEP value="1" short="Ext" long="External"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Power" long="Master Bypass" paramId="0">
+        <STEP value="0" short="On" long="On"/>
+        <STEP value="1" short="Off" long="Off"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER short="Auditi" long="Audition" paramId="8"/>
+      <FADER short="Extern" long="External (3+4)" paramId="9"/>
+      <FADER short="Knee T" long="Knee Type" paramId="10"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

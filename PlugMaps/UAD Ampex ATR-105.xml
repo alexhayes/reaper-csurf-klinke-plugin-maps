@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
 <PLUGMAP version="1">
   <MAPINFO creator="Alex Hayes (aka plant-on)">UAD Ampex ATR-105</MAPINFO>
   <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
@@ -12,35 +13,14 @@
       <FADER short="Head" long="Head Width" paramId="8"/>
       <FADER paramId="-1"/>
       <FADER short="Repro" long="L Repro Level" paramId="2"/>
-      <VPOT short="Meter" long="Meter" paramId="37">
-        <STEP value="0" short="In" long="Input"/>
-        <STEP value="1" short="Out" long="Output"/>
-      </VPOT>
-      <VPOT short="VU/Pk" long="VU/Peak Meter" paramId="38">
-        <STEP value="0" short="VU" long="VU"/>
-        <STEP value="1" short="Pk" long="Peak"/>
-      </VPOT>
-      <VPOT short="Noise" long="Noise" paramId="20">
-        <STEP value="0" short="Off" long="Off"/>
-        <STEP value="1" short="On" long="On"/>
-      </VPOT>
-      <VPOT short="Transf" long="Transformer" paramId="28">
-        <STEP value="0" short="Off" long="Off"/>
-        <STEP value="1" short="On" long="On"/>
-      </VPOT>
-      <VPOT short="WowFlt" long="Wow &amp; Flutter" paramId="23">
-        <STEP value="0" short="Off" long="Off"/>
-        <STEP value="1" short="On" long="On"/>
-      </VPOT>
-      <VPOT short="Xtalk" long="Crosstalk" paramId="26">
-        <STEP value="0" short="Off" long="Off"/>
-        <STEP value="1" short="On" long="On"/>
-      </VPOT>
       <VPOT paramId="-1"/>
-      <VPOT short="Power" long="Power" paramId="39">
-        <STEP value="0" short="Off" long="Off"/>
-        <STEP value="1" short="On" long="On"/>
-      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
     </PAGE>
     <PAGE id="1" short="Right" long="Right" referTo="-1" offset="0">
       <FADER short="Rec" long="R Rec Level" paramId="1"/>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="Input" long="Input" paramId="4"/>
+      <FADER short="Attack" long="Attack" paramId="5"/>
+      <FADER short="Releas" long="Release" paramId="6"/>
+      <FADER short="Ratio" long="Ratio" paramId="1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Mix" long="Mix" paramId="8"/>
+      <FADER short="Output" long="Output" paramId="7"/>
+      <VPOT short="Headro" long="Headroom" paramId="9">
+        <STEP value="0" short="4 dB" long="4 dB"/>
+        <STEP value="0.166666672" short="8 dB" long="8 dB"/>
+        <STEP value="0.333333343" short="12 dB" long="12 dB"/>
+        <STEP value="0.5" short="16 dB" long="16 dB"/>
+        <STEP value="0.666666687" short="20 dB" long="20 dB"/>
+        <STEP value="0.833333313" short="24 dB" long="24 dB"/>
+        <STEP value="1" short="28 dB" long="28 dB"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Detect" long="Detector" paramId="2">
+        <STEP value="0" short="Norm" long="Norm"/>
+        <STEP value="0.142857149" short="HP" long="HP"/>
+        <STEP value="0.285714298" short="Emp" long="Emp"/>
+        <STEP value="0.428571433" short="HP+Emp" long="HP+Emp"/>
+        <STEP value="0.571428597" short="Link" long="Link"/>
+        <STEP value="0.714285731" short="HP+Lin" long="HP+Link"/>
+        <STEP value="0.857142866" short="Emp+Li" long="Emp+Link"/>
+        <STEP value="1" short="HP+Emp" long="HP+Emp+Link"/>
+      </VPOT>
+      <VPOT short="Audio" long="Audio" paramId="3">
+        <STEP value="0" short="Norm" long="Norm"/>
+        <STEP value="0.200000003" short="HP" long="HP"/>
+        <STEP value="0.400000006" short="Dist 2" long="Dist 2"/>
+        <STEP value="0.600000024" short="HP+Dis" long="HP+Dist 2"/>
+        <STEP value="0.800000012" short="Dist 3" long="Dist 3"/>
+        <STEP value="1" short="HP+Dis" long="HP+Dist 3"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="10">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="CH1" long="Channel 1" referTo="-1" offset="0">
+      <FADER short="In" long="Ch1Input" paramId="0"/>
+      <FADER short="Thresh" long="Threshold" paramId="5"/>
+      <FADER short="Filter" long="Filter" paramId="6"/>
+      <FADER short="Attack" long="Attack" paramId="7"/>
+      <FADER short="Relese" long="Release" paramId="8"/>
+      <FADER paramId="-1"/>
+      <FADER short="Level" long="Tranny Level" paramId="9"/>
+      <FADER short="Out" long="Output" paramId="4"/>
+      <VPOT short="Comp" long="Comp Type" paramId="1">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="0.142857149" short="BUSS" long="BUSS"/>
+        <STEP value="0.285714298" short="G Purp" long="G Purpose"/>
+        <STEP value="0.428571433" short="Tracki" long="Tracking"/>
+        <STEP value="0.571428597" short="SPANK" long="SPANK"/>
+        <STEP value="0.714285731" short="BUSS+S" long="BUSS+SPK"/>
+        <STEP value="0.857142866" short="GP+SPK" long="GP+SPK"/>
+        <STEP value="1" short="Trkng+" long="Trkng+SPK"/>
+      </VPOT>
+      <VPOT short="Warm" long="Warmth" paramId="2">
+        <STEP value="0" short="0" long="0"/>
+        <STEP value="0.142857149" short="1" long="1"/>
+        <STEP value="0.285714298" short="2" long="2"/>
+        <STEP value="0.428571433" short="3" long="3"/>
+        <STEP value="0.571428597" short="4" long="4"/>
+        <STEP value="0.714285731" short="5" long="5"/>
+        <STEP value="0.857142866" short="6" long="6"/>
+        <STEP value="1" short="7" long="7"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="CtrLnk" long="CtrlLink" paramId="21">
+        <STEP value="0" short="UnLink" long="UnLinked"/>
+        <STEP value="1" short="Linked" long="Linked"/>
+      </VPOT>
+      <VPOT short="CmpLnk" long="CompLink" paramId="20">
+        <STEP value="0" short="UnLink" long="UnLinked"/>
+        <STEP value="1" short="Linked" long="Linked"/>
+      </VPOT>
+      <VPOT short="Tranny" long="Tranny" paramId="3">
+        <STEP value="0" short="ENABLE" long="ENABLE"/>
+        <STEP value="0.5" short="TRANNY" long="TRANNY"/>
+        <STEP value="1" short="BYPASS" long="BYPASS"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="22">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="CH2" long="Channel 2" referTo="-1" offset="0">
+      <FADER short="In" long="Input" paramId="10"/>
+      <FADER short="Thresh" long="Threshold" paramId="15"/>
+      <FADER short="Filter" long="Filter" paramId="16"/>
+      <FADER short="Attack" long="Attack" paramId="17"/>
+      <FADER short="Relese" long="Release" paramId="18"/>
+      <FADER paramId="-1"/>
+      <FADER short="Level" long="Tranny Level" paramId="19"/>
+      <FADER short="Out" long="Output" paramId="14"/>
+      <VPOT short="Comp" long="Comp Type" paramId="11">
+        <STEP value="0.285714298" short="G Purp" long="G Purpose"/>
+        <STEP value="0.428571433" short="Tracki" long="Tracking"/>
+        <STEP value="0.571428597" short="SPANK" long="SPANK"/>
+        <STEP value="0.714285731" short="Buss+S" long="Buss+SPK"/>
+      </VPOT>
+      <VPOT short="Warm" long="Warmth" paramId="12">
+        <STEP value="0" short="0" long="0"/>
+        <STEP value="0.142857149" short="1" long="1"/>
+        <STEP value="0.285714298" short="2" long="2"/>
+        <STEP value="0.428571433" short="3" long="3"/>
+        <STEP value="0.571428597" short="4" long="4"/>
+        <STEP value="0.714285731" short="5" long="5"/>
+        <STEP value="0.857142866" short="6" long="6"/>
+        <STEP value="1" short="7" long="7"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="CtrLnk" long="CtrlLink" paramId="21">
+        <STEP value="0" short="UnLink" long="UnLinked"/>
+        <STEP value="1" short="Linked" long="Linked"/>
+      </VPOT>
+      <VPOT short="CmpLnk" long="CompLink" paramId="20">
+        <STEP value="0" short="UnLink" long="UnLinked"/>
+        <STEP value="1" short="Linked" long="Linked"/>
+      </VPOT>
+      <VPOT short="Tranny" long="Tranny" paramId="13">
+        <STEP value="0" short="ENABLE" long="ENABLE"/>
+        <STEP value="0.5" short="TRANNY" long="TRANNY"/>
+        <STEP value="1" short="BYPASS" long="BYPASS"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="22">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

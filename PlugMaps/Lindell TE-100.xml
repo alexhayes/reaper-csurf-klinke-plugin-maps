@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="Lindel" long="Lindel TE-100" referTo="-1" offset="0">
+    <PAGE id="0" short="BndFlt" long="Band Filter" referTo="-1" offset="0">
+      <FADER short="Gain" long="Low Band Gain" paramId="9"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Gain" long="High Band Gain" paramId="13"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT short="LoMode" long="Low Band Mode" paramId="8">
+        <STEP value="0" short="Boost" long="Boost"/>
+        <STEP value="0.5" short="Lin" long="Lin"/>
+        <STEP value="1" short="Atten" long="Atten"/>
+      </VPOT>
+      <VPOT short="Lower" long="Low Band Lower " paramId="6">
+        <STEP value="0" short="60Hz" long="60Hz"/>
+        <STEP value="0.200000003" short="110Hz" long="110Hz"/>
+        <STEP value="0.400000006" short="180Hz" long="180Hz"/>
+        <STEP value="0.600000024" short="300Hz" long="300Hz"/>
+        <STEP value="0.800000012" short="420Hz" long="420Hz"/>
+        <STEP value="1" short="600Hz" long="600Hz"/>
+      </VPOT>
+      <VPOT short="Upper" long="Low Band Upper " paramId="7">
+        <STEP value="0" short="300Hz" long="300Hz"/>
+        <STEP value="0.200000003" short="500Hz" long="500Hz"/>
+        <STEP value="0.400000006" short="850Hz" long="850Hz"/>
+        <STEP value="0.600000024" short="1.2kHz" long="1.2kHz"/>
+        <STEP value="0.800000012" short="1.7kHz" long="1.7kHz"/>
+        <STEP value="1" short="2.4kHz" long="2.4kHz"/>
+      </VPOT>
+      <VPOT short="HiMode" long="High Band Mode" paramId="12">
+        <STEP value="0" short="Boost" long="Boost"/>
+        <STEP value="0.5" short="Lin" long="Lin"/>
+        <STEP value="1" short="Atten" long="Atten"/>
+      </VPOT>
+      <VPOT short="Lower" long="High Band Lower" paramId="10">
+        <STEP value="0" short="600Hz" long="600Hz"/>
+        <STEP value="0.200000003" short="850Hz" long="850Hz"/>
+        <STEP value="0.400000006" short="1.2kHz" long="1.2kHz"/>
+        <STEP value="0.600000024" short="1.7kHz" long="1.7kHz"/>
+        <STEP value="0.800000012" short="2.4kHz" long="2.4kHz"/>
+        <STEP value="1" short="3.2kHz" long="3.2kHz"/>
+      </VPOT>
+      <VPOT short="Upper" long="High Band Upper" paramId="11">
+        <STEP value="0" short="2.4kHz" long="2.4kHz"/>
+        <STEP value="0.200000003" short="3.2kHz" long="3.2kHz"/>
+        <STEP value="0.400000006" short="4.8kHz" long="4.8kHz"/>
+        <STEP value="0.600000024" short="6kHz" long="6kHz"/>
+        <STEP value="0.800000012" short="9kHz" long="9kHz"/>
+        <STEP value="1" short="13kHz" long="13kHz"/>
+      </VPOT>
+      <VPOT short="EQ" long="EQ" paramId="20">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="21">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER short="60HCut" long="Low Atten. Gain" paramId="5"/>
+      <FADER paramId="-1"/>
+      <FADER short="Gain" long="Low Boost Gain" paramId="2"/>
+      <FADER paramId="-1"/>
+      <FADER short="10kCut" long="High Atten. Gai" paramId="19"/>
+      <FADER paramId="-1"/>
+      <FADER short="Gain" long="High Boost Gain" paramId="16"/>
+      <FADER paramId="-1"/>
+      <VPOT short="LowCut" long="Low Cut Freq" paramId="3">
+        <STEP value="0" short="Lin" long="Lin"/>
+        <STEP value="0.25" short="40Hz" long="40Hz"/>
+        <STEP value="0.5" short="60Hz" long="60Hz"/>
+        <STEP value="0.75" short="85Hz" long="85Hz"/>
+        <STEP value="1" short="125Hz" long="125Hz"/>
+      </VPOT>
+      <VPOT short="Slope" long="Low Cut Slope" paramId="4">
+        <STEP value="0" short="12 dB/" long="12 dB/Octave"/>
+        <STEP value="1" short="24 dB/" long="24 dB/Octave"/>
+      </VPOT>
+      <VPOT short="LoBost" long="Low Boost Freq" paramId="0">
+        <STEP value="0" short="Lin" long="Lin"/>
+        <STEP value="0.25" short="85Hz" long="85Hz"/>
+        <STEP value="0.5" short="170Hz" long="170Hz"/>
+        <STEP value="0.75" short="340Hz" long="340Hz"/>
+        <STEP value="1" short="680Hz" long="680Hz"/>
+      </VPOT>
+      <VPOT short="Slope" long="Low Boost Slope" paramId="1">
+        <STEP value="0" short="6 dB/O" long="6 dB/Octave"/>
+        <STEP value="1" short="12 dB/" long="12 dB/Octave"/>
+      </VPOT>
+      <VPOT short="HiCut" long="High Cut Freq" paramId="17">
+        <STEP value="0" short="6.5kHz" long="6.5kHz"/>
+        <STEP value="0.25" short="8kHz" long="8kHz"/>
+        <STEP value="0.5" short="10kHz" long="10kHz"/>
+        <STEP value="0.75" short="12kHz" long="12kHz"/>
+        <STEP value="1" short="Lin" long="Lin"/>
+      </VPOT>
+      <VPOT short="Slope" long="High Cut Slope" paramId="18">
+        <STEP value="0" short="12 dB/" long="12 dB/Octave"/>
+        <STEP value="1" short="24 dB/" long="24 dB/Octave"/>
+      </VPOT>
+      <VPOT short="HiBost" long="High Boost Freq" paramId="14">
+        <STEP value="0" short="2.5kHz" long="2.5kHz"/>
+        <STEP value="0.25" short="4kHz" long="4kHz"/>
+        <STEP value="0.5" short="6.5kHz" long="6.5kHz"/>
+        <STEP value="0.75" short="10kHz" long="10kHz"/>
+        <STEP value="1" short="Lin" long="Lin"/>
+      </VPOT>
+      <VPOT short="Slope" long="High Boost Slop" paramId="15">
+        <STEP value="0" short="6 dB/O" long="6 dB/Octave"/>
+        <STEP value="1" short="12 dB/" long="12 dB/Octave"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="2" short="Page 3" long="Page 3" referTo="-1" offset="0">
+      <FADER short="High B" long="High Boost Gain" paramId="16"/>
+      <FADER short="High C" long="High Cut Freq" paramId="17"/>
+      <FADER short="High C" long="High Cut Slope" paramId="18"/>
+      <FADER short="High A" long="High Atten. Gai" paramId="19"/>
+      <FADER short="EQ" long="EQ" paramId="20"/>
+      <FADER short="In" long="In" paramId="21"/>
+      <FADER short="In Lev" long="In Level" paramId="22"/>
+      <FADER short="Out Le" long="Out Level" paramId="23"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

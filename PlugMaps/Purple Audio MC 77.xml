@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Left" long="Left" referTo="-1" offset="0">
+      <FADER short="Input " long="Input L" paramId="15"/>
+      <FADER short="Attack" long="Attack L" paramId="17"/>
+      <FADER short="Releas" long="Release" paramId="18"/>
+      <FADER short="Hdroom" long="Headroom" paramId="5"/>
+      <FADER short="HP" long="HP" paramId="4"/>
+      <FADER short="Mono" long="Monomaker" paramId="2"/>
+      <FADER short="Width" long="Stereo Width" paramId="3"/>
+      <FADER short="Output" long="Output L" paramId="16"/>
+      <VPOT short="IO Lnk" long="IO-Link" paramId="10">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Ratio " long="Ratio L" paramId="19">
+        <STEP value="0" short="None" long="No Butto"/>
+        <STEP value="0.0666666701" short="4" long="Ratio 4"/>
+        <STEP value="0.13333334" short="8" long="Ratio 8"/>
+        <STEP value="0.200000003" short="4+8" long="Ratio 4+8"/>
+        <STEP value="0.266666681" short="12" long="Ratio 12"/>
+        <STEP value="0.400000006" short="8+12" long="Ratio 8+12"/>
+        <STEP value="0.466666669" short="4+8+12" long="Ratio 4+8+12"/>
+        <STEP value="0.533333361" short="Ratio " long="Ratio 20"/>
+        <STEP value="0.800000012" short="12+20" long="Ratio 12+20"/>
+        <STEP value="0.933333337" short="8+12+2" long="Ratio 8+12+20"/>
+        <STEP value="1" short="All Bu" long="All Butt"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Link" long="Link" paramId="9">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="0.5" short="Std" long="Std"/>
+        <STEP value="1" short="Prop" long="Prop"/>
+      </VPOT>
+      <VPOT short="M/S" long="M/S" paramId="1">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="MetrIO" long="Meter IO" paramId="21">
+        <STEP value="0" short="OUT" long="OUT"/>
+        <STEP value="1" short="IN" long="IN"/>
+      </VPOT>
+      <VPOT short="Meter" long="Meter L" paramId="20">
+        <STEP value="0" short="I/O" long="I/O"/>
+        <STEP value="1" short="GR" long="GR"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="0">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Right" long="Right" referTo="-1" offset="0">
+      <FADER short="Input " long="Input R" paramId="24"/>
+      <FADER short="Attack" long="Attack R" paramId="26"/>
+      <FADER short="RelR" long="RelR" paramId="27"/>
+      <FADER short="Insert" long="Insert" paramId="11"/>
+      <FADER short="Channe" long="Channel" paramId="12"/>
+      <FADER short="St Mod" long="St Mode" paramId="13"/>
+      <FADER short="Moni" long="Moni" paramId="14"/>
+      <FADER short="Output" long="Output R" paramId="25"/>
+      <VPOT short="IO-Lin" long="IO-Link" paramId="10">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Ratio " long="Ratio R" paramId="28">
+        <STEP value="0" short="No But" long="No Butto"/>
+        <STEP value="0.0666666701" short="Ratio " long="Ratio 4"/>
+        <STEP value="0.200000003" short="Ratio " long="Ratio 4 "/>
+        <STEP value="0.466666669" short="Ratio " long="Ratio 4 "/>
+        <STEP value="1" short="All Bu" long="All Butt"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Link" long="Link" paramId="9">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="0.5" short="Std" long="Std"/>
+        <STEP value="1" short="Prop" long="Prop"/>
+      </VPOT>
+      <VPOT short="M/S" long="M/S" paramId="1">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="MioR" long="MioR" paramId="30">
+        <STEP value="0" short="OUT" long="OUT"/>
+        <STEP value="1" short="IN" long="IN"/>
+      </VPOT>
+      <VPOT short="ModR" long="ModR" paramId="29">
+        <STEP value="0" short="I/O" long="I/O"/>
+        <STEP value="1" short="GR" long="GR"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="0">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="2" short="" long="" referTo="-1" offset="0">
+      <FADER short="Output" long="Output L" paramId="16"/>
+      <FADER short="Attack" long="Attack L" paramId="17"/>
+      <FADER short="RelL" long="RelL" paramId="18"/>
+      <FADER short="Ratio " long="Ratio L" paramId="19"/>
+      <FADER short="ModL" long="ModL" paramId="20"/>
+      <FADER short="MioL" long="MioL" paramId="21"/>
+      <FADER short="Bypass" long="Bypass L" paramId="22"/>
+      <FADER short="Power " long="Power L" paramId="23"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="" long="" referTo="-1" offset="0">
+      <FADER short="Input " long="Input R" paramId="24"/>
+      <FADER short="Output" long="Output R" paramId="25"/>
+      <FADER short="Attack" long="Attack R" paramId="26"/>
+      <FADER short="RelR" long="RelR" paramId="27"/>
+      <FADER short="Ratio " long="Ratio R" paramId="28"/>
+      <FADER short="ModR" long="ModR" paramId="29"/>
+      <FADER short="MioR" long="MioR" paramId="30"/>
+      <FADER short="Bypass" long="Bypass R" paramId="31"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="" long="" referTo="-1" offset="0">
+      <FADER short="Power " long="Power R" paramId="32"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

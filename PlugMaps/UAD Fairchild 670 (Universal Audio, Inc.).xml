@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (aka plant-on)">UAD Fairchild 670 (Universal Audio, Inc.)</MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Left" long="Left/Lat" referTo="-1" offset="0">
+      <FADER short="Gain" long="Gain - Left" paramId="1"/>
+      <FADER short="Thresh" long="Threshold - Left" paramId="2"/>
+      <FADER short="Time" long="Time Left/Lat" paramId="3"/>
+      <FADER short="HPF" long="Sidechain HPF Lef" paramId="4"/>
+      <FADER short="Bal" long="Balance Left" paramId="5"/>
+      <FADER short="DC" long="DC Threshold Left" paramId="6"/>
+      <FADER short="Mix" long="Mix" paramId="19"/>
+      <FADER short="Output" long="Output Left" paramId="7"/>
+      <VPOT short="AGC" long="AGC Matrix" paramId="16">
+        <STEP value="0" short="L-R" long="L-R - Stereo"/>
+        <STEP value="1" short="L-V" long="L-V - Mid/Side"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="SC" long="SC Link" paramId="17">
+        <STEP value="0" short="Unlink" long="Unlink"/>
+        <STEP value="1" short="Link" long="Link"/>
+      </VPOT>
+      <VPOT short="Ctrl" long="Ctrl Link" paramId="18">
+        <STEP value="0" short="Unlink" long="Unlink"/>
+        <STEP value="1" short="Link" long="Link"/>
+      </VPOT>
+      <VPOT short="Headrm" long="Headroom" paramId="20">
+        <STEP value="0" short="4 dB" long="4 dB"/>
+        <STEP value="0.166666672" short="8 dB" long="8 dB"/>
+        <STEP value="0.333333343" short="12 dB" long="12 dB"/>
+        <STEP value="0.5" short="16 dB" long="16 dB"/>
+        <STEP value="0.666666687" short="20 dB" long="20 dB"/>
+        <STEP value="0.833333313" short="24 dB" long="24 dB"/>
+        <STEP value="1" short="28 dB" long="28 dB"/>
+      </VPOT>
+      <VPOT short="Meter" long="Meter" paramId="0">
+        <STEP value="0" short="In" long="In"/>
+        <STEP value="0.5" short="GR" long="GR"/>
+        <STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="21">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Right" long="Right/Vert" referTo="-1" offset="0">
+      <FADER short="Gain" long="Gain Right" paramId="9"/>
+      <FADER short="Thresh" long="Threshold Right" paramId="10"/>
+      <FADER short="Time" long="Time Right" paramId="11"/>
+      <FADER short="HPF" long="Sidechain HPF Rig" paramId="12"/>
+      <FADER short="Bal" long="Balence Right" paramId="13"/>
+      <FADER short="DC" long="DC Threshold Righ" paramId="14"/>
+      <FADER short="Mix" long="Mix" paramId="19"/>
+      <FADER short="Output" long="Output Right" paramId="15"/>
+      <VPOT short="AGC" long="AGC Matrix" paramId="16">
+        <STEP value="0" short="L-R" long="L-R - Stereo"/>
+        <STEP value="1" short="L-V" long="L-V - Mid/Side"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="SC" long="SC Link" paramId="17">
+        <STEP value="0" short="Unlink" long="Unlink"/>
+        <STEP value="1" short="Link" long="Link"/>
+      </VPOT>
+      <VPOT short="Ctrl" long="Ctrl Link" paramId="18">
+        <STEP value="0" short="Unlink" long="Unlink"/>
+        <STEP value="1" short="Link" long="Link"/>
+      </VPOT>
+      <VPOT short="Headrm" long="Headroom" paramId="20">
+        <STEP value="0" short="4 dB" long="4 dB"/>
+        <STEP value="0.166666672" short="8 dB" long="8 dB"/>
+        <STEP value="0.333333343" short="12 dB" long="12 dB"/>
+        <STEP value="0.5" short="16 dB" long="16 dB"/>
+        <STEP value="0.666666687" short="20 dB" long="20 dB"/>
+        <STEP value="0.833333313" short="24 dB" long="24 dB"/>
+        <STEP value="1" short="28 dB" long="28 dB"/>
+      </VPOT>
+      <VPOT short="Meter" long="Meter" paramId="8">
+        <STEP value="0" short="In" long="In"/>
+        <STEP value="0.5" short="GR" long="GR"/>
+        <STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="21">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
 <PLUGMAP version="1">
   <MAPINFO creator="Alex Hayes (aka plant-on)">Softube Trident A-Range</MAPINFO>
   <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
@@ -14,30 +13,30 @@
       <FADER short="LowFre" long="Low Freq" paramId="6"/>
       <FADER short="Gain" long="Low Gain" paramId="7"/>
       <VPOT short="15k" long="15k" paramId="8">
-		<STEP value="0" short="Out" long="Out"/>
-		<STEP value="1" short="In" long="In"/>
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
       </VPOT>
       <VPOT short="12k" long="12k" paramId="9">
-		<STEP value="0" short="Out" long="Out"/>
-		<STEP value="1" short="In" long="In"/>
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
       </VPOT>
       <VPOT short="9k" long="9k" paramId="10">
-		<STEP value="0" short="Out" long="Out"/>
-		<STEP value="1" short="In" long="In"/>
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
       </VPOT>
       <VPOT paramId="-1"/>
       <VPOT paramId="-1"/>
       <VPOT short="100Hz" long="HP 100Hz" paramId="11">
-		<STEP value="0" short="Out" long="Out"/>
-		<STEP value="1" short="In" long="In"/>
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
       </VPOT>
       <VPOT short="50Hz" long="HP 50Hz" paramId="12">
-		<STEP value="0" short="Out" long="Out"/>
-		<STEP value="1" short="In" long="In"/>
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
       </VPOT>
       <VPOT short="25Hz" long="HP 25Hz" paramId="13">
-		<STEP value="0" short="Out" long="Out"/>
-		<STEP value="1" short="In" long="In"/>
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
       </VPOT>
     </PAGE>
     <PAGE id="1" short="Gain" long="Gain" referTo="-1" offset="0">
@@ -56,8 +55,8 @@
       <VPOT paramId="-1"/>
       <VPOT paramId="-1"/>
       <VPOT short="Phase" long="Phase" paramId="16">
-		<STEP value="0" short="0" long="0"/>
-		<STEP value="1" short="180" long="180"/>
+        <STEP value="0" short="0" long="0"/>
+        <STEP value="1" short="180" long="180"/>
       </VPOT>
       <VPOT paramId="-1"/>
     </PAGE>

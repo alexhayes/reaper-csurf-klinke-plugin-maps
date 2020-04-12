@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="Limit " long="Limit Level" paramId="9"/>
+      <FADER short="Limit " long="Limit Recovery" paramId="10"/>
+      <FADER short="Ratio" long="Ratio" paramId="6"/>
+      <FADER short="Thresh" long="Threshold" paramId="7"/>
+      <FADER short="Compre" long="Compress Recove" paramId="8"/>
+      <FADER paramId="-1"/>
+      <FADER short="HPF" long="HPF" paramId="1"/>
+      <FADER short="Gain" long="Gain" paramId="5"/>
+      <VPOT short="Limit" long="Limit" paramId="2">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="0.5" short="Slow" long="Slow"/>
+        <STEP value="1" short="Fast" long="Fast"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Compre" long="Compress" paramId="3">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="0.5" short="Slow" long="Slow"/>
+        <STEP value="1" short="Fast" long="Fast"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Meter" long="Meter" paramId="4">
+        <STEP value="0" short="In" long="In"/>
+        <STEP value="0.5" short="Contro" long="Control"/>
+        <STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+      <VPOT short="Bypass" long="Bypass" paramId="11">
+        <STEP value="0" short="In" long="In"/>
+        <STEP value="1" short="Byp" long="Byp"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER short="Compre" long="Compress Recovery" paramId="8"/>
+      <FADER short="Limit " long="Limit Level" paramId="9"/>
+      <FADER short="Limit " long="Limit Recovery" paramId="10"/>
+      <FADER short="Bypass" long="Bypass" paramId="11"/>
+      <FADER short="Ext Si" long="Ext SideChain" paramId="12"/>
+      <FADER short="Bypass" long="Bypass" paramId="13"/>
+      <FADER short="Factor" long="Factory Presets" paramId="14"/>
+      <FADER short="MIDI C" long="MIDI CC 0|0" paramId="15"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="Page 3" long="Page 3" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 0|1" paramId="16"/>
+      <FADER short="MIDI C" long="MIDI CC 0|2" paramId="17"/>
+      <FADER short="MIDI C" long="MIDI CC 0|3" paramId="18"/>
+      <FADER short="MIDI C" long="MIDI CC 0|4" paramId="19"/>
+      <FADER short="MIDI C" long="MIDI CC 0|5" paramId="20"/>
+      <FADER short="MIDI C" long="MIDI CC 0|6" paramId="21"/>
+      <FADER short="MIDI C" long="MIDI CC 0|7" paramId="22"/>
+      <FADER short="MIDI C" long="MIDI CC 0|8" paramId="23"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="Page 4" long="Page 4" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 0|9" paramId="24"/>
+      <FADER short="MIDI C" long="MIDI CC 0|10" paramId="25"/>
+      <FADER short="MIDI C" long="MIDI CC 0|11" paramId="26"/>
+      <FADER short="MIDI C" long="MIDI CC 0|12" paramId="27"/>
+      <FADER short="MIDI C" long="MIDI CC 0|13" paramId="28"/>
+      <FADER short="MIDI C" long="MIDI CC 0|14" paramId="29"/>
+      <FADER short="MIDI C" long="MIDI CC 0|15" paramId="30"/>
+      <FADER short="MIDI C" long="MIDI CC 0|16" paramId="31"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="Page 5" long="Page 5" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 0|17" paramId="32"/>
+      <FADER short="MIDI C" long="MIDI CC 0|18" paramId="33"/>
+      <FADER short="MIDI C" long="MIDI CC 0|19" paramId="34"/>
+      <FADER short="MIDI C" long="MIDI CC 0|20" paramId="35"/>
+      <FADER short="MIDI C" long="MIDI CC 0|21" paramId="36"/>
+      <FADER short="MIDI C" long="MIDI CC 0|22" paramId="37"/>
+      <FADER short="MIDI C" long="MIDI CC 0|23" paramId="38"/>
+      <FADER short="MIDI C" long="MIDI CC 0|24" paramId="39"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="5" short="Page 6" long="Page 6" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 0|25" paramId="40"/>
+      <FADER short="MIDI C" long="MIDI CC 0|26" paramId="41"/>
+      <FADER short="MIDI C" long="MIDI CC 0|27" paramId="42"/>
+      <FADER short="MIDI C" long="MIDI CC 0|28" paramId="43"/>
+      <FADER short="MIDI C" long="MIDI CC 0|29" paramId="44"/>
+      <FADER short="MIDI C" long="MIDI CC 0|30" paramId="45"/>
+      <FADER short="MIDI C" long="MIDI CC 0|31" paramId="46"/>
+      <FADER short="MIDI C" long="MIDI CC 0|32" paramId="47"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="6" short="Page 7" long="Page 7" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 0|33" paramId="48"/>
+      <FADER short="MIDI C" long="MIDI CC 0|34" paramId="49"/>
+      <FADER short="MIDI C" long="MIDI CC 0|35" paramId="50"/>
+      <FADER short="MIDI C" long="MIDI CC 0|36" paramId="51"/>
+      <FADER short="MIDI C" long="MIDI CC 0|37" paramId="52"/>
+      <FADER short="MIDI C" long="MIDI CC 0|38" paramId="53"/>
+      <FADER short="MIDI C" long="MIDI CC 0|39" paramId="54"/>
+      <FADER short="MIDI C" long="MIDI CC 0|40" paramId="55"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="7" short="Page 8" long="Page 8" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 0|41" paramId="56"/>
+      <FADER short="MIDI C" long="MIDI CC 0|42" paramId="57"/>
+      <FADER short="MIDI C" long="MIDI CC 0|43" paramId="58"/>
+      <FADER short="MIDI C" long="MIDI CC 0|44" paramId="59"/>
+      <FADER short="MIDI C" long="MIDI CC 0|45" paramId="60"/>
+      <FADER short="MIDI C" long="MIDI CC 0|46" paramId="61"/>
+      <FADER short="MIDI C" long="MIDI CC 0|47" paramId="62"/>
+      <FADER short="MIDI C" long="MIDI CC 0|48" paramId="63"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+  <BANK id="1" short="Bank 2" long="Bank 2" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 0|49" paramId="64"/>
+      <FADER short="MIDI C" long="MIDI CC 0|50" paramId="65"/>
+      <FADER short="MIDI C" long="MIDI CC 0|51" paramId="66"/>
+      <FADER short="MIDI C" long="MIDI CC 0|52" paramId="67"/>
+      <FADER short="MIDI C" long="MIDI CC 0|53" paramId="68"/>
+      <FADER short="MIDI C" long="MIDI CC 0|54" paramId="69"/>
+      <FADER short="MIDI C" long="MIDI CC 0|55" paramId="70"/>
+      <FADER short="MIDI C" long="MIDI CC 0|56" paramId="71"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 0|57" paramId="72"/>
+      <FADER short="MIDI C" long="MIDI CC 0|58" paramId="73"/>
+      <FADER short="MIDI C" long="MIDI CC 0|59" paramId="74"/>
+      <FADER short="MIDI C" long="MIDI CC 0|60" paramId="75"/>
+      <FADER short="MIDI C" long="MIDI CC 0|61" paramId="76"/>
+      <FADER short="MIDI C" long="MIDI CC 0|62" paramId="77"/>
+      <FADER short="MIDI C" long="MIDI CC 0|63" paramId="78"/>
+      <FADER short="MIDI C" long="MIDI CC 0|64" paramId="79"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="Page 3" long="Page 3" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 0|65" paramId="80"/>
+      <FADER short="MIDI C" long="MIDI CC 0|66" paramId="81"/>
+      <FADER short="MIDI C" long="MIDI CC 0|67" paramId="82"/>
+      <FADER short="MIDI C" long="MIDI CC 0|68" paramId="83"/>
+      <FADER short="MIDI C" long="MIDI CC 0|69" paramId="84"/>
+      <FADER short="MIDI C" long="MIDI CC 0|70" paramId="85"/>
+      <FADER short="MIDI C" long="MIDI CC 0|71" paramId="86"/>
+      <FADER short="MIDI C" long="MIDI CC 0|72" paramId="87"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="Page 4" long="Page 4" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 0|73" paramId="88"/>
+      <FADER short="MIDI C" long="MIDI CC 0|74" paramId="89"/>
+      <FADER short="MIDI C" long="MIDI CC 0|75" paramId="90"/>
+      <FADER short="MIDI C" long="MIDI CC 0|76" paramId="91"/>
+      <FADER short="MIDI C" long="MIDI CC 0|77" paramId="92"/>
+      <FADER short="MIDI C" long="MIDI CC 0|78" paramId="93"/>
+      <FADER short="MIDI C" long="MIDI CC 0|79" paramId="94"/>
+      <FADER short="MIDI C" long="MIDI CC 0|80" paramId="95"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="Page 5" long="Page 5" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 0|81" paramId="96"/>
+      <FADER short="MIDI C" long="MIDI CC 0|82" paramId="97"/>
+      <FADER short="MIDI C" long="MIDI CC 0|83" paramId="98"/>
+      <FADER short="MIDI C" long="MIDI CC 0|84" paramId="99"/>
+      <FADER short="MIDI C" long="MIDI CC 0|85" paramId="100"/>
+      <FADER short="MIDI C" long="MIDI CC 0|86" paramId="101"/>
+      <FADER short="MIDI C" long="MIDI CC 0|87" paramId="102"/>
+      <FADER short="MIDI C" long="MIDI CC 0|88" paramId="103"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="5" short="Page 6" long="Page 6" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 0|89" paramId="104"/>
+      <FADER short="MIDI C" long="MIDI CC 0|90" paramId="105"/>
+      <FADER short="MIDI C" long="MIDI CC 0|91" paramId="106"/>
+      <FADER short="MIDI C" long="MIDI CC 0|92" paramId="107"/>
+      <FADER short="MIDI C" long="MIDI CC 0|93" paramId="108"/>
+      <FADER short="MIDI C" long="MIDI CC 0|94" paramId="109"/>
+      <FADER short="MIDI C" long="MIDI CC 0|95" paramId="110"/>
+      <FADER short="MIDI C" long="MIDI CC 0|96" paramId="111"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="6" short="Page 7" long="Page 7" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 0|97" paramId="112"/>
+      <FADER short="MIDI C" long="MIDI CC 0|98" paramId="113"/>
+      <FADER short="MIDI C" long="MIDI CC 0|99" paramId="114"/>
+      <FADER short="MIDI C" long="MIDI CC 0|100" paramId="115"/>
+      <FADER short="MIDI C" long="MIDI CC 0|101" paramId="116"/>
+      <FADER short="MIDI C" long="MIDI CC 0|102" paramId="117"/>
+      <FADER short="MIDI C" long="MIDI CC 0|103" paramId="118"/>
+      <FADER short="MIDI C" long="MIDI CC 0|104" paramId="119"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="7" short="Page 8" long="Page 8" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 0|105" paramId="120"/>
+      <FADER short="MIDI C" long="MIDI CC 0|106" paramId="121"/>
+      <FADER short="MIDI C" long="MIDI CC 0|107" paramId="122"/>
+      <FADER short="MIDI C" long="MIDI CC 0|108" paramId="123"/>
+      <FADER short="MIDI C" long="MIDI CC 0|109" paramId="124"/>
+      <FADER short="MIDI C" long="MIDI CC 0|110" paramId="125"/>
+      <FADER short="MIDI C" long="MIDI CC 0|111" paramId="126"/>
+      <FADER short="MIDI C" long="MIDI CC 0|112" paramId="127"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+  <BANK id="2" short="Bank 3" long="Bank 3" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 0|113" paramId="128"/>
+      <FADER short="MIDI C" long="MIDI CC 0|114" paramId="129"/>
+      <FADER short="MIDI C" long="MIDI CC 0|115" paramId="130"/>
+      <FADER short="MIDI C" long="MIDI CC 0|116" paramId="131"/>
+      <FADER short="MIDI C" long="MIDI CC 0|117" paramId="132"/>
+      <FADER short="MIDI C" long="MIDI CC 0|118" paramId="133"/>
+      <FADER short="MIDI C" long="MIDI CC 0|119" paramId="134"/>
+      <FADER short="MIDI C" long="MIDI CC 0|120" paramId="135"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 0|121" paramId="136"/>
+      <FADER short="MIDI C" long="MIDI CC 0|122" paramId="137"/>
+      <FADER short="MIDI C" long="MIDI CC 0|123" paramId="138"/>
+      <FADER short="MIDI C" long="MIDI CC 0|124" paramId="139"/>
+      <FADER short="MIDI C" long="MIDI CC 0|125" paramId="140"/>
+      <FADER short="MIDI C" long="MIDI CC 0|126" paramId="141"/>
+      <FADER short="MIDI C" long="MIDI CC 0|127" paramId="142"/>
+      <FADER short="MIDI C" long="MIDI CC 0|128" paramId="143"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="Page 3" long="Page 3" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 0|129" paramId="144"/>
+      <FADER short="MIDI C" long="MIDI CC 1|0" paramId="145"/>
+      <FADER short="MIDI C" long="MIDI CC 1|1" paramId="146"/>
+      <FADER short="MIDI C" long="MIDI CC 1|2" paramId="147"/>
+      <FADER short="MIDI C" long="MIDI CC 1|3" paramId="148"/>
+      <FADER short="MIDI C" long="MIDI CC 1|4" paramId="149"/>
+      <FADER short="MIDI C" long="MIDI CC 1|5" paramId="150"/>
+      <FADER short="MIDI C" long="MIDI CC 1|6" paramId="151"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="Page 4" long="Page 4" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 1|7" paramId="152"/>
+      <FADER short="MIDI C" long="MIDI CC 1|8" paramId="153"/>
+      <FADER short="MIDI C" long="MIDI CC 1|9" paramId="154"/>
+      <FADER short="MIDI C" long="MIDI CC 1|10" paramId="155"/>
+      <FADER short="MIDI C" long="MIDI CC 1|11" paramId="156"/>
+      <FADER short="MIDI C" long="MIDI CC 1|12" paramId="157"/>
+      <FADER short="MIDI C" long="MIDI CC 1|13" paramId="158"/>
+      <FADER short="MIDI C" long="MIDI CC 1|14" paramId="159"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="Page 5" long="Page 5" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 1|15" paramId="160"/>
+      <FADER short="MIDI C" long="MIDI CC 1|16" paramId="161"/>
+      <FADER short="MIDI C" long="MIDI CC 1|17" paramId="162"/>
+      <FADER short="MIDI C" long="MIDI CC 1|18" paramId="163"/>
+      <FADER short="MIDI C" long="MIDI CC 1|19" paramId="164"/>
+      <FADER short="MIDI C" long="MIDI CC 1|20" paramId="165"/>
+      <FADER short="MIDI C" long="MIDI CC 1|21" paramId="166"/>
+      <FADER short="MIDI C" long="MIDI CC 1|22" paramId="167"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="5" short="Page 6" long="Page 6" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 1|23" paramId="168"/>
+      <FADER short="MIDI C" long="MIDI CC 1|24" paramId="169"/>
+      <FADER short="MIDI C" long="MIDI CC 1|25" paramId="170"/>
+      <FADER short="MIDI C" long="MIDI CC 1|26" paramId="171"/>
+      <FADER short="MIDI C" long="MIDI CC 1|27" paramId="172"/>
+      <FADER short="MIDI C" long="MIDI CC 1|28" paramId="173"/>
+      <FADER short="MIDI C" long="MIDI CC 1|29" paramId="174"/>
+      <FADER short="MIDI C" long="MIDI CC 1|30" paramId="175"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="6" short="Page 7" long="Page 7" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 1|31" paramId="176"/>
+      <FADER short="MIDI C" long="MIDI CC 1|32" paramId="177"/>
+      <FADER short="MIDI C" long="MIDI CC 1|33" paramId="178"/>
+      <FADER short="MIDI C" long="MIDI CC 1|34" paramId="179"/>
+      <FADER short="MIDI C" long="MIDI CC 1|35" paramId="180"/>
+      <FADER short="MIDI C" long="MIDI CC 1|36" paramId="181"/>
+      <FADER short="MIDI C" long="MIDI CC 1|37" paramId="182"/>
+      <FADER short="MIDI C" long="MIDI CC 1|38" paramId="183"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="7" short="Page 8" long="Page 8" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 1|39" paramId="184"/>
+      <FADER short="MIDI C" long="MIDI CC 1|40" paramId="185"/>
+      <FADER short="MIDI C" long="MIDI CC 1|41" paramId="186"/>
+      <FADER short="MIDI C" long="MIDI CC 1|42" paramId="187"/>
+      <FADER short="MIDI C" long="MIDI CC 1|43" paramId="188"/>
+      <FADER short="MIDI C" long="MIDI CC 1|44" paramId="189"/>
+      <FADER short="MIDI C" long="MIDI CC 1|45" paramId="190"/>
+      <FADER short="MIDI C" long="MIDI CC 1|46" paramId="191"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+  <BANK id="3" short="Bank 4" long="Bank 4" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 1|47" paramId="192"/>
+      <FADER short="MIDI C" long="MIDI CC 1|48" paramId="193"/>
+      <FADER short="MIDI C" long="MIDI CC 1|49" paramId="194"/>
+      <FADER short="MIDI C" long="MIDI CC 1|50" paramId="195"/>
+      <FADER short="MIDI C" long="MIDI CC 1|51" paramId="196"/>
+      <FADER short="MIDI C" long="MIDI CC 1|52" paramId="197"/>
+      <FADER short="MIDI C" long="MIDI CC 1|53" paramId="198"/>
+      <FADER short="MIDI C" long="MIDI CC 1|54" paramId="199"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 1|55" paramId="200"/>
+      <FADER short="MIDI C" long="MIDI CC 1|56" paramId="201"/>
+      <FADER short="MIDI C" long="MIDI CC 1|57" paramId="202"/>
+      <FADER short="MIDI C" long="MIDI CC 1|58" paramId="203"/>
+      <FADER short="MIDI C" long="MIDI CC 1|59" paramId="204"/>
+      <FADER short="MIDI C" long="MIDI CC 1|60" paramId="205"/>
+      <FADER short="MIDI C" long="MIDI CC 1|61" paramId="206"/>
+      <FADER short="MIDI C" long="MIDI CC 1|62" paramId="207"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="Page 3" long="Page 3" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 1|63" paramId="208"/>
+      <FADER short="MIDI C" long="MIDI CC 1|64" paramId="209"/>
+      <FADER short="MIDI C" long="MIDI CC 1|65" paramId="210"/>
+      <FADER short="MIDI C" long="MIDI CC 1|66" paramId="211"/>
+      <FADER short="MIDI C" long="MIDI CC 1|67" paramId="212"/>
+      <FADER short="MIDI C" long="MIDI CC 1|68" paramId="213"/>
+      <FADER short="MIDI C" long="MIDI CC 1|69" paramId="214"/>
+      <FADER short="MIDI C" long="MIDI CC 1|70" paramId="215"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="Page 4" long="Page 4" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 1|71" paramId="216"/>
+      <FADER short="MIDI C" long="MIDI CC 1|72" paramId="217"/>
+      <FADER short="MIDI C" long="MIDI CC 1|73" paramId="218"/>
+      <FADER short="MIDI C" long="MIDI CC 1|74" paramId="219"/>
+      <FADER short="MIDI C" long="MIDI CC 1|75" paramId="220"/>
+      <FADER short="MIDI C" long="MIDI CC 1|76" paramId="221"/>
+      <FADER short="MIDI C" long="MIDI CC 1|77" paramId="222"/>
+      <FADER short="MIDI C" long="MIDI CC 1|78" paramId="223"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="Page 5" long="Page 5" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 1|79" paramId="224"/>
+      <FADER short="MIDI C" long="MIDI CC 1|80" paramId="225"/>
+      <FADER short="MIDI C" long="MIDI CC 1|81" paramId="226"/>
+      <FADER short="MIDI C" long="MIDI CC 1|82" paramId="227"/>
+      <FADER short="MIDI C" long="MIDI CC 1|83" paramId="228"/>
+      <FADER short="MIDI C" long="MIDI CC 1|84" paramId="229"/>
+      <FADER short="MIDI C" long="MIDI CC 1|85" paramId="230"/>
+      <FADER short="MIDI C" long="MIDI CC 1|86" paramId="231"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="5" short="Page 6" long="Page 6" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 1|87" paramId="232"/>
+      <FADER short="MIDI C" long="MIDI CC 1|88" paramId="233"/>
+      <FADER short="MIDI C" long="MIDI CC 1|89" paramId="234"/>
+      <FADER short="MIDI C" long="MIDI CC 1|90" paramId="235"/>
+      <FADER short="MIDI C" long="MIDI CC 1|91" paramId="236"/>
+      <FADER short="MIDI C" long="MIDI CC 1|92" paramId="237"/>
+      <FADER short="MIDI C" long="MIDI CC 1|93" paramId="238"/>
+      <FADER short="MIDI C" long="MIDI CC 1|94" paramId="239"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="6" short="Page 7" long="Page 7" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 1|95" paramId="240"/>
+      <FADER short="MIDI C" long="MIDI CC 1|96" paramId="241"/>
+      <FADER short="MIDI C" long="MIDI CC 1|97" paramId="242"/>
+      <FADER short="MIDI C" long="MIDI CC 1|98" paramId="243"/>
+      <FADER short="MIDI C" long="MIDI CC 1|99" paramId="244"/>
+      <FADER short="MIDI C" long="MIDI CC 1|100" paramId="245"/>
+      <FADER short="MIDI C" long="MIDI CC 1|101" paramId="246"/>
+      <FADER short="MIDI C" long="MIDI CC 1|102" paramId="247"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="7" short="Page 8" long="Page 8" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 1|103" paramId="248"/>
+      <FADER short="MIDI C" long="MIDI CC 1|104" paramId="249"/>
+      <FADER short="MIDI C" long="MIDI CC 1|105" paramId="250"/>
+      <FADER short="MIDI C" long="MIDI CC 1|106" paramId="251"/>
+      <FADER short="MIDI C" long="MIDI CC 1|107" paramId="252"/>
+      <FADER short="MIDI C" long="MIDI CC 1|108" paramId="253"/>
+      <FADER short="MIDI C" long="MIDI CC 1|109" paramId="254"/>
+      <FADER short="MIDI C" long="MIDI CC 1|110" paramId="255"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+  <BANK id="4" short="Bank 5" long="Bank 5" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 1|111" paramId="256"/>
+      <FADER short="MIDI C" long="MIDI CC 1|112" paramId="257"/>
+      <FADER short="MIDI C" long="MIDI CC 1|113" paramId="258"/>
+      <FADER short="MIDI C" long="MIDI CC 1|114" paramId="259"/>
+      <FADER short="MIDI C" long="MIDI CC 1|115" paramId="260"/>
+      <FADER short="MIDI C" long="MIDI CC 1|116" paramId="261"/>
+      <FADER short="MIDI C" long="MIDI CC 1|117" paramId="262"/>
+      <FADER short="MIDI C" long="MIDI CC 1|118" paramId="263"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 1|119" paramId="264"/>
+      <FADER short="MIDI C" long="MIDI CC 1|120" paramId="265"/>
+      <FADER short="MIDI C" long="MIDI CC 1|121" paramId="266"/>
+      <FADER short="MIDI C" long="MIDI CC 1|122" paramId="267"/>
+      <FADER short="MIDI C" long="MIDI CC 1|123" paramId="268"/>
+      <FADER short="MIDI C" long="MIDI CC 1|124" paramId="269"/>
+      <FADER short="MIDI C" long="MIDI CC 1|125" paramId="270"/>
+      <FADER short="MIDI C" long="MIDI CC 1|126" paramId="271"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="Page 3" long="Page 3" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 1|127" paramId="272"/>
+      <FADER short="MIDI C" long="MIDI CC 1|128" paramId="273"/>
+      <FADER short="MIDI C" long="MIDI CC 1|129" paramId="274"/>
+      <FADER short="MIDI C" long="MIDI CC 2|0" paramId="275"/>
+      <FADER short="MIDI C" long="MIDI CC 2|1" paramId="276"/>
+      <FADER short="MIDI C" long="MIDI CC 2|2" paramId="277"/>
+      <FADER short="MIDI C" long="MIDI CC 2|3" paramId="278"/>
+      <FADER short="MIDI C" long="MIDI CC 2|4" paramId="279"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="Page 4" long="Page 4" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 2|5" paramId="280"/>
+      <FADER short="MIDI C" long="MIDI CC 2|6" paramId="281"/>
+      <FADER short="MIDI C" long="MIDI CC 2|7" paramId="282"/>
+      <FADER short="MIDI C" long="MIDI CC 2|8" paramId="283"/>
+      <FADER short="MIDI C" long="MIDI CC 2|9" paramId="284"/>
+      <FADER short="MIDI C" long="MIDI CC 2|10" paramId="285"/>
+      <FADER short="MIDI C" long="MIDI CC 2|11" paramId="286"/>
+      <FADER short="MIDI C" long="MIDI CC 2|12" paramId="287"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="Page 5" long="Page 5" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 2|13" paramId="288"/>
+      <FADER short="MIDI C" long="MIDI CC 2|14" paramId="289"/>
+      <FADER short="MIDI C" long="MIDI CC 2|15" paramId="290"/>
+      <FADER short="MIDI C" long="MIDI CC 2|16" paramId="291"/>
+      <FADER short="MIDI C" long="MIDI CC 2|17" paramId="292"/>
+      <FADER short="MIDI C" long="MIDI CC 2|18" paramId="293"/>
+      <FADER short="MIDI C" long="MIDI CC 2|19" paramId="294"/>
+      <FADER short="MIDI C" long="MIDI CC 2|20" paramId="295"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="5" short="Page 6" long="Page 6" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 2|21" paramId="296"/>
+      <FADER short="MIDI C" long="MIDI CC 2|22" paramId="297"/>
+      <FADER short="MIDI C" long="MIDI CC 2|23" paramId="298"/>
+      <FADER short="MIDI C" long="MIDI CC 2|24" paramId="299"/>
+      <FADER short="MIDI C" long="MIDI CC 2|25" paramId="300"/>
+      <FADER short="MIDI C" long="MIDI CC 2|26" paramId="301"/>
+      <FADER short="MIDI C" long="MIDI CC 2|27" paramId="302"/>
+      <FADER short="MIDI C" long="MIDI CC 2|28" paramId="303"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="6" short="Page 7" long="Page 7" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 2|29" paramId="304"/>
+      <FADER short="MIDI C" long="MIDI CC 2|30" paramId="305"/>
+      <FADER short="MIDI C" long="MIDI CC 2|31" paramId="306"/>
+      <FADER short="MIDI C" long="MIDI CC 2|32" paramId="307"/>
+      <FADER short="MIDI C" long="MIDI CC 2|33" paramId="308"/>
+      <FADER short="MIDI C" long="MIDI CC 2|34" paramId="309"/>
+      <FADER short="MIDI C" long="MIDI CC 2|35" paramId="310"/>
+      <FADER short="MIDI C" long="MIDI CC 2|36" paramId="311"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="7" short="Page 8" long="Page 8" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 2|37" paramId="312"/>
+      <FADER short="MIDI C" long="MIDI CC 2|38" paramId="313"/>
+      <FADER short="MIDI C" long="MIDI CC 2|39" paramId="314"/>
+      <FADER short="MIDI C" long="MIDI CC 2|40" paramId="315"/>
+      <FADER short="MIDI C" long="MIDI CC 2|41" paramId="316"/>
+      <FADER short="MIDI C" long="MIDI CC 2|42" paramId="317"/>
+      <FADER short="MIDI C" long="MIDI CC 2|43" paramId="318"/>
+      <FADER short="MIDI C" long="MIDI CC 2|44" paramId="319"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+  <BANK id="5" short="Bank 6" long="Bank 6" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 2|45" paramId="320"/>
+      <FADER short="MIDI C" long="MIDI CC 2|46" paramId="321"/>
+      <FADER short="MIDI C" long="MIDI CC 2|47" paramId="322"/>
+      <FADER short="MIDI C" long="MIDI CC 2|48" paramId="323"/>
+      <FADER short="MIDI C" long="MIDI CC 2|49" paramId="324"/>
+      <FADER short="MIDI C" long="MIDI CC 2|50" paramId="325"/>
+      <FADER short="MIDI C" long="MIDI CC 2|51" paramId="326"/>
+      <FADER short="MIDI C" long="MIDI CC 2|52" paramId="327"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 2|53" paramId="328"/>
+      <FADER short="MIDI C" long="MIDI CC 2|54" paramId="329"/>
+      <FADER short="MIDI C" long="MIDI CC 2|55" paramId="330"/>
+      <FADER short="MIDI C" long="MIDI CC 2|56" paramId="331"/>
+      <FADER short="MIDI C" long="MIDI CC 2|57" paramId="332"/>
+      <FADER short="MIDI C" long="MIDI CC 2|58" paramId="333"/>
+      <FADER short="MIDI C" long="MIDI CC 2|59" paramId="334"/>
+      <FADER short="MIDI C" long="MIDI CC 2|60" paramId="335"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="Page 3" long="Page 3" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 2|61" paramId="336"/>
+      <FADER short="MIDI C" long="MIDI CC 2|62" paramId="337"/>
+      <FADER short="MIDI C" long="MIDI CC 2|63" paramId="338"/>
+      <FADER short="MIDI C" long="MIDI CC 2|64" paramId="339"/>
+      <FADER short="MIDI C" long="MIDI CC 2|65" paramId="340"/>
+      <FADER short="MIDI C" long="MIDI CC 2|66" paramId="341"/>
+      <FADER short="MIDI C" long="MIDI CC 2|67" paramId="342"/>
+      <FADER short="MIDI C" long="MIDI CC 2|68" paramId="343"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="Page 4" long="Page 4" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 2|69" paramId="344"/>
+      <FADER short="MIDI C" long="MIDI CC 2|70" paramId="345"/>
+      <FADER short="MIDI C" long="MIDI CC 2|71" paramId="346"/>
+      <FADER short="MIDI C" long="MIDI CC 2|72" paramId="347"/>
+      <FADER short="MIDI C" long="MIDI CC 2|73" paramId="348"/>
+      <FADER short="MIDI C" long="MIDI CC 2|74" paramId="349"/>
+      <FADER short="MIDI C" long="MIDI CC 2|75" paramId="350"/>
+      <FADER short="MIDI C" long="MIDI CC 2|76" paramId="351"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="Page 5" long="Page 5" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 2|77" paramId="352"/>
+      <FADER short="MIDI C" long="MIDI CC 2|78" paramId="353"/>
+      <FADER short="MIDI C" long="MIDI CC 2|79" paramId="354"/>
+      <FADER short="MIDI C" long="MIDI CC 2|80" paramId="355"/>
+      <FADER short="MIDI C" long="MIDI CC 2|81" paramId="356"/>
+      <FADER short="MIDI C" long="MIDI CC 2|82" paramId="357"/>
+      <FADER short="MIDI C" long="MIDI CC 2|83" paramId="358"/>
+      <FADER short="MIDI C" long="MIDI CC 2|84" paramId="359"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="5" short="Page 6" long="Page 6" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 2|85" paramId="360"/>
+      <FADER short="MIDI C" long="MIDI CC 2|86" paramId="361"/>
+      <FADER short="MIDI C" long="MIDI CC 2|87" paramId="362"/>
+      <FADER short="MIDI C" long="MIDI CC 2|88" paramId="363"/>
+      <FADER short="MIDI C" long="MIDI CC 2|89" paramId="364"/>
+      <FADER short="MIDI C" long="MIDI CC 2|90" paramId="365"/>
+      <FADER short="MIDI C" long="MIDI CC 2|91" paramId="366"/>
+      <FADER short="MIDI C" long="MIDI CC 2|92" paramId="367"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="6" short="Page 7" long="Page 7" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 2|93" paramId="368"/>
+      <FADER short="MIDI C" long="MIDI CC 2|94" paramId="369"/>
+      <FADER short="MIDI C" long="MIDI CC 2|95" paramId="370"/>
+      <FADER short="MIDI C" long="MIDI CC 2|96" paramId="371"/>
+      <FADER short="MIDI C" long="MIDI CC 2|97" paramId="372"/>
+      <FADER short="MIDI C" long="MIDI CC 2|98" paramId="373"/>
+      <FADER short="MIDI C" long="MIDI CC 2|99" paramId="374"/>
+      <FADER short="MIDI C" long="MIDI CC 2|100" paramId="375"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="7" short="Page 8" long="Page 8" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 2|101" paramId="376"/>
+      <FADER short="MIDI C" long="MIDI CC 2|102" paramId="377"/>
+      <FADER short="MIDI C" long="MIDI CC 2|103" paramId="378"/>
+      <FADER short="MIDI C" long="MIDI CC 2|104" paramId="379"/>
+      <FADER short="MIDI C" long="MIDI CC 2|105" paramId="380"/>
+      <FADER short="MIDI C" long="MIDI CC 2|106" paramId="381"/>
+      <FADER short="MIDI C" long="MIDI CC 2|107" paramId="382"/>
+      <FADER short="MIDI C" long="MIDI CC 2|108" paramId="383"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+  <BANK id="6" short="Bank 7" long="Bank 7" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 2|109" paramId="384"/>
+      <FADER short="MIDI C" long="MIDI CC 2|110" paramId="385"/>
+      <FADER short="MIDI C" long="MIDI CC 2|111" paramId="386"/>
+      <FADER short="MIDI C" long="MIDI CC 2|112" paramId="387"/>
+      <FADER short="MIDI C" long="MIDI CC 2|113" paramId="388"/>
+      <FADER short="MIDI C" long="MIDI CC 2|114" paramId="389"/>
+      <FADER short="MIDI C" long="MIDI CC 2|115" paramId="390"/>
+      <FADER short="MIDI C" long="MIDI CC 2|116" paramId="391"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 2|117" paramId="392"/>
+      <FADER short="MIDI C" long="MIDI CC 2|118" paramId="393"/>
+      <FADER short="MIDI C" long="MIDI CC 2|119" paramId="394"/>
+      <FADER short="MIDI C" long="MIDI CC 2|120" paramId="395"/>
+      <FADER short="MIDI C" long="MIDI CC 2|121" paramId="396"/>
+      <FADER short="MIDI C" long="MIDI CC 2|122" paramId="397"/>
+      <FADER short="MIDI C" long="MIDI CC 2|123" paramId="398"/>
+      <FADER short="MIDI C" long="MIDI CC 2|124" paramId="399"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="Page 3" long="Page 3" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 2|125" paramId="400"/>
+      <FADER short="MIDI C" long="MIDI CC 2|126" paramId="401"/>
+      <FADER short="MIDI C" long="MIDI CC 2|127" paramId="402"/>
+      <FADER short="MIDI C" long="MIDI CC 2|128" paramId="403"/>
+      <FADER short="MIDI C" long="MIDI CC 2|129" paramId="404"/>
+      <FADER short="MIDI C" long="MIDI CC 3|0" paramId="405"/>
+      <FADER short="MIDI C" long="MIDI CC 3|1" paramId="406"/>
+      <FADER short="MIDI C" long="MIDI CC 3|2" paramId="407"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="Page 4" long="Page 4" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 3|3" paramId="408"/>
+      <FADER short="MIDI C" long="MIDI CC 3|4" paramId="409"/>
+      <FADER short="MIDI C" long="MIDI CC 3|5" paramId="410"/>
+      <FADER short="MIDI C" long="MIDI CC 3|6" paramId="411"/>
+      <FADER short="MIDI C" long="MIDI CC 3|7" paramId="412"/>
+      <FADER short="MIDI C" long="MIDI CC 3|8" paramId="413"/>
+      <FADER short="MIDI C" long="MIDI CC 3|9" paramId="414"/>
+      <FADER short="MIDI C" long="MIDI CC 3|10" paramId="415"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="Page 5" long="Page 5" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 3|11" paramId="416"/>
+      <FADER short="MIDI C" long="MIDI CC 3|12" paramId="417"/>
+      <FADER short="MIDI C" long="MIDI CC 3|13" paramId="418"/>
+      <FADER short="MIDI C" long="MIDI CC 3|14" paramId="419"/>
+      <FADER short="MIDI C" long="MIDI CC 3|15" paramId="420"/>
+      <FADER short="MIDI C" long="MIDI CC 3|16" paramId="421"/>
+      <FADER short="MIDI C" long="MIDI CC 3|17" paramId="422"/>
+      <FADER short="MIDI C" long="MIDI CC 3|18" paramId="423"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="5" short="Page 6" long="Page 6" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 3|19" paramId="424"/>
+      <FADER short="MIDI C" long="MIDI CC 3|20" paramId="425"/>
+      <FADER short="MIDI C" long="MIDI CC 3|21" paramId="426"/>
+      <FADER short="MIDI C" long="MIDI CC 3|22" paramId="427"/>
+      <FADER short="MIDI C" long="MIDI CC 3|23" paramId="428"/>
+      <FADER short="MIDI C" long="MIDI CC 3|24" paramId="429"/>
+      <FADER short="MIDI C" long="MIDI CC 3|25" paramId="430"/>
+      <FADER short="MIDI C" long="MIDI CC 3|26" paramId="431"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="6" short="Page 7" long="Page 7" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 3|27" paramId="432"/>
+      <FADER short="MIDI C" long="MIDI CC 3|28" paramId="433"/>
+      <FADER short="MIDI C" long="MIDI CC 3|29" paramId="434"/>
+      <FADER short="MIDI C" long="MIDI CC 3|30" paramId="435"/>
+      <FADER short="MIDI C" long="MIDI CC 3|31" paramId="436"/>
+      <FADER short="MIDI C" long="MIDI CC 3|32" paramId="437"/>
+      <FADER short="MIDI C" long="MIDI CC 3|33" paramId="438"/>
+      <FADER short="MIDI C" long="MIDI CC 3|34" paramId="439"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="7" short="Page 8" long="Page 8" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 3|35" paramId="440"/>
+      <FADER short="MIDI C" long="MIDI CC 3|36" paramId="441"/>
+      <FADER short="MIDI C" long="MIDI CC 3|37" paramId="442"/>
+      <FADER short="MIDI C" long="MIDI CC 3|38" paramId="443"/>
+      <FADER short="MIDI C" long="MIDI CC 3|39" paramId="444"/>
+      <FADER short="MIDI C" long="MIDI CC 3|40" paramId="445"/>
+      <FADER short="MIDI C" long="MIDI CC 3|41" paramId="446"/>
+      <FADER short="MIDI C" long="MIDI CC 3|42" paramId="447"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+  <BANK id="7" short="Bank 8" long="Bank 8" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 3|43" paramId="448"/>
+      <FADER short="MIDI C" long="MIDI CC 3|44" paramId="449"/>
+      <FADER short="MIDI C" long="MIDI CC 3|45" paramId="450"/>
+      <FADER short="MIDI C" long="MIDI CC 3|46" paramId="451"/>
+      <FADER short="MIDI C" long="MIDI CC 3|47" paramId="452"/>
+      <FADER short="MIDI C" long="MIDI CC 3|48" paramId="453"/>
+      <FADER short="MIDI C" long="MIDI CC 3|49" paramId="454"/>
+      <FADER short="MIDI C" long="MIDI CC 3|50" paramId="455"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 3|51" paramId="456"/>
+      <FADER short="MIDI C" long="MIDI CC 3|52" paramId="457"/>
+      <FADER short="MIDI C" long="MIDI CC 3|53" paramId="458"/>
+      <FADER short="MIDI C" long="MIDI CC 3|54" paramId="459"/>
+      <FADER short="MIDI C" long="MIDI CC 3|55" paramId="460"/>
+      <FADER short="MIDI C" long="MIDI CC 3|56" paramId="461"/>
+      <FADER short="MIDI C" long="MIDI CC 3|57" paramId="462"/>
+      <FADER short="MIDI C" long="MIDI CC 3|58" paramId="463"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="Page 3" long="Page 3" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 3|59" paramId="464"/>
+      <FADER short="MIDI C" long="MIDI CC 3|60" paramId="465"/>
+      <FADER short="MIDI C" long="MIDI CC 3|61" paramId="466"/>
+      <FADER short="MIDI C" long="MIDI CC 3|62" paramId="467"/>
+      <FADER short="MIDI C" long="MIDI CC 3|63" paramId="468"/>
+      <FADER short="MIDI C" long="MIDI CC 3|64" paramId="469"/>
+      <FADER short="MIDI C" long="MIDI CC 3|65" paramId="470"/>
+      <FADER short="MIDI C" long="MIDI CC 3|66" paramId="471"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="Page 4" long="Page 4" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 3|67" paramId="472"/>
+      <FADER short="MIDI C" long="MIDI CC 3|68" paramId="473"/>
+      <FADER short="MIDI C" long="MIDI CC 3|69" paramId="474"/>
+      <FADER short="MIDI C" long="MIDI CC 3|70" paramId="475"/>
+      <FADER short="MIDI C" long="MIDI CC 3|71" paramId="476"/>
+      <FADER short="MIDI C" long="MIDI CC 3|72" paramId="477"/>
+      <FADER short="MIDI C" long="MIDI CC 3|73" paramId="478"/>
+      <FADER short="MIDI C" long="MIDI CC 3|74" paramId="479"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="Page 5" long="Page 5" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 3|75" paramId="480"/>
+      <FADER short="MIDI C" long="MIDI CC 3|76" paramId="481"/>
+      <FADER short="MIDI C" long="MIDI CC 3|77" paramId="482"/>
+      <FADER short="MIDI C" long="MIDI CC 3|78" paramId="483"/>
+      <FADER short="MIDI C" long="MIDI CC 3|79" paramId="484"/>
+      <FADER short="MIDI C" long="MIDI CC 3|80" paramId="485"/>
+      <FADER short="MIDI C" long="MIDI CC 3|81" paramId="486"/>
+      <FADER short="MIDI C" long="MIDI CC 3|82" paramId="487"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="5" short="Page 6" long="Page 6" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 3|83" paramId="488"/>
+      <FADER short="MIDI C" long="MIDI CC 3|84" paramId="489"/>
+      <FADER short="MIDI C" long="MIDI CC 3|85" paramId="490"/>
+      <FADER short="MIDI C" long="MIDI CC 3|86" paramId="491"/>
+      <FADER short="MIDI C" long="MIDI CC 3|87" paramId="492"/>
+      <FADER short="MIDI C" long="MIDI CC 3|88" paramId="493"/>
+      <FADER short="MIDI C" long="MIDI CC 3|89" paramId="494"/>
+      <FADER short="MIDI C" long="MIDI CC 3|90" paramId="495"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="6" short="Page 7" long="Page 7" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 3|91" paramId="496"/>
+      <FADER short="MIDI C" long="MIDI CC 3|92" paramId="497"/>
+      <FADER short="MIDI C" long="MIDI CC 3|93" paramId="498"/>
+      <FADER short="MIDI C" long="MIDI CC 3|94" paramId="499"/>
+      <FADER short="MIDI C" long="MIDI CC 3|95" paramId="500"/>
+      <FADER short="MIDI C" long="MIDI CC 3|96" paramId="501"/>
+      <FADER short="MIDI C" long="MIDI CC 3|97" paramId="502"/>
+      <FADER short="MIDI C" long="MIDI CC 3|98" paramId="503"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="7" short="Page 8" long="Page 8" referTo="-1" offset="0">
+      <FADER short="MIDI C" long="MIDI CC 3|99" paramId="504"/>
+      <FADER short="MIDI C" long="MIDI CC 3|100" paramId="505"/>
+      <FADER short="MIDI C" long="MIDI CC 3|101" paramId="506"/>
+      <FADER short="MIDI C" long="MIDI CC 3|102" paramId="507"/>
+      <FADER short="MIDI C" long="MIDI CC 3|103" paramId="508"/>
+      <FADER short="MIDI C" long="MIDI CC 3|104" paramId="509"/>
+      <FADER short="MIDI C" long="MIDI CC 3|105" paramId="510"/>
+      <FADER short="MIDI C" long="MIDI CC 3|106" paramId="511"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

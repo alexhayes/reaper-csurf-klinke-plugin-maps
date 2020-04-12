@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="" long="" referTo="-1" offset="0">
+    <PAGE id="0" short="" long="" referTo="-1" offset="0">
+      <FADER short="LF Boo" long="LF Boost" paramId="1"/>
+      <FADER short="LF Att" long="LF Atten" paramId="2"/>
+      <FADER short="HF Boo" long="HF Boost" paramId="4"/>
+      <FADER short="HF Att" long="HF Atten" paramId="7"/>
+      <FADER short="HF Q" long="HF Q" paramId="5"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Output" long="Output" paramId="9"/>
+      <VPOT short="Low Fr" long="Low Freq" paramId="0">
+        <STEP value="0" short="20 CPS" long="20 CPS"/>
+        <STEP value="0.333333343" short="30 CPS" long="30 CPS"/>
+        <STEP value="0.666666687" short="60 CPS" long="60 CPS"/>
+        <STEP value="1" short="100 CP" long="100 CPS"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="High F" long="High Freq" paramId="3">
+        <STEP value="0" short="3 KCS" long="3 KCS"/>
+        <STEP value="0.166666672" short="4 KCS" long="4 KCS"/>
+        <STEP value="0.333333343" short="5 KCS" long="5 KCS"/>
+        <STEP value="0.5" short="8 KCS" long="8 KCS"/>
+        <STEP value="0.666666687" short="10 KCS" long="10 KCS"/>
+        <STEP value="0.833333313" short="12 KCS" long="12 KCS"/>
+        <STEP value="1" short="16 KCS" long="16 KCS"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="HF Att" long="HF Atten Freq" paramId="6">
+        <STEP value="0" short="5 KCS" long="5 KCS"/>
+        <STEP value="0.5" short="10 KCS" long="10 KCS"/>
+        <STEP value="1" short="20 KCS" long="20 KCS"/>
+      </VPOT>
+      <VPOT short="Enable" long="Enable" paramId="8">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (aka plant-on)">UAD Fairchild 660 (Universal Audio, Inc.)</MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="660" long="Fairchild 660" referTo="-1" offset="0">
+      <FADER short="Input" long="Input" paramId="1"/>
+      <FADER short="Thresh" long="Thresh" paramId="2"/>
+      <FADER short="Time C" long="Time Const" paramId="3"/>
+      <FADER short="Bal" long="Bal" paramId="5"/>
+      <FADER short="DC Thr" long="DC Thr" paramId="6"/>
+      <FADER short="SC Fil" long="SC Filt" paramId="4"/>
+      <FADER short="Mix" long="Mix" paramId="8"/>
+      <FADER short="Output" long="Output" paramId="7"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Headroom" long="Headroom" paramId="9">
+        <STEP value="0" short="4 dB" long="4 dB"/>
+        <STEP value="0.166666672" short="8 dB" long="8 dB"/>
+        <STEP value="0.333333343" short="12 dB" long="12 dB"/>
+        <STEP value="0.5" short="16 dB" long="16 dB"/>
+        <STEP value="0.666666687" short="20 dB" long="20 dB"/>
+        <STEP value="0.833333313" short="24 dB" long="24 dB"/>
+        <STEP value="1" short="28 dB" long="28 dB"/>
+      </VPOT>
+      <VPOT short="Meter" long="Meter" paramId="0">
+        <STEP value="0" short="In" long="In"/>
+        <STEP value="0.5" short="GR" long="GR"/>
+        <STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="10">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

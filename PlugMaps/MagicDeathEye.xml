@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="Input" long="Input Gain" paramId="0"/>
+      <FADER short="Thresh" long="Threshold" paramId="1"/>
+      <FADER short="Time" long="Time" paramId="2"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Out" long="Out Gain" paramId="8"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Punch" long="Punch" paramId="6">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Attack" long="Attack" paramId="3">
+        <STEP value="0" short="Fast" long="Fast"/>
+        <STEP value="0.5" short="Medium" long="Medium"/>
+        <STEP value="1" short="Short" long="Short"/>
+      </VPOT>
+      <VPOT short="Filtr" long="Filter" paramId="4">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Power" long="Power" paramId="7">
+        <STEP value="0" short="On" long="On"/>
+        <STEP value="1" short="Off" long="Off"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

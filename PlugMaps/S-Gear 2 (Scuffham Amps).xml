@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="Amp" long="Amp" referTo="-1" offset="0">
+    <PAGE id="0" short="Tone" long="Tone" referTo="-1" offset="0">
+      <FADER short="Gain (" long="Gain (A)" paramId="31"/>
+      <FADER short="Bass (" long="Bass (A)" paramId="32"/>
+      <FADER short="Middle" long="Middle (A)" paramId="33"/>
+      <FADER short="Treble" long="Treble (A)" paramId="34"/>
+      <FADER short="Presen" long="Presence (A)" paramId="35"/>
+      <FADER short="Bright" long="Bright Contour (A" paramId="30"/>
+      <FADER short="Lead D" long="Lead Drive (Wayfa" paramId="54"/>
+      <FADER short="Level " long="Level (A)" paramId="36"/>
+      <VPOT short="Boost " long="Boost (Lead I/II)" paramId="41">
+        <STEP value="0" short="" long=""/>
+        <STEP value="1" short="" long=""/>
+      </VPOT>
+      <VPOT short="Bass S" long="Bass Shift (A)" paramId="42">
+        <STEP value="0" short="" long=""/>
+        <STEP value="1" short="" long=""/>
+      </VPOT>
+      <VPOT short="Mid Sh" long="Mid Shift (A)" paramId="43">
+        <STEP value="0" short="" long=""/>
+        <STEP value="1" short="" long=""/>
+      </VPOT>
+      <VPOT short="Bright" long="Bright Shift (A)" paramId="44">
+        <STEP value="0" short="" long=""/>
+        <STEP value="1" short="" long=""/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Channe" long="Channel (A)" paramId="40">
+        <STEP value="0" short="" long=""/>
+        <STEP value="1" short="" long=""/>
+      </VPOT>
+      <VPOT short="Amp Dr" long="Amp Drive (A)" paramId="45">
+        <STEP value="0" short="" long=""/>
+        <STEP value="1" short="" long=""/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Trem" long="Tremelo" referTo="-1" offset="0">
+      <FADER short="Speed" long="Tremolo Speed (A)" paramId="50"/>
+      <FADER short="In10s" long="Tremolo Intensity" paramId="51"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Level " long="Level (A)" paramId="36"/>
+      <VPOT short="Trem" long="Tremolo Enable" paramId="53">
+        <STEP value="0" short="" long=""/>
+        <STEP value="1" short="" long=""/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Drive" long="Drive Channel" paramId="40">
+        <STEP value="0" short="Clean" long="Clean"/>
+        <STEP value="1" short="OvrDrv" long="Overdrive"/>
+      </VPOT>
+      <VPOT short="Amp" long="Amp Drive (A)" paramId="45">
+        <STEP value="0" short="" long=""/>
+        <STEP value="1" short="" long=""/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="2" short="Page 3" long="Page 3" referTo="-1" offset="0">
+      <FADER paramId="16"/>
+      <FADER paramId="17"/>
+      <FADER paramId="18"/>
+      <FADER paramId="19"/>
+      <FADER paramId="20"/>
+      <FADER paramId="21"/>
+      <FADER paramId="22"/>
+      <FADER paramId="23"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="Page 4" long="Page 4" referTo="-1" offset="0">
+      <FADER paramId="24"/>
+      <FADER paramId="25"/>
+      <FADER paramId="26"/>
+      <FADER paramId="27"/>
+      <FADER paramId="28"/>
+      <FADER paramId="29"/>
+      <FADER short="Bright" long="Bright Contour (A" paramId="30"/>
+      <FADER short="Gain (" long="Gain (A)" paramId="31"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="Page 5" long="Page 5" referTo="-1" offset="0">
+      <FADER short="Bass (" long="Bass (A)" paramId="32"/>
+      <FADER short="Middle" long="Middle (A)" paramId="33"/>
+      <FADER short="Treble" long="Treble (A)" paramId="34"/>
+      <FADER short="Presen" long="Presence (A)" paramId="35"/>
+      <FADER short="Level " long="Level (A)" paramId="36"/>
+      <FADER short="PwrAmp" long="PwrAmp Presence F" paramId="37"/>
+      <FADER short="PwrAmp" long="PwrAmp Hi-Cut (A)" paramId="38"/>
+      <FADER short="PwrAmp" long="PwrAmp Sag (A)" paramId="39"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="5" short="Page 6" long="Page 6" referTo="-1" offset="0">
+      <FADER short="Channe" long="Channel (A)" paramId="40"/>
+      <FADER short="Boost " long="Boost (Lead I/II)" paramId="41"/>
+      <FADER short="Bass S" long="Bass Shift (A)" paramId="42"/>
+      <FADER short="Mid Sh" long="Mid Shift (A)" paramId="43"/>
+      <FADER short="Bright" long="Bright Shift (A)" paramId="44"/>
+      <FADER short="Amp Dr" long="Amp Drive (A)" paramId="45"/>
+      <FADER paramId="46"/>
+      <FADER short="GEQ lo" long="GEQ low (A)" paramId="47"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="6" short="Page 7" long="Page 7" referTo="-1" offset="0">
+      <FADER short="GEQ mi" long="GEQ mid (A)" paramId="48"/>
+      <FADER short="GEQ hi" long="GEQ high (A)" paramId="49"/>
+      <FADER short="Tremol" long="Tremolo Speed (A)" paramId="50"/>
+      <FADER short="Tremol" long="Tremolo Intensity" paramId="51"/>
+      <FADER paramId="52"/>
+      <FADER short="Tremol" long="Tremolo Enable (A" paramId="53"/>
+      <FADER short="Lead D" long="Lead Drive (Wayfa" paramId="54"/>
+      <FADER paramId="55"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="7" short="Page 8" long="Page 8" referTo="-1" offset="0">
+      <FADER short="GEQ By" long="GEQ Bypass (Wayfa" paramId="56"/>
+      <FADER paramId="57"/>
+      <FADER paramId="58"/>
+      <FADER paramId="59"/>
+      <FADER paramId="60"/>
+      <FADER paramId="61"/>
+      <FADER paramId="62"/>
+      <FADER paramId="63"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+  <BANK id="1" short="Bank 2" long="Bank 2" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER paramId="64"/>
+      <FADER paramId="65"/>
+      <FADER paramId="66"/>
+      <FADER paramId="67"/>
+      <FADER paramId="68"/>
+      <FADER paramId="69"/>
+      <FADER short="Bright" long="Bright Contour (B" paramId="70"/>
+      <FADER short="Gain (" long="Gain (B)" paramId="71"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER short="Bass (" long="Bass (B)" paramId="72"/>
+      <FADER short="Middle" long="Middle (B)" paramId="73"/>
+      <FADER short="Treble" long="Treble (B)" paramId="74"/>
+      <FADER short="Presen" long="Presence (B)" paramId="75"/>
+      <FADER short="Level " long="Level (B)" paramId="76"/>
+      <FADER short="PwrAmp" long="PwrAmp Presence F" paramId="77"/>
+      <FADER short="PwrAmp" long="PwrAmp Hi-Cut (B)" paramId="78"/>
+      <FADER short="PwrAmp" long="PwrAmp Sag (B)" paramId="79"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="Page 3" long="Page 3" referTo="-1" offset="0">
+      <FADER short="Channe" long="Channel (B)" paramId="80"/>
+      <FADER short="Boost " long="Boost (Lead I/II)" paramId="81"/>
+      <FADER short="Bass S" long="Bass Shift (B)" paramId="82"/>
+      <FADER short="Mid Sh" long="Mid Shift (B)" paramId="83"/>
+      <FADER short="Bright" long="Bright Shift (B)" paramId="84"/>
+      <FADER short="Amp Dr" long="Amp Drive (B)" paramId="85"/>
+      <FADER paramId="86"/>
+      <FADER short="GEQ lo" long="GEQ low (B)" paramId="87"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="Page 4" long="Page 4" referTo="-1" offset="0">
+      <FADER short="GEQ mi" long="GEQ mid (B)" paramId="88"/>
+      <FADER short="GEQ hi" long="GEQ high (B)" paramId="89"/>
+      <FADER short="Tremol" long="Tremolo Speed (B)" paramId="90"/>
+      <FADER short="Tremol" long="Tremolo Intensity" paramId="91"/>
+      <FADER paramId="92"/>
+      <FADER short="Tremol" long="Tremolo Enable (B" paramId="93"/>
+      <FADER short="Lead D" long="Lead Drive (Wayfa" paramId="94"/>
+      <FADER paramId="95"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="Page 5" long="Page 5" referTo="-1" offset="0">
+      <FADER short="GEQ By" long="GEQ Bypass (Wayfa" paramId="96"/>
+      <FADER paramId="97"/>
+      <FADER paramId="98"/>
+      <FADER paramId="99"/>
+      <FADER paramId="100"/>
+      <FADER paramId="101"/>
+      <FADER paramId="102"/>
+      <FADER paramId="103"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="5" short="Page 6" long="Page 6" referTo="-1" offset="0">
+      <FADER paramId="104"/>
+      <FADER paramId="105"/>
+      <FADER paramId="106"/>
+      <FADER paramId="107"/>
+      <FADER paramId="108"/>
+      <FADER paramId="109"/>
+      <FADER paramId="110"/>
+      <FADER paramId="111"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="6" short="Page 7" long="Page 7" referTo="-1" offset="0">
+      <FADER paramId="112"/>
+      <FADER paramId="113"/>
+      <FADER paramId="114"/>
+      <FADER paramId="115"/>
+      <FADER paramId="116"/>
+      <FADER paramId="117"/>
+      <FADER paramId="118"/>
+      <FADER paramId="119"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="7" short="Page 8" long="Page 8" referTo="-1" offset="0">
+      <FADER paramId="120"/>
+      <FADER paramId="121"/>
+      <FADER paramId="122"/>
+      <FADER paramId="123"/>
+      <FADER paramId="124"/>
+      <FADER paramId="125"/>
+      <FADER paramId="126"/>
+      <FADER paramId="127"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+  <BANK id="2" short="Bank 3" long="Bank 3" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER paramId="128"/>
+      <FADER paramId="129"/>
+      <FADER paramId="130"/>
+      <FADER paramId="131"/>
+      <FADER paramId="132"/>
+      <FADER paramId="133"/>
+      <FADER paramId="134"/>
+      <FADER paramId="135"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER paramId="136"/>
+      <FADER paramId="137"/>
+      <FADER paramId="138"/>
+      <FADER paramId="139"/>
+      <FADER paramId="140"/>
+      <FADER paramId="141"/>
+      <FADER paramId="142"/>
+      <FADER short="Convol" long="Convolver Bypass" paramId="143"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="Page 3" long="Page 3" referTo="-1" offset="0">
+      <FADER paramId="144"/>
+      <FADER paramId="145"/>
+      <FADER paramId="146"/>
+      <FADER paramId="147"/>
+      <FADER paramId="148"/>
+      <FADER paramId="149"/>
+      <FADER short="Cab1 B" long="Cab1 Bass" paramId="150"/>
+      <FADER short="Cab1 T" long="Cab1 Treble" paramId="151"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="Page 4" long="Page 4" referTo="-1" offset="0">
+      <FADER short="Cab1 P" long="Cab1 Pan" paramId="152"/>
+      <FADER short="Cab2 B" long="Cab2 Bass" paramId="153"/>
+      <FADER short="Cab2 T" long="Cab2 Treble" paramId="154"/>
+      <FADER short="Cab2 P" long="Cab2 Pan" paramId="155"/>
+      <FADER short="Cab1 L" long="Cab1 Level" paramId="156"/>
+      <FADER short="Cab2 L" long="Cab2 Level" paramId="157"/>
+      <FADER paramId="158"/>
+      <FADER paramId="159"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="Page 5" long="Page 5" referTo="-1" offset="0">
+      <FADER paramId="160"/>
+      <FADER paramId="161"/>
+      <FADER paramId="162"/>
+      <FADER paramId="163"/>
+      <FADER paramId="164"/>
+      <FADER short="Cab1 E" long="Cab1 EQ Bypass" paramId="165"/>
+      <FADER paramId="166"/>
+      <FADER short="Cab2 E" long="Cab2 EQ Bypass" paramId="167"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="5" short="Page 6" long="Page 6" referTo="-1" offset="0">
+      <FADER paramId="168"/>
+      <FADER paramId="169"/>
+      <FADER paramId="170"/>
+      <FADER paramId="171"/>
+      <FADER paramId="172"/>
+      <FADER paramId="173"/>
+      <FADER paramId="174"/>
+      <FADER paramId="175"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="6" short="Page 7" long="Page 7" referTo="-1" offset="0">
+      <FADER paramId="176"/>
+      <FADER paramId="177"/>
+      <FADER paramId="178"/>
+      <FADER paramId="179"/>
+      <FADER paramId="180"/>
+      <FADER paramId="181"/>
+      <FADER paramId="182"/>
+      <FADER short="Reverb" long="Reverb Bypass" paramId="183"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="7" short="Page 8" long="Page 8" referTo="-1" offset="0">
+      <FADER paramId="184"/>
+      <FADER paramId="185"/>
+      <FADER paramId="186"/>
+      <FADER paramId="187"/>
+      <FADER paramId="188"/>
+      <FADER paramId="189"/>
+      <FADER paramId="190"/>
+      <FADER short="Reverb" long="Reverb Hold" paramId="191"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+  <BANK id="3" short="Bank 4" long="Bank 4" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER paramId="192"/>
+      <FADER short="Reverb" long="Reverb Decay" paramId="193"/>
+      <FADER short="Reverb" long="Reverb HF Damp" paramId="194"/>
+      <FADER short="Reverb" long="Reverb LF Damp" paramId="195"/>
+      <FADER short="Reverb" long="Reverb Mix" paramId="196"/>
+      <FADER paramId="197"/>
+      <FADER paramId="198"/>
+      <FADER paramId="199"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER paramId="200"/>
+      <FADER paramId="201"/>
+      <FADER paramId="202"/>
+      <FADER paramId="203"/>
+      <FADER paramId="204"/>
+      <FADER short="Reverb" long="Reverb Input Spre" paramId="205"/>
+      <FADER short="Reverb" long="Reverb Width" paramId="206"/>
+      <FADER short="Reverb" long="Reverb Position" paramId="207"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="Page 3" long="Page 3" referTo="-1" offset="0">
+      <FADER short="Reverb" long="Reverb HEQ Gain" paramId="208"/>
+      <FADER short="Reverb" long="Reverb HEQ Freq" paramId="209"/>
+      <FADER short="Reverb" long="Reverb LEQ Gain" paramId="210"/>
+      <FADER short="Reverb" long="Reverb LEQ Freq" paramId="211"/>
+      <FADER paramId="212"/>
+      <FADER paramId="213"/>
+      <FADER paramId="214"/>
+      <FADER paramId="215"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="Page 4" long="Page 4" referTo="-1" offset="0">
+      <FADER paramId="216"/>
+      <FADER paramId="217"/>
+      <FADER paramId="218"/>
+      <FADER paramId="219"/>
+      <FADER paramId="220"/>
+      <FADER paramId="221"/>
+      <FADER paramId="222"/>
+      <FADER paramId="223"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="Page 5" long="Page 5" referTo="-1" offset="0">
+      <FADER paramId="224"/>
+      <FADER paramId="225"/>
+      <FADER paramId="226"/>
+      <FADER paramId="227"/>
+      <FADER paramId="228"/>
+      <FADER paramId="229"/>
+      <FADER paramId="230"/>
+      <FADER paramId="231"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="5" short="Page 6" long="Page 6" referTo="-1" offset="0">
+      <FADER paramId="232"/>
+      <FADER paramId="233"/>
+      <FADER paramId="234"/>
+      <FADER paramId="235"/>
+      <FADER paramId="236"/>
+      <FADER paramId="237"/>
+      <FADER paramId="238"/>
+      <FADER paramId="239"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="6" short="Page 7" long="Page 7" referTo="-1" offset="0">
+      <FADER paramId="240"/>
+      <FADER paramId="241"/>
+      <FADER paramId="242"/>
+      <FADER paramId="243"/>
+      <FADER paramId="244"/>
+      <FADER paramId="245"/>
+      <FADER paramId="246"/>
+      <FADER paramId="247"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="7" short="Page 8" long="Page 8" referTo="-1" offset="0">
+      <FADER paramId="248"/>
+      <FADER paramId="249"/>
+      <FADER paramId="250"/>
+      <FADER paramId="251"/>
+      <FADER paramId="252"/>
+      <FADER paramId="253"/>
+      <FADER paramId="254"/>
+      <FADER paramId="255"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+  <BANK id="4" short="Bank 5" long="Bank 5" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER paramId="256"/>
+      <FADER paramId="257"/>
+      <FADER paramId="258"/>
+      <FADER paramId="259"/>
+      <FADER paramId="260"/>
+      <FADER paramId="261"/>
+      <FADER paramId="262"/>
+      <FADER paramId="263"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER paramId="264"/>
+      <FADER paramId="265"/>
+      <FADER paramId="266"/>
+      <FADER paramId="267"/>
+      <FADER paramId="268"/>
+      <FADER paramId="269"/>
+      <FADER paramId="270"/>
+      <FADER paramId="271"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="Page 3" long="Page 3" referTo="-1" offset="0">
+      <FADER paramId="272"/>
+      <FADER paramId="273"/>
+      <FADER paramId="274"/>
+      <FADER paramId="275"/>
+      <FADER paramId="276"/>
+      <FADER paramId="277"/>
+      <FADER paramId="278"/>
+      <FADER paramId="279"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="Page 4" long="Page 4" referTo="-1" offset="0">
+      <FADER paramId="280"/>
+      <FADER paramId="281"/>
+      <FADER paramId="282"/>
+      <FADER paramId="283"/>
+      <FADER paramId="284"/>
+      <FADER paramId="285"/>
+      <FADER paramId="286"/>
+      <FADER paramId="287"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="Page 5" long="Page 5" referTo="-1" offset="0">
+      <FADER paramId="288"/>
+      <FADER paramId="289"/>
+      <FADER paramId="290"/>
+      <FADER paramId="291"/>
+      <FADER paramId="292"/>
+      <FADER paramId="293"/>
+      <FADER paramId="294"/>
+      <FADER paramId="295"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="5" short="Page 6" long="Page 6" referTo="-1" offset="0">
+      <FADER paramId="296"/>
+      <FADER paramId="297"/>
+      <FADER paramId="298"/>
+      <FADER paramId="299"/>
+      <FADER paramId="300"/>
+      <FADER paramId="301"/>
+      <FADER paramId="302"/>
+      <FADER paramId="303"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="6" short="Page 7" long="Page 7" referTo="-1" offset="0">
+      <FADER paramId="304"/>
+      <FADER paramId="305"/>
+      <FADER paramId="306"/>
+      <FADER paramId="307"/>
+      <FADER paramId="308"/>
+      <FADER paramId="309"/>
+      <FADER paramId="310"/>
+      <FADER paramId="311"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="7" short="Page 8" long="Page 8" referTo="-1" offset="0">
+      <FADER paramId="312"/>
+      <FADER paramId="313"/>
+      <FADER paramId="314"/>
+      <FADER paramId="315"/>
+      <FADER paramId="316"/>
+      <FADER paramId="317"/>
+      <FADER paramId="318"/>
+      <FADER paramId="319"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+  <BANK id="5" short="Bank 6" long="Bank 6" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER paramId="320"/>
+      <FADER paramId="321"/>
+      <FADER paramId="322"/>
+      <FADER paramId="323"/>
+      <FADER paramId="324"/>
+      <FADER paramId="325"/>
+      <FADER paramId="326"/>
+      <FADER paramId="327"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER paramId="328"/>
+      <FADER paramId="329"/>
+      <FADER paramId="330"/>
+      <FADER paramId="331"/>
+      <FADER paramId="332"/>
+      <FADER paramId="333"/>
+      <FADER paramId="334"/>
+      <FADER paramId="335"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="Page 3" long="Page 3" referTo="-1" offset="0">
+      <FADER paramId="336"/>
+      <FADER paramId="337"/>
+      <FADER paramId="338"/>
+      <FADER paramId="339"/>
+      <FADER paramId="340"/>
+      <FADER paramId="341"/>
+      <FADER paramId="342"/>
+      <FADER paramId="343"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="Page 4" long="Page 4" referTo="-1" offset="0">
+      <FADER paramId="344"/>
+      <FADER paramId="345"/>
+      <FADER paramId="346"/>
+      <FADER paramId="347"/>
+      <FADER paramId="348"/>
+      <FADER paramId="349"/>
+      <FADER paramId="350"/>
+      <FADER paramId="351"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="Page 5" long="Page 5" referTo="-1" offset="0">
+      <FADER paramId="352"/>
+      <FADER paramId="353"/>
+      <FADER paramId="354"/>
+      <FADER paramId="355"/>
+      <FADER paramId="356"/>
+      <FADER paramId="357"/>
+      <FADER paramId="358"/>
+      <FADER paramId="359"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="5" short="Page 6" long="Page 6" referTo="-1" offset="0">
+      <FADER paramId="360"/>
+      <FADER paramId="361"/>
+      <FADER paramId="362"/>
+      <FADER paramId="363"/>
+      <FADER paramId="364"/>
+      <FADER paramId="365"/>
+      <FADER paramId="366"/>
+      <FADER paramId="367"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="6" short="Page 7" long="Page 7" referTo="-1" offset="0">
+      <FADER paramId="368"/>
+      <FADER paramId="369"/>
+      <FADER paramId="370"/>
+      <FADER paramId="371"/>
+      <FADER paramId="372"/>
+      <FADER paramId="373"/>
+      <FADER paramId="374"/>
+      <FADER paramId="375"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="7" short="Page 8" long="Page 8" referTo="-1" offset="0">
+      <FADER paramId="376"/>
+      <FADER paramId="377"/>
+      <FADER paramId="378"/>
+      <FADER paramId="379"/>
+      <FADER paramId="380"/>
+      <FADER paramId="381"/>
+      <FADER paramId="382"/>
+      <FADER paramId="383"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+  <BANK id="6" short="Bank 7" long="Bank 7" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER paramId="384"/>
+      <FADER paramId="385"/>
+      <FADER paramId="386"/>
+      <FADER paramId="387"/>
+      <FADER paramId="388"/>
+      <FADER paramId="389"/>
+      <FADER paramId="390"/>
+      <FADER paramId="391"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER paramId="392"/>
+      <FADER paramId="393"/>
+      <FADER paramId="394"/>
+      <FADER paramId="395"/>
+      <FADER paramId="396"/>
+      <FADER paramId="397"/>
+      <FADER paramId="398"/>
+      <FADER paramId="399"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="Page 3" long="Page 3" referTo="-1" offset="0">
+      <FADER paramId="400"/>
+      <FADER paramId="401"/>
+      <FADER paramId="402"/>
+      <FADER paramId="403"/>
+      <FADER paramId="404"/>
+      <FADER paramId="405"/>
+      <FADER paramId="406"/>
+      <FADER paramId="407"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="Page 4" long="Page 4" referTo="-1" offset="0">
+      <FADER paramId="408"/>
+      <FADER paramId="409"/>
+      <FADER paramId="410"/>
+      <FADER paramId="411"/>
+      <FADER paramId="412"/>
+      <FADER paramId="413"/>
+      <FADER paramId="414"/>
+      <FADER paramId="415"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="Page 5" long="Page 5" referTo="-1" offset="0">
+      <FADER paramId="416"/>
+      <FADER paramId="417"/>
+      <FADER paramId="418"/>
+      <FADER paramId="419"/>
+      <FADER paramId="420"/>
+      <FADER paramId="421"/>
+      <FADER paramId="422"/>
+      <FADER paramId="423"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="5" short="Page 6" long="Page 6" referTo="-1" offset="0">
+      <FADER paramId="424"/>
+      <FADER paramId="425"/>
+      <FADER paramId="426"/>
+      <FADER paramId="427"/>
+      <FADER paramId="428"/>
+      <FADER paramId="429"/>
+      <FADER paramId="430"/>
+      <FADER paramId="431"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="6" short="Page 7" long="Page 7" referTo="-1" offset="0">
+      <FADER paramId="432"/>
+      <FADER paramId="433"/>
+      <FADER paramId="434"/>
+      <FADER paramId="435"/>
+      <FADER paramId="436"/>
+      <FADER paramId="437"/>
+      <FADER paramId="438"/>
+      <FADER paramId="439"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="7" short="Page 8" long="Page 8" referTo="-1" offset="0">
+      <FADER paramId="440"/>
+      <FADER paramId="441"/>
+      <FADER paramId="442"/>
+      <FADER paramId="443"/>
+      <FADER paramId="444"/>
+      <FADER paramId="445"/>
+      <FADER paramId="446"/>
+      <FADER paramId="447"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+  <BANK id="7" short="Bank 8" long="Bank 8" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER paramId="448"/>
+      <FADER paramId="449"/>
+      <FADER paramId="450"/>
+      <FADER paramId="451"/>
+      <FADER paramId="452"/>
+      <FADER paramId="453"/>
+      <FADER paramId="454"/>
+      <FADER paramId="455"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER paramId="456"/>
+      <FADER paramId="457"/>
+      <FADER paramId="458"/>
+      <FADER paramId="459"/>
+      <FADER paramId="460"/>
+      <FADER paramId="461"/>
+      <FADER paramId="462"/>
+      <FADER paramId="463"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="Page 3" long="Page 3" referTo="-1" offset="0">
+      <FADER paramId="464"/>
+      <FADER paramId="465"/>
+      <FADER paramId="466"/>
+      <FADER paramId="467"/>
+      <FADER paramId="468"/>
+      <FADER paramId="469"/>
+      <FADER paramId="470"/>
+      <FADER paramId="471"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="Page 4" long="Page 4" referTo="-1" offset="0">
+      <FADER paramId="472"/>
+      <FADER paramId="473"/>
+      <FADER paramId="474"/>
+      <FADER paramId="475"/>
+      <FADER paramId="476"/>
+      <FADER paramId="477"/>
+      <FADER paramId="478"/>
+      <FADER paramId="479"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="Page 5" long="Page 5" referTo="-1" offset="0">
+      <FADER paramId="480"/>
+      <FADER paramId="481"/>
+      <FADER paramId="482"/>
+      <FADER paramId="483"/>
+      <FADER paramId="484"/>
+      <FADER paramId="485"/>
+      <FADER paramId="486"/>
+      <FADER paramId="487"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="5" short="Page 6" long="Page 6" referTo="-1" offset="0">
+      <FADER paramId="488"/>
+      <FADER paramId="489"/>
+      <FADER paramId="490"/>
+      <FADER paramId="491"/>
+      <FADER paramId="492"/>
+      <FADER paramId="493"/>
+      <FADER paramId="494"/>
+      <FADER paramId="495"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="6" short="Page 7" long="Page 7" referTo="-1" offset="0">
+      <FADER paramId="496"/>
+      <FADER paramId="497"/>
+      <FADER paramId="498"/>
+      <FADER paramId="499"/>
+      <FADER paramId="500"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

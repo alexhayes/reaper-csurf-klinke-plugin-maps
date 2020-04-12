@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="OWS" long="OWS" referTo="-1" offset="0">
+    <PAGE id="0" short="Levels" long="Levels &amp; Distance" referTo="-1"
+          offset="0">
+      <FADER short="Gain" long="Near Gain" paramId="11"/>
+      <FADER short="Gain" long="Mid Gain" paramId="20"/>
+      <FADER short="Gain" long="Far Gain" paramId="29"/>
+      <FADER short="Dist" long="Near Dist" paramId="4"/>
+      <FADER short="Dist" long="Mid Dist" paramId="13"/>
+      <FADER short="Dist" long="Far Dist" paramId="22"/>
+      <FADER short="Mix" long="Dry/Wet" paramId="39"/>
+      <FADER short="Master" long="Master Level" paramId="40"/>
+      <VPOT short="Pan" long="Near Balance" paramId="10">
+        <STEP value="0" short="100.0L" long="100.0L"/>
+        <STEP value="4.76837148e-009" short="100.0L" long="100.0L"/>
+        <STEP value="0.00499998825" short="99.0L" long="99.0L"/>
+        <STEP value="0.00500000454" short="99.0L" long="99.0L"/>
+        <STEP value="0.0100000044" short="98.0L" long="98.0L"/>
+        <STEP value="0.0150000043" short="97.0L" long="97.0L"/>
+        <STEP value="0.0200000051" short="96.0L" long="96.0L"/>
+        <STEP value="0.0250000041" short="95.0L" long="95.0L"/>
+        <STEP value="0.0300000049" short="94.0L" long="94.0L"/>
+        <STEP value="0.0350000039" short="93.0L" long="93.0L"/>
+        <STEP value="0.0399999879" short="92.0L" long="92.0L"/>
+        <STEP value="0.0450000055" short="91.0L" long="91.0L"/>
+        <STEP value="0.0500000045" short="90.0L" long="90.0L"/>
+        <STEP value="0.0550000034" short="89.0L" long="89.0L"/>
+        <STEP value="0.0600000061" short="88.0L" long="88.0L"/>
+        <STEP value="0.075000003" short="85.0L" long="85.0L"/>
+        <STEP value="0.0800000057" short="84.0L" long="84.0L"/>
+        <STEP value="0.0899999887" short="82.0L" long="82.0L"/>
+        <STEP value="0.0900000036" short="82.0L" long="82.0L"/>
+        <STEP value="0.0949999914" short="81.0L" long="81.0L"/>
+        <STEP value="0.0950000063" short="81.0L" long="81.0L"/>
+        <STEP value="0.110000007" short="78.0L" long="78.0L"/>
+        <STEP value="0.115000002" short="77.0L" long="77.0L"/>
+        <STEP value="0.120000005" short="76.0L" long="76.0L"/>
+        <STEP value="0.13000001" short="74.0L" long="74.0L"/>
+        <STEP value="0.140000001" short="72.0L" long="72.0L"/>
+        <STEP value="0.144999981" short="71.0L" long="71.0L"/>
+        <STEP value="0.145000011" short="71.0L" long="71.0L"/>
+        <STEP value="0.155000001" short="69.0L" long="69.0L"/>
+        <STEP value="0.169999987" short="66.0L" long="66.0L"/>
+        <STEP value="0.170000002" short="66.0L" long="66.0L"/>
+        <STEP value="0.175000012" short="65.0L" long="65.0L"/>
+        <STEP value="0.180000007" short="64.0L" long="64.0L"/>
+        <STEP value="0.185000002" short="63.0L" long="63.0L"/>
+        <STEP value="0.195000008" short="61.0L" long="61.0L"/>
+        <STEP value="0.204999998" short="59.0L" long="59.0L"/>
+        <STEP value="0.209999993" short="58.0L" long="58.0L"/>
+        <STEP value="0.225000009" short="55.0L" long="55.0L"/>
+        <STEP value="0.230000004" short="54.0L" long="54.0L"/>
+        <STEP value="0.234999999" short="53.0L" long="53.0L"/>
+        <STEP value="0.245000005" short="51.0L" long="51.0L"/>
+        <STEP value="0.254999995" short="49.0L" long="49.0L"/>
+        <STEP value="0.264999986" short="47.0L" long="47.0L"/>
+        <STEP value="0.270000011" short="46.0L" long="46.0L"/>
+        <STEP value="0.274999976" short="45.0L" long="45.0L"/>
+        <STEP value="0.280000001" short="44.0L" long="44.0L"/>
+        <STEP value="0.310000002" short="38.0L" long="38.0L"/>
+        <STEP value="0.314999998" short="37.0L" long="37.0L"/>
+        <STEP value="0.319999993" short="36.0L" long="36.0L"/>
+        <STEP value="0.329999983" short="34.0L" long="34.0L"/>
+        <STEP value="0.330000013" short="34.0L" long="34.0L"/>
+        <STEP value="0.340000004" short="32.0L" long="32.0L"/>
+        <STEP value="0.344999999" short="31.0L" long="31.0L"/>
+        <STEP value="0.349999994" short="30.0L" long="30.0L"/>
+        <STEP value="0.36499998" short="27.0L" long="27.0L"/>
+        <STEP value="0.36500001" short="27.0L" long="27.0L"/>
+        <STEP value="0.370000005" short="26.0L" long="26.0L"/>
+        <STEP value="0.375" short="25.0L" long="25.0L"/>
+        <STEP value="0.38499999" short="23.0L" long="23.0L"/>
+        <STEP value="0.390000015" short="22.0L" long="22.0L"/>
+        <STEP value="0.394999981" short="21.0L" long="21.0L"/>
+        <STEP value="0.409999996" short="18.0L" long="18.0L"/>
+        <STEP value="0.425000012" short="15.0L" long="15.0L"/>
+        <STEP value="0.435000002" short="13.0L" long="13.0L"/>
+        <STEP value="0.439999998" short="12.0L" long="12.0L"/>
+        <STEP value="0.444999993" short="11.0L" long="11.0L"/>
+        <STEP value="0.455000013" short="9.0L" long="9.0L"/>
+        <STEP value="0.459999979" short="8.0L" long="8.0L"/>
+        <STEP value="0.460000008" short="8.0L" long="8.0L"/>
+        <STEP value="0.465000004" short="7.0L" long="7.0L"/>
+        <STEP value="0.469999999" short="6.0L" long="6.0L"/>
+        <STEP value="0.474999994" short="5.0L" long="5.0L"/>
+        <STEP value="0.480000019" short="4.0L" long="4.0L"/>
+        <STEP value="0.485000014" short="3.0L" long="3.0L"/>
+        <STEP value="0.49000001" short="2.0L" long="2.0L"/>
+        <STEP value="0.495000005" short="1.00L" long="1.00L"/>
+        <STEP value="0.5" short="C" long="C"/>
+        <STEP value="0.504999995" short="1.00R" long="1.00R"/>
+        <STEP value="0.50999999" short="2.0R" long="2.0R"/>
+        <STEP value="0.514999986" short="3.0R" long="3.0R"/>
+        <STEP value="0.524999976" short="5.0R" long="5.0R"/>
+        <STEP value="0.530000031" short="6.0R" long="6.0R"/>
+        <STEP value="0.534999967" short="7.0R" long="7.0R"/>
+        <STEP value="0.545000017" short="9.0R" long="9.0R"/>
+        <STEP value="0.555000007" short="11.0R" long="11.0R"/>
+        <STEP value="0.560000002" short="12.0R" long="12.0R"/>
+        <STEP value="0.569999993" short="14.0R" long="14.0R"/>
+        <STEP value="0.579999983" short="16.0R" long="16.0R"/>
+        <STEP value="0.584999979" short="17.0R" long="17.0R"/>
+        <STEP value="0.589999974" short="18.0R" long="18.0R"/>
+        <STEP value="0.590000033" short="18.0R" long="18.0R"/>
+        <STEP value="0.595000029" short="19.0R" long="19.0R"/>
+        <STEP value="0.600000024" short="20.0R" long="20.0R"/>
+        <STEP value="0.605000019" short="21.0R" long="21.0R"/>
+        <STEP value="0.610000014" short="22.0R" long="22.0R"/>
+        <STEP value="0.61500001" short="23.0R" long="23.0R"/>
+        <STEP value="0.620000005" short="24.0R" long="24.0R"/>
+        <STEP value="0.625" short="25.0R" long="25.0R"/>
+        <STEP value="0.629999995" short="26.0R" long="26.0R"/>
+        <STEP value="0.63499999" short="27.0R" long="27.0R"/>
+        <STEP value="0.639999986" short="28.0R" long="28.0R"/>
+        <STEP value="0.649999976" short="30.0R" long="30.0R"/>
+        <STEP value="0.655000031" short="31.0R" long="31.0R"/>
+        <STEP value="0.660000026" short="32.0R" long="32.0R"/>
+        <STEP value="0.665000021" short="33.0R" long="33.0R"/>
+        <STEP value="0.670000017" short="34.0R" long="34.0R"/>
+        <STEP value="0.675000012" short="35.0R" long="35.0R"/>
+        <STEP value="0.680000007" short="36.0R" long="36.0R"/>
+        <STEP value="0.685000002" short="37.0R" long="37.0R"/>
+        <STEP value="0.689999998" short="38.0R" long="38.0R"/>
+        <STEP value="0.694999993" short="39.0R" long="39.0R"/>
+        <STEP value="0.699999988" short="40.0R" long="40.0R"/>
+        <STEP value="0.704999983" short="41.0R" long="41.0R"/>
+        <STEP value="0.709999979" short="42.0R" long="42.0R"/>
+        <STEP value="0.715000033" short="43.0R" long="43.0R"/>
+        <STEP value="0.725000024" short="45.0R" long="45.0R"/>
+        <STEP value="0.730000019" short="46.0R" long="46.0R"/>
+        <STEP value="0.735000014" short="47.0R" long="47.0R"/>
+        <STEP value="0.74000001" short="48.0R" long="48.0R"/>
+        <STEP value="0.75" short="50.0R" long="50.0R"/>
+        <STEP value="0.75999999" short="52.0R" long="52.0R"/>
+        <STEP value="0.764999986" short="53.0R" long="53.0R"/>
+        <STEP value="0.774999976" short="55.0R" long="55.0R"/>
+        <STEP value="0.780000031" short="56.0R" long="56.0R"/>
+        <STEP value="0.790000021" short="58.0R" long="58.0R"/>
+        <STEP value="0.795000017" short="59.0R" long="59.0R"/>
+        <STEP value="0.805000007" short="61.0R" long="61.0R"/>
+        <STEP value="0.810000002" short="62.0R" long="62.0R"/>
+        <STEP value="0.814999998" short="63.0R" long="63.0R"/>
+        <STEP value="0.819999993" short="64.0R" long="64.0R"/>
+        <STEP value="0.824999988" short="65.0R" long="65.0R"/>
+        <STEP value="0.829999983" short="66.0R" long="66.0R"/>
+        <STEP value="0.834999979" short="67.0R" long="67.0R"/>
+        <STEP value="0.840000033" short="68.0R" long="68.0R"/>
+        <STEP value="0.850000024" short="70.0R" long="70.0R"/>
+        <STEP value="0.855000019" short="71.0R" long="71.0R"/>
+        <STEP value="0.860000014" short="72.0R" long="72.0R"/>
+        <STEP value="0.870000005" short="74.0R" long="74.0R"/>
+        <STEP value="0.875" short="75.0R" long="75.0R"/>
+        <STEP value="0.879999995" short="76.0R" long="76.0R"/>
+        <STEP value="0.88499999" short="77.0R" long="77.0R"/>
+        <STEP value="0.889999986" short="78.0R" long="78.0R"/>
+        <STEP value="0.894999981" short="79.0R" long="79.0R"/>
+        <STEP value="0.899999976" short="80.0R" long="80.0R"/>
+        <STEP value="0.905000031" short="81.0R" long="81.0R"/>
+        <STEP value="0.909999967" short="82.0R" long="82.0R"/>
+        <STEP value="0.910000026" short="82.0R" long="82.0R"/>
+        <STEP value="0.915000021" short="83.0R" long="83.0R"/>
+        <STEP value="0.920000017" short="84.0R" long="84.0R"/>
+        <STEP value="0.925000012" short="85.0R" long="85.0R"/>
+        <STEP value="0.930000007" short="86.0R" long="86.0R"/>
+        <STEP value="0.935000002" short="87.0R" long="87.0R"/>
+        <STEP value="0.939999998" short="88.0R" long="88.0R"/>
+        <STEP value="0.944999993" short="89.0R" long="89.0R"/>
+        <STEP value="0.954999983" short="91.0R" long="91.0R"/>
+        <STEP value="0.959999979" short="92.0R" long="92.0R"/>
+        <STEP value="0.965000033" short="93.0R" long="93.0R"/>
+        <STEP value="0.969999969" short="94.0R" long="94.0R"/>
+        <STEP value="0.970000029" short="94.0R" long="94.0R"/>
+        <STEP value="0.975000024" short="95.0R" long="95.0R"/>
+        <STEP value="0.980000019" short="96.0R" long="96.0R"/>
+        <STEP value="0.985000014" short="97.0R" long="97.0R"/>
+        <STEP value="0.99000001" short="98.0R" long="98.0R"/>
+        <STEP value="0.995000005" short="99.0R" long="99.0R"/>
+        <STEP value="1" short="100.0R" long="100.0R"/>
+      </VPOT>
+      <VPOT short="Pan" long="Mid Balance" paramId="19">
+        <STEP value="0.49000001" short="2.0L" long="2.0L"/>
+        <STEP value="0.495000005" short="1.00L" long="1.00L"/>
+        <STEP value="0.504999995" short="1.00R" long="1.00R"/>
+        <STEP value="0.50999999" short="2.0R" long="2.0R"/>
+      </VPOT>
+      <VPOT short="Pan" long="Far Balance" paramId="28">
+        <STEP value="0.469999999" short="6.0L" long="6.0L"/>
+        <STEP value="0.479999989" short="4.0L" long="4.0L"/>
+        <STEP value="0.495000005" short="1.00L" long="1.00L"/>
+        <STEP value="0.514999986" short="3.0R" long="3.0R"/>
+        <STEP value="0.529999971" short="6.0R" long="6.0R"/>
+      </VPOT>
+      <VPOT short="Mute" long="Near Mute" paramId="9">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="Mute" long="Mute"/>
+      </VPOT>
+      <VPOT short="Mute" long="Mid Mute" paramId="18">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="Mute" long="Mute"/>
+      </VPOT>
+      <VPOT short="Mute" long="Far Mute" paramId="27">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="Mute" long="Mute"/>
+      </VPOT>
+      <VPOT short="L/R" long="L/R Swap" paramId="36">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Bypass" long="Bypass" paramId="41">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Filter" long="Filter &amp; Phase" referTo="-1"
+          offset="0">
+      <FADER short="Near P" long="Near Ph Invert" paramId="8"/>
+      <FADER short="Mid Ph" long="Mid Ph Invert" paramId="17"/>
+      <FADER short="Far Ph" long="Far Ph Invert" paramId="26"/>
+      <FADER short="Mute" long="Near Mute" paramId="9"/>
+      <FADER short="Mute" long="Mid Mute" paramId="18"/>
+      <FADER short="Mute" long="Far Mute" paramId="27"/>
+      <FADER short="Mix" long="Dry/Wet" paramId="39"/>
+      <FADER short="Master" long="Master Level" paramId="40"/>
+      <VPOT short="HiCut" long="Near Hi Cut" paramId="6">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="HiCut" long="Mid Hi Cut" paramId="15">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="HiCut" long="Far Hi Cut" paramId="24">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="LoCut" long="Mid Lo Cut" paramId="16">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="LoCut" long="Mid Lo Cut" paramId="16">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="LoCut" long="Far Lo Cut" paramId="25">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="L/R" long="L/R Swap" paramId="36">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Bypass" long="Bypass" paramId="41">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="2" short="Page 3" long="Page 3" referTo="-1" offset="0">
+      <FADER short="Mid Lo" long="Mid Lo Cut" paramId="16"/>
+      <FADER short="Mid Ph" long="Mid Ph Invert" paramId="17"/>
+      <FADER short="Mid Mu" long="Mid Mute" paramId="18"/>
+      <FADER short="Mid Ba" long="Mid Balance" paramId="19"/>
+      <FADER short="Mid Ga" long="Mid Gain" paramId="20"/>
+      <FADER short="Far Mi" long="Far Mics" paramId="21"/>
+      <FADER short="Far Di" long="Far Dist" paramId="22"/>
+      <FADER short="Far Di" long="Far Dist Dly" paramId="23"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="Page 4" long="Page 4" referTo="-1" offset="0">
+      <FADER short="Far Hi" long="Far Hi Cut" paramId="24"/>
+      <FADER short="Far Lo" long="Far Lo Cut" paramId="25"/>
+      <FADER short="Far Ph" long="Far Ph Invert" paramId="26"/>
+      <FADER short="Far Mu" long="Far Mute" paramId="27"/>
+      <FADER short="Far Ba" long="Far Balance" paramId="28"/>
+      <FADER short="Far Ga" long="Far Gain" paramId="29"/>
+      <FADER short="Master" long="Master EQ" paramId="30"/>
+      <FADER short="EQ Lo " long="EQ Lo Freq" paramId="31"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="Page 5" long="Page 5" referTo="-1" offset="0">
+      <FADER short="EQ Lo " long="EQ Lo Gain" paramId="32"/>
+      <FADER short="EQ Hi " long="EQ Hi Freq" paramId="33"/>
+      <FADER short="EQ Hi " long="EQ Hi Gain" paramId="34"/>
+      <FADER short="Predel" long="Predelay" paramId="35"/>
+      <FADER short="L/R Sw" long="L/R Swap" paramId="36"/>
+      <FADER short="Mono S" long="Mono Sum" paramId="37"/>
+      <FADER short="Wet So" long="Wet Solo" paramId="38"/>
+      <FADER short="Dry/We" long="Dry/Wet" paramId="39"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="5" short="Page 6" long="Page 6" referTo="-1" offset="0">
+      <FADER short="Master" long="Master Level" paramId="40"/>
+      <FADER short="Bypass" long="Bypass" paramId="41"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="7" short="" long="" referTo="-1" offset="0">
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Master" long="Master EQ" paramId="30">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

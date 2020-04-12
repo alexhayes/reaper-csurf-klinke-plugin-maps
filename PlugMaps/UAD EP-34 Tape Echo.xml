@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes aka plant-on"></MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="Repeat" long="Repeats" paramId="1"/>
+      <FADER short="Echo" long="Echo Volume" paramId="2"/>
+      <FADER short="Rec" long="Record Volume" paramId="3"/>
+      <FADER short="Delay" long="Delay" paramId="0"/>
+      <FADER short="Treble" long="Treble" paramId="4"/>
+      <FADER short="Bass" long="Bass" paramId="5"/>
+      <FADER short="Pan" long="Pan" paramId="6"/>
+      <FADER paramId="-1"/>
+      <VPOT short="Input" long="Input" paramId="7">
+        <STEP value="0" short="LO" long="LO"/>
+        <STEP value="1" short="HI" long="HI"/>
+      </VPOT>
+      <VPOT short="Tensio" long="Tension" paramId="8">
+        <STEP value="0" short="LO" long="LO"/>
+        <STEP value="1" short="HI" long="HI"/>
+      </VPOT>
+      <VPOT short="Send" long="Send" paramId="9">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+      <VPOT short="Sync" long="Tempo Sync" paramId="10">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Wet" long="Wet / Solo" paramId="11">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="12">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

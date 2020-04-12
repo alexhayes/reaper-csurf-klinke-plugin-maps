@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="Gain" long="Gain" paramId="1"/>
+      <FADER paramId="-1"/>
+      <FADER short="LowFrq" long="Bass Frequency" paramId="6"/>
+      <FADER short="Gain" long="Bass Gain" paramId="7"/>
+      <FADER short="MidFrq" long="Mid Freq" paramId="3"/>
+      <FADER short="Gain" long="Mid Gain" paramId="4"/>
+      <FADER short="HiShlf" long="Hi Shelf Gain" paramId="2"/>
+      <FADER short="Level" long="Level" paramId="11"/>
+      <VPOT short="Input " long="Input Select" paramId="0">
+        <STEP value="0" short="Line" long="Line"/>
+        <STEP value="1" short="Mic" long="Mic"/>
+      </VPOT>
+      <VPOT short="Pad" long="Pad" paramId="10">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="-20 dB" long="-20 dB"/>
+      </VPOT>
+      <VPOT short="EQ In" long="EQ In" paramId="8">
+        <STEP value="0" short="Byp" long="Byp"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="PkTr" long="Mid Type" paramId="5">
+        <STEP value="0" short="Trough" long="Trough"/>
+        <STEP value="1" short="Peak" long="Peak"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Phase" long="Polarity" paramId="9">
+        <STEP value="0" short="Normal" long="Normal"/>
+        <STEP value="1" short="Invert" long="Inverted"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="12">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER short="EQ In" long="EQ In" paramId="8"/>
+      <FADER short="Polari" long="Polarity" paramId="9"/>
+      <FADER short="Pad" long="Pad" paramId="10"/>
+      <FADER short="Level" long="Level" paramId="11"/>
+      <FADER short="Power" long="Power" paramId="12"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

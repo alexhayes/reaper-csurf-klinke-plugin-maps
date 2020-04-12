@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+
 <PLUGMAP version="1">
   <MAPINFO creator="Alex Hayes (aka plant-on)">UAD Ampex ATR-105</MAPINFO>
   <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">

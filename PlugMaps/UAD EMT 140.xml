@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="DampA" long="DampA" paramId="1"/>
+      <FADER short="DampB" long="DampB" paramId="2"/>
+      <FADER short="DampC" long="DampC" paramId="3"/>
+      <FADER short="Width" long="Width" paramId="12"/>
+      <FADER short="Bal" long="Bal" paramId="16"/>
+      <FADER short="ModRat" long="ModRate" paramId="10"/>
+      <FADER short="ModDep" long="ModDepth" paramId="11"/>
+      <FADER short="PreDly" long="PreDly" paramId="9"/>
+      <VPOT short="LowCut" long="LowCut" paramId="15">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="0.111111112" short="M 90Hz" long="M 90Hz"/>
+        <STEP value="0.222222224" short="M 125H" long="M 125Hz"/>
+        <STEP value="0.333333343" short="M 180H" long="M 180Hz"/>
+        <STEP value="0.444444448" short="M 250H" long="M 250Hz"/>
+        <STEP value="0.555555582" short="M 270H" long="M 270Hz"/>
+        <STEP value="0.666666687" short="M 360H" long="M 360Hz"/>
+        <STEP value="0.777777791" short="E -4dB" long="E -4dB"/>
+        <STEP value="0.888888896" short="E -10d" long="E -10dB"/>
+        <STEP value="1" short="E -16d" long="E -16dB"/>
+      </VPOT>
+      <VPOT short="Plate" long="Plate" paramId="0">
+        <STEP value="0" short="A" long="A"/>
+        <STEP value="0.5" short="B" long="B"/>
+        <STEP value="1" short="C" long="C"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="WetSol" long="WetSolo" paramId="13">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="Solo" long="Solo"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="17">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER short="LFreq" long="LFreq" paramId="5"/>
+      <FADER short="LGain" long="LGain" paramId="6"/>
+      <FADER short="HFreq" long="HFreq" paramId="7"/>
+      <FADER short="HGain" long="HGain" paramId="8"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Mix" long="Mix" paramId="14"/>
+      <FADER paramId="-1"/>
+      <VPOT short="EQ" long="EQ" paramId="4">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="WetSol" long="WetSolo" paramId="13">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="Solo" long="Solo"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="17">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

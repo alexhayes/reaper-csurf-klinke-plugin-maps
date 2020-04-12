@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
 <PLUGMAP version="1">
   <MAPINFO creator="Alex Hayes (aka plant-on)">UAD Neve 33609</MAPINFO>
   <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
@@ -52,7 +51,7 @@
       <FADER short="Gain" long="Comp Gain" paramId="16"/>
       <FADER short="Ratio" long="Comp Ratio" paramId="17"/>
       <FADER paramId="-1"/>
-      <FADER short="Output" long="Output" paramId="19"/>	  
+      <FADER short="Output" long="Output" paramId="19"/>
       <VPOT short="LmtIn" long="CH2 Limit In" paramId="13">
         <STEP value="0" short="In" long="In"/>
         <STEP value="1" short="Out" long="Out"/>

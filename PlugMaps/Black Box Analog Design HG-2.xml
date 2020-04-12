@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="Gain" long="Gain" paramId="3"/>
+      <FADER paramId="-1"/>
+      <FADER short="Pentod" long="Pentode" paramId="5"/>
+      <FADER short="Triode" long="Triode" paramId="6"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Amount" long="Amount" paramId="8"/>
+      <FADER short="Output" long="Output" paramId="12"/>
+      <VPOT short="Sat" long="Saturation" paramId="2">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Freq" long="Saturation Freq" paramId="1">
+        <STEP value="0" short="Low" long="Low"/>
+        <STEP value="0.5" short="Flat" long="Flat"/>
+        <STEP value="1" short="High" long="High"/>
+      </VPOT>
+      <VPOT short="Alt" long="Alt Tube" paramId="4">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Meter" long="MetrMode" paramId="14">
+        <STEP value="0" short="VU" long="VU"/>
+        <STEP value="1" short="PPM" long="PPM"/>
+      </VPOT>
+      <VPOT short="Air" long="Air" paramId="7">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="0">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER short="Air" long="Air" paramId="8"/>
+      <FADER short="Cal." long="Cal." paramId="9"/>
+      <FADER short="Densit" long="Density" paramId="10"/>
+      <FADER short="In Gai" long="In Gain" paramId="11"/>
+      <FADER short="Output" long="Output" paramId="12"/>
+      <FADER short="Mix" long="Mix" paramId="13"/>
+      <FADER short="MetrMo" long="MetrMode" paramId="14"/>
+      <FADER short="Bypass" long="Bypass" paramId="15"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="Page 3" long="Page 3" referTo="-1" offset="0">
+      <FADER short="Bank" long="Bank" paramId="16"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

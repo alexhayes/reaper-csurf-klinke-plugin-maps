@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
 <PLUGMAP version="1">
   <MAPINFO creator="Alex Hayes (aka plant-on)">SoundToys Little Radiator</MAPINFO>
   <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
@@ -14,9 +13,9 @@
       <FADER paramId="-1"/>
       <FADER paramId="-1"/>
       <VPOT short="Pad" long="Pad" paramId="3">
-		  <STEP value="0" short="Out" long="Out"/>
-		  <STEP value="1" short="In" long="In"/>
-		</VPOT>
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
       <VPOT paramId="-1"/>
       <VPOT paramId="-1"/>
       <VPOT paramId="-1"/>
@@ -24,9 +23,9 @@
       <VPOT paramId="-1"/>
       <VPOT paramId="-1"/>
       <VPOT short="Power" long="Power" paramId="0">
-		  <STEP value="0" short="On" long="On"/>
-		  <STEP value="1" short="Off" long="Off"/>
-		</VPOT>
+        <STEP value="0" short="On" long="On"/>
+        <STEP value="1" short="Off" long="Off"/>
+      </VPOT>
     </PAGE>
   </BANK>
 </PLUGMAP>

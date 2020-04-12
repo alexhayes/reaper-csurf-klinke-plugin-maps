@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (aka plant-on)">Slate VBC Rack</MAPINFO>
+  <BANK id="0" short="VBC" long="VBC" referTo="-1" offset="0">
+    <PAGE id="0" short="Grey" long="FG-Grey" referTo="-1" offset="0">
+      <FADER short="Thresh" long="Threshold" paramId="40"/>
+      <FADER short="Ratio" long="Ratio" paramId="20"/>
+      <FADER short="Attack" long="Attack" paramId="14"/>
+      <FADER short="Releas" long="Release" paramId="19"/>
+      <FADER paramId="-1"/>
+      <FADER short="HPF" long="HPF" paramId="34"/>
+      <FADER short="Mix" long="Mix" paramId="25"/>
+      <FADER short="Gain" long="Makeup Gain" paramId="1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Auto" long="Auto Release" paramId="16">
+        <STEP value="0" short="Manual" long="Manual Release"/>
+        <STEP value="1" short="Auto" long="Auto Release"/>
+      </VPOT>
+      <VPOT short="Solo" long="Solo" paramId="15">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="0.33" short="Solo" long="Solo"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Meter" long="Meter Selector" paramId="33">
+        <STEP value="0" short="In" long="In"/>
+        <STEP value="0.5" short="GR" long="Gain Reduction"/>
+        <STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="5">
+        <STEP value="0" short="On" long="On"/>
+        <STEP value="1" short="Off" long="Off"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Red" long="FG-Red" referTo="-1" offset="0">
+      <FADER short="Thresh" long="Threshold" paramId="12"/>
+      <FADER short="Ratio" long="Ratio" paramId="6"/>
+      <FADER short="Attack" long="Attack" paramId="0"/>
+      <FADER short="Releas" long="Release" paramId="24"/>
+      <FADER short="Drive" long="Drive" paramId="31"/>
+      <FADER short="HPF" long="HPF" paramId="37"/>
+      <FADER short="Mix" long="Mix" paramId="27"/>
+      <FADER short="Gain" long="Gain" paramId="26"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Auto" long="Auto Release" paramId="22">
+        <STEP value="0" short="Manual" long="Manual Release"/>
+        <STEP value="1" short="Auto" long="Auto Release"/>
+      </VPOT>
+      <VPOT short="Solo" long="Solo" paramId="15">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="0.66" short="Solo" long="Solo"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Meter" long="Meter" paramId="9">
+        <STEP value="0" short="In" long="In"/>
+        <STEP value="0.5" short="GR" long="Gain Reduction"/>
+        <STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="35">
+        <STEP value="0" short="On" long="On"/>
+        <STEP value="1" short="Off" long="Off"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="2" short="MU" long="FG-MU" referTo="-1" offset="0">
+      <FADER short="Input" long="Input Left" paramId="13"/>
+      <FADER short="Input" long="Input Right" paramId="11"/>
+      <FADER short="Thresh" long="Threshold Left" paramId="17"/>
+      <FADER short="Thresh" long="Threshold Right" paramId="21"/>
+      <FADER paramId="-1"/>
+      <FADER short="Mix" long="Mix" paramId="7"/>
+      <FADER short="Gain" long="Gain L" paramId="29"/>
+      <FADER short="Gain" long="Make-up Gain Righ" paramId="8"/>
+      <VPOT short="Mode" long="Mode" paramId="10"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Solo" long="Solo" paramId="15">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="Solo" long="Solo"/>
+      </VPOT>
+      <VPOT short="Link" long="Link" paramId="4"/>
+      <VPOT short="Meter" long="Meter Selector" paramId="32">
+        <STEP value="0" short="In" long="In"/>
+        <STEP value="0.5" short="GR" long="Gain Reduction"/>
+        <STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="30">
+        <STEP value="0" short="On" long="On"/>
+        <STEP value="1" short="Off" long="Off"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="3" short="MU" long="MU" referTo="-1" offset="0">
+      <FADER short="Attack" long="Attack L" paramId="18"/>
+      <FADER short="Attack" long="Attack R" paramId="36"/>
+      <FADER short="Releas" long="Release L" paramId="3"/>
+      <FADER short="Releas" long="Release R" paramId="28"/>
+      <FADER short="HPF" long="HPF L" paramId="39"/>
+      <FADER short="HPF" long="HPF R" paramId="38"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT short="Mode" long="Mode" paramId="10">
+        <STEP value="0" short="Stereo" long="Stereo"/>
+        <STEP value="1" short="MS" long="Mid/Side"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Solo" long="Solo" paramId="15">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="Solo" long="Solo"/>
+      </VPOT>
+      <VPOT short="Link" long="Link" paramId="4">
+        <STEP value="0" short="Off" long="Link Off"/>
+        <STEP value="1" short="On" long="Link On"/>
+      </VPOT>
+      <VPOT short="Meter" long="Meter Selector" paramId="32">
+        <STEP value="0" short="In" long="In"/>
+        <STEP value="0.5" short="GR" long="Gain Reduction"/>
+        <STEP value="1" short="Out" long="Out"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="30">
+        <STEP value="0" short="On" long="On"/>
+        <STEP value="1" short="Off" long="Off"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="4" short="Util" long="Util" referTo="-1" offset="0">
+      <FADER short="Seq" long="Sequence" paramId="2"/>
+      <FADER short="Solo" long="Solo" paramId="15"/>
+      <FADER short="Bypass" long="Bypass" paramId="23"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

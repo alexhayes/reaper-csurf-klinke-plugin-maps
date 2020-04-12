@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="Input " long="Input Gain" paramId="6"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Output" long="Output Gain" paramId="5"/>
+      <VPOT short="Bias" long="Bias" paramId="4">
+        <STEP value="0.166666672" short="High" long="High"/>
+        <STEP value="0.5" short="Normal" long="Normal"/>
+        <STEP value="0.833333313" short="Low" long="Low"/>
+      </VPOT>
+      <VPOT short="Machin" long="Machine Type" paramId="3">
+        <STEP value="0.25" short="A827" long="A827 2&quot; 16 Track"/>
+        <STEP value="0.75" short="A80" long="A80 1/2&quot; 2 Track"/>
+      </VPOT>
+      <VPOT short="Speed" long="Speed" paramId="2">
+        <STEP value="0.25" short="30ips" long="30ips"/>
+        <STEP value="0.75" short="15ips" long="15ips"/>
+      </VPOT>
+      <VPOT short="Speed" long="Speed" paramId="2">
+        <STEP value="0.75" short="15ips" long="15ips"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Bypass" long="Bypass" paramId="0"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

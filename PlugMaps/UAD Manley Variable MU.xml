@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator=""></MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Left" long="Left/Stereo" referTo="-1" offset="0">
+      <FADER short="In" long="Dual Input" paramId="0"/>
+      <FADER short="Thresh" long="L Thresh" paramId="1"/>
+      <FADER short="Attack" long="L Attack" paramId="2"/>
+      <FADER short="Recovr" long="L Recovery" paramId="3"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Mix" long="Mix" paramId="19"/>
+      <FADER short="Out" long="L Output" paramId="4"/>
+      <VPOT short="Headrm" long="Headroom" paramId="20">
+        <STEP value="0" short=" 4 dB" long=" 4 dB"/>
+        <STEP value="0.125" short=" 8 dB" long=" 8 dB"/>
+        <STEP value="0.25" short="12 dB" long="12 dB"/>
+        <STEP value="0.375" short="14 dB" long="14 dB"/>
+        <STEP value="0.5" short="16 dB" long="16 dB"/>
+        <STEP value="0.625" short="18 dB" long="18 dB"/>
+        <STEP value="0.75" short="20 dB" long="20 dB"/>
+        <STEP value="0.875" short="24 dB" long="24 dB"/>
+        <STEP value="1" short="28 dB" long="28 dB"/>
+      </VPOT>
+      <VPOT short="Limit" long="L Comp/Lim" paramId="5">
+        <STEP value="0" short="Comp" long="Comp"/>
+        <STEP value="1" short="Limit" long="Limit"/>
+      </VPOT>
+      <VPOT short="HPSC" long="HP Side Chain" paramId="13">
+        <STEP value="0" short="Flat" long="Flat"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="SCLink" long="SC Link" paramId="17">
+        <STEP value="0" short="Unlink" long="Unlink"/>
+        <STEP value="1" short="Link" long="Link"/>
+      </VPOT>
+      <VPOT short="Bypass" long="L Bypass" paramId="7">
+        <STEP value="0" short="Bypass" long="Bypass"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="M/S" long="Matrix" paramId="15">
+        <STEP value="0" short="M-S" long="M-S"/>
+        <STEP value="1" short="L-R" long="L-R"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="21">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Right" long="Right" referTo="-1" offset="0">
+      <FADER short="Input" long="Dual Input" paramId="0"/>
+      <FADER short="Tresh" long="R Thresh" paramId="8"/>
+      <FADER short="Attack" long="R Attack" paramId="9"/>
+      <FADER short="Recove" long="R Recovery" paramId="10"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Mix" long="Mix" paramId="19"/>
+      <FADER short="R Outp" long="R Output" paramId="11"/>
+      <VPOT short="Headro" long="Headroom" paramId="20">
+        <STEP value="0" short=" 4 dB" long=" 4 dB"/>
+        <STEP value="0.25" short="12 dB" long="12 dB"/>
+        <STEP value="0.375" short="14 dB" long="14 dB"/>
+        <STEP value="0.5" short="16 dB" long="16 dB"/>
+        <STEP value="0.625" short="18 dB" long="18 dB"/>
+        <STEP value="0.875" short="24 dB" long="24 dB"/>
+        <STEP value="1" short="28 dB" long="28 dB"/>
+      </VPOT>
+      <VPOT short="Limit" long="R Comp/Lim" paramId="12">
+        <STEP value="0" short="Comp" long="Comp"/>
+        <STEP value="1" short="Limit" long="Limit"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Ctrl L" long="Ctrl Link" paramId="18">
+        <STEP value="0" short="Unlink" long="Unlink"/>
+        <STEP value="1" short="Link" long="Link"/>
+      </VPOT>
+      <VPOT short="SCLink" long="SC Link" paramId="17">
+        <STEP value="0" short="Unlink" long="Unlink"/>
+        <STEP value="1" short="Link" long="Link"/>
+      </VPOT>
+      <VPOT short="Bypass" long="R Bypass" paramId="14">
+        <STEP value="0" short="Bypass" long="Bypass"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="M/S" long="In Matrix" paramId="15">
+        <STEP value="0" short="M-S" long="M-S"/>
+        <STEP value="1" short="L-R" long="L-R"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="21">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="2" short="Page 3" long="Page 3" referTo="-1" offset="0">
+      <FADER short="Out Ma" long="Out Matrix" paramId="16"/>
+      <FADER short="SC Lin" long="SC Link" paramId="17"/>
+      <FADER short="Ctrl L" long="Ctrl Link" paramId="18"/>
+      <FADER short="Mix" long="Mix" paramId="19"/>
+      <FADER short="Headro" long="Headroom" paramId="20"/>
+      <FADER short="Power" long="Power" paramId="21"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>
