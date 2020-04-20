@@ -1,0 +1,1235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (aka plant-on)">FabFilter Pro-Q 3</MAPINFO>
+  <BANK id="0" short="1-8" long="Band 1-8" referTo="-1" offset="0">
+    <PAGE id="0" short="Band 1" long="Band 1" referTo="-1" offset="0">
+      <FADER short="Freq" long="Band 1 Frequency" paramId="2"/>
+      <FADER short="Gain" long="Band 1 Gain" paramId="3"/>
+      <FADER short="Q" long="Band 1 Q" paramId="7"/>
+      <FADER short="Range" long="Band 1 Dynamic Ra" paramId="4"/>
+      <FADER short="Thresh" long="Band 1 Threshold" paramId="6"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Output" long="Output Level" paramId="315"/>
+      <VPOT short="Shape" long="Band 1 Shape" paramId="8">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="0.125" short="Low Sh" long="Low Shelf"/>
+        <STEP value="0.25" short="Low Cu" long="Low Cut"/>
+        <STEP value="0.375" short="High S" long="High Shelf"/>
+        <STEP value="0.5" short="High C" long="High Cut"/>
+        <STEP value="0.625" short="Notch" long="Notch"/>
+        <STEP value="0.75" short="Band P" long="Band Pass"/>
+        <STEP value="0.875" short="Tilt S" long="Tilt Shelf"/>
+        <STEP value="1" short="Flat T" long="Flat Tilt"/>
+      </VPOT>
+      <VPOT short="Slope" long="Band 1 Slope" paramId="9">
+        <STEP value="0" short="6 dB/o" long="6 dB/oct"/>
+        <STEP value="0.111111112" short="12 dB/" long="12 dB/oct"/>
+        <STEP value="0.222222224" short="18 dB/" long="18 dB/oct"/>
+        <STEP value="0.333333343" short="24 dB/" long="24 dB/oct"/>
+        <STEP value="0.444444448" short="30 dB/" long="30 dB/oct"/>
+        <STEP value="0.555555582" short="36 dB/" long="36 dB/oct"/>
+        <STEP value="0.666666687" short="48 dB/" long="48 dB/oct"/>
+        <STEP value="0.777777791" short="72 dB/" long="72 dB/oct"/>
+        <STEP value="0.888888896" short="96 dB/" long="96 dB/oct"/>
+        <STEP value="1" short="Brickw" long="Brickwall"/>
+      </VPOT>
+      <VPOT short="Stereo" long="Band 1 Stereo Pla" paramId="10">
+        <STEP value="0" short="Left" long="Left"/>
+        <STEP value="0.25" short="Right" long="Right"/>
+        <STEP value="0.5" short="Stereo" long="Stereo"/>
+        <STEP value="0.75" short="Mid" long="Mid"/>
+        <STEP value="1" short="Side" long="Side"/>
+      </VPOT>
+      <VPOT short="Dyn" long="Band 1 Dynamics E" paramId="5">
+        <STEP value="0" short="Dynami" long="Dynamics Disabled"/>
+        <STEP value="1" short="Dynami" long="Dynamics Enabled"/>
+      </VPOT>
+      <VPOT short="Thresh" long="Band 1 Threshold" paramId="6">
+        <STEP value="0.666666687" short="-20.0 " long="-20.0 dB"/>
+        <STEP value="1" short="Auto" long="Auto"/>
+      </VPOT>
+      <VPOT short="SidChn" long="Band 1 External S" paramId="334">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Solo" long="Band 1 Solo" paramId="12">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Solo" long="Solo"/>
+      </VPOT>
+      <VPOT short="In 1" long="Band 1 In" paramId="0">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Enabled" long="Enabled"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Band 2" long="Band 2" referTo="-1" offset="0">
+      <FADER short="Freq" long="Band 2 Frequency" paramId="15"/>
+      <FADER short="Gain" long="Band 2 Gain" paramId="16"/>
+      <FADER short="Q" long="Band 2 Q" paramId="20"/>
+      <FADER short="Range" long="Band 2 Dynamic Ra" paramId="17"/>
+      <FADER short="Thresh" long="Band 2 Threshold" paramId="19"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Output" long="Output Level" paramId="315"/>
+      <VPOT short="Shape" long="Band 2 Shape" paramId="21">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="0.125" short="Low Sh" long="Low Shelf"/>
+        <STEP value="0.25" short="Low Cu" long="Low Cut"/>
+        <STEP value="0.375" short="High S" long="High Shelf"/>
+        <STEP value="0.5" short="High C" long="High Cut"/>
+        <STEP value="0.625" short="Notch" long="Notch"/>
+        <STEP value="0.75" short="Band P" long="Band Pass"/>
+        <STEP value="0.875" short="Tilt S" long="Tilt Shelf"/>
+        <STEP value="1" short="Flat T" long="Flat Tilt"/>
+      </VPOT>
+      <VPOT short="Slope" long="Band 2 Slope" paramId="22">
+        <STEP value="0" short="6 dB/o" long="6 dB/oct"/>
+        <STEP value="0.111111112" short="12 dB/" long="12 dB/oct"/>
+        <STEP value="0.222222224" short="18 dB/" long="18 dB/oct"/>
+        <STEP value="0.333333343" short="24 dB/" long="24 dB/oct"/>
+        <STEP value="0.444444448" short="30 dB/" long="30 dB/oct"/>
+        <STEP value="0.555555582" short="36 dB/" long="36 dB/oct"/>
+        <STEP value="0.666666687" short="48 dB/" long="48 dB/oct"/>
+        <STEP value="0.777777791" short="72 dB/" long="72 dB/oct"/>
+        <STEP value="0.888888896" short="96 dB/" long="96 dB/oct"/>
+        <STEP value="1" short="Brickw" long="Brickwall"/>
+      </VPOT>
+      <VPOT short="Stereo" long="Band 2 Stereo Pla" paramId="23">
+        <STEP value="0" short="Left" long="Left"/>
+        <STEP value="0.25" short="Right" long="Right"/>
+        <STEP value="0.5" short="Stereo" long="Stereo"/>
+        <STEP value="0.75" short="Mid" long="Mid"/>
+        <STEP value="1" short="Side" long="Side"/>
+      </VPOT>
+      <VPOT short="Dyn" long="Band 2 Dynamics E" paramId="18">
+        <STEP value="0" short="Dynami" long="Dynamics Disabled"/>
+        <STEP value="1" short="Dynami" long="Dynamics Enabled"/>
+      </VPOT>
+      <VPOT short="Thresh" long="Band 2 Threshold" paramId="19">
+        <STEP value="0.666666687" short="-20.0 " long="-20.0 dB"/>
+        <STEP value="1" short="Auto" long="Auto"/>
+      </VPOT>
+      <VPOT short="SidChn" long="Band 2 External S" paramId="335">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Solo" long="Band 2 Solo" paramId="25">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Solo" long="Solo"/>
+      </VPOT>
+      <VPOT short="In 2" long="Band 2 In" paramId="13">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Enabled" long="Enabled"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="2" short="Band 3" long="Band 3" referTo="-1" offset="0">
+      <FADER short="Freq" long="Band 3 Frequency" paramId="28"/>
+      <FADER short="Gain" long="Band 3 Gain" paramId="29"/>
+      <FADER short="Q" long="Band 3 Q" paramId="33"/>
+      <FADER short="Range" long="Band 3 Dynamic Ra" paramId="30"/>
+      <FADER short="Thresh" long="Band 3 Threshold" paramId="32"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Output" long="Output Level" paramId="315"/>
+      <VPOT short="Shape" long="Band 3 Shape" paramId="34">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="0.125" short="Low Sh" long="Low Shelf"/>
+        <STEP value="0.25" short="Low Cu" long="Low Cut"/>
+        <STEP value="0.375" short="High S" long="High Shelf"/>
+        <STEP value="0.5" short="High C" long="High Cut"/>
+        <STEP value="0.625" short="Notch" long="Notch"/>
+        <STEP value="0.75" short="Band P" long="Band Pass"/>
+        <STEP value="0.875" short="Tilt S" long="Tilt Shelf"/>
+        <STEP value="1" short="Flat T" long="Flat Tilt"/>
+      </VPOT>
+      <VPOT short="Slope" long="Band 3 Slope" paramId="35">
+        <STEP value="0" short="6 dB/o" long="6 dB/oct"/>
+        <STEP value="0.111111112" short="12 dB/" long="12 dB/oct"/>
+        <STEP value="0.222222224" short="18 dB/" long="18 dB/oct"/>
+        <STEP value="0.333333343" short="24 dB/" long="24 dB/oct"/>
+        <STEP value="0.444444448" short="30 dB/" long="30 dB/oct"/>
+        <STEP value="0.555555582" short="36 dB/" long="36 dB/oct"/>
+        <STEP value="0.666666687" short="48 dB/" long="48 dB/oct"/>
+        <STEP value="0.777777791" short="72 dB/" long="72 dB/oct"/>
+        <STEP value="0.888888896" short="96 dB/" long="96 dB/oct"/>
+        <STEP value="1" short="Brickw" long="Brickwall"/>
+      </VPOT>
+      <VPOT short="Stereo" long="Band 3 Stereo Pla" paramId="36">
+        <STEP value="0" short="Left" long="Left"/>
+        <STEP value="0.25" short="Right" long="Right"/>
+        <STEP value="0.5" short="Stereo" long="Stereo"/>
+        <STEP value="0.75" short="Mid" long="Mid"/>
+        <STEP value="1" short="Side" long="Side"/>
+      </VPOT>
+      <VPOT short="Dyn" long="Band 3 Dynamics E" paramId="31">
+        <STEP value="0" short="Dynami" long="Dynamics Disabled"/>
+        <STEP value="1" short="Dynami" long="Dynamics Enabled"/>
+      </VPOT>
+      <VPOT short="Thresh" long="Band 3 Threshold" paramId="32">
+        <STEP value="0.666666687" short="-20.0 " long="-20.0 dB"/>
+        <STEP value="1" short="Auto" long="Auto"/>
+      </VPOT>
+      <VPOT short="SidChn" long="Band 3 External S" paramId="336">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Solo" long="Band 3 Solo" paramId="38">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Solo" long="Solo"/>
+      </VPOT>
+      <VPOT short="In 3" long="Band 3 In" paramId="26">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Enabled" long="Enabled"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="3" short="Band 4" long="Band 4" referTo="-1" offset="0">
+      <FADER short="Freq" long="Band 4 Frequency" paramId="41"/>
+      <FADER short="Gain" long="Band 4 Gain" paramId="42"/>
+      <FADER short="Q" long="Band 4 Q" paramId="46"/>
+      <FADER short="Range" long="Band 4 Dynamic Ra" paramId="43"/>
+      <FADER short="Thresh" long="Band 4 Threshold" paramId="45"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Output" long="Output Level" paramId="315"/>
+      <VPOT short="Shape" long="Band 4 Shape" paramId="47">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="0.125" short="Low Sh" long="Low Shelf"/>
+        <STEP value="0.25" short="Low Cu" long="Low Cut"/>
+        <STEP value="0.375" short="High S" long="High Shelf"/>
+        <STEP value="0.5" short="High C" long="High Cut"/>
+        <STEP value="0.625" short="Notch" long="Notch"/>
+        <STEP value="0.75" short="Band P" long="Band Pass"/>
+        <STEP value="0.875" short="Tilt S" long="Tilt Shelf"/>
+        <STEP value="1" short="Flat T" long="Flat Tilt"/>
+      </VPOT>
+      <VPOT short="Slope" long="Band 4 Slope" paramId="48">
+        <STEP value="0" short="6 dB/o" long="6 dB/oct"/>
+        <STEP value="0.111111112" short="12 dB/" long="12 dB/oct"/>
+        <STEP value="0.222222224" short="18 dB/" long="18 dB/oct"/>
+        <STEP value="0.333333343" short="24 dB/" long="24 dB/oct"/>
+        <STEP value="0.444444448" short="30 dB/" long="30 dB/oct"/>
+        <STEP value="0.555555582" short="36 dB/" long="36 dB/oct"/>
+        <STEP value="0.666666687" short="48 dB/" long="48 dB/oct"/>
+        <STEP value="0.777777791" short="72 dB/" long="72 dB/oct"/>
+        <STEP value="0.888888896" short="96 dB/" long="96 dB/oct"/>
+        <STEP value="1" short="Brickw" long="Brickwall"/>
+      </VPOT>
+      <VPOT short="Stereo" long="Band 4 Stereo Pla" paramId="49">
+        <STEP value="0" short="Left" long="Left"/>
+        <STEP value="0.25" short="Right" long="Right"/>
+        <STEP value="0.5" short="Stereo" long="Stereo"/>
+        <STEP value="0.75" short="Mid" long="Mid"/>
+        <STEP value="1" short="Side" long="Side"/>
+      </VPOT>
+      <VPOT short="Dyn" long="Band 4 Dynamics E" paramId="44">
+        <STEP value="0" short="Dynami" long="Dynamics Disabled"/>
+        <STEP value="1" short="Dynami" long="Dynamics Enabled"/>
+      </VPOT>
+      <VPOT short="Thresh" long="Band 4 Threshold" paramId="45">
+        <STEP value="0.666666687" short="-20.0 " long="-20.0 dB"/>
+        <STEP value="1" short="Auto" long="Auto"/>
+      </VPOT>
+      <VPOT short="SidChn" long="Band 4 External S" paramId="337">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Solo" long="Band 4 Solo" paramId="51">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Solo" long="Solo"/>
+      </VPOT>
+      <VPOT short="In 4" long="Band 4 In" paramId="39">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Enabled" long="Enabled"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="4" short="Band 5" long="Band 5" referTo="-1" offset="0">
+      <FADER short="Freq" long="Band 5 Frequency" paramId="54"/>
+      <FADER short="Gain" long="Band 5 Gain" paramId="55"/>
+      <FADER short="Q" long="Band 5 Q" paramId="59"/>
+      <FADER short="Range" long="Band 5 Dynamic Ra" paramId="56"/>
+      <FADER short="Thresh" long="Band 5 Threshold" paramId="58"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Output" long="Output Level" paramId="315"/>
+      <VPOT short="Shape" long="Band 5 Shape" paramId="60">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="0.125" short="Low Sh" long="Low Shelf"/>
+        <STEP value="0.25" short="Low Cu" long="Low Cut"/>
+        <STEP value="0.375" short="High S" long="High Shelf"/>
+        <STEP value="0.5" short="High C" long="High Cut"/>
+        <STEP value="0.625" short="Notch" long="Notch"/>
+        <STEP value="0.75" short="Band P" long="Band Pass"/>
+        <STEP value="0.875" short="Tilt S" long="Tilt Shelf"/>
+        <STEP value="1" short="Flat T" long="Flat Tilt"/>
+      </VPOT>
+      <VPOT short="Slope" long="Band 5 Slope" paramId="61">
+        <STEP value="0" short="6 dB/o" long="6 dB/oct"/>
+        <STEP value="0.111111112" short="12 dB/" long="12 dB/oct"/>
+        <STEP value="0.222222224" short="18 dB/" long="18 dB/oct"/>
+        <STEP value="0.333333343" short="24 dB/" long="24 dB/oct"/>
+        <STEP value="0.444444448" short="30 dB/" long="30 dB/oct"/>
+        <STEP value="0.555555582" short="36 dB/" long="36 dB/oct"/>
+        <STEP value="0.666666687" short="48 dB/" long="48 dB/oct"/>
+        <STEP value="0.777777791" short="72 dB/" long="72 dB/oct"/>
+        <STEP value="0.888888896" short="96 dB/" long="96 dB/oct"/>
+        <STEP value="1" short="Brickw" long="Brickwall"/>
+      </VPOT>
+      <VPOT short="Stereo" long="Band 5 Stereo Pla" paramId="62">
+        <STEP value="0" short="Left" long="Left"/>
+        <STEP value="0.25" short="Right" long="Right"/>
+        <STEP value="0.5" short="Stereo" long="Stereo"/>
+        <STEP value="0.75" short="Mid" long="Mid"/>
+        <STEP value="1" short="Side" long="Side"/>
+      </VPOT>
+      <VPOT short="Dyn" long="Band 5 Dynamics E" paramId="57">
+        <STEP value="0" short="Dynami" long="Dynamics Disabled"/>
+        <STEP value="1" short="Dynami" long="Dynamics Enabled"/>
+      </VPOT>
+      <VPOT short="Thresh" long="Band 5 Threshold" paramId="58">
+        <STEP value="0.666666687" short="-20.0 " long="-20.0 dB"/>
+        <STEP value="1" short="Auto" long="Auto"/>
+      </VPOT>
+      <VPOT short="SidChn" long="Band 5 External S" paramId="338">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Solo" long="Band 5 Solo" paramId="64">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Solo" long="Solo"/>
+      </VPOT>
+      <VPOT short="In 5" long="Band 5 In" paramId="52">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Enabled" long="Enabled"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="5" short="Band 6" long="Band 6" referTo="-1" offset="0">
+      <FADER short="Freq" long="Band 6 Frequency" paramId="67"/>
+      <FADER short="Gain" long="Band 6 Gain" paramId="68"/>
+      <FADER short="Q" long="Band 6 Q" paramId="72"/>
+      <FADER short="Range" long="Band 6 Dynamic Ra" paramId="69"/>
+      <FADER short="Thresh" long="Band 6 Threshold" paramId="71"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Output" long="Output Level" paramId="315"/>
+      <VPOT short="Shape" long="Band 6 Shape" paramId="73">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="0.125" short="Low Sh" long="Low Shelf"/>
+        <STEP value="0.25" short="Low Cu" long="Low Cut"/>
+        <STEP value="0.375" short="High S" long="High Shelf"/>
+        <STEP value="0.5" short="High C" long="High Cut"/>
+        <STEP value="0.625" short="Notch" long="Notch"/>
+        <STEP value="0.75" short="Band P" long="Band Pass"/>
+        <STEP value="0.875" short="Tilt S" long="Tilt Shelf"/>
+        <STEP value="1" short="Flat T" long="Flat Tilt"/>
+      </VPOT>
+      <VPOT short="Slope" long="Band 6 Slope" paramId="74">
+        <STEP value="0" short="6 dB/o" long="6 dB/oct"/>
+        <STEP value="0.111111112" short="12 dB/" long="12 dB/oct"/>
+        <STEP value="0.222222224" short="18 dB/" long="18 dB/oct"/>
+        <STEP value="0.333333343" short="24 dB/" long="24 dB/oct"/>
+        <STEP value="0.444444448" short="30 dB/" long="30 dB/oct"/>
+        <STEP value="0.555555582" short="36 dB/" long="36 dB/oct"/>
+        <STEP value="0.666666687" short="48 dB/" long="48 dB/oct"/>
+        <STEP value="0.777777791" short="72 dB/" long="72 dB/oct"/>
+        <STEP value="0.888888896" short="96 dB/" long="96 dB/oct"/>
+        <STEP value="1" short="Brickw" long="Brickwall"/>
+      </VPOT>
+      <VPOT short="Stereo" long="Band 6 Stereo Pla" paramId="75">
+        <STEP value="0" short="Left" long="Left"/>
+        <STEP value="0.25" short="Right" long="Right"/>
+        <STEP value="0.5" short="Stereo" long="Stereo"/>
+        <STEP value="0.75" short="Mid" long="Mid"/>
+        <STEP value="1" short="Side" long="Side"/>
+      </VPOT>
+      <VPOT short="Dyn" long="Band 6 Dynamics E" paramId="70">
+        <STEP value="0" short="Dynami" long="Dynamics Disabled"/>
+        <STEP value="1" short="Dynami" long="Dynamics Enabled"/>
+      </VPOT>
+      <VPOT short="Thresh" long="Band 6 Threshold" paramId="71">
+        <STEP value="0.666666687" short="-20.0 " long="-20.0 dB"/>
+        <STEP value="1" short="Auto" long="Auto"/>
+      </VPOT>
+      <VPOT short="SidChn" long="Band 6 External S" paramId="339">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Solo" long="Band 6 Solo" paramId="77">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Solo" long="Solo"/>
+      </VPOT>
+      <VPOT short="In 6" long="Band 6 In" paramId="65">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Enabled" long="Enabled"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="6" short="Band 7" long="Band 7" referTo="-1" offset="0">
+      <FADER short="Freq" long="Band 7 Frequency" paramId="80"/>
+      <FADER short="Gain" long="Band 7 Gain" paramId="81"/>
+      <FADER short="Q" long="Band 7 Q" paramId="85"/>
+      <FADER short="Range" long="Band 7 Dynamic Ra" paramId="82"/>
+      <FADER short="Thresh" long="Band 7 Threshold" paramId="84"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Output" long="Output Level" paramId="315"/>
+      <VPOT short="Shape" long="Band 7 Shape" paramId="86">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="0.125" short="Low Sh" long="Low Shelf"/>
+        <STEP value="0.25" short="Low Cu" long="Low Cut"/>
+        <STEP value="0.375" short="High S" long="High Shelf"/>
+        <STEP value="0.5" short="High C" long="High Cut"/>
+        <STEP value="0.625" short="Notch" long="Notch"/>
+        <STEP value="0.75" short="Band P" long="Band Pass"/>
+        <STEP value="0.875" short="Tilt S" long="Tilt Shelf"/>
+        <STEP value="1" short="Flat T" long="Flat Tilt"/>
+      </VPOT>
+      <VPOT short="Slope" long="Band 7 Slope" paramId="87">
+        <STEP value="0" short="6 dB/o" long="6 dB/oct"/>
+        <STEP value="0.111111112" short="12 dB/" long="12 dB/oct"/>
+        <STEP value="0.222222224" short="18 dB/" long="18 dB/oct"/>
+        <STEP value="0.333333343" short="24 dB/" long="24 dB/oct"/>
+        <STEP value="0.444444448" short="30 dB/" long="30 dB/oct"/>
+        <STEP value="0.555555582" short="36 dB/" long="36 dB/oct"/>
+        <STEP value="0.666666687" short="48 dB/" long="48 dB/oct"/>
+        <STEP value="0.777777791" short="72 dB/" long="72 dB/oct"/>
+        <STEP value="0.888888896" short="96 dB/" long="96 dB/oct"/>
+        <STEP value="1" short="Brickw" long="Brickwall"/>
+      </VPOT>
+      <VPOT short="Stereo" long="Band 7 Stereo Pla" paramId="88">
+        <STEP value="0" short="Left" long="Left"/>
+        <STEP value="0.25" short="Right" long="Right"/>
+        <STEP value="0.5" short="Stereo" long="Stereo"/>
+        <STEP value="0.75" short="Mid" long="Mid"/>
+        <STEP value="1" short="Side" long="Side"/>
+      </VPOT>
+      <VPOT short="Dyn" long="Band 7 Dynamics E" paramId="83">
+        <STEP value="0" short="Dynami" long="Dynamics Disabled"/>
+        <STEP value="1" short="Dynami" long="Dynamics Enabled"/>
+      </VPOT>
+      <VPOT short="Thresh" long="Band 7 Threshold" paramId="84">
+        <STEP value="0.666666687" short="-20.0 " long="-20.0 dB"/>
+        <STEP value="1" short="Auto" long="Auto"/>
+      </VPOT>
+      <VPOT short="SidChn" long="Band 7 External S" paramId="340">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Solo" long="Band 7 Solo" paramId="90">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Solo" long="Solo"/>
+      </VPOT>
+      <VPOT short="In 7" long="Band 7 In" paramId="78">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Enabled" long="Enabled"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="7" short="Band 8" long="Band 8" referTo="-1" offset="0">
+      <FADER short="Freq" long="Band 8 Frequency" paramId="93"/>
+      <FADER short="Gain" long="Band 8 Gain" paramId="94"/>
+      <FADER short="Q" long="Band 8 Q" paramId="98"/>
+      <FADER short="Range" long="Band 8 Dynamic Ra" paramId="95"/>
+      <FADER short="Thresh" long="Band 8 Threshold" paramId="97"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Output" long="Output Level" paramId="315"/>
+      <VPOT short="Shape" long="Band 8 Shape" paramId="99">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="0.125" short="Low Sh" long="Low Shelf"/>
+        <STEP value="0.25" short="Low Cu" long="Low Cut"/>
+        <STEP value="0.375" short="High S" long="High Shelf"/>
+        <STEP value="0.5" short="High C" long="High Cut"/>
+        <STEP value="0.625" short="Notch" long="Notch"/>
+        <STEP value="0.75" short="Band P" long="Band Pass"/>
+        <STEP value="0.875" short="Tilt S" long="Tilt Shelf"/>
+        <STEP value="1" short="Flat T" long="Flat Tilt"/>
+      </VPOT>
+      <VPOT short="Slope" long="Band 8 Slope" paramId="100">
+        <STEP value="0" short="6 dB/o" long="6 dB/oct"/>
+        <STEP value="0.111111112" short="12 dB/" long="12 dB/oct"/>
+        <STEP value="0.222222224" short="18 dB/" long="18 dB/oct"/>
+        <STEP value="0.333333343" short="24 dB/" long="24 dB/oct"/>
+        <STEP value="0.444444448" short="30 dB/" long="30 dB/oct"/>
+        <STEP value="0.555555582" short="36 dB/" long="36 dB/oct"/>
+        <STEP value="0.666666687" short="48 dB/" long="48 dB/oct"/>
+        <STEP value="0.777777791" short="72 dB/" long="72 dB/oct"/>
+        <STEP value="0.888888896" short="96 dB/" long="96 dB/oct"/>
+        <STEP value="1" short="Brickw" long="Brickwall"/>
+      </VPOT>
+      <VPOT short="Stereo" long="Band 8 Stereo Pla" paramId="101">
+        <STEP value="0" short="Left" long="Left"/>
+        <STEP value="0.25" short="Right" long="Right"/>
+        <STEP value="0.5" short="Stereo" long="Stereo"/>
+        <STEP value="0.75" short="Mid" long="Mid"/>
+        <STEP value="1" short="Side" long="Side"/>
+      </VPOT>
+      <VPOT short="Dyn" long="Band 8 Dynamics E" paramId="96">
+        <STEP value="0" short="Dynami" long="Dynamics Disabled"/>
+        <STEP value="1" short="Dynami" long="Dynamics Enabled"/>
+      </VPOT>
+      <VPOT short="Thresh" long="Band 8 Threshold" paramId="97">
+        <STEP value="0.666666687" short="-20.0 " long="-20.0 dB"/>
+        <STEP value="1" short="Auto" long="Auto"/>
+      </VPOT>
+      <VPOT short="SidChn" long="Band 8 External S" paramId="341">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Solo" long="Band 8 Solo" paramId="103">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Solo" long="Solo"/>
+      </VPOT>
+      <VPOT short="In 8" long="Band 8 In" paramId="91">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Enabled" long="Enabled"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+  <BANK id="1" short="9-16" long="Band 9-16" referTo="-1" offset="0">
+    <PAGE id="0" short="Band 9" long="Band 9" referTo="-1" offset="0">
+      <FADER short="Freq" long="Band 9 Frequency" paramId="106"/>
+      <FADER short="Gain" long="Band 9 Gain" paramId="107"/>
+      <FADER short="Q" long="Band 9 Q" paramId="111"/>
+      <FADER short="Range" long="Band 9 Dynamic Ra" paramId="108"/>
+      <FADER short="Thresh" long="Band 9 Threshold" paramId="110"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Output" long="Output Level" paramId="315"/>
+      <VPOT short="Shape" long="Band 9 Shape" paramId="112">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="0.125" short="Low Sh" long="Low Shelf"/>
+        <STEP value="0.25" short="Low Cu" long="Low Cut"/>
+        <STEP value="0.375" short="High S" long="High Shelf"/>
+        <STEP value="0.5" short="High C" long="High Cut"/>
+        <STEP value="0.625" short="Notch" long="Notch"/>
+        <STEP value="0.75" short="Band P" long="Band Pass"/>
+        <STEP value="0.875" short="Tilt S" long="Tilt Shelf"/>
+        <STEP value="1" short="Flat T" long="Flat Tilt"/>
+      </VPOT>
+      <VPOT short="Slope" long="Band 9 Slope" paramId="113">
+        <STEP value="0" short="6 dB/o" long="6 dB/oct"/>
+        <STEP value="0.111111112" short="12 dB/" long="12 dB/oct"/>
+        <STEP value="0.222222224" short="18 dB/" long="18 dB/oct"/>
+        <STEP value="0.333333343" short="24 dB/" long="24 dB/oct"/>
+        <STEP value="0.444444448" short="30 dB/" long="30 dB/oct"/>
+        <STEP value="0.555555582" short="36 dB/" long="36 dB/oct"/>
+        <STEP value="0.666666687" short="48 dB/" long="48 dB/oct"/>
+        <STEP value="0.777777791" short="72 dB/" long="72 dB/oct"/>
+        <STEP value="0.888888896" short="96 dB/" long="96 dB/oct"/>
+        <STEP value="1" short="Brickw" long="Brickwall"/>
+      </VPOT>
+      <VPOT short="Stereo" long="Band 9 Stereo Pla" paramId="114">
+        <STEP value="0" short="Left" long="Left"/>
+        <STEP value="0.25" short="Right" long="Right"/>
+        <STEP value="0.5" short="Stereo" long="Stereo"/>
+        <STEP value="0.75" short="Mid" long="Mid"/>
+        <STEP value="1" short="Side" long="Side"/>
+      </VPOT>
+      <VPOT short="Dyn" long="Band 9 Dynamics E" paramId="109">
+        <STEP value="0" short="Dynami" long="Dynamics Disabled"/>
+        <STEP value="1" short="Dynami" long="Dynamics Enabled"/>
+      </VPOT>
+      <VPOT short="Thresh" long="Band 9 Threshold" paramId="110">
+        <STEP value="0.666666687" short="-20.0 " long="-20.0 dB"/>
+        <STEP value="1" short="Auto" long="Auto"/>
+      </VPOT>
+      <VPOT short="SidChn" long="Band 9 External S" paramId="342">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Solo" long="Band 9 Solo" paramId="116">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Solo" long="Solo"/>
+      </VPOT>
+      <VPOT short="In 9" long="Band 9 In" paramId="104">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Enabled" long="Enabled"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Band 10" long="Band 10" referTo="-1" offset="0">
+      <FADER short="Freq" long="Band 10 Frequency" paramId="119"/>
+      <FADER short="Gain" long="Band 10 Gain" paramId="120"/>
+      <FADER short="Q" long="Band 10 Q" paramId="124"/>
+      <FADER short="Range" long="Band 10 Dynamic Ra" paramId="121"/>
+      <FADER short="Thresh" long="Band 10 Threshold" paramId="123"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Output" long="Output Level" paramId="315"/>
+      <VPOT short="Shape" long="Band 10 Shape" paramId="125">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="0.125" short="Low Sh" long="Low Shelf"/>
+        <STEP value="0.25" short="Low Cu" long="Low Cut"/>
+        <STEP value="0.375" short="High S" long="High Shelf"/>
+        <STEP value="0.5" short="High C" long="High Cut"/>
+        <STEP value="0.625" short="Notch" long="Notch"/>
+        <STEP value="0.75" short="Band P" long="Band Pass"/>
+        <STEP value="0.875" short="Tilt S" long="Tilt Shelf"/>
+        <STEP value="1" short="Flat T" long="Flat Tilt"/>
+      </VPOT>
+      <VPOT short="Slope" long="Band 10 Slope" paramId="126">
+        <STEP value="0" short="6 dB/o" long="6 dB/oct"/>
+        <STEP value="0.111111112" short="12 dB/" long="12 dB/oct"/>
+        <STEP value="0.222222224" short="18 dB/" long="18 dB/oct"/>
+        <STEP value="0.333333343" short="24 dB/" long="24 dB/oct"/>
+        <STEP value="0.444444448" short="30 dB/" long="30 dB/oct"/>
+        <STEP value="0.555555582" short="36 dB/" long="36 dB/oct"/>
+        <STEP value="0.666666687" short="48 dB/" long="48 dB/oct"/>
+        <STEP value="0.777777791" short="72 dB/" long="72 dB/oct"/>
+        <STEP value="0.888888896" short="96 dB/" long="96 dB/oct"/>
+        <STEP value="1" short="Brickw" long="Brickwall"/>
+      </VPOT>
+      <VPOT short="Stereo" long="Band 10 Stereo Pla" paramId="127">
+        <STEP value="0" short="Left" long="Left"/>
+        <STEP value="0.25" short="Right" long="Right"/>
+        <STEP value="0.5" short="Stereo" long="Stereo"/>
+        <STEP value="0.75" short="Mid" long="Mid"/>
+        <STEP value="1" short="Side" long="Side"/>
+      </VPOT>
+      <VPOT short="Dyn" long="Band 10 Dynamics E" paramId="122">
+        <STEP value="0" short="Dynami" long="Dynamics Disabled"/>
+        <STEP value="1" short="Dynami" long="Dynamics Enabled"/>
+      </VPOT>
+      <VPOT short="Thresh" long="Band 10 Threshold" paramId="123">
+        <STEP value="0.666666687" short="-20.0 " long="-20.0 dB"/>
+        <STEP value="1" short="Auto" long="Auto"/>
+      </VPOT>
+      <VPOT short="SidChn" long="Band 10 External S" paramId="343">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Solo" long="Band 10 Solo" paramId="129">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Solo" long="Solo"/>
+      </VPOT>
+      <VPOT short="In 10" long="Band 10 In" paramId="117">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Enabled" long="Enabled"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="2" short="Band 11" long="Band 11" referTo="-1" offset="0">
+      <FADER short="Freq" long="Band 11 Frequency" paramId="132"/>
+      <FADER short="Gain" long="Band 11 Gain" paramId="133"/>
+      <FADER short="Q" long="Band 11 Q" paramId="137"/>
+      <FADER short="Range" long="Band 11 Dynamic Ra" paramId="134"/>
+      <FADER short="Thresh" long="Band 11 Threshold" paramId="136"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Output" long="Output Level" paramId="315"/>
+      <VPOT short="Shape" long="Band 11 Shape" paramId="138">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="0.125" short="Low Sh" long="Low Shelf"/>
+        <STEP value="0.25" short="Low Cu" long="Low Cut"/>
+        <STEP value="0.375" short="High S" long="High Shelf"/>
+        <STEP value="0.5" short="High C" long="High Cut"/>
+        <STEP value="0.625" short="Notch" long="Notch"/>
+        <STEP value="0.75" short="Band P" long="Band Pass"/>
+        <STEP value="0.875" short="Tilt S" long="Tilt Shelf"/>
+        <STEP value="1" short="Flat T" long="Flat Tilt"/>
+      </VPOT>
+      <VPOT short="Slope" long="Band 11 Slope" paramId="139">
+        <STEP value="0" short="6 dB/o" long="6 dB/oct"/>
+        <STEP value="0.111111112" short="12 dB/" long="12 dB/oct"/>
+        <STEP value="0.222222224" short="18 dB/" long="18 dB/oct"/>
+        <STEP value="0.333333343" short="24 dB/" long="24 dB/oct"/>
+        <STEP value="0.444444448" short="30 dB/" long="30 dB/oct"/>
+        <STEP value="0.555555582" short="36 dB/" long="36 dB/oct"/>
+        <STEP value="0.666666687" short="48 dB/" long="48 dB/oct"/>
+        <STEP value="0.777777791" short="72 dB/" long="72 dB/oct"/>
+        <STEP value="0.888888896" short="96 dB/" long="96 dB/oct"/>
+        <STEP value="1" short="Brickw" long="Brickwall"/>
+      </VPOT>
+      <VPOT short="Stereo" long="Band 11 Stereo Pla" paramId="140">
+        <STEP value="0" short="Left" long="Left"/>
+        <STEP value="0.25" short="Right" long="Right"/>
+        <STEP value="0.5" short="Stereo" long="Stereo"/>
+        <STEP value="0.75" short="Mid" long="Mid"/>
+        <STEP value="1" short="Side" long="Side"/>
+      </VPOT>
+      <VPOT short="Dyn" long="Band 11 Dynamics E" paramId="135">
+        <STEP value="0" short="Dynami" long="Dynamics Disabled"/>
+        <STEP value="1" short="Dynami" long="Dynamics Enabled"/>
+      </VPOT>
+      <VPOT short="Thresh" long="Band 11 Threshold" paramId="136">
+        <STEP value="0.666666687" short="-20.0 " long="-20.0 dB"/>
+        <STEP value="1" short="Auto" long="Auto"/>
+      </VPOT>
+      <VPOT short="SidChn" long="Band 11 External S" paramId="344">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Solo" long="Band 11 Solo" paramId="142">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Solo" long="Solo"/>
+      </VPOT>
+      <VPOT short="In 11" long="Band 11 In" paramId="130">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Enabled" long="Enabled"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="3" short="Band 12" long="Band 12" referTo="-1" offset="0">
+      <FADER short="Freq" long="Band 12 Frequency" paramId="145"/>
+      <FADER short="Gain" long="Band 12 Gain" paramId="146"/>
+      <FADER short="Q" long="Band 12 Q" paramId="150"/>
+      <FADER short="Range" long="Band 12 Dynamic Ra" paramId="147"/>
+      <FADER short="Thresh" long="Band 12 Threshold" paramId="149"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Output" long="Output Level" paramId="315"/>
+      <VPOT short="Shape" long="Band 12 Shape" paramId="151">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="0.125" short="Low Sh" long="Low Shelf"/>
+        <STEP value="0.25" short="Low Cu" long="Low Cut"/>
+        <STEP value="0.375" short="High S" long="High Shelf"/>
+        <STEP value="0.5" short="High C" long="High Cut"/>
+        <STEP value="0.625" short="Notch" long="Notch"/>
+        <STEP value="0.75" short="Band P" long="Band Pass"/>
+        <STEP value="0.875" short="Tilt S" long="Tilt Shelf"/>
+        <STEP value="1" short="Flat T" long="Flat Tilt"/>
+      </VPOT>
+      <VPOT short="Slope" long="Band 12 Slope" paramId="152">
+        <STEP value="0" short="6 dB/o" long="6 dB/oct"/>
+        <STEP value="0.111111112" short="12 dB/" long="12 dB/oct"/>
+        <STEP value="0.222222224" short="18 dB/" long="18 dB/oct"/>
+        <STEP value="0.333333343" short="24 dB/" long="24 dB/oct"/>
+        <STEP value="0.444444448" short="30 dB/" long="30 dB/oct"/>
+        <STEP value="0.555555582" short="36 dB/" long="36 dB/oct"/>
+        <STEP value="0.666666687" short="48 dB/" long="48 dB/oct"/>
+        <STEP value="0.777777791" short="72 dB/" long="72 dB/oct"/>
+        <STEP value="0.888888896" short="96 dB/" long="96 dB/oct"/>
+        <STEP value="1" short="Brickw" long="Brickwall"/>
+      </VPOT>
+      <VPOT short="Stereo" long="Band 12 Stereo Pla" paramId="153">
+        <STEP value="0" short="Left" long="Left"/>
+        <STEP value="0.25" short="Right" long="Right"/>
+        <STEP value="0.5" short="Stereo" long="Stereo"/>
+        <STEP value="0.75" short="Mid" long="Mid"/>
+        <STEP value="1" short="Side" long="Side"/>
+      </VPOT>
+      <VPOT short="Dyn" long="Band 12 Dynamics E" paramId="148">
+        <STEP value="0" short="Dynami" long="Dynamics Disabled"/>
+        <STEP value="1" short="Dynami" long="Dynamics Enabled"/>
+      </VPOT>
+      <VPOT short="Thresh" long="Band 12 Threshold" paramId="149">
+        <STEP value="0.666666687" short="-20.0 " long="-20.0 dB"/>
+        <STEP value="1" short="Auto" long="Auto"/>
+      </VPOT>
+      <VPOT short="SidChn" long="Band 12 External S" paramId="345">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Solo" long="Band 12 Solo" paramId="155">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Solo" long="Solo"/>
+      </VPOT>
+      <VPOT short="In 12" long="Band 12 In" paramId="143">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Enabled" long="Enabled"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="4" short="Band 13" long="Band 13" referTo="-1" offset="0">
+      <FADER short="Freq" long="Band 13 Frequency" paramId="158"/>
+      <FADER short="Gain" long="Band 13 Gain" paramId="159"/>
+      <FADER short="Q" long="Band 13 Q" paramId="163"/>
+      <FADER short="Range" long="Band 13 Dynamic Ra" paramId="160"/>
+      <FADER short="Thresh" long="Band 13 Threshold" paramId="162"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Output" long="Output Level" paramId="315"/>
+      <VPOT short="Shape" long="Band 13 Shape" paramId="164">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="0.125" short="Low Sh" long="Low Shelf"/>
+        <STEP value="0.25" short="Low Cu" long="Low Cut"/>
+        <STEP value="0.375" short="High S" long="High Shelf"/>
+        <STEP value="0.5" short="High C" long="High Cut"/>
+        <STEP value="0.625" short="Notch" long="Notch"/>
+        <STEP value="0.75" short="Band P" long="Band Pass"/>
+        <STEP value="0.875" short="Tilt S" long="Tilt Shelf"/>
+        <STEP value="1" short="Flat T" long="Flat Tilt"/>
+      </VPOT>
+      <VPOT short="Slope" long="Band 13 Slope" paramId="165">
+        <STEP value="0" short="6 dB/o" long="6 dB/oct"/>
+        <STEP value="0.111111112" short="12 dB/" long="12 dB/oct"/>
+        <STEP value="0.222222224" short="18 dB/" long="18 dB/oct"/>
+        <STEP value="0.333333343" short="24 dB/" long="24 dB/oct"/>
+        <STEP value="0.444444448" short="30 dB/" long="30 dB/oct"/>
+        <STEP value="0.555555582" short="36 dB/" long="36 dB/oct"/>
+        <STEP value="0.666666687" short="48 dB/" long="48 dB/oct"/>
+        <STEP value="0.777777791" short="72 dB/" long="72 dB/oct"/>
+        <STEP value="0.888888896" short="96 dB/" long="96 dB/oct"/>
+        <STEP value="1" short="Brickw" long="Brickwall"/>
+      </VPOT>
+      <VPOT short="Stereo" long="Band 13 Stereo Pla" paramId="166">
+        <STEP value="0" short="Left" long="Left"/>
+        <STEP value="0.25" short="Right" long="Right"/>
+        <STEP value="0.5" short="Stereo" long="Stereo"/>
+        <STEP value="0.75" short="Mid" long="Mid"/>
+        <STEP value="1" short="Side" long="Side"/>
+      </VPOT>
+      <VPOT short="Dyn" long="Band 13 Dynamics E" paramId="161">
+        <STEP value="0" short="Dynami" long="Dynamics Disabled"/>
+        <STEP value="1" short="Dynami" long="Dynamics Enabled"/>
+      </VPOT>
+      <VPOT short="Thresh" long="Band 13 Threshold" paramId="162">
+        <STEP value="0.666666687" short="-20.0 " long="-20.0 dB"/>
+        <STEP value="1" short="Auto" long="Auto"/>
+      </VPOT>
+      <VPOT short="SidChn" long="Band 13 External S" paramId="346">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Solo" long="Band 13 Solo" paramId="168">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Solo" long="Solo"/>
+      </VPOT>
+      <VPOT short="In 13" long="Band 13 In" paramId="156">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Enabled" long="Enabled"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="5" short="Band 14" long="Band 14" referTo="-1" offset="0">
+      <FADER short="Freq" long="Band 14 Frequency" paramId="171"/>
+      <FADER short="Gain" long="Band 14 Gain" paramId="172"/>
+      <FADER short="Q" long="Band 14 Q" paramId="176"/>
+      <FADER short="Range" long="Band 14 Dynamic Ra" paramId="173"/>
+      <FADER short="Thresh" long="Band 14 Threshold" paramId="175"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Output" long="Output Level" paramId="315"/>
+      <VPOT short="Shape" long="Band 14 Shape" paramId="177">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="0.125" short="Low Sh" long="Low Shelf"/>
+        <STEP value="0.25" short="Low Cu" long="Low Cut"/>
+        <STEP value="0.375" short="High S" long="High Shelf"/>
+        <STEP value="0.5" short="High C" long="High Cut"/>
+        <STEP value="0.625" short="Notch" long="Notch"/>
+        <STEP value="0.75" short="Band P" long="Band Pass"/>
+        <STEP value="0.875" short="Tilt S" long="Tilt Shelf"/>
+        <STEP value="1" short="Flat T" long="Flat Tilt"/>
+      </VPOT>
+      <VPOT short="Slope" long="Band 14 Slope" paramId="178">
+        <STEP value="0" short="6 dB/o" long="6 dB/oct"/>
+        <STEP value="0.111111112" short="12 dB/" long="12 dB/oct"/>
+        <STEP value="0.222222224" short="18 dB/" long="18 dB/oct"/>
+        <STEP value="0.333333343" short="24 dB/" long="24 dB/oct"/>
+        <STEP value="0.444444448" short="30 dB/" long="30 dB/oct"/>
+        <STEP value="0.555555582" short="36 dB/" long="36 dB/oct"/>
+        <STEP value="0.666666687" short="48 dB/" long="48 dB/oct"/>
+        <STEP value="0.777777791" short="72 dB/" long="72 dB/oct"/>
+        <STEP value="0.888888896" short="96 dB/" long="96 dB/oct"/>
+        <STEP value="1" short="Brickw" long="Brickwall"/>
+      </VPOT>
+      <VPOT short="Stereo" long="Band 14 Stereo Pla" paramId="179">
+        <STEP value="0" short="Left" long="Left"/>
+        <STEP value="0.25" short="Right" long="Right"/>
+        <STEP value="0.5" short="Stereo" long="Stereo"/>
+        <STEP value="0.75" short="Mid" long="Mid"/>
+        <STEP value="1" short="Side" long="Side"/>
+      </VPOT>
+      <VPOT short="Dyn" long="Band 14 Dynamics E" paramId="174">
+        <STEP value="0" short="Dynami" long="Dynamics Disabled"/>
+        <STEP value="1" short="Dynami" long="Dynamics Enabled"/>
+      </VPOT>
+      <VPOT short="Thresh" long="Band 14 Threshold" paramId="175">
+        <STEP value="0.666666687" short="-20.0 " long="-20.0 dB"/>
+        <STEP value="1" short="Auto" long="Auto"/>
+      </VPOT>
+      <VPOT short="SidChn" long="Band 14 External S" paramId="347">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Solo" long="Band 14 Solo" paramId="181">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Solo" long="Solo"/>
+      </VPOT>
+      <VPOT short="In 14" long="Band 14 In" paramId="169">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Enabled" long="Enabled"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="6" short="Band 15" long="Band 15" referTo="-1" offset="0">
+      <FADER short="Freq" long="Band 15 Frequency" paramId="184"/>
+      <FADER short="Gain" long="Band 15 Gain" paramId="185"/>
+      <FADER short="Q" long="Band 15 Q" paramId="189"/>
+      <FADER short="Range" long="Band 15 Dynamic Ra" paramId="186"/>
+      <FADER short="Thresh" long="Band 15 Threshold" paramId="188"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Output" long="Output Level" paramId="315"/>
+      <VPOT short="Shape" long="Band 15 Shape" paramId="190">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="0.125" short="Low Sh" long="Low Shelf"/>
+        <STEP value="0.25" short="Low Cu" long="Low Cut"/>
+        <STEP value="0.375" short="High S" long="High Shelf"/>
+        <STEP value="0.5" short="High C" long="High Cut"/>
+        <STEP value="0.625" short="Notch" long="Notch"/>
+        <STEP value="0.75" short="Band P" long="Band Pass"/>
+        <STEP value="0.875" short="Tilt S" long="Tilt Shelf"/>
+        <STEP value="1" short="Flat T" long="Flat Tilt"/>
+      </VPOT>
+      <VPOT short="Slope" long="Band 15 Slope" paramId="191">
+        <STEP value="0" short="6 dB/o" long="6 dB/oct"/>
+        <STEP value="0.111111112" short="12 dB/" long="12 dB/oct"/>
+        <STEP value="0.222222224" short="18 dB/" long="18 dB/oct"/>
+        <STEP value="0.333333343" short="24 dB/" long="24 dB/oct"/>
+        <STEP value="0.444444448" short="30 dB/" long="30 dB/oct"/>
+        <STEP value="0.555555582" short="36 dB/" long="36 dB/oct"/>
+        <STEP value="0.666666687" short="48 dB/" long="48 dB/oct"/>
+        <STEP value="0.777777791" short="72 dB/" long="72 dB/oct"/>
+        <STEP value="0.888888896" short="96 dB/" long="96 dB/oct"/>
+        <STEP value="1" short="Brickw" long="Brickwall"/>
+      </VPOT>
+      <VPOT short="Stereo" long="Band 15 Stereo Pla" paramId="192">
+        <STEP value="0" short="Left" long="Left"/>
+        <STEP value="0.25" short="Right" long="Right"/>
+        <STEP value="0.5" short="Stereo" long="Stereo"/>
+        <STEP value="0.75" short="Mid" long="Mid"/>
+        <STEP value="1" short="Side" long="Side"/>
+      </VPOT>
+      <VPOT short="Dyn" long="Band 15 Dynamics E" paramId="187">
+        <STEP value="0" short="Dynami" long="Dynamics Disabled"/>
+        <STEP value="1" short="Dynami" long="Dynamics Enabled"/>
+      </VPOT>
+      <VPOT short="Thresh" long="Band 15 Threshold" paramId="188">
+        <STEP value="0.666666687" short="-20.0 " long="-20.0 dB"/>
+        <STEP value="1" short="Auto" long="Auto"/>
+      </VPOT>
+      <VPOT short="SidChn" long="Band 15 External S" paramId="348">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Solo" long="Band 15 Solo" paramId="194">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Solo" long="Solo"/>
+      </VPOT>
+      <VPOT short="In 15" long="Band 15 In" paramId="182">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Enabled" long="Enabled"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="7" short="Band 16" long="Band 16" referTo="-1" offset="0">
+      <FADER short="Freq" long="Band 16 Frequency" paramId="197"/>
+      <FADER short="Gain" long="Band 16 Gain" paramId="198"/>
+      <FADER short="Q" long="Band 16 Q" paramId="202"/>
+      <FADER short="Range" long="Band 16 Dynamic Ra" paramId="199"/>
+      <FADER short="Thresh" long="Band 16 Threshold" paramId="201"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Output" long="Output Level" paramId="315"/>
+      <VPOT short="Shape" long="Band 16 Shape" paramId="203">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="0.125" short="Low Sh" long="Low Shelf"/>
+        <STEP value="0.25" short="Low Cu" long="Low Cut"/>
+        <STEP value="0.375" short="High S" long="High Shelf"/>
+        <STEP value="0.5" short="High C" long="High Cut"/>
+        <STEP value="0.625" short="Notch" long="Notch"/>
+        <STEP value="0.75" short="Band P" long="Band Pass"/>
+        <STEP value="0.875" short="Tilt S" long="Tilt Shelf"/>
+        <STEP value="1" short="Flat T" long="Flat Tilt"/>
+      </VPOT>
+      <VPOT short="Slope" long="Band 16 Slope" paramId="204">
+        <STEP value="0" short="6 dB/o" long="6 dB/oct"/>
+        <STEP value="0.111111112" short="12 dB/" long="12 dB/oct"/>
+        <STEP value="0.222222224" short="18 dB/" long="18 dB/oct"/>
+        <STEP value="0.333333343" short="24 dB/" long="24 dB/oct"/>
+        <STEP value="0.444444448" short="30 dB/" long="30 dB/oct"/>
+        <STEP value="0.555555582" short="36 dB/" long="36 dB/oct"/>
+        <STEP value="0.666666687" short="48 dB/" long="48 dB/oct"/>
+        <STEP value="0.777777791" short="72 dB/" long="72 dB/oct"/>
+        <STEP value="0.888888896" short="96 dB/" long="96 dB/oct"/>
+        <STEP value="1" short="Brickw" long="Brickwall"/>
+      </VPOT>
+      <VPOT short="Stereo" long="Band 16 Stereo Pla" paramId="205">
+        <STEP value="0" short="Left" long="Left"/>
+        <STEP value="0.25" short="Right" long="Right"/>
+        <STEP value="0.5" short="Stereo" long="Stereo"/>
+        <STEP value="0.75" short="Mid" long="Mid"/>
+        <STEP value="1" short="Side" long="Side"/>
+      </VPOT>
+      <VPOT short="Dyn" long="Band 16 Dynamics E" paramId="200">
+        <STEP value="0" short="Dynami" long="Dynamics Disabled"/>
+        <STEP value="1" short="Dynami" long="Dynamics Enabled"/>
+      </VPOT>
+      <VPOT short="Thresh" long="Band 16 Threshold" paramId="201">
+        <STEP value="0.666666687" short="-20.0 " long="-20.0 dB"/>
+        <STEP value="1" short="Auto" long="Auto"/>
+      </VPOT>
+      <VPOT short="SidChn" long="Band 16 External S" paramId="349">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Solo" long="Band 16 Solo" paramId="207">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Solo" long="Solo"/>
+      </VPOT>
+      <VPOT short="In 16" long="Band 16 In" paramId="195">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Enabled" long="Enabled"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+  <BANK id="2" short="17-20" long="Band 17-20" referTo="-1" offset="0">
+    <PAGE id="0" short="Band 17" long="Band 17" referTo="-1" offset="0">
+      <FADER short="Freq" long="Band 17 Frequency" paramId="210"/>
+      <FADER short="Gain" long="Band 17 Gain" paramId="211"/>
+      <FADER short="Q" long="Band 17 Q" paramId="215"/>
+      <FADER short="Range" long="Band 17 Dynamic Ra" paramId="212"/>
+      <FADER short="Thresh" long="Band 17 Threshold" paramId="214"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Output" long="Output Level" paramId="315"/>
+      <VPOT short="Shape" long="Band 17 Shape" paramId="216">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="0.125" short="Low Sh" long="Low Shelf"/>
+        <STEP value="0.25" short="Low Cu" long="Low Cut"/>
+        <STEP value="0.375" short="High S" long="High Shelf"/>
+        <STEP value="0.5" short="High C" long="High Cut"/>
+        <STEP value="0.625" short="Notch" long="Notch"/>
+        <STEP value="0.75" short="Band P" long="Band Pass"/>
+        <STEP value="0.875" short="Tilt S" long="Tilt Shelf"/>
+        <STEP value="1" short="Flat T" long="Flat Tilt"/>
+      </VPOT>
+      <VPOT short="Slope" long="Band 17 Slope" paramId="217">
+        <STEP value="0" short="6 dB/o" long="6 dB/oct"/>
+        <STEP value="0.111111112" short="12 dB/" long="12 dB/oct"/>
+        <STEP value="0.222222224" short="18 dB/" long="18 dB/oct"/>
+        <STEP value="0.333333343" short="24 dB/" long="24 dB/oct"/>
+        <STEP value="0.444444448" short="30 dB/" long="30 dB/oct"/>
+        <STEP value="0.555555582" short="36 dB/" long="36 dB/oct"/>
+        <STEP value="0.666666687" short="48 dB/" long="48 dB/oct"/>
+        <STEP value="0.777777791" short="72 dB/" long="72 dB/oct"/>
+        <STEP value="0.888888896" short="96 dB/" long="96 dB/oct"/>
+        <STEP value="1" short="Brickw" long="Brickwall"/>
+      </VPOT>
+      <VPOT short="Stereo" long="Band 17 Stereo Pla" paramId="218">
+        <STEP value="0" short="Left" long="Left"/>
+        <STEP value="0.25" short="Right" long="Right"/>
+        <STEP value="0.5" short="Stereo" long="Stereo"/>
+        <STEP value="0.75" short="Mid" long="Mid"/>
+        <STEP value="1" short="Side" long="Side"/>
+      </VPOT>
+      <VPOT short="Dyn" long="Band 17 Dynamics E" paramId="213">
+        <STEP value="0" short="Dynami" long="Dynamics Disabled"/>
+        <STEP value="1" short="Dynami" long="Dynamics Enabled"/>
+      </VPOT>
+      <VPOT short="Thresh" long="Band 17 Threshold" paramId="214">
+        <STEP value="0.666666687" short="-20.0 " long="-20.0 dB"/>
+        <STEP value="1" short="Auto" long="Auto"/>
+      </VPOT>
+      <VPOT short="SidChn" long="Band 17 External S" paramId="350">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Solo" long="Band 17 Solo" paramId="220">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Solo" long="Solo"/>
+      </VPOT>
+      <VPOT short="In 17" long="Band 17 In" paramId="208">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Enabled" long="Enabled"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Band 18" long="Band 18" referTo="-1" offset="0">
+      <FADER short="Freq" long="Band 18 Frequency" paramId="223"/>
+      <FADER short="Gain" long="Band 18 Gain" paramId="224"/>
+      <FADER short="Q" long="Band 18 Q" paramId="228"/>
+      <FADER short="Range" long="Band 18 Dynamic Ra" paramId="225"/>
+      <FADER short="Thresh" long="Band 18 Threshold" paramId="227"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Output" long="Output Level" paramId="315"/>
+      <VPOT short="Shape" long="Band 18 Shape" paramId="229">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="0.125" short="Low Sh" long="Low Shelf"/>
+        <STEP value="0.25" short="Low Cu" long="Low Cut"/>
+        <STEP value="0.375" short="High S" long="High Shelf"/>
+        <STEP value="0.5" short="High C" long="High Cut"/>
+        <STEP value="0.625" short="Notch" long="Notch"/>
+        <STEP value="0.75" short="Band P" long="Band Pass"/>
+        <STEP value="0.875" short="Tilt S" long="Tilt Shelf"/>
+        <STEP value="1" short="Flat T" long="Flat Tilt"/>
+      </VPOT>
+      <VPOT short="Slope" long="Band 18 Slope" paramId="230">
+        <STEP value="0" short="6 dB/o" long="6 dB/oct"/>
+        <STEP value="0.111111112" short="12 dB/" long="12 dB/oct"/>
+        <STEP value="0.222222224" short="18 dB/" long="18 dB/oct"/>
+        <STEP value="0.333333343" short="24 dB/" long="24 dB/oct"/>
+        <STEP value="0.444444448" short="30 dB/" long="30 dB/oct"/>
+        <STEP value="0.555555582" short="36 dB/" long="36 dB/oct"/>
+        <STEP value="0.666666687" short="48 dB/" long="48 dB/oct"/>
+        <STEP value="0.777777791" short="72 dB/" long="72 dB/oct"/>
+        <STEP value="0.888888896" short="96 dB/" long="96 dB/oct"/>
+        <STEP value="1" short="Brickw" long="Brickwall"/>
+      </VPOT>
+      <VPOT short="Stereo" long="Band 18 Stereo Pla" paramId="231">
+        <STEP value="0" short="Left" long="Left"/>
+        <STEP value="0.25" short="Right" long="Right"/>
+        <STEP value="0.5" short="Stereo" long="Stereo"/>
+        <STEP value="0.75" short="Mid" long="Mid"/>
+        <STEP value="1" short="Side" long="Side"/>
+      </VPOT>
+      <VPOT short="Dyn" long="Band 18 Dynamics E" paramId="226">
+        <STEP value="0" short="Dynami" long="Dynamics Disabled"/>
+        <STEP value="1" short="Dynami" long="Dynamics Enabled"/>
+      </VPOT>
+      <VPOT short="Thresh" long="Band 18 Threshold" paramId="227">
+        <STEP value="0.666666687" short="-20.0 " long="-20.0 dB"/>
+        <STEP value="1" short="Auto" long="Auto"/>
+      </VPOT>
+      <VPOT short="SidChn" long="Band 18 External S" paramId="351">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Solo" long="Band 18 Solo" paramId="233">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Solo" long="Solo"/>
+      </VPOT>
+      <VPOT short="In 18" long="Band 18 In" paramId="221">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Enabled" long="Enabled"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="2" short="Band 19" long="Band 19" referTo="-1" offset="0">
+      <FADER short="Freq" long="Band 19 Frequency" paramId="236"/>
+      <FADER short="Gain" long="Band 19 Gain" paramId="237"/>
+      <FADER short="Q" long="Band 19 Q" paramId="241"/>
+      <FADER short="Range" long="Band 19 Dynamic Ra" paramId="238"/>
+      <FADER short="Thresh" long="Band 19 Threshold" paramId="240"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Output" long="Output Level" paramId="315"/>
+      <VPOT short="Shape" long="Band 19 Shape" paramId="242">
+        <STEP value="0" short="Bell" long="Bell"/>
+        <STEP value="0.125" short="Low Sh" long="Low Shelf"/>
+        <STEP value="0.25" short="Low Cu" long="Low Cut"/>
+        <STEP value="0.375" short="High S" long="High Shelf"/>
+        <STEP value="0.5" short="High C" long="High Cut"/>
+        <STEP value="0.625" short="Notch" long="Notch"/>
+        <STEP value="0.75" short="Band P" long="Band Pass"/>
+        <STEP value="0.875" short="Tilt S" long="Tilt Shelf"/>
+        <STEP value="1" short="Flat T" long="Flat Tilt"/>
+      </VPOT>
+      <VPOT short="Slope" long="Band 19 Slope" paramId="243">
+        <STEP value="0" short="6 dB/o" long="6 dB/oct"/>
+        <STEP value="0.111111112" short="12 dB/" long="12 dB/oct"/>
+        <STEP value="0.222222224" short="18 dB/" long="18 dB/oct"/>
+        <STEP value="0.333333343" short="24 dB/" long="24 dB/oct"/>
+        <STEP value="0.444444448" short="30 dB/" long="30 dB/oct"/>
+        <STEP value="0.555555582" short="36 dB/" long="36 dB/oct"/>
+        <STEP value="0.666666687" short="48 dB/" long="48 dB/oct"/>
+        <STEP value="0.777777791" short="72 dB/" long="72 dB/oct"/>
+        <STEP value="0.888888896" short="96 dB/" long="96 dB/oct"/>
+        <STEP value="1" short="Brickw" long="Brickwall"/>
+      </VPOT>
+      <VPOT short="Stereo" long="Band 19 Stereo Pla" paramId="244">
+        <STEP value="0" short="Left" long="Left"/>
+        <STEP value="0.25" short="Right" long="Right"/>
+        <STEP value="0.5" short="Stereo" long="Stereo"/>
+        <STEP value="0.75" short="Mid" long="Mid"/>
+        <STEP value="1" short="Side" long="Side"/>
+      </VPOT>
+      <VPOT short="Dyn" long="Band 19 Dynamics E" paramId="239">
+        <STEP value="0" short="Dynami" long="Dynamics Disabled"/>
+        <STEP value="1" short="Dynami" long="Dynamics Enabled"/>
+      </VPOT>
+      <VPOT short="Thresh" long="Band 19 Threshold" paramId="240">
+        <STEP value="0.666666687" short="-20.0 " long="-20.0 dB"/>
+        <STEP value="1" short="Auto" long="Auto"/>
+      </VPOT>
+      <VPOT short="SidChn" long="Band 19 External S" paramId="352">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Solo" long="Band 19 Solo" paramId="246">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Solo" long="Solo"/>
+      </VPOT>
+      <VPOT short="In 19" long="Band 19 In" paramId="234">
+        <STEP value="0" short="Disabled" long="Disabled"/>
+        <STEP value="1" short="Enabled" long="Enabled"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+  <BANK id="3" short="Util" long="Util" referTo="-1" offset="0">
+    <PAGE id="0" short="Util" long="Util" referTo="-1" offset="0">
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Range" long="Display Range" paramId="331"/>
+      <FADER short="GnScle" long="Gain Scale" paramId="314"/>
+      <FADER short="Pan" long="Output Pan" paramId="316"/>
+      <FADER short="Out" long="Output Level" paramId="315"/>
+      <VPOT short="Mode" long="Processing Mode" paramId="312">
+        <STEP value="0" short="Zero L" long="Zero Latency"/>
+        <STEP value="0.5" short="Natura" long="Natural Phase"/>
+        <STEP value="1" short="Linear" long="Linear Phase"/>
+      </VPOT>
+      <VPOT short="SpecGb" long="Spectrum Grab" paramId="330">
+        <STEP value="0" short="Off" long="Disabled"/>
+        <STEP value="1" short="On" long="Enabled"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="AutoGa" long="Auto Gain" paramId="320">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Phase" long="Output Phase" paramId="319">
+        <STEP value="0" short="Normal" long="Normal"/>
+        <STEP value="1" short="Invert" long="Inverted"/>
+      </VPOT>
+      <VPOT short="Bypass" long="Bypass" paramId="318">
+        <STEP value="0" short="Not By" long="Not Bypassed"/>
+        <STEP value="1" short="Bypass" long="Bypassed"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Analys" long="Analyser" referTo="-1" offset="0">
+      <FADER short="Resolu" long="Resolution" paramId="325"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT short="Pre" long="Analyzer Pre" paramId="321">
+        <STEP value="0" short="Disabl" long="Disabled"/>
+        <STEP value="1" short="Enable" long="Enabled"/>
+      </VPOT>
+      <VPOT short="Post" long="Analyzer Post" paramId="322">
+        <STEP value="0" short="Disabl" long="Disabled"/>
+        <STEP value="1" short="Enable" long="Enabled"/>
+      </VPOT>
+      <VPOT short="Ext" long="External Analyzer" paramId="323">
+        <STEP value="0" short="Ext" long="Side Chain"/>
+        <STEP value="1.52583234e-005" short="Off" long="Off"/>
+      </VPOT>
+      <VPOT short="Analyz" long="Analyzer Resoluti" paramId="325">
+        <STEP value="0" short="Low" long="Low"/>
+        <STEP value="0.333333343" short="Medium" long="Medium"/>
+      </VPOT>
+      <VPOT short="Freeze" long="Analyzer Freeze" paramId="328">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Speed" long="Analyzer Speed" paramId="326">
+        <STEP value="0" short="V-Slow" long="Very Slow"/>
+        <STEP value="0.25" short="Slow" long="Slow"/>
+        <STEP value="0.5" short="Medium" long="Medium"/>
+        <STEP value="0.75" short="Fast" long="Fast"/>
+        <STEP value="1" short="V-Fast" long="Very Fast"/>
+      </VPOT>
+      <VPOT short="Tilt" long="Analyzer Tilt" paramId="327">
+        <STEP value="0" short="0 dB/o" long="0 dB/oct"/>
+        <STEP value="0.25" short="1.5 dB" long="1.5 dB/oct"/>
+        <STEP value="0.5" short="3 dB/o" long="3 dB/oct"/>
+        <STEP value="0.75" short="4.5 dB" long="4.5 dB/oct"/>
+        <STEP value="1" short="6 dB/o" long="6 dB/oct"/>
+      </VPOT>
+      <VPOT short="Collis" long="Show Collisons" paramId="329">
+        <STEP value="0" short="Off" long="Disabled"/>
+        <STEP value="1" short="On" long="Enabled"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>
