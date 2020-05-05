@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <PLUGMAP version="1">
-  <MAPINFO creator=""></MAPINFO>
+  <MAPINFO creator="Alex Hayes (PlantOn)"></MAPINFO>
   <BANK id="0" short="OWS" long="OWS" referTo="-1" offset="0">
     <PAGE id="0" short="Levels" long="Levels &amp; Distance" referTo="-1"
           offset="0">

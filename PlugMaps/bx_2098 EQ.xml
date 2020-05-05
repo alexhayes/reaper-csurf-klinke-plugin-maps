@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <PLUGMAP version="1">
-  <MAPINFO creator=""></MAPINFO>
+  <MAPINFO creator="Alex Hayes (PlantOn)"></MAPINFO>
   <BANK id="0" short="" long="" referTo="-1" offset="0">
     <PAGE id="0" short="Left" long="Left Channel" referTo="-1" offset="0">
       <FADER short="LF" long="LF Freq1" paramId="10"/>

@@ -2,7 +2,7 @@
 
 
 <PLUGMAP version="1">
-  <MAPINFO creator=""></MAPINFO>
+  <MAPINFO creator="Alex Hayes (PlantOn)"></MAPINFO>
   <BANK id="0" short="Amp" long="Amp" referTo="-1" offset="0">
     <PAGE id="0" short="Tone" long="Tone" referTo="-1" offset="0">
       <FADER short="Gain (" long="Gain (A)" paramId="31"/>
