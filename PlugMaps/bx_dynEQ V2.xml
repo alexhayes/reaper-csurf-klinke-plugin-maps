@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (PlantOn)"></MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Mid" long="Mid Section" referTo="-1" offset="0">
+      <FADER short="Attack" long="Attack" paramId="10"/>
+      <FADER short="Releas" long="Release" paramId="11"/>
+      <FADER short="Thresh" long="Threshold" paramId="12"/>
+      <FADER short="Freq" long="Freq" paramId="13"/>
+      <FADER short="Freq" long="Key Freq" paramId="14"/>
+      <FADER short="Gain" long="Gain" paramId="19"/>
+      <FADER short="Factor" long="Factor" paramId="17"/>
+      <FADER short="Out Ga" long="Out Gain" paramId="6"/>
+      <VPOT short="BstCut" long="Boost / Cut" paramId="18">
+        <STEP value="0" short="Boost" long="Boost"/>
+        <STEP value="1" short="Cut" long="Cut"/>
+      </VPOT>
+      <VPOT short="SidChn" long="Side Chain" paramId="33">
+        <STEP value="0" short="Int" long="Internal"/>
+        <STEP value="1" short="Ext" long="External"/>
+      </VPOT>
+      <VPOT short="Solo" long="DynEQ Solo" paramId="22">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="EQType" long="EQType" paramId="15">
+        <STEP value="0" short="Flat" long="Flat"/>
+        <STEP value="0.0434782617" short="HPComp" long="Compressor w/ High-Pass"/>
+        <STEP value="0.0869565234" short="HP24" long="HP24"/>
+        <STEP value="0.130434781" short="HP12" long="HP12"/>
+        <STEP value="0.173913047" short="HP6" long="HP6"/>
+        <STEP value="0.217391297" short="LoShel" long="LoShelf"/>
+        <STEP value="0.260869563" short="BassSh" long="BassShif"/>
+        <STEP value="0.304347813" short="Peak 0" long="Peak 0.3"/>
+        <STEP value="0.347826093" short="Peak 0" long="Peak 0.7"/>
+        <STEP value="0.391304344" short="Peak 1" long="Peak 1.3"/>
+        <STEP value="0.434782594" short="Peak 3" long="Peak 3"/>
+        <STEP value="0.478260875" short="Peak 6" long="Peak 6"/>
+        <STEP value="0.521739125" short="Peak 1" long="Peak 15"/>
+        <STEP value="0.565217376" short="BP 1" long="BP 1"/>
+        <STEP value="0.608695626" short="BP 2" long="BP 2"/>
+        <STEP value="0.652173936" short="BP 3" long="BP 3"/>
+        <STEP value="0.695652187" short="BP 4" long="BP 4"/>
+        <STEP value="0.739130437" short="BP 5" long="BP 5"/>
+        <STEP value="0.826086938" short="HiShel" long="HiShelf"/>
+        <STEP value="0.913043499" short="LP12" long="LP12"/>
+        <STEP value="1" short="LPComp" long="Compressor w/ Low-Pass"/>
+      </VPOT>
+      <VPOT short="KeyTyp" long="Key Type" paramId="16">
+        <STEP value="0" short="Flat" long="Flat"/>
+        <STEP value="0.0434782617" short="HPComp" long="Compressor w/ High-Pass"/>
+        <STEP value="0.0869565234" short="HP24" long="HP24"/>
+        <STEP value="0.130434781" short="HP12" long="HP12"/>
+        <STEP value="0.173913047" short="HP6" long="HP6"/>
+        <STEP value="0.217391297" short="LoShel" long="LoShelf"/>
+        <STEP value="0.260869563" short="BassSh" long="BassShif"/>
+        <STEP value="0.304347813" short="Peak 0" long="Peak 0.3"/>
+        <STEP value="0.347826093" short="Peak 0" long="Peak 0.7"/>
+        <STEP value="0.391304344" short="Peak 1" long="Peak 1.3"/>
+        <STEP value="0.434782594" short="Peak 3" long="Peak 3"/>
+        <STEP value="0.478260875" short="Peak 6" long="Peak 6"/>
+        <STEP value="0.521739125" short="Peak 1" long="Peak 15"/>
+        <STEP value="0.565217376" short="BP 1" long="BP 1"/>
+        <STEP value="0.608695626" short="BP 2" long="BP 2"/>
+        <STEP value="0.652173936" short="BP 3" long="BP 3"/>
+        <STEP value="0.695652187" short="BP 4" long="BP 4"/>
+        <STEP value="0.739130437" short="BP 5" long="BP 5"/>
+        <STEP value="0.782608688" short="PrShif" long="Presence Shift"/>
+        <STEP value="0.826086938" short="HiShel" long="HiShelf"/>
+        <STEP value="0.869565189" short="LP6" long="LP6"/>
+        <STEP value="0.956521749" short="LP24" long="LP24"/>
+        <STEP value="1" short="LPComp" long="Compressor w/ Low-Pass"/>
+      </VPOT>
+      <VPOT short="Solo" long="Solo" paramId="21">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="x2" long="x2 Gain" paramId="35">
+        <STEP value="0" short="x1" long="x1"/>
+        <STEP value="1" short="x2" long="x2"/>
+      </VPOT>
+      <VPOT short="Bypass" long="Bypass Mid" paramId="9">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Side" long="Side Section" referTo="-1" offset="0">
+      <FADER short="Attack" long="Attack" paramId="38"/>
+      <FADER short="Releas" long="Release" paramId="39"/>
+      <FADER short="Thresh" long="Threshold" paramId="40"/>
+      <FADER short="Freq" long="Dyn EQ Freq" paramId="41"/>
+      <FADER short="Freq" long="Key Freq" paramId="42"/>
+      <FADER short="Gain" long="Gain" paramId="47"/>
+      <FADER short="Factor" long="Factor" paramId="45"/>
+      <FADER short="Out" long="Out Gain" paramId="6"/>
+      <VPOT short="BstCut" long="Boost / Cut" paramId="46">
+        <STEP value="0" short="Boost" long="Boost"/>
+        <STEP value="1" short="Cut" long="Cut"/>
+      </VPOT>
+      <VPOT short="SidChn" long="SidChn" paramId="61">
+        <STEP value="0" short="Int" long="Internal"/>
+        <STEP value="1" short="Ext" long="External"/>
+      </VPOT>
+      <VPOT short="Solo" long="Solo" paramId="50">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="EqType" long="DynEQ Type" paramId="43">
+        <STEP value="0" short="Flat" long="Flat"/>
+        <STEP value="0.0434782617" short="HPComp" long="Compressor w/ High-Pass"/>
+        <STEP value="0.0869565234" short="HP24" long="HP24"/>
+        <STEP value="0.130434781" short="HP12" long="HP12"/>
+        <STEP value="0.173913047" short="HP6" long="HP6"/>
+        <STEP value="0.217391297" short="LoShel" long="LoShelf"/>
+        <STEP value="0.260869563" short="BassSh" long="BassShif"/>
+        <STEP value="0.304347813" short="Peak 0" long="Peak 0.3"/>
+        <STEP value="0.347826093" short="Peak 0" long="Peak 0.7"/>
+        <STEP value="0.391304344" short="Peak 1" long="Peak 1.3"/>
+        <STEP value="0.434782594" short="Peak 3" long="Peak 3"/>
+        <STEP value="0.478260875" short="Peak 6" long="Peak 6"/>
+        <STEP value="0.521739125" short="Peak 1" long="Peak 15"/>
+        <STEP value="0.565217376" short="BP 1" long="BP 1"/>
+        <STEP value="0.608695626" short="BP 2" long="BP 2"/>
+        <STEP value="0.652173936" short="BP 3" long="BP 3"/>
+        <STEP value="0.695652187" short="BP 4" long="BP 4"/>
+        <STEP value="0.739130437" short="BP 5" long="BP 5"/>
+        <STEP value="0.826086938" short="HiShel" long="HiShelf"/>
+        <STEP value="0.913043499" short="LP12" long="LP12"/>
+        <STEP value="1" short="LPComp" long="Compressor w/ Low-Pass"/>
+      </VPOT>
+      <VPOT short="KeyTyp" long="Key Type" paramId="44">
+        <STEP value="0" short="Flat" long="Flat"/>
+        <STEP value="0.0434782617" short="HPComp" long="Compressor w/ High-Pass"/>
+        <STEP value="0.0869565234" short="HP24" long="HP24"/>
+        <STEP value="0.130434781" short="HP12" long="HP12"/>
+        <STEP value="0.173913047" short="HP6" long="HP6"/>
+        <STEP value="0.217391297" short="LoShel" long="LoShelf"/>
+        <STEP value="0.260869563" short="BassSh" long="BassShif"/>
+        <STEP value="0.347826093" short="Peak 0" long="Peak 0.7"/>
+        <STEP value="0.391304344" short="Peak 1" long="Peak 1.3"/>
+        <STEP value="0.434782594" short="Peak 3" long="Peak 3"/>
+        <STEP value="0.478260875" short="Peak 6" long="Peak 6"/>
+        <STEP value="0.565217376" short="BP 1" long="BP 1"/>
+        <STEP value="0.608695626" short="BP 2" long="BP 2"/>
+        <STEP value="0.695652187" short="BP 4" long="BP 4"/>
+        <STEP value="0.739130437" short="BP 5" long="BP 5"/>
+        <STEP value="0.782608688" short="PrShif" long="Presence Shift"/>
+        <STEP value="0.869565189" short="LP6" long="LP6"/>
+        <STEP value="0.913043499" short="LP12" long="LP12"/>
+        <STEP value="1" short="LPComp" long="Compressor w/ Low-Pass"/>
+      </VPOT>
+      <VPOT short="Solo" long="Solo" paramId="49">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="x2" long="x2 Gain" paramId="63">
+        <STEP value="0" short="x1" long="x1"/>
+        <STEP value="1" short="x2" long="x2"/>
+      </VPOT>
+      <VPOT short="Power" long="Power Side" paramId="37">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="2" short="Util" long="Util" referTo="-1" offset="0">
+      <FADER short="Gain" long="In Gain" paramId="4"/>
+      <FADER short="Pan" long="Balance" paramId="5"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Width" long="Stereo Width" paramId="7"/>
+      <FADER short="Out" long="Out Gain" paramId="6"/>
+      <VPOT short="Mode" long="Mode" paramId="2">
+        <STEP value="0" short="L/R pr" long="L/R proc"/>
+        <STEP value="1" short="M/S pr" long="M/S proc"/>
+      </VPOT>
+      <VPOT short="Link" long="Link Channels" paramId="60">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="MidInv" long="Mid Inverse" paramId="34">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="SdeInv" long="Side Inverse" paramId="62">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="MidSlo" long="Mid Solo" paramId="8">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="SdeSlo" long="Side Solo" paramId="36">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Bypass" long="Bypass" paramId="0">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="3" short="Link" long="Link" referTo="-1" offset="0">
+      <FADER short="Attack" long="Attack" paramId="51"/>
+      <FADER short="Releas" long="Release" paramId="52"/>
+      <FADER short="Thresh" long="Threshold" paramId="53"/>
+      <FADER short="Freq" long="Dyn EQ Freq" paramId="54"/>
+      <FADER short="Freq" long="Key Freq" paramId="55"/>
+      <FADER paramId="-1"/>
+      <FADER short="Factor" long="Factor" paramId="60"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="EQType" long="EQType" paramId="57">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="KeyTyp" long="Key Type" paramId="59">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="MidLnk" long="Mid Link" referTo="-1" offset="0">
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Freqs" long="Freqs" paramId="28">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Types" long="Types" paramId="31">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="5" short="SdeLin" long="Side Link" referTo="-1" offset="0">
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Freqs" long="Freqs" paramId="56">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Types" long="Types" paramId="58">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>
