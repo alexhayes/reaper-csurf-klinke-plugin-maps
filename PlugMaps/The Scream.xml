@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (PlantOn)"></MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="Drive" long="Drive" paramId="1"/>
+      <FADER short="Tone" long="Tone" paramId="2"/>
+      <FADER short="Level" long="Level" paramId="3"/>
+      <FADER short="Voltag" long="Voltage" paramId="9"/>
+      <FADER short="Bias" long="Bias" paramId="10"/>
+      <FADER short="Mix" long="Mix" paramId="8"/>
+      <FADER short="Pre" long="Pre" paramId="6"/>
+      <FADER short="Post" long="Post" paramId="7"/>
+      <VPOT short="Mod" long="Mod" paramId="5">
+        <STEP value="0" short="No" long="No"/>
+        <STEP value="1" short="Yes" long="Yes"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Active" long="Active" paramId="4">
+        <STEP value="0" short="No" long="No"/>
+        <STEP value="1" short="Yes" long="Yes"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER short="Mix" long="Mix" paramId="8"/>
+      <FADER short="Voltag" long="Voltage" paramId="9"/>
+      <FADER short="Bias" long="Bias" paramId="10"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

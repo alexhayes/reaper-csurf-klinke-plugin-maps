@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (PlantOn)"></MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Main" long="Main" referTo="-1" offset="0">
+      <FADER short="Gain" long="Gain" paramId="13"/>
+      <FADER short="Bass" long="Bass" paramId="14"/>
+      <FADER short="Midle" long="Midle" paramId="15"/>
+      <FADER short="Treble" long="Treble" paramId="16"/>
+      <FADER paramId="-1"/>
+      <FADER short="PwrSk" long="PwrSk" paramId="3"/>
+      <FADER short="Input" long="Input" paramId="2"/>
+      <FADER short="Master" long="Master" paramId="17"/>
+      <VPOT short="-15db" long="-15db" paramId="9">
+        <STEP value="0" short="0db" long="0db"/>
+        <STEP value="1" short="-15db" long="-15db"/>
+      </VPOT>
+      <VPOT short="Lo" long="Ultra Low" paramId="12">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Freq" long="MidFreq" paramId="11">
+        <STEP value="0" short="220Hz" long="220Hz"/>
+        <STEP value="0.5" short="800Hz" long="800Hz"/>
+        <STEP value="1" short="3kHz" long="3kHz"/>
+      </VPOT>
+      <VPOT short="Hi" long="Ultra Hi" paramId="10">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Chain" long="Rec Chain" paramId="5">
+        <STEP value="0" short="01 Rec" long="01 Rec"/>
+        <STEP value="0.0153846154" short="02 Rec" long="02 Rec"/>
+        <STEP value="0.0307692308" short="03 Rec" long="03 Rec"/>
+        <STEP value="0.0461538471" short="04 Rec" long="04 Rec"/>
+        <STEP value="0.0615384616" short="05 Rec" long="05 Rec"/>
+        <STEP value="0.0769230798" short="06 Rec" long="06 Rec"/>
+        <STEP value="0.0923076943" short="07 Rec" long="07 Rec"/>
+        <STEP value="0.107692309" short="08 Rec" long="08 Rec"/>
+        <STEP value="0.123076923" short="09 Rec" long="09 Rec"/>
+        <STEP value="0.138461545" short="10 Rec" long="10 Rec"/>
+        <STEP value="0.15384616" short="11 Rec" long="11 Rec"/>
+        <STEP value="0.169230774" short="12 Rec" long="12 Rec"/>
+        <STEP value="0.184615389" short="13 Rec" long="13 Rec"/>
+        <STEP value="0.200000003" short="14 Rec" long="14 Rec"/>
+        <STEP value="0.215384617" short="15 Rec" long="15 Rec"/>
+        <STEP value="0.230769232" short="16 Rec" long="16 Rec"/>
+        <STEP value="0.246153846" short="17 Rec" long="17 Rec"/>
+        <STEP value="0.261538476" short="18 Rec" long="18 Rec"/>
+        <STEP value="0.27692309" short="19 Rec" long="19 Rec"/>
+        <STEP value="0.292307705" short="20 Rec" long="20 Rec"/>
+        <STEP value="0.307692319" short="21 Rec" long="21 Rec"/>
+        <STEP value="0.323076934" short="22 Rec" long="22 Rec"/>
+        <STEP value="0.338461548" short="23 Rec" long="23 Rec"/>
+        <STEP value="0.353846163" short="24 Rec" long="24 Rec"/>
+        <STEP value="0.369230777" short="25 Rec" long="25 Rec"/>
+        <STEP value="0.384615391" short="26 Rec" long="26 Rec"/>
+        <STEP value="0.400000006" short="27 Rec" long="27 Rec"/>
+        <STEP value="0.41538462" short="28 Rec" long="28 Rec"/>
+        <STEP value="0.430769235" short="29 Rec" long="29 Rec"/>
+        <STEP value="0.446153849" short="30 Rec" long="30 Rec"/>
+        <STEP value="0.461538464" short="31 Rec" long="31 Rec"/>
+        <STEP value="0.476923078" short="32 Rec" long="32 Rec"/>
+        <STEP value="0.492307693" short="33 Rec" long="33 Rec"/>
+        <STEP value="0.507692337" short="34 Rec" long="34 Rec"/>
+        <STEP value="0.523076952" short="35 Rec" long="35 Rec"/>
+        <STEP value="0.538461566" short="36 Rec" long="36 Rec"/>
+        <STEP value="0.55384618" short="37 Rec" long="37 Rec"/>
+        <STEP value="0.569230795" short="38 Rec" long="38 Rec"/>
+        <STEP value="0.584615409" short="39 Rec" long="39 Rec"/>
+        <STEP value="0.600000024" short="40 Rec" long="40 Rec"/>
+        <STEP value="0.615384638" short="41 Rec" long="41 Rec"/>
+        <STEP value="0.630769253" short="42 Rec" long="42 Rec"/>
+        <STEP value="0.646153867" short="43 Rec" long="43 Rec"/>
+        <STEP value="0.661538482" short="44 Rec" long="44 Rec"/>
+        <STEP value="0.676923096" short="45 Rec" long="45 Rec"/>
+        <STEP value="0.692307711" short="46 Rec" long="46 Rec"/>
+        <STEP value="0.707692325" short="47 Rec" long="47 Rec"/>
+        <STEP value="0.72307694" short="48 Rec" long="48 Rec"/>
+        <STEP value="0.738461554" short="49 Rec" long="49 Rec"/>
+        <STEP value="0.753846169" short="50 Rec" long="50 Rec"/>
+        <STEP value="0.769230783" short="51 Rec" long="51 Rec"/>
+        <STEP value="0.784615397" short="52 Rec" long="52 Rec"/>
+        <STEP value="0.800000012" short="53 Rec" long="53 Rec"/>
+        <STEP value="0.815384626" short="54 Rec" long="54 Rec"/>
+        <STEP value="0.830769241" short="55 Rec" long="55 Rec"/>
+        <STEP value="0.846153855" short="56 Rec" long="56 Rec"/>
+        <STEP value="0.86153847" short="57 Rec" long="57 Rec"/>
+        <STEP value="0.876923084" short="58 Rec" long="58 Rec"/>
+        <STEP value="0.892307699" short="59 Rec" long="59 Rec"/>
+        <STEP value="0.907692313" short="60 Rec" long="60 Rec"/>
+        <STEP value="0.923076928" short="61 Rec" long="61 Rec"/>
+        <STEP value="0.938461542" short="62 Rec" long="62 Rec"/>
+        <STEP value="0.953846157" short="63 Rec" long="63 Rec"/>
+        <STEP value="0.969230771" short="64 Rec" long="64 Rec"/>
+        <STEP value="0.984615386" short="65 Rec" long="65 Rec"/>
+        <STEP value="1" short="66 Rec" long="66 Rec"/>
+      </VPOT>
+      <VPOT short="Horn" long="Horn" paramId="4">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="0">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="FX Rak" long="FX Rack" referTo="-1" offset="0">
+      <FADER short="NgThre" long="NgThres" paramId="7"/>
+      <FADER short="NgRang" long="NgRange" paramId="8"/>
+      <FADER short="TFreq" long="TFreq" paramId="19"/>
+      <FADER short="SFreq" long="SFreq" paramId="21"/>
+      <FADER short="Chain" long="RecChain" paramId="5"/>
+      <FADER short="PwrSk" long="PwrSk" paramId="3"/>
+      <FADER short="Input" long="Input" paramId="2"/>
+      <FADER short="Master" long="Master" paramId="17"/>
+      <VPOT short="NgByPa" long="NgByPass" paramId="6">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Tight" long="Tight" paramId="18">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="0.5" short="Pre" long="Pre"/>
+        <STEP value="1" short="Post" long="Post"/>
+      </VPOT>
+      <VPOT short="Smooth" long="Smooth" paramId="20">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="0.5" short="Pre" long="Pre"/>
+        <STEP value="1" short="Post" long="Post"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Horn" long="Horn" paramId="4">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="0">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (PlantOn)"></MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Amp" long="Amp" referTo="-1" offset="0">
+      <FADER short="Gain" long="Gain" paramId="8"/>
+      <FADER short="Bass" long="Bass" paramId="12"/>
+      <FADER short="Mid" long="Mid" paramId="11"/>
+      <FADER short="Treble" long="Treble" paramId="10"/>
+      <FADER short="Presen" long="Presence" paramId="13"/>
+      <FADER short="Input" long="Input" paramId="4"/>
+      <FADER short="PwrSk" long="PwrSk" paramId="5"/>
+      <FADER short="Master" long="Master" paramId="9"/>
+      <VPOT short="Input" long="Input" paramId="7">
+        <STEP value="0" short="L" long="L"/>
+        <STEP value="1" short="H" long="H"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="RecCh" long="RecCh" paramId="6">
+        <STEP value="0" short="Rec01" long="Rec01"/>
+        <STEP value="0.00961538497" short="Rec02" long="Rec02"/>
+        <STEP value="0.0192307699" short="Rec03" long="Rec03"/>
+        <STEP value="0.028846154" short="Rec04" long="Rec04"/>
+        <STEP value="0.0384615399" short="Rec05" long="Rec05"/>
+        <STEP value="0.0480769239" short="Rec06" long="Rec06"/>
+        <STEP value="0.057692308" short="Rec07" long="Rec07"/>
+        <STEP value="0.0673076957" short="Rec08" long="Rec08"/>
+        <STEP value="0.0769230798" short="Rec09" long="Rec09"/>
+        <STEP value="0.0865384638" short="Rec10" long="Rec10"/>
+        <STEP value="0.0961538479" short="Rec11" long="Rec11"/>
+        <STEP value="0.105769232" short="Rec12" long="Rec12"/>
+        <STEP value="0.115384616" short="Rec13" long="Rec13"/>
+        <STEP value="0.125" short="Rec14" long="Rec14"/>
+        <STEP value="0.134615391" short="Rec15" long="Rec15"/>
+        <STEP value="0.144230768" short="Rec16" long="Rec16"/>
+        <STEP value="0.15384616" short="Rec17" long="Rec17"/>
+        <STEP value="0.163461536" short="Rec18" long="Rec18"/>
+        <STEP value="0.173076928" short="Rec19" long="Rec19"/>
+        <STEP value="0.182692304" short="Rec20" long="Rec20"/>
+        <STEP value="0.192307696" short="Rec21" long="Rec21"/>
+        <STEP value="0.201923072" short="Rec22" long="Rec22"/>
+        <STEP value="0.211538464" short="Rec23" long="Rec23"/>
+        <STEP value="0.22115384" short="Rec24" long="Rec24"/>
+        <STEP value="0.230769232" short="Rec25" long="Rec25"/>
+        <STEP value="0.240384609" short="Rec26" long="Rec26"/>
+        <STEP value="0.25" short="Rec27" long="Rec27"/>
+        <STEP value="0.259615391" short="Rec28" long="Rec28"/>
+        <STEP value="0.269230783" short="Rec29" long="Rec29"/>
+        <STEP value="0.278846145" short="Rec30" long="Rec30"/>
+        <STEP value="0.288461536" short="Rec31" long="Rec31"/>
+        <STEP value="0.298076928" short="Rec32" long="Rec32"/>
+        <STEP value="0.307692319" short="Rec33" long="Rec33"/>
+        <STEP value="0.317307681" short="Rec34" long="Rec34"/>
+        <STEP value="0.326923072" short="Rec35" long="Rec35"/>
+        <STEP value="0.336538464" short="Rec36" long="Rec36"/>
+        <STEP value="0.346153855" short="Rec37" long="Rec37"/>
+        <STEP value="0.355769217" short="Rec38" long="Rec38"/>
+        <STEP value="0.365384609" short="Rec39" long="Rec39"/>
+        <STEP value="0.375" short="Rec40" long="Rec40"/>
+        <STEP value="0.384615391" short="Rec41" long="Rec41"/>
+        <STEP value="0.394230783" short="Rec42" long="Rec42"/>
+        <STEP value="0.403846145" short="Rec43" long="Rec43"/>
+        <STEP value="0.413461536" short="Rec44" long="Rec44"/>
+        <STEP value="0.423076928" short="Rec45" long="Rec45"/>
+        <STEP value="0.432692319" short="Rec46" long="Rec46"/>
+        <STEP value="0.442307681" short="Rec47" long="Rec47"/>
+        <STEP value="0.451923072" short="Rec48" long="Rec48"/>
+        <STEP value="0.461538464" short="Rec49" long="Rec49"/>
+        <STEP value="0.471153855" short="Rec50" long="Rec50"/>
+        <STEP value="0.480769217" short="Rec51" long="Rec51"/>
+        <STEP value="0.490384609" short="Rec52" long="Rec52"/>
+        <STEP value="0.5" short="Rec53" long="Rec53"/>
+        <STEP value="0.509615362" short="Rec54" long="Rec54"/>
+        <STEP value="0.519230783" short="Rec55" long="Rec55"/>
+        <STEP value="0.528846145" short="Rec56" long="Rec56"/>
+        <STEP value="0.538461566" short="Rec57" long="Rec57"/>
+        <STEP value="0.548076928" short="Rec58" long="Rec58"/>
+        <STEP value="0.557692289" short="Rec59" long="Rec59"/>
+        <STEP value="0.567307711" short="Rec60" long="Rec60"/>
+        <STEP value="0.576923072" short="Rec61" long="Rec61"/>
+        <STEP value="0.586538434" short="Rec62" long="Rec62"/>
+        <STEP value="0.596153855" short="Rec63" long="Rec63"/>
+        <STEP value="0.605769217" short="Rec64" long="Rec64"/>
+        <STEP value="0.615384638" short="Rec65" long="Rec65"/>
+        <STEP value="0.625" short="Rec66" long="Rec66"/>
+        <STEP value="0.634615362" short="Rec67" long="Rec67"/>
+        <STEP value="0.644230783" short="Rec68" long="Rec68"/>
+        <STEP value="0.653846145" short="Rec69" long="Rec69"/>
+        <STEP value="0.663461566" short="Rec70" long="Rec70"/>
+        <STEP value="0.673076928" short="Rec71" long="Rec71"/>
+        <STEP value="0.682692289" short="Rec72" long="Rec72"/>
+        <STEP value="0.692307711" short="Rec60" long="Rec60"/>
+        <STEP value="0.701923072" short="Rec61" long="Rec61"/>
+        <STEP value="0.711538434" short="Rec62" long="Rec62"/>
+        <STEP value="0.721153855" short="Rec63" long="Rec63"/>
+        <STEP value="0.730769217" short="Rec64" long="Rec64"/>
+        <STEP value="0.740384638" short="Rec65" long="Rec65"/>
+        <STEP value="0.75" short="Rec66" long="Rec66"/>
+        <STEP value="0.759615362" short="Rec80" long="Rec80"/>
+        <STEP value="0.769230783" short="Rec81" long="Rec81"/>
+        <STEP value="0.778846145" short="Rec82" long="Rec82"/>
+        <STEP value="0.788461566" short="Rec83" long="Rec83"/>
+        <STEP value="0.798076928" short="Rec84" long="Rec84"/>
+        <STEP value="0.807692289" short="Rec85" long="Rec85"/>
+        <STEP value="0.817307711" short="Rec86" long="Rec86"/>
+        <STEP value="0.826923072" short="Rec87" long="Rec87"/>
+        <STEP value="0.836538434" short="Rec88" long="Rec88"/>
+        <STEP value="0.846153855" short="Rec89" long="Rec89"/>
+        <STEP value="0.855769217" short="Rec90" long="Rec90"/>
+        <STEP value="0.865384638" short="Rec91" long="Rec91"/>
+        <STEP value="0.875" short="Rec92" long="Rec92"/>
+        <STEP value="0.884615362" short="Rec93" long="Rec93"/>
+        <STEP value="0.894230783" short="Rec94" long="Rec94"/>
+        <STEP value="0.903846145" short="Rec95" long="Rec95"/>
+        <STEP value="0.913461566" short="Rec96" long="Rec96"/>
+        <STEP value="0.923076928" short="Rec97" long="Rec97"/>
+        <STEP value="0.932692289" short="Rec98" long="Rec98"/>
+        <STEP value="0.942307711" short="Rec99" long="Rec99"/>
+        <STEP value="0.951923072" short="Rec100" long="Rec100"/>
+        <STEP value="0.961538434" short="Rec101" long="Rec101"/>
+        <STEP value="0.971153855" short="Rec102" long="Rec102"/>
+        <STEP value="0.980769217" short="Rec103" long="Rec103"/>
+        <STEP value="0.990384638" short="Rec104" long="Rec104"/>
+        <STEP value="1" short="Rec105" long="Rec105"/>
+      </VPOT>
+      <VPOT short="Bypass" long="Bypass" paramId="0">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="FXRack" long="FX Rack" referTo="-1" offset="0">
+      <FADER short="Thresh" long="Threshold" paramId="15"/>
+      <FADER short="Range" long="Range" paramId="16"/>
+      <FADER short="Freq" long="Freq" paramId="23"/>
+      <FADER short="Freq" long="Freq" paramId="25"/>
+      <FADER short="Time" long="Delay Time" paramId="18"/>
+      <FADER short="Mix" long="Mix" paramId="19"/>
+      <FADER short="Feedbk" long="Feedback" paramId="20"/>
+      <FADER short="Lofi" long="Lofi" paramId="21"/>
+      <VPOT short="Gate" long="Noise Gate" paramId="14">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="HP" long="HP" paramId="22">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="0.5" short="Pre" long="Pre"/>
+        <STEP value="1" short="Post" long="Post"/>
+      </VPOT>
+      <VPOT short="LP" long="LP" paramId="24">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="0.5" short="Pre" long="Pre"/>
+        <STEP value="1" short="Post" long="Post"/>
+      </VPOT>
+      <VPOT short="Delay" long="Delay" paramId="17">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (PlantOn)"></MAPINFO>
+  <BANK id="0" short="Left" long="Left/Mid" referTo="-1" offset="0">
+    <PAGE id="0" short="LF" long="Low Freq" referTo="-1" offset="0">
+      <FADER short="Freq" long="LF Freq" paramId="29"/>
+      <FADER short="Gain" long="LF Gain" paramId="24"/>
+      <FADER short="Q" long="LF Q" paramId="34"/>
+      <FADER short="Freq" long="HP Freq" paramId="22"/>
+      <FADER short="Freq" long="LP Freq" paramId="20"/>
+      <FADER short="Scale" long="Gain Scale" paramId="18"/>
+      <FADER short="In" long="In Gain" paramId="1"/>
+      <FADER short="Out" long="Out Gain" paramId="2"/>
+      <VPOT short="In" long="LF In" paramId="39">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Range" long="Range" paramId="44">
+        <STEP value="0" short="15db" long="15db"/>
+        <STEP value="1" short="7db" long="7db"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="HP" long="HP In" paramId="23">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="LP" long="LP In" paramId="21">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Invrse" long="Inverse" paramId="19">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Bypass" long="Left Bypass" paramId="49">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="0">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="LMF" long="Low-Mid Freq" referTo="-1" offset="0">
+      <FADER short="Freq" long="LMF Freq" paramId="30"/>
+      <FADER short="Gain" long="LMF Gain" paramId="25"/>
+      <FADER short="Q " long="Q" paramId="35"/>
+      <FADER short="Freq" long="HP Freq" paramId="22"/>
+      <FADER short="Freq" long="LP Freq" paramId="20"/>
+      <FADER short="Scale" long="Gain Scale" paramId="18"/>
+      <FADER short="In" long="In Gain" paramId="1"/>
+      <FADER short="Out" long="Out Gain" paramId="2"/>
+      <VPOT short="In" long="LMF In" paramId="40">
+        <STEP value="0" short="Full" long="Full"/>
+        <STEP value="1" short="Half" long="Half"/>
+      </VPOT>
+      <VPOT short="Range" long="LMF Range" paramId="45">
+        <STEP value="0" short="Full" long="Full"/>
+        <STEP value="1" short="Half" long="Half"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="HP" long="HP In" paramId="23">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="LP" long="LP In" paramId="21">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Invrse" long="Inverse" paramId="19">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Bypass" long="Left Bypass" paramId="49">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="0">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="2" short="Mid" long="Mid" referTo="-1" offset="0">
+      <FADER short="Freq" long="MF Freq" paramId="31"/>
+      <FADER short="Gain" long="MF Gain" paramId="26"/>
+      <FADER short="Q" long="MF Q" paramId="36"/>
+      <FADER short="Freq" long="HP Freq" paramId="22"/>
+      <FADER short="Freq" long="LP Freq" paramId="20"/>
+      <FADER short="Scale" long="Gain Scale" paramId="18"/>
+      <FADER short="In" long="In Gain" paramId="1"/>
+      <FADER short="Out" long="Out Gain" paramId="2"/>
+      <VPOT short="In" long="MF In" paramId="41">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Range" long="MF Range" paramId="46">
+        <STEP value="0" short="Full" long="Full"/>
+        <STEP value="1" short="Half" long="Half"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="HP" long="HP In" paramId="23">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="LP" long="LP In" paramId="21">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Invrse" long="Inverse" paramId="19">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Bypass" long="Left Bypass" paramId="49">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="0">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="3" short="HMF" long="HMF" referTo="-1" offset="0">
+      <FADER short="Freq" long="HMF Freq" paramId="32"/>
+      <FADER short="Gain" long="HMF Gain" paramId="27"/>
+      <FADER short="Q" long="HMF Q" paramId="37"/>
+      <FADER short="Freq" long="HP Freq" paramId="22"/>
+      <FADER short="Freq" long="LP Freq" paramId="20"/>
+      <FADER short="Scale" long="Gain Scale" paramId="18"/>
+      <FADER short="In" long="In Gain" paramId="1"/>
+      <FADER short="Out" long="Out Gain" paramId="2"/>
+      <VPOT short="In" long="HMF In" paramId="42">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Range" long="HMF Range" paramId="47">
+        <STEP value="0" short="Full" long="Full"/>
+        <STEP value="1" short="Half" long="Half"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="HP" long="HP In" paramId="23">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="LP" long="LP In" paramId="21">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Invrse" long="Inverse" paramId="19">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Bypass" long="Left Bypass" paramId="49">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="0">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="4" short="HF" long="HF" referTo="-1" offset="0">
+      <FADER short="Freq" long="HF Freq" paramId="33"/>
+      <FADER short="Gain" long="HF Gain" paramId="28"/>
+      <FADER short="Q" long="HF Q" paramId="38"/>
+      <FADER short="Freq" long="HP Freq" paramId="22"/>
+      <FADER short="Freq" long="LP Freq" paramId="20"/>
+      <FADER short="Scale" long="Gain Scale" paramId="18"/>
+      <FADER short="In" long="In Gain" paramId="1"/>
+      <FADER short="Out" long="Out Gain" paramId="2"/>
+      <VPOT short="In" long="HF In" paramId="43">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Range" long="HF Range" paramId="48">
+        <STEP value="0" short="Full" long="Full"/>
+        <STEP value="1" short="Half" long="Half"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="HP" long="HP In" paramId="23">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="LP" long="LP In" paramId="21">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Invrse" long="Inverse" paramId="19">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Bypass" long="Left Bypass" paramId="49">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="0">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="5" short="Util" long="Util" referTo="-1" offset="0">
+      <FADER short="Freq" long="Freq" paramId="7"/>
+      <FADER short="%" long="%" paramId="9"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Gain" long="Gain" paramId="4"/>
+      <FADER short="Scale" long="Gain Scale" paramId="18"/>
+      <FADER short="In" long="In Gain" paramId="1"/>
+      <FADER short="Out" long="Out Gain" paramId="2"/>
+      <VPOT short="Mono" long="Mono Maker" paramId="8">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Width" long="Stereo Width" paramId="10">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="MidSde" long="Mid/Side" paramId="6">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Link" long="Parameter Link" paramId="12">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="THD" long="THD" paramId="5">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Invrse" long="Inverse" paramId="19">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Bypass" long="Left Bypass" paramId="49">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="0">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+  <BANK id="1" short="Right" long="Right" referTo="-1" offset="0">
+    <PAGE id="0" short="LF" long="LF" referTo="-1" offset="0">
+      <FADER short="Freq" long="LF Freq" paramId="59"/>
+      <FADER short="Gain" long="LF Gain" paramId="54"/>
+      <FADER short="Q" long="LF Q" paramId="64"/>
+      <FADER short="Freq" long="HP Freq" paramId="52"/>
+      <FADER short="Freq" long="LP Freq" paramId="50"/>
+      <FADER short="Scale" long="Gain Scale" paramId="18"/>
+      <FADER short="In" long="In Gain" paramId="1"/>
+      <FADER short="Out" long="Out Gain" paramId="2"/>
+      <VPOT short="In" long="LF In" paramId="69">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Range" long="LF Range" paramId="74">
+        <STEP value="0" short="15db" long="15db"/>
+        <STEP value="1" short="7db" long="7db"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="HP" long="HP In" paramId="53">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="LP" long="LP In" paramId="51">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Invrse" long="Inverse" paramId="19">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Bypass" long="Bypass" paramId="79">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="0">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="LMF" long="LMF" referTo="-1" offset="0">
+      <FADER short="Freq" long="LMF Freq" paramId="60"/>
+      <FADER short="Gain" long="LMF Gain" paramId="55"/>
+      <FADER short="Q" long="LMF Q" paramId="65"/>
+      <FADER short="Freq" long="HP Freq" paramId="52"/>
+      <FADER short="Freq" long="LP Freq" paramId="50"/>
+      <FADER short="Scale" long="Gain Scale" paramId="18"/>
+      <FADER short="In" long="In Gain" paramId="1"/>
+      <FADER short="Out" long="Out Gain" paramId="2"/>
+      <VPOT short="In" long="LMF In" paramId="70">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Range" long="LMF Range" paramId="75">
+        <STEP value="0" short="Full" long="Full"/>
+        <STEP value="1" short="Half" long="Half"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="HP" long="HP In" paramId="53">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="LP" long="LP In" paramId="51">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Invrse" long="Inverse" paramId="19">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Bypass" long="Bypass" paramId="79">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="0">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="2" short="Mid" long="Mid" referTo="-1" offset="0">
+      <FADER short="Freq" long="MF Freq" paramId="61"/>
+      <FADER short="Gain" long="MF Gain" paramId="56"/>
+      <FADER short="Q" long="MF Q" paramId="66"/>
+      <FADER short="Freq" long="HP Freq" paramId="52"/>
+      <FADER short="Freq" long="LP Freq" paramId="50"/>
+      <FADER short="Scale" long="Gain Scale" paramId="18"/>
+      <FADER short="In" long="In Gain" paramId="1"/>
+      <FADER short="Out" long="Out Gain" paramId="2"/>
+      <VPOT short="MFRng " long="MFRng 2" paramId="76">
+        <STEP value="0" short="Full" long="Full"/>
+        <STEP value="1" short="Half" long="Half"/>
+      </VPOT>
+      <VPOT short="Range" long="MF Range" paramId="76">
+        <STEP value="0" short="Full" long="Full"/>
+        <STEP value="1" short="Half" long="Half"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="HP" long="HP In" paramId="53">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="LP" long="LP In" paramId="51">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Invrse" long="Inverse" paramId="19">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Bypass" long="Bypass" paramId="79">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="0">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="3" short="HMF" long="HMF" referTo="-1" offset="0">
+      <FADER short="Freq" long="HMF Freq" paramId="62"/>
+      <FADER short="Gain" long="HMF Gain" paramId="57"/>
+      <FADER short="Q" long="HMF Q" paramId="67"/>
+      <FADER short="Freq" long="HP Freq" paramId="52"/>
+      <FADER short="Freq" long="LP Freq" paramId="50"/>
+      <FADER short="Scale" long="Gain Scale" paramId="18"/>
+      <FADER short="In" long="In Gain" paramId="1"/>
+      <FADER short="Out" long="Out Gain" paramId="2"/>
+      <VPOT short="In" long="HMF In" paramId="72">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Range" long="HMF Range" paramId="77">
+        <STEP value="0" short="Full" long="Full"/>
+        <STEP value="1" short="Half" long="Half"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="HP" long="HP In" paramId="53">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="LP" long="LP In" paramId="51">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Invrse" long="Inverse" paramId="19">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Bypass" long="Bypass" paramId="79">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="0">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="4" short="HF" long="HF" referTo="-1" offset="0">
+      <FADER short="Freq" long="HF Freq" paramId="63"/>
+      <FADER short="Gain" long="HF Gain" paramId="58"/>
+      <FADER short="Q" long="HF Q" paramId="68"/>
+      <FADER short="Freq" long="HP Freq" paramId="52"/>
+      <FADER short="Freq" long="LP Freq" paramId="50"/>
+      <FADER short="Scale" long="Gain Scale" paramId="18"/>
+      <FADER short="In" long="In Gain" paramId="1"/>
+      <FADER short="Out" long="Out Gain" paramId="2"/>
+      <VPOT short="In" long="HF In" paramId="73">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Range" long="HF Range" paramId="78">
+        <STEP value="0" short="Full" long="Full"/>
+        <STEP value="1" short="Half" long="Half"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="HP" long="HP In" paramId="53">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="LP" long="LP In" paramId="51">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Invrse" long="Inverse" paramId="19">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Bypass" long="Bypass" paramId="79">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="0">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="5" short="Util" long="Util" referTo="-1" offset="0">
+      <FADER short="Freq" long="Freq" paramId="7"/>
+      <FADER short="%" long="%" paramId="9"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="Gain" long="Gain" paramId="4"/>
+      <FADER short="Scale" long="Gain Scale" paramId="18"/>
+      <FADER short="In" long="In Gain" paramId="1"/>
+      <FADER short="Out" long="Out Gain" paramId="2"/>
+      <VPOT short="Mono" long="Mono Maker" paramId="8">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Width" long="Stereo Width" paramId="10">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="MidSde" long="Mid/Side" paramId="6">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Link" long="Parameter Link" paramId="12">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="THD" long="THD" paramId="5">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Invrse" long="Inverse" paramId="19">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="Bypass" long="Bypass" paramId="79">
+        <STEP value="0" short="Out" long="Out"/>
+        <STEP value="1" short="In" long="In"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="0">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

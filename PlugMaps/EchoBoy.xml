@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (PlantOn)"></MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="Echo1T" long="Echo1Time" paramId="7"/>
+      <FADER short="Echo2T" long="Echo2Time" paramId="10"/>
+      <FADER short="Feedba" long="Feedback" paramId="11"/>
+      <FADER short="LowCut" long="LowCut" paramId="16"/>
+      <FADER short="HighCu" long="HighCut" paramId="17"/>
+      <FADER short="Groove" long="Groove" paramId="13"/>
+      <FADER short="Feel" long="Feel" paramId="14"/>
+      <FADER short="Satura" long="Saturation" paramId="15"/>
+      <VPOT short="Mix" long="Mix" paramId="3">
+        <STEP value="0" short="0.0 %" long="0.0 %"/>
+        <STEP value="0.0649999976" short="6.5 %" long="6.5 %"/>
+        <STEP value="0.0759999976" short="7.6 %" long="7.6 %"/>
+        <STEP value="0.180000007" short="18.0 %" long="18.0 %"/>
+        <STEP value="0.225999996" short="22.6 %" long="22.6 %"/>
+        <STEP value="0.261000007" short="26.1 %" long="26.1 %"/>
+        <STEP value="0.270999998" short="27.1 %" long="27.1 %"/>
+        <STEP value="0.296000004" short="29.6 %" long="29.6 %"/>
+        <STEP value="0.300999999" short="30.1 %" long="30.1 %"/>
+        <STEP value="0.305999994" short="30.6 %" long="30.6 %"/>
+        <STEP value="0.310000002" short="31.0 %" long="31.0 %"/>
+        <STEP value="0.316000015" short="31.6 %" long="31.6 %"/>
+        <STEP value="0.331" short="33.1 %" long="33.1 %"/>
+        <STEP value="0.335999995" short="33.6 %" long="33.6 %"/>
+        <STEP value="0.36500001" short="36.5 %" long="36.5 %"/>
+        <STEP value="0.419999987" short="42.0 %" long="42.0 %"/>
+        <STEP value="0.5" short="50.0 %" long="50.0 %"/>
+        <STEP value="0.569999993" short="57.0 %" long="57.0 %"/>
+        <STEP value="0.649999976" short="65.0 %" long="65.0 %"/>
+        <STEP value="0.74000001" short="74.0 %" long="74.0 %"/>
+        <STEP value="0.795000017" short="79.5 %" long="79.5 %"/>
+        <STEP value="0.860000014" short="86.0 %" long="86.0 %"/>
+        <STEP value="0.904999971" short="90.5 %" long="90.5 %"/>
+        <STEP value="0.944999993" short="94.5 %" long="94.5 %"/>
+        <STEP value="1" short="100.0 " long="100.0 %"/>
+      </VPOT>
+      <VPOT short="Echo1M" long="Echo1Mode" paramId="5">
+        <STEP value="0" short="Time" long="Time"/>
+        <STEP value="0.25" short="Note" long="Note"/>
+      </VPOT>
+      <VPOT short="Echo2M" long="Echo2Mode" paramId="8">
+        <STEP value="0" short="Time" long="Time"/>
+        <STEP value="0.25" short="Note" long="Note"/>
+      </VPOT>
+      <VPOT short="PrimeN" long="PrimeNumbers" paramId="12">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Style" long="Style" paramId="23">
+        <STEP value="0" short="Master" long="Master Tape"/>
+        <STEP value="0.0322580636" short="Studio" long="Studio Tape"/>
+        <STEP value="0.0645161271" short="EchoPl" long="EchoPlex"/>
+        <STEP value="0.0967741907" short="Space " long="Space Echo"/>
+        <STEP value="0.129032254" short="Tube T" long="Tube Tape"/>
+        <STEP value="0.161290318" short="Cheap " long="Cheap Tape"/>
+        <STEP value="0.193548381" short="Memory" long="Memory Man"/>
+        <STEP value="0.225806445" short="DM-2" long="DM-2"/>
+        <STEP value="0.258064508" short="TelRay" long="TelRay"/>
+        <STEP value="0.290322572" short="Binson" long="Binsonette"/>
+        <STEP value="0.322580636" short="Teleph" long="Telephone"/>
+        <STEP value="0.354838699" short="AM Rad" long="AM Radio"/>
+        <STEP value="0.387096763" short="FM Rad" long="FM Radio"/>
+        <STEP value="0.419354826" short="Shortw" long="Shortwave"/>
+        <STEP value="0.45161289" short="Transm" long="Transmitter"/>
+        <STEP value="0.483870953" short="Digita" long="Digital Delay"/>
+        <STEP value="0.516129017" short="Analog" long="Analog Delay"/>
+        <STEP value="0.54838711" short="Digita" long="DigitalChorus"/>
+        <STEP value="0.580645144" short="Analog" long="Analog Chorus"/>
+        <STEP value="0.612903237" short="CE-1 C" long="CE-1 Chorus"/>
+        <STEP value="0.645161271" short="Vibrat" long="Vibrato"/>
+        <STEP value="0.677419364" short="Satura" long="Saturated"/>
+        <STEP value="0.709677398" short="Fat" long="Fat"/>
+        <STEP value="0.741935492" short="Distre" long="Distressed"/>
+        <STEP value="0.774193525" short="Limite" long="Limited"/>
+        <STEP value="0.806451619" short="Distor" long="Distorted"/>
+        <STEP value="0.838709652" short="Queeke" long="Queeked"/>
+        <STEP value="0.870967746" short="Ambien" long="Ambient"/>
+        <STEP value="0.90322578" short="Diffus" long="Diffused"/>
+        <STEP value="0.935483873" short="Splatt" long="Splattered"/>
+        <STEP value="0.967741907" short="Verbed" long="Verbed"/>
+        <STEP value="1" short="Edited" long="Edited Style"/>
+      </VPOT>
+      <VPOT short="Mode" long="Mode" paramId="4">
+        <STEP value="0" short="Single" long="Single"/>
+        <STEP value="0.333333343" short="Dual" long="Dual"/>
+        <STEP value="0.666666687" short="Ping-P" long="Ping-Pong"/>
+        <STEP value="1" short="Rhythm" long="Rhythm"/>
+      </VPOT>
+      <VPOT short="Bypass" long="Bypass" paramId="0">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER short="Echo2M" long="Echo2Mode" paramId="8"/>
+      <FADER short="Echo2N" long="Echo2Note" paramId="9"/>
+      <FADER short="Echo2T" long="Echo2Time" paramId="10"/>
+      <FADER short="Feedba" long="Feedback" paramId="11"/>
+      <FADER short="PrimeN" long="PrimeNumbers" paramId="12"/>
+      <FADER short="Groove" long="Groove" paramId="13"/>
+      <FADER short="Feel" long="Feel" paramId="14"/>
+      <FADER short="Satura" long="Saturation" paramId="15"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="Page 3" long="Page 3" referTo="-1" offset="0">
+      <FADER short="LowCut" long="LowCut" paramId="16"/>
+      <FADER short="HighCu" long="HighCut" paramId="17"/>
+      <FADER short="Rhythm" long="RhythmMode" paramId="18"/>
+      <FADER short="Rhythm" long="RhythmNote" paramId="19"/>
+      <FADER short="Rhythm" long="RhythmTime" paramId="20"/>
+      <FADER short="Rhythm" long="RhythmRepeats" paramId="21"/>
+      <FADER short="Rhythm" long="RhythmDecay" paramId="22"/>
+      <FADER short="Style" long="Style" paramId="23"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="Page 4" long="Page 4" referTo="-1" offset="0">
+      <FADER short="Tempo" long="Tempo" paramId="24"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

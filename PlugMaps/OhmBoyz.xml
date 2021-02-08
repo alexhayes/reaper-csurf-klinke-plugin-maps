@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (PlantOn)"></MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Delay1" long="Delay Line 1" referTo="-1" offset="0">
+      <FADER short="Predly" long="Predly lvl" paramId="2"/>
+      <FADER short="Level" long="Level" paramId="55"/>
+      <FADER short="Pan" long="Pan" paramId="56"/>
+      <FADER short="Time" long="Time" paramId="60"/>
+      <FADER short="Feedbk" long="Feedback" paramId="64"/>
+      <FADER short="Reso" long="Filter Resonance" paramId="73"/>
+      <FADER short="Q" long="Filter Q" paramId="77"/>
+      <FADER short="Freq" long="Filter Freq" paramId="69"/>
+      <VPOT short="SusLop" long="Sustained Loop" paramId="0">
+        <STEP value="0.261932582" short="BT 1 M" long="BT 1 M1 M2"/>
+        <STEP value="0.324264705" short="BT 1 S" long="BT 1 SL M1 M2"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="FltTyp" long="Filter Type" paramId="68">
+        <STEP value="0" short="LP" long="Low-pass"/>
+        <STEP value="0.333333343" short="HP" long="High-pass"/>
+        <STEP value="0.666666687" short="Resona" long="Resonator"/>
+        <STEP value="1" short="BP" long="Band-pass"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="Delay2" long="Delay2" referTo="-1" offset="0">
+      <FADER short="Balanc" long="Fdbk sep." paramId="3"/>
+      <FADER short="Level" long="D2 level" paramId="88"/>
+      <FADER short="Pan" long="Pan" paramId="89"/>
+      <FADER short="Time" long="D2 time" paramId="93"/>
+      <FADER short="Feedbk" long="D2 fdbk" paramId="97"/>
+      <FADER short="Reso" long="D2 filt reso" paramId="106"/>
+      <FADER short="Q" long="D2 filt Q" paramId="110"/>
+      <FADER short="Freq" long="D2 filt cutoff" paramId="102"/>
+      <VPOT short="On" long="On" paramId="0">
+        <STEP value="0.26238212" short="BT 1 M" long="BT 1 M1 M2"/>
+        <STEP value="0.26238212" short="Off" long="Off"/>
+        <STEP value="0.387381703" short="On" long="On"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="FltTyp" long="D2 filt type" paramId="101">
+        <STEP value="0" short="LP" long="Low-pass"/>
+        <STEP value="0.333333343" short="HP" long="High-pass"/>
+        <STEP value="0.666666687" short="Resona" long="Resonator"/>
+        <STEP value="1" short="BP" long="Band-pass"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="Taps" long="Taps 1-4" referTo="-1" offset="0">
+      <FADER short="Level" long="Tap 1 level" paramId="11"/>
+      <FADER short="Time" long="Tap 1 time" paramId="7"/>
+      <FADER short="Level" long="Tap 2 level" paramId="23"/>
+      <FADER short="Time" long="Tap 2 time" paramId="19"/>
+      <FADER short="Level" long="Tap 3 level" paramId="35"/>
+      <FADER short="Time" long="Tap 3 time" paramId="31"/>
+      <FADER short="Level" long="Tap 4 level" paramId="47"/>
+      <FADER short="Time" long="Tap 4 time" paramId="43"/>
+      <VPOT short="Pan" long="Tap 1 pan" paramId="15">
+        <STEP value="0.348499149" short="L 30 %" long="L 30 %"/>
+        <STEP value="0.349594921" short="L 30 %" long="L 30 %"/>
+        <STEP value="0.364370823" short="L 27 %" long="L 27 %"/>
+        <STEP value="0.391760647" short="L 22 %" long="L 22 %"/>
+        <STEP value="0.396140605" short="L 21 %" long="L 21 %"/>
+        <STEP value="0.447145224" short="L 11 %" long="L 11 %"/>
+        <STEP value="0.49359417" short="L 1 %" long="L 1 %"/>
+        <STEP value="0.519692183" short="R 4 %" long="R 4 %"/>
+        <STEP value="0.536210954" short="R 7 %" long="R 7 %"/>
+        <STEP value="0.538718581" short="R 8 %" long="R 8 %"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Pan" long="Tap 2 pan" paramId="27">
+        <STEP value="0.357171774" short="L 29 %" long="L 29 %"/>
+        <STEP value="0.372238606" short="L 26 %" long="L 26 %"/>
+        <STEP value="0.372350335" short="L 26 %" long="L 26 %"/>
+        <STEP value="0.412425578" short="L 18 %" long="L 18 %"/>
+        <STEP value="0.41683206" short="L 17 %" long="L 17 %"/>
+        <STEP value="0.426269531" short="L 15 %" long="L 15 %"/>
+        <STEP value="0.429864228" short="L 14 %" long="L 14 %"/>
+        <STEP value="0.444539398" short="L 11 %" long="L 11 %"/>
+        <STEP value="0.466604084" short="L 7 %" long="L 7 %"/>
+        <STEP value="0.490290374" short="L 2 %" long="L 2 %"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Pan" long="Tap 3 pan" paramId="39">
+        <STEP value="0.429694921" short="L 14 %" long="L 14 %"/>
+        <STEP value="0.438050807" short="L 12 %" long="L 12 %"/>
+        <STEP value="0.463097245" short="L 7 %" long="L 7 %"/>
+        <STEP value="0.47315672" short="L 5 %" long="L 5 %"/>
+        <STEP value="0.490941793" short="L 2 %" long="L 2 %"/>
+        <STEP value="0.499999881" short="Mid %" long="Mid %"/>
+        <STEP value="0.5" short="Mid %" long="Mid %"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Pan" long="Tap 4 pan" paramId="51">
+        <STEP value="0.435207874" short="L 13 %" long="L 13 %"/>
+        <STEP value="0.457509339" short="L 8 %" long="L 8 %"/>
+        <STEP value="0.45798254" short="L 8 %" long="L 8 %"/>
+        <STEP value="0.482482523" short="L 4 %" long="L 4 %"/>
+        <STEP value="0.482740879" short="L 3 %" long="L 3 %"/>
+        <STEP value="0.484363437" short="L 3 %" long="L 3 %"/>
+        <STEP value="0.484619141" short="L 3 %" long="L 3 %"/>
+        <STEP value="0.490714014" short="L 2 %" long="L 2 %"/>
+        <STEP value="0.494998932" short="L 1 %" long="L 1 %"/>
+        <STEP value="0.499950826" short="Mid %" long="Mid %"/>
+        <STEP value="0.511921048" short="R 2 %" long="R 2 %"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="Distor" long="Distorion" referTo="-1" offset="0">
+      <FADER short="Gain" long="D1 disto lvl" paramId="82"/>
+      <FADER short="Type" long="D1 disto type" paramId="81"/>
+      <FADER short="Shelf" long="D1 High-Shelf lev" paramId="87"/>
+      <FADER short="Cutoff" long="D1 HS cutoff" paramId="86"/>
+      <FADER short="Gain" long="D2 disto lvl" paramId="115"/>
+      <FADER short="Type" long="D2 disto type" paramId="114"/>
+      <FADER short="Shelf" long="D2 HS level" paramId="120"/>
+      <FADER short="Cutoff" long="D2 HS cutoff" paramId="119"/>
+      <VPOT short="Delay1" long="Delay1" paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Delay2" long="Delay2" paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="5" short="" long="" referTo="-1" offset="0">
+      <FADER short="Tap 3 " long="Tap 3 pan LFO Per" paramId="40"/>
+      <FADER short="Tap 3 " long="Tap 3 pan LFO Amt" paramId="41"/>
+      <FADER short="Tap 3 " long="Tap 3 pan LFO WF" paramId="42"/>
+      <FADER short="Tap 4 " long="Tap 4 time" paramId="43"/>
+      <FADER short="Tap 4 " long="Tap 4 time LFO Pe" paramId="44"/>
+      <FADER short="Tap 4 " long="Tap 4 time LFO Am" paramId="45"/>
+      <FADER short="Tap 4 " long="Tap 4 time LFO WF" paramId="46"/>
+      <FADER short="Tap 4 " long="Tap 4 level" paramId="47"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="6" short="" long="" referTo="-1" offset="0">
+      <FADER short="Tap 4 " long="Tap 4 level LFO P" paramId="48"/>
+      <FADER short="Tap 4 " long="Tap 4 level LFO A" paramId="49"/>
+      <FADER short="Tap 4 " long="Tap 4 level LFO W" paramId="50"/>
+      <FADER short="Tap 4 " long="Tap 4 pan" paramId="51"/>
+      <FADER short="Tap 4 " long="Tap 4 pan LFO Per" paramId="52"/>
+      <FADER short="Tap 4 " long="Tap 4 pan LFO Amt" paramId="53"/>
+      <FADER short="Tap 4 " long="Tap 4 pan LFO WF" paramId="54"/>
+      <FADER short="D1 lev" long="D1 level" paramId="55"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="7" short="" long="" referTo="-1" offset="0">
+      <FADER short="D1 pan" long="D1 pan" paramId="56"/>
+      <FADER short="D1 pan" long="D1 pan LFO Per" paramId="57"/>
+      <FADER short="D1 pan" long="D1 pan LFO Amt" paramId="58"/>
+      <FADER short="D1 pan" long="D1 pan LFO WF" paramId="59"/>
+      <FADER short="D1 tim" long="D1 time" paramId="60"/>
+      <FADER short="D1 tim" long="D1 time LFO Per" paramId="61"/>
+      <FADER short="D1 tim" long="D1 time LFO Amt" paramId="62"/>
+      <FADER short="D1 tim" long="D1 time LFO WF" paramId="63"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+  <BANK id="1" short="Bank 2" long="Bank 2" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="D1 fdb" long="D1 fdbk" paramId="64"/>
+      <FADER short="D1 fdb" long="D1 fdbk LFO Per" paramId="65"/>
+      <FADER short="D1 fdb" long="D1 fdbk LFO Amt" paramId="66"/>
+      <FADER short="D1 fdb" long="D1 fdbk LFO WF" paramId="67"/>
+      <FADER short="D1 fil" long="D1 filt type" paramId="68"/>
+      <FADER short="D1 fil" long="D1 filt cutoff" paramId="69"/>
+      <FADER short="D1 fil" long="D1 filt cutoff LF" paramId="70"/>
+      <FADER short="D1 fil" long="D1 filt cutoff LF" paramId="71"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER short="D1 fil" long="D1 filt cutoff LF" paramId="72"/>
+      <FADER short="D1 fil" long="D1 filt reso" paramId="73"/>
+      <FADER short="D1 fil" long="D1 filt reso LFO " paramId="74"/>
+      <FADER short="D1 fil" long="D1 filt reso LFO " paramId="75"/>
+      <FADER short="D1 fil" long="D1 filt reso LFO " paramId="76"/>
+      <FADER short="D1 fil" long="D1 filt Q" paramId="77"/>
+      <FADER short="D1 fil" long="D1 filt Q LFO Per" paramId="78"/>
+      <FADER short="D1 fil" long="D1 filt Q LFO Amt" paramId="79"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="Page 3" long="Page 3" referTo="-1" offset="0">
+      <FADER short="D1 fil" long="D1 filt Q LFO WF" paramId="80"/>
+      <FADER short="D1 dis" long="D1 disto type" paramId="81"/>
+      <FADER short="D1 dis" long="D1 disto lvl" paramId="82"/>
+      <FADER short="D1 dis" long="D1 disto lvl LFO " paramId="83"/>
+      <FADER short="D1 dis" long="D1 disto lvl LFO " paramId="84"/>
+      <FADER short="D1 dis" long="D1 disto lvl LFO " paramId="85"/>
+      <FADER short="D1 HS " long="D1 HS cutoff" paramId="86"/>
+      <FADER short="D1 HS " long="D1 HS level" paramId="87"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="Page 4" long="Page 4" referTo="-1" offset="0">
+      <FADER short="D2 lev" long="D2 level" paramId="88"/>
+      <FADER short="D2 pan" long="D2 pan" paramId="89"/>
+      <FADER short="D2 pan" long="D2 pan LFO Per" paramId="90"/>
+      <FADER short="D2 pan" long="D2 pan LFO Amt" paramId="91"/>
+      <FADER short="D2 pan" long="D2 pan LFO WF" paramId="92"/>
+      <FADER short="D2 tim" long="D2 time" paramId="93"/>
+      <FADER short="D2 tim" long="D2 time LFO Per" paramId="94"/>
+      <FADER short="D2 tim" long="D2 time LFO Amt" paramId="95"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="Page 5" long="Page 5" referTo="-1" offset="0">
+      <FADER short="D2 tim" long="D2 time LFO WF" paramId="96"/>
+      <FADER short="D2 fdb" long="D2 fdbk" paramId="97"/>
+      <FADER short="D2 fdb" long="D2 fdbk LFO Per" paramId="98"/>
+      <FADER short="D2 fdb" long="D2 fdbk LFO Amt" paramId="99"/>
+      <FADER short="D2 fdb" long="D2 fdbk LFO WF" paramId="100"/>
+      <FADER short="D2 fil" long="D2 filt type" paramId="101"/>
+      <FADER short="D2 fil" long="D2 filt cutoff" paramId="102"/>
+      <FADER short="D2 fil" long="D2 filt cutoff LF" paramId="103"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="5" short="Page 6" long="Page 6" referTo="-1" offset="0">
+      <FADER short="D2 fil" long="D2 filt cutoff LF" paramId="104"/>
+      <FADER short="D2 fil" long="D2 filt cutoff LF" paramId="105"/>
+      <FADER short="D2 fil" long="D2 filt reso" paramId="106"/>
+      <FADER short="D2 fil" long="D2 filt reso LFO " paramId="107"/>
+      <FADER short="D2 fil" long="D2 filt reso LFO " paramId="108"/>
+      <FADER short="D2 fil" long="D2 filt reso LFO " paramId="109"/>
+      <FADER short="D2 fil" long="D2 filt Q" paramId="110"/>
+      <FADER short="D2 fil" long="D2 filt Q LFO Per" paramId="111"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="6" short="Page 7" long="Page 7" referTo="-1" offset="0">
+      <FADER short="D2 fil" long="D2 filt Q LFO Amt" paramId="112"/>
+      <FADER short="D2 fil" long="D2 filt Q LFO WF" paramId="113"/>
+      <FADER short="D2 dis" long="D2 disto type" paramId="114"/>
+      <FADER short="D2 dis" long="D2 disto lvl" paramId="115"/>
+      <FADER short="D2 dis" long="D2 disto lvl LFO " paramId="116"/>
+      <FADER short="D2 dis" long="D2 disto lvl LFO " paramId="117"/>
+      <FADER short="D2 dis" long="D2 disto lvl LFO " paramId="118"/>
+      <FADER short="D2 HS " long="D2 HS cutoff" paramId="119"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="7" short="Page 8" long="Page 8" referTo="-1" offset="0">
+      <FADER short="D2 HS " long="D2 HS level" paramId="120"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

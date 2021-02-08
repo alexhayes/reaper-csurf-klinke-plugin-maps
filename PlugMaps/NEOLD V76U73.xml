@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (PlantOn)"></MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="Page 1" long="Page 1" referTo="-1" offset="0">
+      <FADER short="Gain" long="Gain" paramId="2"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER short="SC Fil" long="SC Filter" paramId="10"/>
+      <FADER short="Detect" long="Detector" paramId="9"/>
+      <FADER short="Mix" long="Mix" paramId="13"/>
+      <FADER short="Trim" long="Trim" paramId="14"/>
+      <FADER short="Makeup" long="Makeup Gain" paramId="12"/>
+      <VPOT short="Linear" long="Linear" paramId="3">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+      <VPOT short="HiCut" long="High Cut" paramId="4">
+        <STEP value="0" short="Flat" long="Flat"/>
+        <STEP value="1" short="3 kHz" long="3 kHz"/>
+      </VPOT>
+      <VPOT short="LowCut" long="Low Cut" paramId="5">
+        <STEP value="0" short="Flat" long="Flat"/>
+        <STEP value="0.333333343" short="80 Hz" long="80 Hz"/>
+        <STEP value="0.666666687" short="300 Hz" long="300 Hz"/>
+        <STEP value="1" short="300+80" long="300+80 H"/>
+      </VPOT>
+      <VPOT short="Mode" long="Mode" paramId="6">
+        <STEP value="0" short="Compre" long="Compress"/>
+        <STEP value="0.5" short="Bypass" long="Bypass"/>
+        <STEP value="1" short="Limit" long="Limit"/>
+      </VPOT>
+      <VPOT short="Attack" long="Attack Time" paramId="8">
+        <STEP value="0" short="Fast" long="Fast"/>
+        <STEP value="1" short="Auto" long="Auto"/>
+      </VPOT>
+      <VPOT short="Releas" long="Release Time" paramId="7">
+        <STEP value="0" short="0.3 s" long="0.3 s"/>
+        <STEP value="0.200000003" short="0.6 s" long="0.6 s"/>
+        <STEP value="0.400000006" short="1.2 s" long="1.2 s"/>
+        <STEP value="0.600000024" short="2.5 s" long="2.5 s"/>
+        <STEP value="0.800000012" short="6 s" long="6 s"/>
+        <STEP value="1" short="10 s" long="10 s"/>
+      </VPOT>
+      <VPOT short="Meter " long="Meter Mode" paramId="11">
+        <STEP value="0" short="Output" long="Output"/>
+        <STEP value="0.5" short="GR" long="GR"/>
+        <STEP value="1" short="Input" long="Input"/>
+      </VPOT>
+      <VPOT short="Power" long="Power" paramId="1">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="1" short="On" long="On"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>
