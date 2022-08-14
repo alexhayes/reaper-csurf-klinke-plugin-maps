@@ -1,4 +1,18 @@
-# 1.2
+# Changelog
+
+## 1.3
+
+Added plugin maps for the following;
+
+- bx_console AMEK 9099
+- ENGL Savage
+- Limitless (DMG Audio)
+- Lindell 50 Channel
+- UAD Lexion 224
+
+Add the `step_generator.py` script.
+
+## 1.2
 
 First "proper", tagged release via Github, with the following plugin maps;
 
@@ -88,10 +102,10 @@ First "proper", tagged release via Github, with the following plugin maps;
 - bx_dynEQ V2
 
 
-# 1.1
+## 1.1
 
 - Added lots of plugin maps for UAD, Slate, Plugin Alliance, Softube and more.
 
-# 1.0
+## 1.0
 
 - Initial release
