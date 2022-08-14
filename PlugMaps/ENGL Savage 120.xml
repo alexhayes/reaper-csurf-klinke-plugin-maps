@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (PlantOn)"></MAPINFO>
+  <BANK id="0" short="Bank 1" long="Bank 1" referTo="-1" offset="0">
+    <PAGE id="0" short="CH1" long="Channel 1" referTo="-1" offset="0">
+      <FADER short="M1Gn" long="M1Gn" paramId="9"/>
+      <FADER short="M1CGn" long="M1CGn" paramId="11"/>
+      <FADER short="M1Bs" long="M1Bs" paramId="12"/>
+      <FADER short="M1Md" long="M1Md" paramId="13"/>
+      <FADER short="M1Tr" long="M1Tr" paramId="14"/>
+      <FADER short="M1ClV" long="M1ClV" paramId="16"/>
+      <FADER short="PresA" long="PresA" paramId="32"/>
+      <FADER short="M1Cn" long="M1Cn" paramId="15"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER short="M1Brh" long="M1Brh" paramId="8"/>
+      <FADER short="M1Gn" long="M1Gn" paramId="9"/>
+      <FADER short="M1Psh" long="M1Psh" paramId="10"/>
+      <FADER short="M1CGn" long="M1CGn" paramId="11"/>
+      <FADER short="M1Bs" long="M1Bs" paramId="12"/>
+      <FADER short="M1Md" long="M1Md" paramId="13"/>
+      <FADER short="M1Tr" long="M1Tr" paramId="14"/>
+      <FADER short="M1Cn" long="M1Cn" paramId="15"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="2" short="Page 3" long="Page 3" referTo="-1" offset="0">
+      <FADER short="M1ClV" long="M1ClV" paramId="16"/>
+      <FADER short="M1CrV" long="M1CrV" paramId="17"/>
+      <FADER short="M1Md" long="M1Md" paramId="18"/>
+      <FADER short="M2Gn" long="M2Gn" paramId="19"/>
+      <FADER short="M2LdBs" long="M2LdBs" paramId="20"/>
+      <FADER short="M2LdGn" long="M2LdGn" paramId="21"/>
+      <FADER short="M2Cn" long="M2Cn" paramId="22"/>
+      <FADER short="M2Bs" long="M2Bs" paramId="23"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="3" short="Page 4" long="Page 4" referTo="-1" offset="0">
+      <FADER short="M2Md" long="M2Md" paramId="24"/>
+      <FADER short="M2Tr" long="M2Tr" paramId="25"/>
+      <FADER short="M2HiB" long="M2HiB" paramId="26"/>
+      <FADER short="M2OvT" long="M2OvT" paramId="27"/>
+      <FADER short="M2CrV" long="M2CrV" paramId="28"/>
+      <FADER short="M2LdV" long="M2LdV" paramId="29"/>
+      <FADER short="M2Md" long="M2Md" paramId="30"/>
+      <FADER short="ChSl" long="ChSl" paramId="31"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="Page 5" long="Page 5" referTo="-1" offset="0">
+      <FADER short="PresA" long="PresA" paramId="32"/>
+      <FADER short="PresB" long="PresB" paramId="33"/>
+      <FADER short="Master" long="Master A" paramId="34"/>
+      <FADER short="Master" long="Master B" paramId="35"/>
+      <FADER short="DpBsA" long="DpBsA" paramId="36"/>
+      <FADER short="DpBsB" long="DpBsB" paramId="37"/>
+      <FADER short="PreseM" long="PreseMd" paramId="38"/>
+      <FADER short="MastMd" long="MastMd" paramId="39"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="5" short="Page 6" long="Page 6" referTo="-1" offset="0">
+      <FADER short="NgByP" long="NgByP" paramId="40"/>
+      <FADER short="NgTh" long="NgTh" paramId="41"/>
+      <FADER short="NgRa" long="NgRa" paramId="42"/>
+      <FADER short="Delay" long="Delay" paramId="43"/>
+      <FADER short="DlyTim" long="DlyTime" paramId="44"/>
+      <FADER short="DlyMix" long="DlyMix" paramId="45"/>
+      <FADER short="DlyFB" long="DlyFB" paramId="46"/>
+      <FADER short="DlyLoF" long="DlyLoFi" paramId="47"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="6" short="Page 7" long="Page 7" referTo="-1" offset="0">
+      <FADER short="Tight" long="Tight" paramId="48"/>
+      <FADER short="TFreq" long="TFreq" paramId="49"/>
+      <FADER short="Smooth" long="Smooth" paramId="50"/>
+      <FADER short="SFreq" long="SFreq" paramId="51"/>
+      <FADER short="ByRecC" long="ByRecC" paramId="52"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+  </BANK>
+</PLUGMAP>

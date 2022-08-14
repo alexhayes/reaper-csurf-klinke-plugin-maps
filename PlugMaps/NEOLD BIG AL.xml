@@ -33,5 +33,23 @@
         <STEP value="1" short="On" long="On"/>
       </VPOT>
     </PAGE>
+    <PAGE id="1" short="Page 2" long="Page 2" referTo="-1" offset="0">
+      <FADER short="High E" long="High EQ" paramId="8"/>
+      <FADER short="Mix" long="Mix" paramId="9"/>
+      <FADER short="Meter " long="Meter Mode" paramId="10"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
   </BANK>
 </PLUGMAP>

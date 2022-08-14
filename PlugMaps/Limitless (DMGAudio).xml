@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PLUGMAP version="1">
+  <MAPINFO creator="Alex Hayes (PlantOn)"></MAPINFO>
+  <BANK id="0" short="Limitr" long="Limiter" referTo="-1" offset="0">
+    <PAGE id="0" short="Basic" long="Basic" referTo="-1" offset="0">
+      <FADER short="Thresh" long="Threshold" paramId="2"/>
+      <FADER short="Ceilin" long="Ceiling" paramId="3"/>
+      <FADER short="Releas" long="Release" paramId="41"/>
+      <FADER short="Input " long="Input Trim" paramId="1"/>
+      <FADER short="Seprtn" long="Separation" paramId="45"/>
+      <FADER short="StrLnk" long="StereoLink" paramId="47"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT short="GainLi" long="GainLink" paramId="59">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+      <VPOT short="ISP" long="ISP" paramId="48">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+      <VPOT short="Style" long="Style" paramId="58">
+        <STEP value="0" short="Aggressive" long="Aggressive"/>
+        <STEP value="0.142857149" short="Punchy" long="Punchy"/>
+        <STEP value="0.285714298" short="Warm" long="Warm"/>
+        <STEP value="0.428571433" short="Smooth" long="Smooth"/>
+        <STEP value="0.571428597" short="Tight" long="Tight"/>
+        <STEP value="0.714285731" short="Transparent" long="Transparent"/>
+        <STEP value="0.857142866" short="Manual" long="Manual"/>
+      </VPOT>
+      <VPOT short="Slope" long="Slope" paramId="46">
+        <STEP value="0" short="6dB" long="6dB"/>
+        <STEP value="0.0109889694" short="6dB" long="6dB"/>
+        <STEP value="0.0659340695" short="12dB" long="12dB"/>
+        <STEP value="0.131868139" short="18dB" long="18dB"/>
+        <STEP value="0.197802216" short="24dB" long="24dB"/>
+        <STEP value="0.263736278" short="30dB" long="30dB"/>
+        <STEP value="0.32967034" short="36dB" long="36dB"/>
+        <STEP value="0.395604432" short="42dB" long="42dB"/>
+        <STEP value="0.461538494" short="48dB" long="48dB"/>
+        <STEP value="0.527472556" short="54dB" long="54dB"/>
+        <STEP value="0.593406618" short="60dB" long="60dB"/>
+        <STEP value="0.65934068" short="66dB" long="66dB"/>
+        <STEP value="0.725274742" short="72dB" long="72dB"/>
+        <STEP value="0.791208863" short="78dB" long="78dB"/>
+        <STEP value="0.857142925" short="84dB" long="84dB"/>
+        <STEP value="0.923076987" short="90dB" long="90dB"/>
+        <STEP value="1" short="96dB" long="96dB"/>
+      </VPOT>
+      <VPOT short="Preset" long="Preset" paramId="67">
+        <STEP value="0" short="A" long="Preset A"/>
+        <STEP value="0.125" short="B" long="Preset B"/>
+        <STEP value="0.25" short="C" long="Preset C"/>
+        <STEP value="0.375" short="D" long="Preset D"/>
+        <STEP value="0.5" short="E" long="Preset E"/>
+        <STEP value="0.625" short="F" long="Preset F"/>
+        <STEP value="0.75" short="G" long="Preset G"/>
+        <STEP value="0.875" short="H" long="Preset H"/>
+      </VPOT>
+      <VPOT short="HPF" long="HPF" paramId="60">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+      <VPOT short="ISP" long="ISP" paramId="48">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+      <VPOT short="Bypass" long="Bypass" paramId="0">
+        <STEP value="0.00488758087" short="OFF" long="OFF"/>
+        <STEP value="0.995112419" short="OFF" long="OFF"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Cliper" long="Clipper" referTo="-1" offset="0">
+      <FADER short="Drive" long="Drive" paramId="55"/>
+      <FADER short="Soften" long="Soften" paramId="52"/>
+      <FADER short="Amount" long="Amount" paramId="53"/>
+      <FADER short="Trim" long="Trim" paramId="56"/>
+      <FADER paramId="-1"/>
+      <FADER short="Shapin" long="Shaping" paramId="50"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT short="Mode" long="Mode" paramId="51">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="0.0476190485" short="Swell" long="Swell"/>
+        <STEP value="0.095238097" short="Swell 2" long="Swell 2"/>
+        <STEP value="0.142857149" short="Knee" long="Knee"/>
+        <STEP value="0.190476194" short="Knee 2" long="Knee 2"/>
+        <STEP value="0.238095239" short="Swell 3" long="Swell 3"/>
+      </VPOT>
+      <VPOT short="Over" long="Oversample" paramId="54">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="0.142857149" short="x2" long="x2"/>
+        <STEP value="0.285714298" short="x4" long="x4"/>
+        <STEP value="0.428571433" short="x8" long="x8"/>
+        <STEP value="0.571428597" short="x16" long="x16"/>
+        <STEP value="0.714285731" short="x32" long="x32"/>
+        <STEP value="0.857142866" short="x64" long="x64"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Dither" long="Dither" paramId="49">
+        <STEP value="0" short="Off" long="Off"/>
+        <STEP value="0.333333343" short="24 Bit" long="24 Bit"/>
+        <STEP value="0.666666687" short="16 Bit" long="16 Bit"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT short="Bypass" long="Bypass" paramId="0">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="2" short="Advanc" long="Advanced" referTo="-1" offset="0">
+      <FADER short="Input " long="Input Trim" paramId="1"/>
+      <FADER short="Separa" long="Separation" paramId="45"/>
+      <FADER short="Stereo" long="StereoLink" paramId="47"/>
+      <FADER short="Lookah" long="Lookahead" paramId="40"/>
+      <FADER short="Knee" long="Knee" paramId="43"/>
+      <FADER short="Weight" long="Weighting" paramId="44"/>
+      <FADER short="Rel Sh" long="Rel Shape" paramId="42"/>
+      <FADER short="Dynami" long="Dynamics" paramId="57"/>
+      <VPOT short="Slope" long="Slope" paramId="46">
+        <STEP value="0" short="6dB" long="6dB"/>
+        <STEP value="0.0109889694" short="6dB" long="6dB"/>
+        <STEP value="0.0659340695" short="12dB" long="12dB"/>
+        <STEP value="0.0769230425" short="12dB" long="12dB"/>
+        <STEP value="0.131868139" short="18dB" long="18dB"/>
+        <STEP value="0.197802216" short="24dB" long="24dB"/>
+        <STEP value="0.208791181" short="24dB" long="24dB"/>
+        <STEP value="0.263736278" short="30dB" long="30dB"/>
+        <STEP value="0.274725258" short="30dB" long="30dB"/>
+        <STEP value="0.32967034" short="36dB" long="36dB"/>
+        <STEP value="0.34065932" short="36dB" long="36dB"/>
+        <STEP value="0.395604432" short="42dB" long="42dB"/>
+        <STEP value="0.406593382" short="42dB" long="42dB"/>
+        <STEP value="0.461538494" short="48dB" long="48dB"/>
+        <STEP value="0.472527444" short="48dB" long="48dB"/>
+        <STEP value="0.527472556" short="54dB" long="54dB"/>
+        <STEP value="0.593406618" short="60dB" long="60dB"/>
+        <STEP value="0.604395568" short="60dB" long="60dB"/>
+        <STEP value="0.65934068" short="66dB" long="66dB"/>
+        <STEP value="0.67032969" short="66dB" long="66dB"/>
+        <STEP value="0.725274742" short="72dB" long="72dB"/>
+        <STEP value="0.791208863" short="78dB" long="78dB"/>
+        <STEP value="0.802197814" short="78dB" long="78dB"/>
+        <STEP value="0.857142925" short="84dB" long="84dB"/>
+        <STEP value="0.923076987" short="90dB" long="90dB"/>
+        <STEP value="0.934065938" short="90dB" long="90dB"/>
+        <STEP value="0.989011049" short="96dB" long="96dB"/>
+        <STEP value="1" short="96dB" long="96dB"/>
+      </VPOT>
+      <VPOT short="Style" long="Style" paramId="58">
+        <STEP value="0" short="Aggressive" long="Aggressive"/>
+        <STEP value="0.142857149" short="Punchy" long="Punchy"/>
+        <STEP value="0.285714298" short="Warm" long="Warm"/>
+        <STEP value="0.428571433" short="Smooth" long="Smooth"/>
+        <STEP value="0.571428597" short="Tight" long="Tight"/>
+        <STEP value="0.714285731" short="Transparent" long="Transparent"/>
+        <STEP value="0.857142866" short="Manual" long="Manual"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Bypass" long="Bypass" paramId="0">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="3" short="HPF" long="HPF" referTo="-1" offset="0">
+      <FADER short="Freq" long="HPF Freq" paramId="61"/>
+      <FADER short="Slope" long="HPF Slope" paramId="62"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT short="HPF" long="HPF" paramId="60">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+    </PAGE>
+    <PAGE id="4" short="Inside" long="Inside" referTo="-1" offset="0">
+      <FADER short="Thres" long="Thres Pre Clip" paramId="63"/>
+      <FADER short="Trans" long="Trans Separation " paramId="64"/>
+      <FADER short="Trans" long="Trans Separation" paramId="65"/>
+      <FADER short="ITU" long="Use ITU Filter" paramId="66"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT short="HQ" long="Oversample HQ" paramId="68">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Bypass" long="Bypass" paramId="0">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+  <BANK id="1" short="Bands" long="Bands" referTo="-1" offset="0">
+    <PAGE id="0" short="Band 1" long="Band 1" referTo="-1" offset="0">
+      <FADER short="Freq" long="Band 1 Freq" paramId="7"/>
+      <FADER short="Gain" long="Band 1 Gain" paramId="8"/>
+      <FADER short="Releas" long="Band 1 Rel" paramId="9"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT short="On" long="Band 1 On" paramId="4">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+      <VPOT short="Solo" long="Band 1 Solo" paramId="5">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+      <VPOT short="Mute" long="Band 1 Mute" paramId="6">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Bypass" long="Bypass" paramId="0">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="1" short="Band 2" long="Band 2" referTo="-1" offset="0">
+      <FADER short="Freq" long="Band 2 Freq" paramId="13"/>
+      <FADER short="Gain" long="Band 2 Gain" paramId="14"/>
+      <FADER short="Releas" long="Band 2 Rel" paramId="15"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT short="On" long="Band 2 On" paramId="10">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+      <VPOT short="Solo" long="Band 2 Solo" paramId="11">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+      <VPOT short="Mute" long="Band 2 Mute" paramId="12">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Bypass" long="Bypass" paramId="0">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="2" short="Band 3" long="Band 3" referTo="-1" offset="0">
+      <FADER short="Freq" long="Band 3 Freq" paramId="19"/>
+      <FADER short="Gain" long="Band 3 Gain" paramId="20"/>
+      <FADER short="Releas" long="Band 3 Rel" paramId="21"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT short="On" long="Band 3 On" paramId="16">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+      <VPOT short="Solo" long="Band 3 Solo" paramId="17">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+      <VPOT short="Mute" long="Band 3 Mute" paramId="18">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Bypass" long="Bypass" paramId="0">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="3" short="Band 4" long="Band 4" referTo="-1" offset="0">
+      <FADER short="Freq" long="Band 4 Freq" paramId="25"/>
+      <FADER short="Gain" long="Band 4 Gain" paramId="26"/>
+      <FADER short="Releas" long="Band 4 Rel" paramId="27"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT short="On" long="Band 4 On" paramId="22">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+      <VPOT short="Solo" long="Band 4 Solo" paramId="23">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+      <VPOT short="Mute" long="Band 4 Mute" paramId="24">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Bypass" long="Bypass" paramId="0">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="4" short="Band 5" long="Band 5" referTo="-1" offset="0">
+      <FADER short="Freq" long="Band 5 Freq" paramId="31"/>
+      <FADER short="Gain" long="Band 5 Gain" paramId="32"/>
+      <FADER short="Releas" long="Band 5 Rel" paramId="33"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT short="On" long="Band 5 On" paramId="28">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+      <VPOT short="Solo" long="Band 5 Solo" paramId="29">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+      <VPOT short="Mute" long="Band 5 Mute" paramId="30">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Bypass" long="Bypass" paramId="0">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+    </PAGE>
+    <PAGE id="5" short="Band 6" long="Band 6" referTo="-1" offset="0">
+      <FADER short="Freq" long="Band 6 Freq" paramId="37"/>
+      <FADER short="Gain" long="Band 6 Gain" paramId="38"/>
+      <FADER short="Releas" long="Band 6 Rel" paramId="39"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <FADER paramId="-1"/>
+      <VPOT short="On" long="Band 6 On" paramId="34">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+      <VPOT short="Solo" long="Band 6 Solo" paramId="35">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+      <VPOT short="Mute" long="Band 6 Mute" paramId="36">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT paramId="-1"/>
+      <VPOT short="Bypass" long="Bypass" paramId="0">
+        <STEP value="0" short="OFF" long="OFF"/>
+        <STEP value="1" short="ON" long="ON"/>
+      </VPOT>
+    </PAGE>
+  </BANK>
+</PLUGMAP>
